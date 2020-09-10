@@ -1,6 +1,7 @@
 <template>
     <div>
-        <div v-bind:key="card.title" v-for="card in params">
+        <!-- TODO filter by name -->
+        <div v-bind:key="card.title" v-for="card in cardData">
             <CardDetail v-bind:card="card"/>
         </div>
     </div>
@@ -14,8 +15,8 @@ export default {
     components: {
         CardDetail
     },
-    // params expected to be [{ title : "onecard"}, {title : "another"}]
-    props: ["params"]
+    // cardData expected to be [{ title: "onecard", url: "blahblah/1.jpeg"}, {title : "another", url: "etc"}]
+    props: ["cardData"]
 }
 </script>
 

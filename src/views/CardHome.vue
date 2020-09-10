@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <CardList v-bind:params="data"/>
+    <CardList v-bind:cardData="data"/>
   </div>
 </template>
 
@@ -12,20 +12,20 @@ export default {
   name: 'Home',
   components: {
     CardList
-  }, 
-  data() {
-    //   This is my O M E G A SHITTY in memory DB
-    return {
-      data : ["badguys", "blastrush", "capabilities", "futurecharge", "howitzer", "selfsacrifice"].map(
-              val => { return {title: val} }
-      )
-    }
   },
-  methods: {
-      titleToUrl(title) {
-        // @/assets/card_images/badguys.jpeg
-        return require('@/assets/card_images/' + title + '.jpeg')
-      }
+  data() {
+    // actual database access or something to be inserted here later
+    return {
+      data : [
+            // TODO extra-shitty url generation, wasn't playing nice with method calls
+            { title: "Bad Guys", url: require('@/assets/card_images/' + "badguys" + '.jpeg') },
+            { title: "Blast Rush Turbo", url: require('@/assets/card_images/' + "blastrush" + '.jpeg') },
+            { title: "Capabilities", url: require('@/assets/card_images/' + "capabilities" + '.jpeg') },
+            { title: "Future Charge", url: require('@/assets/card_images/' + "futurecharge" + '.jpeg') },
+            { title: "Howitzer", url: require('@/assets/card_images/' + "howitzer" + '.jpeg') },
+            { title: "Self Sacrifice", url: require('@/assets/card_images/' + "selfsacrifice" + '.jpeg') },
+          ]
+    }
   }
 }
 </script>
