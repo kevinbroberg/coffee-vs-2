@@ -1,53 +1,53 @@
 <template>
   <div id="app">
-    <CardList v-bind:cardData="data"/>
+    <CardList v-bind:cardData="$option.cards"/>
   </div>
 </template>
 
 <script>
 import CardList from '@/components/cards/CardList'
-// import axios from 'axios'
+import rawCards from '@/assets/cards.json'
 
+console.log('I have ' + rawCards.length + ' raw cards')
 export default {
+  cards : rawCards.map( card => { 
+        // TODO move img root into a const somewhere
+        card.img = require('@/assets/card_images/' + card.asset)
+        return card
+    }),
   name: 'Home',
   components: {
     CardList
   },
-  data() {
-    // actual database access or something to be inserted here later
-    return {
-      data : [
-            // TODO extra-shitty url generation, wasn't playing nice with method calls
-            { title: "Bad Guys", url: require('@/assets/card_images/' + "badguys" + '.jpeg') },
-            { title: "Blast Rush Turbo", url: require('@/assets/card_images/' + "blastrush" + '.jpeg') },
-            { title: "Capabilities", url: require('@/assets/card_images/' + "capabilities" + '.jpeg') },
-            { title: "Future Charge", url: require('@/assets/card_images/' + "futurecharge" + '.jpeg') },
-            { title: "Howitzer", url: require('@/assets/card_images/' + "howitzer" + '.jpeg') },
-            { title: "Self Sacrifice", url: require('@/assets/card_images/' + "selfsacrifice" + '.jpeg') },
-          ]
-    }
-  }
+  // TODO a stackoverflow answer suggested to avoid `data` for static content, due to overhead, but 
+//   data() {
+    //   return { cards : rawCards.map( card => { 
+        // TODO move img root into a const somewhere
+        // card.img = require('@/assets/card_images/' + card.asset)
+        // return card
+    // }) }
+//   }
 }
 </script>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-#app {
-  font-family: Montserrat, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-  
-}
+    #app {
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+    
+    }
 
-  .btn {
+    .btn {
     display: inline-block;
     border: none;
     background: #555;
     color: #fff;
     padding: 7px 20px;
     cursor: pointer;
-  }
+    }
 </style>
