@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <CardList v-bind:cardData="$option.cards"/>
+    <CardList v-bind:cardData="cards"/>
   </div>
 </template>
 
@@ -10,23 +10,20 @@ import rawCards from '@/assets/cards.json'
 
 console.log('I have ' + rawCards.length + ' raw cards')
 export default {
-  cards : rawCards.map( card => { 
-        // TODO move img root into a const somewhere
-        card.img = require('@/assets/card_images/' + card.asset)
-        return card
-    }),
   name: 'Home',
   components: {
     CardList
   },
   // TODO a stackoverflow answer suggested to avoid `data` for static content, due to overhead, but 
-//   data() {
-    //   return { cards : rawCards.map( card => { 
-        // TODO move img root into a const somewhere
-        // card.img = require('@/assets/card_images/' + card.asset)
-        // return card
-    // }) }
-//   }
+   data() {
+       return { 
+         cards : rawCards.map( card => { 
+           // TODO move img root into a const somewhere
+           card.img = require('@/assets/card_images/' + card.asset)
+           return card
+        }) 
+    }
+  }
 }
 </script>
 

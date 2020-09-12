@@ -1,7 +1,7 @@
 <template>
     <div class="card-detail">
       <div class="preview">
-        <img :class="{card, big: big}" :src="card.url" :alt="card.title" @click="clicked()" />
+        <img :class="{card, big: big}" :src="card.img" :alt="card.title" @click="clicked()" />
       </div>
       <div class="cardstats">{{card.title}}</div>
     </div>
