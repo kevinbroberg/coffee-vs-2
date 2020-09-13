@@ -16,7 +16,6 @@ export default {
     },
     methods: {
       clicked() {
-        console.log("clicked")
         this.big = !this.big
       }
     }
