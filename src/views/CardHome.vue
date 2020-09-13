@@ -17,11 +17,13 @@ export default {
   // TODO a stackoverflow answer suggested to avoid `data` for static content, due to overhead, but 
    data() {
        return { 
-         cards : rawCards.map( card => { 
-           // TODO move img root into a const somewhere
-           card.img = require('@/assets/card_images/' + card.asset)
-           return card
-        }) 
+        //  cards: rawCards
+          cards : rawCards.map( card => {
+            if (card.asset) {
+              card.img = require('@/assets/card_images/' + card.asset);
+            }
+            return card
+         }) 
     }
   }
 }
