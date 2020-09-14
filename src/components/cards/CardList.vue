@@ -1,8 +1,9 @@
 <template>
     <div>
-        <div class="input">
-            Filter by name: 
-            <input v-model="nameFilter">
+        <div>
+            <multiselect v-model="nameFilter" :options="filteredCards.map(c => c.Name)" :close-on-select="true" :clear-on-select="false" 
+            :searchable="true" placeholder="Filter by name">
+            </multiselect>
         </div>
         <div>
             <multiselect v-model="symbolFilter" :options="symbolOptions" :multiple="true" :close-on-select="false" 
@@ -64,7 +65,7 @@ export default {
         originMatchFilter(card) {
             // names like "setFilter" seemed to get misunderstood by javascript lmao
             if (this.originFilter.length > 0) {
-                return this.originFilter.has(card.Set)
+                return this.originFilter.includes(card.Set)
             } else {
                 return true
             }
