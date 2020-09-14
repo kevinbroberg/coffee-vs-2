@@ -20,6 +20,7 @@ export default {
         //  cards: rawCards
           cards : rawCards.map( card => {
             if (card.asset) {
+              // TODO We really ought to not crash the whole display if a card is missing
               card.img = require('@/assets/card_images/' + card.asset);
             }
             return card
