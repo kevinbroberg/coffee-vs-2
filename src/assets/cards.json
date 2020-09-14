@@ -19368,7 +19368,7 @@
   {
     "Control": "6", 
     "Set": "Street Fighter (2017)", 
-    "Name": "E. Honda*", 
+    "Name": "E. Honda1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "34", 
@@ -32697,46 +32697,6 @@
     "Hand Size": "6"
   }, 
   {
-    "Control": "5", 
-    "Set": "Darkstalkers: Warriors of the Night", 
-    "Name": "Tama Yose", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "1", 
-    "CardText": "Combo E: Your next Weapon attack this turn gets -2 difficulty and +2 damage. Draw 1 card and discard this card from your card pool.  Bishamon F Remove: If you have 2 or more assets, add the top 2 cards of your deck to your staging area face down.", 
-    "Block Modifier": "2", 
-    "Block Zone": "Mid", 
-    "Type": "Action", 
-    "Resources": [
-      "All", 
-      "Order", 
-      "Void"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "5", 
-    "Set": "Darkstalkers: Warriors of the Night", 
-    "Name": "Ever Hopeful", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "3", 
-    "CardText": "R [Card Pool] Discard 1 momentum: After you play this card, add it to your staging area.  E Remove: Add 1 of your opponent's foundations to their hand.", 
-    "Block Modifier": "3", 
-    "Block Zone": "Mid", 
-    "Type": "Foundation", 
-    "Resources": [
-      "Air", 
-      "Chaos", 
-      "Water"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
     "Control": "6", 
     "Set": "Mega Man: Rise of the Masters", 
     "Name": "Air Man1", 
@@ -35617,187 +35577,6 @@
     "Hand Size": ""
   }, 
   {
-    "Control": "5", 
-    "Set": "Mega Man: Rise of the Masters", 
-    "Name": "Met", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "2", 
-    "CardText": "E Discard 1 card: Change the zone of your mid attack to high. &#10; R Flip: After your high attack deals damage, your next ranged attack this turn gets -2 difficulty. &#10; F Add this card to your card pool face down: Your opponent's next attack this turn deals no damage.", 
-    "Block Modifier": "2", 
-    "Block Zone": "Low", 
-    "Type": "Asset", 
-    "Resources": [
-      "Good", 
-      "Earth", 
-      "Life"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "6", 
-    "Set": "Mega Man: Rise of the Masters", 
-    "Name": "Sniper Joe", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "19", 
-    "Attack Zone": "", 
-    "Difficulty": "6", 
-    "CardText": "After you are dealt damage, ready this character. &#10; All block modifiers get +2. &#10; E Commit: If you attempt to block this attack, your block's modifier gets -5.", 
-    "Block Modifier": "0", 
-    "Block Zone": "Mid", 
-    "Type": "Character", 
-    "Resources": [
-      "Earth", 
-      "Good", 
-      "Order"
-    ], 
-    "Hand Size": "7"
-  }, 
-  {
-    "Control": "6", 
-    "Set": "Mega Man: Rise of the Masters", 
-    "Name": "Yellow Devil", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "27", 
-    "Attack Zone": "", 
-    "Difficulty": "6", 
-    "CardText": "R Commit: After you commit 1 or more foundations to pass the check to play an attack, ready them. &#10; E (4+): Your attack gets +2 damage and Stun: X. X equals the number of foundations in your card pool. Playable while committed.", 
-    "Block Modifier": "0", 
-    "Block Zone": "Mid", 
-    "Type": "Character", 
-    "Resources": [
-      "All", 
-      "Chaos", 
-      "Life"
-    ], 
-    "Hand Size": "6"
-  }, 
-  {
-    "Control": "1", 
-    "Set": "Mega Man: Rise of the Masters", 
-    "Name": "Turbo Charge", 
-    "Speed": "3", 
-    "Damage": "6", 
-    "Vitality": "", 
-    "Attack Zone": "Mid", 
-    "Difficulty": "4", 
-    "CardText": "If this attack is blocked, both players shuffle all attack cards in their discard piles into their decks; draw 1 card. Combo E: Add the top 2 cards of your decks to your staging area face down. At the start of the End Phase, remove those cards from the game. ", 
-    "Block Modifier": "0", 
-    "Block Zone": "Low", 
-    "Type": "Attack", 
-    "Resources": [
-      "All", 
-      "Good", 
-      "Life", 
-      "Water"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "6", 
-    "Set": "Mega Man: Rise of the Masters", 
-    "Name": "Time Man1", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "27", 
-    "Attack Zone": "", 
-    "Difficulty": "6", 
-    "CardText": "E (4+): Your attack gets +X speed. X equals half its printed damage (rounded down). R Discard 1 momentum: After the Ready Phase, all checks get -1 for the rest of this turn. ", 
-    "Block Modifier": "0", 
-    "Block Zone": "Mid", 
-    "Type": "Character", 
-    "Resources": [
-      "Air", 
-      "Evil", 
-      "Life"
-    ], 
-    "Hand Size": "6"
-  }, 
-  {
-    "Control": "6", 
-    "Set": "Mega Man: Rise of the Masters", 
-    "Name": "Oil Man1", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "27", 
-    "Attack Zone": "", 
-    "Difficulty": "6", 
-    "CardText": "R: After the Ready Phase, name a card. For the rest of this turn, whenever a player plays a copy of the named card, they add the top card of their deck to their card pool face down. E Flip 1 ready foundation: Your mid or low attack gets +2 damage. ", 
-    "Block Modifier": "0", 
-    "Block Zone": "Mid", 
-    "Type": "Character", 
-    "Resources": [
-      "Death", 
-      "Earth", 
-      "Water"
-    ], 
-    "Hand Size": "6"
-  }, 
-  {
-    "Control": "5", 
-    "Set": "Mega Man: Rise of the Masters", 
-    "Name": "Deforester", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "2", 
-    "CardText": "Metal Man E: Your attack gets +1 speed.  E [Once per turn] Destroy 1 foundation: If the top card of your discard pile is not a foundation, add 1 card from your hand to your staging area face down and draw 1 card.", 
-    "Block Modifier": "3", 
-    "Block Zone": "High", 
-    "Type": "Foundation", 
-    "Resources": [
-      "All", 
-      "Fire", 
-      "Void"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "5", 
-    "Set": "Mega Man: Rise of the Masters", 
-    "Name": "Master of Magnetism", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "3", 
-    "CardText": "E: Your high attack gets +1 damage.  Magnet Man R Commit 1 foundation: Before your attack's Block Step, reutnr its zone to its printed zone. Your opponent cannot attempt to partially block this attack.", 
-    "Block Modifier": "3", 
-    "Block Zone": "Mid", 
-    "Type": "Foundation", 
-    "Resources": [
-      "All", 
-      "Chaos", 
-      "Order"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "3", 
-    "Set": "Mega Man: Rise of the Masters", 
-    "Name": "Shield Ram", 
-    "Speed": "3", 
-    "Damage": "4", 
-    "Vitality": "", 
-    "Attack Zone": "High", 
-    "Difficulty": "4", 
-    "CardText": "Combo E: If this attack deals damage, discard it form your card pool and draw 1 card.", 
-    "Block Modifier": "1", 
-    "Block Zone": "High", 
-    "Type": "Attack", 
-    "Resources": [
-      "Air", 
-      "Death", 
-      "Fire"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
     "Control": "6", 
     "Set": "Darkstalkers Tin", 
     "Name": "Lilith", 
@@ -35880,7 +35659,7 @@
   {
     "Control": "3", 
     "Set": "Darkstalkers Tin", 
-    "Name": "Shining Blade**", 
+    "Name": "Shining Blade2", 
     "Speed": "3", 
     "Damage": "3", 
     "Vitality": "", 
@@ -36300,7 +36079,7 @@
   {
     "Control": "3", 
     "Set": "Darkstalkers Tin", 
-    "Name": "Shadow Blade**", 
+    "Name": "Shadow Blade2", 
     "Speed": "4", 
     "Damage": "5", 
     "Vitality": "", 
@@ -36340,7 +36119,7 @@
   {
     "Control": "3", 
     "Set": "Darkstalkers Tin", 
-    "Name": "Soul Fist**", 
+    "Name": "Soul Fist2", 
     "Speed": "3", 
     "Damage": "4", 
     "Vitality": "", 
@@ -36360,7 +36139,7 @@
   {
     "Control": "3", 
     "Set": "Darkstalkers Tin", 
-    "Name": "Vector Drain**", 
+    "Name": "Vector Drain2", 
     "Speed": "3", 
     "Damage": "5", 
     "Vitality": "", 
@@ -37340,7 +37119,7 @@
   {
     "Control": "6", 
     "Set": "Megaman vs Protoman Tin", 
-    "Name": "Megaman*", 
+    "Name": "Megaman1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -37740,7 +37519,7 @@
   {
     "Control": "6", 
     "Set": "Megaman vs Protoman Tin", 
-    "Name": "Protoman*", 
+    "Name": "Protoman1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "20", 
@@ -38180,7 +37959,7 @@
   {
     "Control": "3", 
     "Set": "Megaman vs Protoman Tin", 
-    "Name": "Hyper Bomb**", 
+    "Name": "Hyper Bomb2", 
     "Speed": "3", 
     "Damage": "5", 
     "Vitality": "", 
@@ -38220,7 +37999,7 @@
   {
     "Control": "6", 
     "Set": "Megaman vs Protoman Tin", 
-    "Name": "Cut Man*", 
+    "Name": "Cut Man1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "19", 
@@ -38380,7 +38159,7 @@
   {
     "Control": "6", 
     "Set": "Megaman vs Protoman Tin", 
-    "Name": "Fire Man*", 
+    "Name": "Fire Man1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -38460,7 +38239,7 @@
   {
     "Control": "6", 
     "Set": "Megaman vs Protoman Tin", 
-    "Name": "Guts Man*", 
+    "Name": "Guts Man1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "32", 
@@ -39473,7 +39252,7 @@
   {
     "Control": "3", 
     "Set": "King of Fighters XIII: NeoMax", 
-    "Name": "Shining Crystal Bit**", 
+    "Name": "Shining Crystal Bit2", 
     "Speed": "2", 
     "Damage": "2", 
     "Vitality": "", 
@@ -39979,7 +39758,7 @@
   {
     "Control": "6", 
     "Set": "King of Fighters XIII: NeoMax", 
-    "Name": "Ash**", 
+    "Name": "Ash2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -40168,7 +39947,7 @@
   {
     "Control": "6", 
     "Set": "King of Fighters XIII: NeoMax", 
-    "Name": "Iori**", 
+    "Name": "Iori2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -40359,7 +40138,7 @@
   {
     "Control": "6", 
     "Set": "King of Fighters XIII: NeoMax", 
-    "Name": "K'**", 
+    "Name": "K'2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -40548,7 +40327,7 @@
   {
     "Control": "6", 
     "Set": "King of Fighters XIII: NeoMax", 
-    "Name": "Kyo**", 
+    "Name": "Kyo2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -40737,7 +40516,7 @@
   {
     "Control": "6", 
     "Set": "King of Fighters XIII: NeoMax", 
-    "Name": "Mai**", 
+    "Name": "Mai2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "19", 
@@ -40926,7 +40705,7 @@
   {
     "Control": "6", 
     "Set": "King of Fighters XIII: NeoMax", 
-    "Name": "Terry**", 
+    "Name": "Terry2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -40943,27 +40722,6 @@
       "Good"
     ], 
     "Hand Size": "6"
-  }, 
-  {
-    "Control": "5", 
-    "Set": "King of Fighters XIII: NeoMax", 
-    "Name": "Throw It Down!", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "2", 
-    "asset": "neomax/101-tn-preview.jpg", 
-    "CardText": "This card does not count towards progressive difficulty.  {All} F: If the next card you play this turn is an attack, it gets +1 speed and +3 damage. If it deals damage, draw 1 card.  R: After your opponent plays an ability that would increase the damage of an attack, cancel its effects.", 
-    "Block Modifier": "0", 
-    "Block Zone": "High", 
-    "Type": "Action", 
-    "Resources": [
-      "All", 
-      "Earth", 
-      "Good"
-    ], 
-    "Hand Size": ""
   }, 
   {
     "Control": "3", 
@@ -40989,7 +40747,7 @@
   {
     "Control": "3", 
     "Set": "King of Fighters XIII: NeoMax", 
-    "Name": "Rising Tackle**", 
+    "Name": "Rising Tackle2", 
     "Speed": "4", 
     "Damage": "5", 
     "Vitality": "", 
@@ -43855,7 +43613,7 @@
   {
     "Control": "3", 
     "Set": "King of Fighters XIII", 
-    "Name": "Buster Wolf**", 
+    "Name": "Buster Wolf2", 
     "Speed": "4", 
     "Damage": "6", 
     "Vitality": "", 
@@ -43876,7 +43634,7 @@
   {
     "Control": "3", 
     "Set": "King of Fighters XIII", 
-    "Name": "Power Wave**", 
+    "Name": "Power Wave2", 
     "Speed": "3", 
     "Damage": "5", 
     "Vitality": "", 
@@ -44212,7 +43970,7 @@
   {
     "Control": "3", 
     "Set": "King of Fighters XIII", 
-    "Name": "Baltic Launcher**", 
+    "Name": "Baltic Launcher2", 
     "Speed": "0", 
     "Damage": "4", 
     "Vitality": "", 
@@ -44445,7 +44203,7 @@
   {
     "Control": "3", 
     "Set": "King of Fighters XIII", 
-    "Name": "Vulcan Punch**", 
+    "Name": "Vulcan Punch2", 
     "Speed": "2", 
     "Damage": "4", 
     "Vitality": "", 
@@ -44466,7 +44224,7 @@
   {
     "Control": "6", 
     "Set": "King of Fighters XIII", 
-    "Name": "Action Hero**", 
+    "Name": "Action Hero2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "", 
@@ -45308,7 +45066,7 @@
   {
     "Control": "6", 
     "Set": "King of Fighters XIII", 
-    "Name": "Mature", 
+    "Name": "Mature1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -45686,7 +45444,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Joe Hill*", 
+    "Name": "Joe Hill1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "20", 
@@ -45707,7 +45465,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Kirk Polka*", 
+    "Name": "Kirk Polka1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "19", 
@@ -45728,7 +45486,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Mike Lowe*", 
+    "Name": "Mike Lowe1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "19", 
@@ -45749,7 +45507,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Paul Bittner*", 
+    "Name": "Paul Bittner1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "20", 
@@ -45920,7 +45678,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Rashotep*", 
+    "Name": "Rashotep1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -45941,7 +45699,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Temujin*", 
+    "Name": "Temujin1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "26", 
@@ -45962,7 +45720,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Lu Chen*", 
+    "Name": "Lu Chen1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -45983,7 +45741,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Zhao Daiyu*", 
+    "Name": "Zhao Daiyu1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "25", 
@@ -46004,7 +45762,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Yi Shan*", 
+    "Name": "Yi Shan1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "29", 
@@ -46025,7 +45783,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Zi Mei*", 
+    "Name": "Zi Mei1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "20", 
@@ -46046,7 +45804,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Sasha*", 
+    "Name": "Sasha1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -46067,7 +45825,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Roy*", 
+    "Name": "Roy1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "26", 
@@ -46153,7 +45911,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Vespera**", 
+    "Name": "Vespera2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "26", 
@@ -46174,7 +45932,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Andrew Olexa**", 
+    "Name": "Andrew Olexa2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "19", 
@@ -46446,7 +46204,7 @@
   {
     "Control": "3", 
     "Set": "6-Point Promos", 
-    "Name": "Galactica Phantom**", 
+    "Name": "Galactica Phantom2", 
     "Speed": "3", 
     "Damage": "6", 
     "Vitality": "", 
@@ -46467,7 +46225,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Clark**", 
+    "Name": "Clark2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "30", 
@@ -46488,7 +46246,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Mature", 
+    "Name": "Mature2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "18", 
@@ -46509,7 +46267,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Mr. Karate", 
+    "Name": "Mr. Karate1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "38", 
@@ -46530,7 +46288,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Saiki**", 
+    "Name": "Saiki2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -46551,7 +46309,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Shen**", 
+    "Name": "Shen2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -46572,7 +46330,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Vice**", 
+    "Name": "Vice2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "26", 
@@ -47052,7 +46810,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Iori***", 
+    "Name": "Iori3", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -47073,7 +46831,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Kyo***", 
+    "Name": "Kyo3", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -47094,7 +46852,7 @@
   {
     "Control": "6", 
     "Set": "6-Point Promos", 
-    "Name": "Mai***", 
+    "Name": "Mai3", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "26", 
@@ -47822,27 +47580,6 @@
   {
     "Control": "3", 
     "Set": "Red Horizon: Tides of Vengeance", 
-    "Name": "Death Valley Face Plant", 
-    "Speed": "3", 
-    "Damage": "5", 
-    "Vitality": "", 
-    "Attack Zone": "Mid", 
-    "Difficulty": "5", 
-    "asset": "tov/035-tn-preview.jpg", 
-    "CardText": "E: If this attack deals less than its printed damage, gain 2 vitality and commit 1 foundation in your opponent's staging area.", 
-    "Block Modifier": "2", 
-    "Block Zone": "Mid", 
-    "Type": "Attack", 
-    "Resources": [
-      "Earth", 
-      "Life", 
-      "Order"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "3", 
-    "Set": "Red Horizon: Tides of Vengeance", 
     "Name": "Reverse Shoulder Launch", 
     "Speed": "3", 
     "Damage": "4", 
@@ -48051,7 +47788,7 @@
   {
     "Control": "6", 
     "Set": "Red Horizon: Tides of Vengeance", 
-    "Name": "Kaden**", 
+    "Name": "Kaden2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -48544,27 +48281,6 @@
     "CardText": "Combo E: The next mid or high attack you play this turn gets -2 difficulty and 'Stun: 1'.  E Discard 1 card: Reveal the top card of your deck. If the revealed card is an attack add it to your hand.", 
     "Block Modifier": "", 
     "Block Zone": "", 
-    "Type": "Attack", 
-    "Resources": [
-      "Chaos", 
-      "Evil", 
-      "Fire"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "3", 
-    "Set": "Red Horizon: Tides of Vengeance", 
-    "Name": "Choke Throw", 
-    "Speed": "4", 
-    "Damage": "3", 
-    "Vitality": "", 
-    "Attack Zone": "High", 
-    "Difficulty": "5", 
-    "asset": "tov/070-tn-preview.jpg", 
-    "CardText": "E Make an unmodified control check: If that control check was a 4, 5 or 6 your opponent loses 2 vitality and discards 1 momentum.", 
-    "Block Modifier": "3", 
-    "Block Zone": "High", 
     "Type": "Attack", 
     "Resources": [
       "Chaos", 
@@ -49953,27 +49669,6 @@
   {
     "Control": "3", 
     "Set": "Red Horizon: Tides of Vengeance", 
-    "Name": "Psychic Upper", 
-    "Speed": "2", 
-    "Damage": "5", 
-    "Vitality": "", 
-    "Attack Zone": "Low", 
-    "Difficulty": "4", 
-    "asset": "tov/137-tn-preview.jpg", 
-    "CardText": "E (4+) Name a card type: Your opponent must reveal 1 random card from their hand. If the card revealed is the same type as the type you named, draw 1 card.", 
-    "Block Modifier": "2", 
-    "Block Zone": "Low", 
-    "Type": "Attack", 
-    "Resources": [
-      "Evil", 
-      "Good", 
-      "Order"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "3", 
-    "Set": "Red Horizon: Tides of Vengeance", 
     "Name": "Jackhammer Kick", 
     "Speed": "4", 
     "Damage": "4", 
@@ -50393,27 +50088,6 @@
   {
     "Control": "3", 
     "Set": "Red Horizon: Tides of Vengeance", 
-    "Name": "Focus Charge", 
-    "Speed": "3", 
-    "Damage": "3", 
-    "Vitality": "", 
-    "Attack Zone": "High", 
-    "Difficulty": "3", 
-    "asset": "tov/158-tn-preview.jpg", 
-    "CardText": "E: Your next attack this turn gets +3 speed and +1 to its powerful rating.", 
-    "Block Modifier": "2", 
-    "Block Zone": "Mid", 
-    "Type": "Attack", 
-    "Resources": [
-      "Air", 
-      "Earth", 
-      "Water"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "3", 
-    "Set": "Red Horizon: Tides of Vengeance", 
     "Name": "Maori Defender", 
     "Speed": "4", 
     "Damage": "4", 
@@ -50660,27 +50334,6 @@
       "Air", 
       "Evil", 
       "Death"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "5", 
-    "Set": "Red Horizon", 
-    "Name": "Revoke", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "0", 
-    "asset": "redhorizon/003-tn-preview.jpg", 
-    "CardText": "R: After your opponent plays an enhance ability, cancel its effects. Remove this card from the game.  First F: Your foundations get -1 difficulty for the rest of this Combat Phase. During Your End Phase, add this card to your staging area face down as a foundation with a blank text box.", 
-    "Block Modifier": "", 
-    "Block Zone": "", 
-    "Type": "Action", 
-    "Resources": [
-      "Evil", 
-      "Life", 
-      "Void"
     ], 
     "Hand Size": ""
   }, 
@@ -51210,27 +50863,6 @@
     "Hand Size": ""
   }, 
   {
-    "Control": "4", 
-    "Set": "Red Horizon", 
-    "Name": "Showdown", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "3", 
-    "asset": "redhorizon/031-tn-preview.jpg", 
-    "CardText": "R: After you block with this card, commit 2 foundations in your opponent's staging area.  R Commit 2 foundations: After your opponent plays an ability on an action card, discard it and cancel it's effects.", 
-    "Block Modifier": "3", 
-    "Block Zone": "High", 
-    "Type": "Action", 
-    "Resources": [
-      "Death", 
-      "Evil", 
-      "Order"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
     "Control": "5", 
     "Set": "Red Horizon", 
     "Name": "Sugar and Spice", 
@@ -51309,27 +50941,6 @@
     "Type": "Attack", 
     "Resources": [
       "Life", 
-      "Order", 
-      "Water"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "3", 
-    "Set": "Red Horizon", 
-    "Name": "Hair Trigger", 
-    "Speed": "2", 
-    "Damage": "2", 
-    "Vitality": "", 
-    "Attack Zone": "High", 
-    "Difficulty": "2", 
-    "asset": "redhorizon/036-tn-preview.jpg", 
-    "CardText": "E: If this attack deals damage, your next ranged attack this turn gets +4 damage.", 
-    "Block Modifier": "1", 
-    "Block Zone": "Mid", 
-    "Type": "Attack", 
-    "Resources": [
-      "Death", 
       "Order", 
       "Water"
     ], 
@@ -51840,27 +51451,6 @@
     "Hand Size": ""
   }, 
   {
-    "Control": "6", 
-    "Set": "Red Horizon", 
-    "Name": "Nehtali1", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "21", 
-    "Attack Zone": "", 
-    "Difficulty": "6", 
-    "asset": "redhorizon/065-tn-preview.jpg", 
-    "CardText": "R Commit 1 foundation and discard 1 block card: After your opponent plays an attack, choose 1 keyword ability on that attack. That ability may not be played during this attack's Enhance Step.  R Commit, discard 1 block card: After you make a control check, that check gets +X. X equals the block modifier on the discarded card.", 
-    "Block Modifier": "0", 
-    "Block Zone": "Mid", 
-    "Type": "Character", 
-    "Resources": [
-      "Chaos", 
-      "Evil", 
-      "Water"
-    ], 
-    "Hand Size": "7"
-  }, 
-  {
     "Control": "5", 
     "Set": "Red Horizon", 
     "Name": "Master Plan", 
@@ -52178,7 +51768,7 @@
   {
     "Control": "6", 
     "Set": "Red Horizon", 
-    "Name": "Reese", 
+    "Name": "Reese1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -52195,27 +51785,6 @@
       "Good"
     ], 
     "Hand Size": "6"
-  }, 
-  {
-    "Control": "5", 
-    "Set": "Red Horizon", 
-    "Name": "Templar", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "3", 
-    "asset": "redhorizon/083-tn-preview.jpg", 
-    "CardText": "R: After you block an attack with this card, draw 2 cards and gain 2 vitality.  R Commit 1 foundation: After your punch attack deals damage, discard it and this card from your card pool.", 
-    "Block Modifier": "1", 
-    "Block Zone": "Mid", 
-    "Type": "Action", 
-    "Resources": [
-      "Air", 
-      "All", 
-      "Life"
-    ], 
-    "Hand Size": ""
   }, 
   {
     "Control": "5", 
@@ -52377,27 +51946,6 @@
     "CardText": "E: This attack gets +X speed and +X damage. X equals the number of attacks discarded from your card pool this turn.  E Discard 1 momentum: Draw 1 card.", 
     "Block Modifier": "", 
     "Block Zone": "", 
-    "Type": "Attack", 
-    "Resources": [
-      "Air", 
-      "All", 
-      "Good"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "3", 
-    "Set": "Red Horizon", 
-    "Name": "Valiant Assault", 
-    "Speed": "3", 
-    "Damage": "4", 
-    "Vitality": "", 
-    "Attack Zone": "Mid", 
-    "Difficulty": "4", 
-    "asset": "redhorizon/092-tn-preview.jpg", 
-    "CardText": "Combo E: Draw 2 cards.  E: If this attack deals damage, look at the top card of your deck. You may add that card to the bottom of your deck.", 
-    "Block Modifier": "2", 
-    "Block Zone": "High", 
     "Type": "Attack", 
     "Resources": [
       "Air", 
@@ -52598,7 +52146,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Astrid**", 
+    "Name": "Astrid2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -52640,7 +52188,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Bryan Fury*", 
+    "Name": "Bryan Fury1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "29", 
@@ -52661,7 +52209,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Cassandra*", 
+    "Name": "CassandraSC4", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "20", 
@@ -52703,7 +52251,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Dariya*", 
+    "Name": "Dariya1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "26", 
@@ -52745,7 +52293,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Heihachi Mishima*", 
+    "Name": "Heihachi Mishima1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -52787,7 +52335,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Jin Kazama*", 
+    "Name": "Jin Kazama1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -52808,7 +52356,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Kisheri*", 
+    "Name": "Kisheri1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "18", 
@@ -52829,7 +52377,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Kyoufu*", 
+    "Name": "Kyoufu1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -52871,7 +52419,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Marius Gaius*", 
+    "Name": "Marius Gaius1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -52892,7 +52440,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Padma*", 
+    "Name": "Padma1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "18", 
@@ -53018,7 +52566,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Steve Fox*", 
+    "Name": "Steve Fox1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "26", 
@@ -53542,7 +53090,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "James Hata**", 
+    "Name": "James Hata2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -53765,7 +53313,7 @@
   {
     "Control": "6", 
     "Set": "5 Point Promos", 
-    "Name": "Mei Lien*", 
+    "Name": "Mei Lien1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "34", 
@@ -54024,7 +53572,7 @@
   {
     "Control": "6", 
     "Set": "2015 Promos", 
-    "Name": "Sniper Joe", 
+    "Name": "Sniper Joe1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "19", 
@@ -54044,7 +53592,7 @@
   {
     "Control": "6", 
     "Set": "2015 Promos", 
-    "Name": "Yellow Devil", 
+    "Name": "Yellow Devil1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "27", 
@@ -54224,7 +53772,7 @@
   {
     "Control": "6", 
     "Set": "2015 Promos", 
-    "Name": "Roy**", 
+    "Name": "Roy2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "28", 
@@ -54300,26 +53848,6 @@
       "Good"
     ], 
     "Hand Size": ""
-  }, 
-  {
-    "Control": "6", 
-    "Set": "2015 Promos", 
-    "Name": "Reese**", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "27", 
-    "Attack Zone": "", 
-    "Difficulty": "6", 
-    "CardText": "R [Once per turn] Commit: After you play a weapon attack, draw 1 card. If it deals damage, draw 1 card.  E Commit 1 foundation: Your punch attack gets +1 damage and +1 speed for each face up attack in your card pool. Playable while committed.", 
-    "Block Modifier": "0", 
-    "Block Zone": "Mid", 
-    "Type": "Character", 
-    "Resources": [
-      "Air", 
-      "Good", 
-      "Order"
-    ], 
-    "Hand Size": "6"
   }, 
   {
     "Control": "5", 
@@ -54463,46 +53991,6 @@
     "Hand Size": ""
   }, 
   {
-    "Control": "5", 
-    "Set": "2015 Promos", 
-    "Name": "Novitiate", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "", 
-    "Attack Zone": "", 
-    "Difficulty": "2", 
-    "CardText": "First F Destroy: Players cannot play abilities that gain vitality or grant damage penalties for the rest of this turn. First F Destroy: Players cannot play abilities that draw or add cards to their hand for the rest of this turn. ", 
-    "Block Modifier": "3", 
-    "Block Zone": "Mid", 
-    "Type": "Foundation", 
-    "Resources": [
-      "All", 
-      "Death", 
-      "Evil"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
-    "Control": "3", 
-    "Set": "2015 Promos", 
-    "Name": "Blaze Whip", 
-    "Speed": "3", 
-    "Damage": "3", 
-    "Vitality": "", 
-    "Attack Zone": "Low", 
-    "Difficulty": "3", 
-    "CardText": "E Commit 1 foundation: If this attack is blocked, your opponent adds 1 foundation from their staging area to their card pool. ", 
-    "Block Modifier": "", 
-    "Block Zone": "High", 
-    "Type": "Attack", 
-    "Resources": [
-      "Death", 
-      "Good", 
-      "Order"
-    ], 
-    "Hand Size": ""
-  }, 
-  {
     "Control": "2", 
     "Set": "2015 Promos", 
     "Name": "Combustion Orb", 
@@ -54545,7 +54033,7 @@
   {
     "Control": "6", 
     "Set": "2015 Promos", 
-    "Name": "Kaden***", 
+    "Name": "Kaden3", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "34", 
@@ -54791,7 +54279,7 @@
   {
     "Control": "6", 
     "Set": "2013 Promos", 
-    "Name": "Paul Bittner**", 
+    "Name": "Paul Bittner2", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "18", 
@@ -54950,7 +54438,7 @@
   {
     "Control": "6", 
     "Set": "2013 Promos", 
-    "Name": "Saiki2", 
+    "Name": "Saiki1", 
     "Speed": "", 
     "Damage": "", 
     "Vitality": "19", 
@@ -55050,26 +54538,6 @@
       "Water"
     ], 
     "Hand Size": ""
-  }, 
-  {
-    "Control": "6", 
-    "Set": "2013 Promos", 
-    "Name": "Megaman*", 
-    "Speed": "", 
-    "Damage": "", 
-    "Vitality": "28", 
-    "Attack Zone": "", 
-    "Difficulty": "6", 
-    "CardText": "E Commit: Your ranged attack gets +4 damage.  E Discard 1 card: Commit 1 of your opponent's foundations.", 
-    "Block Modifier": "0", 
-    "Block Zone": "Mid", 
-    "Type": "Character", 
-    "Resources": [
-      "All", 
-      "Good", 
-      "Order"
-    ], 
-    "Hand Size": "6"
   }, 
   {
     "Control": "5", 
