@@ -31,8 +31,7 @@
         <label for="Water">Water</label>
         
         <div class="cardgrid" :key="card.Name" v-for="card in cardData">
-            <CardDetail v-show="regexMatchFilter(card) && symbolMatchFilter(card)" 
-                v-bind:card="card" />
+            <CardDetail v-show="allFiltersMatch(card)" v-bind:card="card" />
         </div>
     </div>
 </template>
@@ -43,12 +42,14 @@ import CardDetail from './CardDetail.vue';
 export default {
     name: "CardList",
     components: {
-        CardDetail
+        CardDetail,
+        Multiselect
     },
     data() {
         return {
             filter: '',
-            symbolFilter: []
+            symbolFilter: [],
+            setFilter: []
         }
     },
     methods: {
@@ -62,7 +63,16 @@ export default {
             } else {
                 return true
             }
-            
+        },
+        setMatchFilter(card) {
+            if (this.setFilter.length > 0) {
+                return this.setFilter.includes(card.Set)
+            } else {
+                return true
+            }
+        },
+        allFiltersMatch(card) {
+            return regexMatchFilter(card) && setMatchFilter(card) && symbolMatchFilter(card)
         }
     },
     props: ["cardData"]
