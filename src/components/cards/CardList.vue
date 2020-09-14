@@ -2,42 +2,28 @@
     <div>
         <div class="input">
             Filter by name: 
-            <input v-model="filter">
+            <input v-model="nameFilter">
         </div>
-        <!-- TODO move filtering logic into a separate component -->
-        <input type="checkbox" id="Air" value="Air" v-model="symbolFilter">
-        <label for="Air">Air</label>
-        <input type="checkbox" id="All" value="All" v-model="symbolFilter">
-        <label for="All">All</label>
-        <input type="checkbox" id="Chaos" value="Chaos" v-model="symbolFilter">
-        <label for="Chaos">Chaos</label>
-        <input type="checkbox" id="Death" value="Death" v-model="symbolFilter">
-        <label for="Death">Death</label>
-        <input type="checkbox" id="Earth" value="Earth" v-model="symbolFilter">
-        <label for="Earth">Earth</label>
-        <input type="checkbox" id="Evil" value="Evil" v-model="symbolFilter">
-        <label for="Evil">Evil</label>
-        <input type="checkbox" id="Fire" value="Fire" v-model="symbolFilter">
-        <label for="Fire">Fire</label>
-        <input type="checkbox" id="Good" value="Good" v-model="symbolFilter">
-        <label for="Good">Good</label>
-        <input type="checkbox" id="Life" value="Life" v-model="symbolFilter">
-        <label for="Life">Life</label>
-        <input type="checkbox" id="Order" value="Order" v-model="symbolFilter">
-        <label for="Order">Order</label>
-        <input type="checkbox" id="Void" value="Void" v-model="symbolFilter">
-        <label for="Void">Void</label>
-        <input type="checkbox" id="Water" value="Water" v-model="symbolFilter">
-        <label for="Water">Water</label>
+        <div>
+            <multiselect v-model="symbolFilter" :options="symbolOptions" :multiple="true" :close-on-select="false" 
+            :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
+            </multiselect>
+        </div>
+        <div>
+            <multiselect v-model="originFilter" :options="originOptions" :multiple="true" :close-on-select="false" 
+            :clear-on-select="false" :searchable="true" placeholder="Filter by set">
+            </multiselect>
+        </div>
         
-        <div class="cardgrid" :key="card.Name" v-for="card in cardData">
-            <CardDetail v-show="allFiltersMatch(card)" v-bind:card="card" />
+        <div class="cardgrid" :key="card.Name" v-for="card in filteredCards">
+            <CardDetail v-bind:card="card" /> <!-- v-show="allFiltersMatch(card)" -->
         </div>
     </div>
 </template>
 
 <script>
 import CardDetail from './CardDetail.vue';
+import Multiselect from 'vue-multiselect'
 
 export default {
     name: "CardList",
@@ -47,14 +33,25 @@ export default {
     },
     data() {
         return {
-            filter: '',
+            // TODO do these belong elsewhere?
+            symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
+            originOptions: [],
+            nameFilter: '',
             symbolFilter: [],
-            setFilter: []
+            originFilter: []
+        }
+    },
+    created() {
+        this.originOptions = [...new Set(this.cardData.map(card => card.Set))]
+    },
+    computed: {
+        filteredCards() {
+            return this.cardData.filter(card => this.allFiltersMatch(card))
         }
     },
     methods: {
         regexMatchFilter(card) {
-            const regex = new RegExp(".*" + this.filter + ".*")
+            const regex = new RegExp(".*" + this.nameFilter + ".*")
             return regex.test(card.Name)
         },
         symbolMatchFilter(card) {
@@ -64,22 +61,23 @@ export default {
                 return true
             }
         },
-        setMatchFilter(card) {
-            if (this.setFilter.length > 0) {
-                return this.setFilter.includes(card.Set)
+        originMatchFilter(card) {
+            // names like "setFilter" seemed to get misunderstood by javascript lmao
+            if (this.originFilter.length > 0) {
+                return this.originFilter.has(card.Set)
             } else {
                 return true
             }
         },
         allFiltersMatch(card) {
-            return regexMatchFilter(card) && setMatchFilter(card) && symbolMatchFilter(card)
+            return this.regexMatchFilter(card) && this.originMatchFilter(card) && this.symbolMatchFilter(card)
         }
     },
     props: ["cardData"]
 }
 </script>
 
-
+<style src="vue-multiselect/dist/vue-multiselect.min.css"></style>
 <style scoped>
     
 </style>
