@@ -1,5 +1,96 @@
 [
   {
+    "Control": "5", 
+    "Difficulty": "1", 
+    "asset": "2020promo/A-Moment-of-Rest-1.jpg", 
+    "Block Modifier": "", 
+    "Block Zone": "", 
+    "Type": "Foundation", 
+    "Name": "A moment of Rest", 
+    "Resources": [
+      "Infinity", 
+      "Infinity", 
+      "Infinity"
+    ]
+  }, 
+  {
+    "Control": 6, 
+    "Difficulty": 6, 
+    "asset": "2020promo/Princess and Pea.png", 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Hand Size": "7", 
+    "Type": "Character", 
+    "Vitality": "18", 
+    "Name": "The Princess and the Pea",
+    "Resources": [
+      "All",
+      "Good", 
+      "Life"
+    ]
+  }, 
+  {
+    "Control": "3", 
+    "Difficulty": "5", 
+    "Attack Zone": "Mid", 
+    "asset": "2020promo/Reverberate.png", 
+    "Block Modifier": "2", 
+    "Block Zone": "Mid", 
+    "Damage": "4", 
+    "Type": " Attack", 
+    "Speed": "5", 
+    "Name": "Reverberate", 
+    "Resources": [
+      "Good", 
+      "Life", 
+      "Water"
+    ]
+  }, 
+  {
+    "Control": 6, 
+    "Difficulty": 6, 
+    "asset": "2020promo/Sela1.png", 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Hand Size": "6", 
+    "Type": "Character", 
+    "Vitality": "29", 
+    "Name": "Sela",
+    "Resources": [
+      "Good", 
+      "Life", 
+      "Water"
+    ]
+  }, 
+  {
+    "Control": "4", 
+    "Difficulty": "2", 
+    "asset": "2020promo/Snow White and the Caterpillar.png", 
+    "Block Modifier": "3", 
+    "Block Zone": "M", 
+    "Type": "Foundation", 
+    "Name": "Snow White and the Caterpillar", 
+    "Resources": [
+      "Death", 
+      "Earth", 
+      "Order"
+    ]
+  }, 
+  {
+    "Control": "5", 
+    "Difficulty": "2", 
+    "asset": "2020promo/Soul Calibur.png", 
+    "Block Modifier": "2", 
+    "Block Zone": "M", 
+    "Type": "Asset", 
+    "Name": "Soul Calibur", 
+    "Resources": [
+      "Infinity", 
+      "Infinity", 
+      "Infinity"
+    ]
+  },
+  {
     "Control": 6, 
     "Set": "DLC5", 
     "Name": "Tira2", 
@@ -1502,6 +1593,191 @@
       "Good"
     ]
   }, 
+  {
+    "CardText": "First E: Choose 1 attack card in your opponent's card pool. If your attack was played as a Reversal, discard it and play the top card of your deck face down as a copy of the chosen attack with a resource symbol of your choice (no check necessary). R [Once per turn] Destroy 1 foundation: After a keyword ability is played, cancel its effects.",
+    "Control": "6",
+    "Type": "Character",
+    "Set": "Champion Promos 5",
+    "Difficulty": "6",
+    "Resources": [
+      "Death",
+      "Order",
+      "Water"
+    ],
+    "asset": "championpromos5/001-tn-preview.jpg",
+    "Block Modifier": "+0",
+    "Vitality": "28",
+    "Name": "Barret Bryant1"
+  },
+  {
+    "CardText": "R: After you play your first card this turn, add the top card of your deck to your hand. If your opponent has more cards in their staging area than you, you may add 1 asset or foundation from your hand to your staging area. E Commit: Your attack gets +2 speed or +1 damage for every 10 cards in your opponent's discard pile. If it is blocked, ready your character.",
+    "Control": "6",
+    "Type": "Character",
+    "Set": "Champion Promos 5",
+    "Difficulty": "6",
+    "Resources": [
+      "All",
+      "Good"
+    ],
+    "asset": "championpromos5/002-tn-preview.jpg",
+    "Block Modifier": "+0",
+    "Vitality": "28",
+    "Name": "Garett Brett5"
+  },
+  {
+    "CardText": "R Commit: After your opponent makes a check, it gets -X. X equals the number of assets in your staging area. Failing this check does not end the Combat Phase. First F: Add a card from your hand to your staging area face down. If you have two or more assets, add the top 2 cards of your deck to your staging area face down instead.",
+    "Control": "6",
+    "Type": "Character",
+    "Set": "Champion Promos 5",
+    "Difficulty": "6",
+    "Resources": [
+      "Evil",
+      "Good",
+      "Void"
+    ],
+    "asset": "championpromos5/003-tn-preview.jpg",
+    "Block Modifier": "+0",
+    "Vitality": "19",
+    "Name": "Kevin Broberg2"
+  },
+  {
+    "CardText": "E Commit: Your attack gets +X speed and +X damage. X equals the number of foundations added to your staging area this Combat Phase. E [Once per turn] Remove 1 foundation, discard the top 4 cards of your deck: Add 1 foundation discarded this way to your staging area.",
+    "Control": "6",
+    "Type": "Character",
+    "Set": "Champion Promos 5",
+    "Difficulty": "6",
+    "Resources": [
+      "All",
+      "Earth",
+      "Good"
+    ],
+    "asset": "championpromos5/004-tn-preview.jpg",
+    "Block Modifier": "+0",
+    "Vitality": "20",
+    "Name": "Mike Hardiman2"
+  },
+  {
+    "CardText": "R: After you make a check to play a card with a higher printed difficulty than the last card in your card pool, it gets +2. E [Twice per turn]: Seal 1 of your opponent's foundations.",
+    "Control": "6",
+    "Type": "Character",
+    "Set": "Champion Promos 5",
+    "Difficulty": "6",
+    "Resources": [
+      "Chaos",
+      "Earth",
+      "Void"
+    ],
+    "asset": "championpromos5/005-tn-preview.jpg",
+    "Block Modifier": "+0",
+    "Vitality": "20",
+    "Name": "Tim Keefe2"
+  },
+  {
+    "CardText": "E: This attack with greater speed than damage gets -3 speed or +3 damage. R: After your attack is blocked, choose 2 of your opponent's foundations. They cannot be committed to pass checks for the rest of this turn.",
+    "Control": "6",
+    "Type": "Character",
+    "Set": "Champion Promos 5",
+    "Difficulty": "6",
+    "Resources": [
+      "Air",
+      "Good",
+      "Life"
+    ],
+    "asset": "championpromos5/006-tn-preview.jpg",
+    "Block Modifier": "+0",
+    "Vitality": "27",
+    "Name": "Tim Keefe3"
+  },
+  {
+    "CardText": "Weapon - Unique E [Once per turn]: Remove 1 foundation from either player's staging area from the game. After this attack resolves, add the removed card to its owner's staging area.",
+    "Control": "5",
+    "Type": "Asset",
+    "Set": "Champion Promos 5",
+    "Difficulty": "2",
+    "Resources": [
+      "All",
+      "Fire",
+      "Life"
+    ],
+    "asset": "championpromos5/007-tn-preview.jpg",
+    "Block Modifier": "+3",
+    "Name": "Black Bear Diner"
+  },
+  {
+    "CardText": "Ally - Unique - Taunt R [Card Pool] Remove: After you block an attack, your opponent's checks get -1 for the rest of the turn. Desperation R Add this card to your hand: After a response ability on a non-character card is played, cancel its effetcs.",
+    "Control": "5",
+    "Type": "Asset",
+    "Set": "Champion Promos 5",
+    "Difficulty": "2",
+    "Resources": [
+      "Chaos",
+      "Death",
+      "Evil"
+    ],
+    "asset": "championpromos5/008-tn-preview.jpg",
+    "Block Modifier": "+2",
+    "Name": "Blood, Sweat, and Beers"
+  },
+  {
+    "CardText": "Ally - Unique E [Twice per turn] Destroy 1 ready foundation: Draw 1 card. E [Once per turn]: Add 1 card from your momentum to the top of your deck.",
+    "Control": "5",
+    "Type": "Asset",
+    "Set": "Champion Promos 5",
+    "Difficulty": "2",
+    "Resources": [
+      "All",
+      "Evil",
+      "Water"
+    ],
+    "asset": "championpromos5/009-tn-preview.jpg",
+    "Block Modifier": "+3",
+    "Name": "Fiddlestix"
+  },
+  {
+    "CardText": "Breaker: 1 - Unique R [Card Pool]: After you play this card as a form, if your printed hand size is less than your opponent's add 1 card from your momentum to your hand. E Add this card to your hand: Flip 1 foundation in your opponent's staging area. Gain 1 vitality.",
+    "Control": "5",
+    "Type": "Asset",
+    "Set": "Champion Promos 5",
+    "Difficulty": "2",
+    "Resources": [
+      "Death",
+      "Earth",
+      "Life"
+    ],
+    "asset": "championpromos5/010-tn-preview.jpg",
+    "Block Modifier": "+2",
+    "Name": "Judgment Day"
+  },
+  {
+    "CardText": "Ally - Unique E Commit: This attack gets +2 speed or +2 damage. Add 1 foundation from your staging area to your hand. R [Once per turn] [Opponent's turn] Lose 2 vitality: After an attack is played, draw 1 card.",
+    "Control": "5",
+    "Type": "Asset",
+    "Set": "Champion Promos 5",
+    "Difficulty": "2",
+    "Resources": [
+      "All",
+      "Evil",
+      "Good"
+    ],
+    "asset": "championpromos5/011-tn-preview.jpg",
+    "Block Modifier": "+2",
+    "Name": "United Kingdom of SMASH"
+  },
+  {
+    "CardText": "Weapon - Unique E Flip 1 foundation: This attack get +1 or -2 damage. R Destroy: After you block your opponents attack, their next check to play attack gets -X. X equals the printed block modifier of your block. E [Once per turn]: Look at the top card of your deck. You may discard it.",
+    "Control": "4",
+    "Type": "Asset",
+    "Set": "Champion Promos 5",
+    "Difficulty": "3",
+    "Resources": [
+      "Earth",
+      "Void",
+      "Water"
+    ],
+    "asset": "championpromos5/012-tn-preview.jpg",
+    "Block Modifier": "+4",
+    "Name": "Surpass Your Limits!!"
+  },
   {
     "Control": "6", 
     "Set": "SoulCalibur 6: Libra of Souls", 
@@ -46890,6 +47166,20 @@
       "Infinity"
     ], 
     "Hand Size": ""
+  }, 
+  {
+    "Control": 6, 
+    "Difficulty": 6, 
+    "asset": "6pointpromo/Jiffany Jamber.png", 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Hand Size": "8", 
+    "Type": "Character", 
+    "Vitality": "20", 
+    "Name": "Jiffany Jamber", 
+    "Resources": [
+      "Infinity"
+    ]
   }, 
   {
     "Control": "6", 
