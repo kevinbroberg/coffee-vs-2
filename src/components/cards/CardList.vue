@@ -19,28 +19,24 @@
                 :clear-on-select="false" :searchable="true" placeholder="Filter by set">
             </multiselect>
         </div>
-        <div class="offset">
-            <nav aria-label="Page navigation example">
-                <button type="button" class="page-link" @click="page--" v-if="page != 1"> Previous </button>
-                <button type="button" class="page-link" @click="page = pageNumber" v-bind:key="pageNumber" v-for="pageNumber in pages.slice(page-1, page+5)"> {{pageNumber}} </button>
-                <button type="button" class="page-link" @click="page++" v-if="page < pages.length"> Next </button>
-            </nav>
+        <div class="scroll">
+            <list-scroller :item-component="item" 
+                :items-data="scrolledCards" :item-height="2" @bottom="addMore" />
         </div>
-        <div class="cardgrid" :key="card.Name" v-for="card in paginatedCards">
-            <CardDetail v-bind:card="card" /> <!-- v-show="allFiltersMatch(card)" -->
-        </div>
+        
     </div>
 </template>
 
 <script>
 import CardDetail from './CardDetail.vue';
 import Multiselect from 'vue-multiselect'
+import ListScroller from 'vue-list-scroller'
 
 export default {
     name: "CardList",
     components: {
-        CardDetail,
-        Multiselect
+        Multiselect,
+        ListScroller
     },
     data() {
         return {
@@ -51,9 +47,9 @@ export default {
             selectedExactNames: [],
             selectedSymbols: [],
             selectedOrigins: [],
-            item: CardDetail,
-            page: 1,
-            perPage: 50,
+            scrollLimit: 3,
+            scrollPageSize: 10,
+            item: CardDetail
         }
     },
     created() {
@@ -63,16 +59,21 @@ export default {
         filteredCards() {
             return this.cardData.filter(card => this.allFiltersMatch(card)).map(this.decorateWithImg)
         },
-        paginatedCards() {
-            const start = (this.page - 1) * this.perPage
-            return this.filteredCards.slice(start, start + this.perPage)
-        },
-        pages() {
-            const size = Math.ceil(this.filteredCards.length / this.perPage)
-            return [...Array(size).keys()].map(n => n+1)
+        scrolledCards() {
+            return this.filteredCards.slice(0, this.scrollLimit * this.scrollPageSize)
         }
     },
     methods: {
+        addMore() {
+            this.scrollLimit = this.scrollLimit + 1
+        },
+        decorateWithImg(card) {
+            if (card.asset && !card.img) {
+              // TODO We really ought to not crash the whole display if a card is missing
+              card.img = require('@/assets/card_images/' + card.asset);
+            }
+            return card
+        },
         regexMatchFilter(card) {
             if(this.regexNameFilter) {
                 const regex = new RegExp(".*" + this.regexNameFilter + ".*", 'i')
@@ -122,5 +123,8 @@ export default {
     .offset{
         width: 500px !important;
         margin: 20px auto;  
+    }
+    .scroll {
+        overflow-anchor: none;
     }
 </style>

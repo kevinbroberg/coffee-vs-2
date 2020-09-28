@@ -1,18 +1,22 @@
 <template>
     <div class="card-detail">
       <div class="preview">
-        <img :class="{card, big: big}" :src="card.img" :alt="card.Name" @click="clicked()" />
+        <img :class="{big: big}" :src="data.img" :alt="data.Name" @click="clicked()" />
       </div>
-      <div class="cardstats">{{card.Name}}</div>
+      <div class="cardstats">{{data.Name}}</div>
     </div>
 </template>
 
 <script>
 export default {
     name: "CardDetail",
-    props: ["card"],
+    props: {
+      data: Object
+    },
     data() {
-      return { big : false }
+      return { 
+        big: false
+      }
     },
     methods: {
       clicked() {
