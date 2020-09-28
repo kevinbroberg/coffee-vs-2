@@ -1,17 +1,21 @@
 <template>
     <div>
+            <div class="input">
+                Regex filter:
+                <input v-model="regexNameFilter">
+            </div>
         <div>
-            <multiselect v-model="nameFilter" :options="filteredCards.map(c => c.Name)" :close-on-select="true"
-                :clear-on-select="false" :searchable="true" placeholder="Filter by name">
+            <multiselect v-model="selectedExactNames" :options="filteredCards.map(c => c.Name)" :close-on-select="false"
+                :clear-on-select="false" :searchable="true" placeholder="Filter by exact name">
             </multiselect>
         </div>
         <div>
-            <multiselect v-model="symbolFilter" :options="symbolOptions" :multiple="true" :close-on-select="false" 
+            <multiselect v-model="selectedSymbols" :options="symbolOptions" :multiple="true" :close-on-select="false" 
                 :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
             </multiselect>
         </div>
         <div>
-            <multiselect v-model="originFilter" :options="originOptions" :multiple="true" :close-on-select="false" 
+            <multiselect v-model="selectedOrigins" :options="originOptions" :multiple="true" :close-on-select="false" 
                 :clear-on-select="false" :searchable="true" placeholder="Filter by set">
             </multiselect>
         </div>
@@ -43,9 +47,11 @@ export default {
             // TODO do these belong elsewhere?
             symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
             originOptions: [],
-            nameFilter: '',
-            symbolFilter: [],
-            originFilter: [],
+            regexNameFilter: '',
+            selectedExactNames: [],
+            selectedSymbols: [],
+            selectedOrigins: [],
+            item: CardDetail,
             page: 1,
             perPage: 50,
         }
@@ -55,7 +61,7 @@ export default {
     },
     computed: {
         filteredCards() {
-            return this.cardData.filter(card => this.allFiltersMatch(card))
+            return this.cardData.filter(card => this.allFiltersMatch(card)).map(this.decorateWithImg)
         },
         paginatedCards() {
             const start = (this.page - 1) * this.perPage
@@ -68,26 +74,37 @@ export default {
     },
     methods: {
         regexMatchFilter(card) {
-            const regex = new RegExp(".*" + this.nameFilter + ".*")
-            return regex.test(card.Name)
+            if(this.regexNameFilter) {
+                const regex = new RegExp(".*" + this.regexNameFilter + ".*", 'i')
+                return regex.test(card.Name)
+            } else {
+                return true
+            }
         },
         symbolMatchFilter(card) {
-            if (this.symbolFilter.length > 0) {
-                return card.Resources.some(sym => this.symbolFilter.includes(sym))
+            if (this.selectedSymbols && this.selectedSymbols.length > 0) {
+                return card.Resources.some(sym => this.selectedSymbols.includes(sym))
             } else {
                 return true
             }
         },
         originMatchFilter(card) {
             // names like "setFilter" seemed to get misunderstood by javascript lmao
-            if (this.originFilter.length > 0) {
-                return this.originFilter.includes(card.Set)
+            if (this.selectedOrigins && this.selectedOrigins.length > 0) {
+                return this.selectedOrigins.includes(card.Set)
+            } else {
+                return true
+            }
+        },
+        exactNameFilter(card) {
+            if (this.selectedExactNames && this.selectedExactNames.length > 0) {
+                return this.selectedExactNames.includes(card.Name)
             } else {
                 return true
             }
         },
         allFiltersMatch(card) {
-            return this.regexMatchFilter(card) && this.originMatchFilter(card) && this.symbolMatchFilter(card)
+            return this.regexMatchFilter(card) && this.originMatchFilter(card) && this.symbolMatchFilter(card) && this.exactNameFilter(card)
         }
     },
     props: ["cardData"]
