@@ -1,9 +1,9 @@
 <template>
     <div class="card-detail">
       <div class="preview">
-        <img :class="{big: big}" :src="data.img" :alt="data.Name" @click="clicked()" />
+        <img :class="{card, big: big}" :src="data.img" :alt="data.Name" @click="clicked()" />
       </div>
-      <div class="cardstats">{{data.Name}}</div>
+      <div class="cardstats">{{data}}</div>
     </div>
 </template>
 
@@ -28,12 +28,14 @@ export default {
 
 <style scoped>
     .card {
-      max-width: 100px;
+      max-width: 25%;
+      max-height: 25%;
       cursor: zoom-in
     }
 
     .big {
-      max-width: 500px;
+      max-width: 100%;
+      max-height: 100%;
       cursor: zoom-out
     }
 

@@ -1,5 +1,5 @@
 <template>
-    <header class="header"> 
+    <header class="header">
         <h1>Coffee.vs</h1>
         <div id="nav">
             <router-link to="/">Home</router-link> |
@@ -11,7 +11,6 @@
 <script>
 export default {
     name: "Header"
-
 }
 </script>
 
