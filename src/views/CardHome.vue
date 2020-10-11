@@ -1,13 +1,11 @@
 <template>
   <div id="app">    
     <div>
-      <div class="input">
-        Regex filter:
-        <input v-model="regexNameFilter">
-      </div>
       <div>
-        <multiselect v-model="selectedExactNames" :options="filteredCards.map(c => c.Name)" :close-on-select="false"
-            :clear-on-select="false" :searchable="true" placeholder="Filter by exact name">
+        <multiselect v-model="nameSelection" :options="nameOptions"
+          tag-placeholder="Search with this name (or regex!)" :taggable=true @tag="addNameTag"
+          :close-on-select="true" 
+          :clear-on-select="false" :searchable="true" placeholder="Filter by name">
         </multiselect>
       </div>
       <div>
@@ -41,8 +39,7 @@ export default {
       // TODO do these belong elsewhere?
       symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
       originOptions: [],
-      regexNameFilter: '',
-      selectedExactNames: [],
+      nameSelection: '',
       selectedSymbols: [],
       selectedOrigins: [],
       cardData: cards
@@ -54,6 +51,9 @@ export default {
   computed: {
     filteredCards() {
       return this.cardData.filter(card => this.allFiltersMatch(card)).map(this.decorateWithImg)
+    },
+    nameOptions() {
+      return this.filteredCards.map(c => c.Name)
     }
   },
   methods: {
@@ -63,14 +63,6 @@ export default {
         card.img = require('@/assets/card_images/' + card.asset);
       }
       return card
-    },
-    regexMatchFilter(card) {
-      if(this.regexNameFilter) {
-        const regex = new RegExp(".*" + this.regexNameFilter + ".*", 'i')
-        return regex.test(card.Name)
-      } else {
-        return true
-      }
     },
     symbolMatchFilter(card) {
       if (this.selectedSymbols && this.selectedSymbols.length > 0) {
@@ -87,15 +79,26 @@ export default {
         return true
       }
     },
-    exactNameFilter(card) {
-      if (this.selectedExactNames && this.selectedExactNames.length > 0) {
-        return this.selectedExactNames.includes(card.Name)
+    addNameTag(newTag) {
+      let tag = {
+        name: newTag,
+        code: Math.floor((Math.random() * 10000000))
+      }
+      this.nameOptions.push(tag)
+      this.nameSelection = newTag
+    },
+    nameFilter(card) {
+      if (this.nameSelection && this.nameSelection.length > 0) {
+        let frontanchor = this.nameSelection.startsWith('^') ? '^' : '.*'
+        let backanchor = this.nameSelection.endsWith('$') ? '$' : '.*'
+        const regex = new RegExp(frontanchor + this.nameSelection + backanchor, 'i')
+        return regex.test(card.Name)
       } else {
         return true
       }
     },
     allFiltersMatch(card) {
-      let filters = [this.regexMatchFilter, this.originMatchFilter, this.symbolMatchFilter, this.exactNameFilter]
+      let filters = [this.originMatchFilter, this.symbolMatchFilter, this.nameFilter]
       return filters.every(f => f(card))
     }
   }
