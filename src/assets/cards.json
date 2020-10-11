@@ -92,7 +92,7 @@
   },
   {
     "Control": 6, 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Tira2", 
     "Vitality": "19", 
     "Difficulty": 6, 
@@ -109,7 +109,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Ibis Minuet", 
     "Type": " Attack", 
     "Damage": "8", 
@@ -127,7 +127,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Bird of Death", 
     "Difficulty": "2", 
     "asset": "dlc/Bird-of-Death.png", 
@@ -142,7 +142,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Astaroth2", 
     "Vitality": "37", 
     "Difficulty": 6, 
@@ -159,7 +159,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Titan Bomb", 
     "Type": " Attack", 
     "Damage": "6", 
@@ -177,7 +177,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "A Cataclysm is Born", 
     "Difficulty": "3", 
     "asset": "dlc/A-Cataclysm.jpg", 
@@ -192,7 +192,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Seong Mi-Na2", 
     "Vitality": "35", 
     "Difficulty": 6, 
@@ -209,7 +209,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Diamond Crusher", 
     "Type": " Attack", 
     "Damage": "6", 
@@ -227,7 +227,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Search for Salvation", 
     "Difficulty": "2", 
     "asset": "dlc/Search-for-Salvation.png", 
@@ -242,7 +242,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Voldo2", 
     "Vitality": "19", 
     "Difficulty": 6, 
@@ -259,7 +259,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Merry Mantis", 
     "Type": " Attack", 
     "Damage": "4", 
@@ -277,7 +277,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC5", 
+    "Set": "DLC6 - SC6", 
     "Name": "Hell Guardian", 
     "Difficulty": "2", 
     "asset": "dlc/hell-guardian.png", 
@@ -292,7 +292,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Gren1", 
     "Vitality": "30", 
     "Difficulty": 6, 
@@ -309,7 +309,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Falling Star's Revenge", 
     "Type": " Attack", 
     "Damage": "5", 
@@ -327,7 +327,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "We Were All Comrades", 
     "Difficulty": "1", 
     "asset": "dlc/We-Were-All-Comrades.png", 
@@ -342,7 +342,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Julia1", 
     "Vitality": "19", 
     "Difficulty": 6, 
@@ -359,7 +359,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Stairwell Escape Shot", 
     "Type": " Attack", 
     "Damage": "4", 
@@ -377,7 +377,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "All A Dream", 
     "Difficulty": "1", 
     "asset": "dlc/ALL-A-DREAM.png", 
@@ -392,7 +392,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Wen1", 
     "Vitality": "35", 
     "Difficulty": 6, 
@@ -409,7 +409,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Murderous Fire", 
     "Type": " Attack", 
     "Damage": "5", 
@@ -427,7 +427,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Astral Gate Singularity", 
     "Difficulty": "2", 
     "asset": "dlc/Astral-Gate-Singulatity-1.png", 
@@ -442,7 +442,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Andy1", 
     "Vitality": "20", 
     "Difficulty": 6, 
@@ -459,7 +459,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Cowboy Lasso", 
     "Type": " Attack", 
     "Damage": "3", 
@@ -477,7 +477,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC4", 
+    "Set": "DLC5 - Cowboy Bebop", 
     "Name": "Shadow of a Cowboy", 
     "Difficulty": "0", 
     "asset": "dlc/Shadow-of-a-Cowboy.jpg", 
@@ -492,7 +492,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Nightwolf1", 
     "Vitality": "20", 
     "Difficulty": 6, 
@@ -509,7 +509,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Tomahawk Swing", 
     "Type": " Attack", 
     "Damage": "4", 
@@ -527,7 +527,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Spiritual Connection", 
     "Difficulty": "2", 
     "asset": "dlc/UVS-Nightwolf3.jpg", 
@@ -542,7 +542,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Noob Saibot1", 
     "Vitality": "20", 
     "Difficulty": 6, 
@@ -559,7 +559,7 @@
   }, 
   {
     "Control": "2", 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Shadow Throw", 
     "Type": " Attack", 
     "Damage": "5", 
@@ -577,7 +577,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Resurrected Evil", 
     "Difficulty": "2", 
     "asset": "dlc/UVS-Noob-Saibot3.jpg", 
@@ -592,7 +592,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Sheeva1", 
     "Vitality": "40", 
     "Difficulty": 6, 
@@ -609,7 +609,7 @@
   }, 
   {
     "Control": "2", 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Furious Stomp", 
     "Type": " Attack", 
     "Damage": "2", 
@@ -627,7 +627,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Royal Bodyguard", 
     "Difficulty": "2", 
     "asset": "dlc/UVS-Sheeva3.jpg", 
@@ -642,7 +642,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Stryker1", 
     "Vitality": "29", 
     "Difficulty": 6, 
@@ -659,7 +659,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Grenade Toss", 
     "Type": " Attack", 
     "Damage": "7", 
@@ -677,7 +677,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC3", 
+    "Set": "DLC4 - Mortal Kombat", 
     "Name": "Special Riot Control", 
     "Difficulty": "2", 
     "asset": "dlc/UVS-Stryker3.jpg", 
@@ -692,7 +692,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "Akuma3", 
     "Vitality": "21", 
     "Difficulty": 6, 
@@ -709,7 +709,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "Zanku Hadoken", 
     "Type": " Attack", 
     "Damage": "6", 
@@ -727,7 +727,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "verrun by Tourists", 
     "Difficulty": "2", 
     "asset": "dlc/Overrun-by-Tourists.png", 
@@ -742,7 +742,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "C. Viper1", 
     "Vitality": "28", 
     "Difficulty": 6, 
@@ -759,7 +759,7 @@
   }, 
   {
     "Control": "2", 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "Burst Time", 
     "Type": " Attack", 
     "Damage": "4", 
@@ -777,7 +777,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "S.I.N. Battle Suit", 
     "Difficulty": "2", 
     "asset": "dlc/S.I.N.-Battle-Suit.png", 
@@ -792,7 +792,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "Ibuki1", 
     "Vitality": "20", 
     "Difficulty": 6, 
@@ -809,7 +809,7 @@
   }, 
   {
     "Control": "2", 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "Kunai Ikkinage", 
     "Type": " Attack", 
     "Damage": "3", 
@@ -827,7 +827,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "Energy Charge", 
     "Difficulty": "2", 
     "asset": "dlc/Energy-Charge.png", 
@@ -842,7 +842,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "M. Bison2", 
     "Vitality": "27", 
     "Difficulty": 6, 
@@ -859,7 +859,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "Psycho Blast", 
     "Type": " Attack", 
     "Damage": "6", 
@@ -877,7 +877,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC2", 
+    "Set": "DLC3 - Street Fighter", 
     "Name": "Psycho Energy", 
     "Difficulty": "2", 
     "asset": "dlc/Psycho-Energy.png", 
@@ -892,7 +892,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Cervantes2", 
     "Vitality": "20", 
     "Difficulty": 6, 
@@ -909,7 +909,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Geo Da Ray", 
     "Type": " Attack", 
     "Damage": "4", 
@@ -927,7 +927,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Shell of a Proud Man", 
     "Difficulty": "2", 
     "asset": "dlc/04-1.png", 
@@ -942,7 +942,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Inferno2", 
     "Vitality": "35", 
     "Difficulty": 6, 
@@ -959,7 +959,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Gore Fest", 
     "Type": " Attack", 
     "Damage": "6", 
@@ -977,7 +977,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Hellfire of Despair", 
     "Difficulty": "2", 
     "asset": "dlc/Inferno-hellfire-of-despair.png", 
@@ -992,7 +992,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Raphael2", 
     "Vitality": "19", 
     "Difficulty": 6, 
@@ -1009,7 +1009,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Raptor Rush", 
     "Type": " Attack", 
     "Damage": "6", 
@@ -1027,7 +1027,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Prelude to Madness", 
     "Difficulty": "2", 
     "asset": "dlc/01-3.png", 
@@ -1042,7 +1042,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Talim2", 
     "Vitality": "19", 
     "Difficulty": 6, 
@@ -1059,7 +1059,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Air Blade Thrust", 
     "Type": " Attack", 
     "Damage": "3", 
@@ -1077,7 +1077,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC1", 
+    "Set": "DLC2 - SC6", 
     "Name": "Innocent Breeze", 
     "Difficulty": "2", 
     "asset": "dlc/03-2.png", 
@@ -1092,7 +1092,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Belle", 
     "Vitality": "20", 
     "Difficulty": 6, 
@@ -1109,7 +1109,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Matricide", 
     "Type": " Attack", 
     "Damage": "6", 
@@ -1127,7 +1127,7 @@
   }, 
   {
     "Control": "4", 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Beast Hunter", 
     "Difficulty": "2", 
     "asset": "dlc/7.png", 
@@ -1142,7 +1142,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Skye Mathers", 
     "Vitality": "19", 
     "Difficulty": 6, 
@@ -1159,7 +1159,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Divine Justice", 
     "Type": " Attack", 
     "Damage": "6", 
@@ -1177,7 +1177,7 @@
   }, 
   {
     "Control": "4", 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Novice's Progress", 
     "Difficulty": "2", 
     "asset": "dlc/13-1.png", 
@@ -1192,7 +1192,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "The Dark One", 
     "Vitality": "32", 
     "Difficulty": 6, 
@@ -1209,7 +1209,7 @@
   }, 
   {
     "Control": "2", 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Hellfire Impalement", 
     "Type": " Attack", 
     "Damage": "7", 
@@ -1227,7 +1227,7 @@
   }, 
   {
     "Control": "2", 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Transformed Prince", 
     "Difficulty": "0", 
     "asset": "dlc/4.png", 
@@ -1242,7 +1242,7 @@
   }, 
   {
     "Control": 6, 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Van Helsing", 
     "Vitality": "27", 
     "Difficulty": 6, 
@@ -1259,7 +1259,7 @@
   }, 
   {
     "Control": "3", 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Stake Out", 
     "Type": " Attack", 
     "Damage": "3", 
@@ -1277,7 +1277,7 @@
   }, 
   {
     "Control": "5", 
-    "Set": "DLC0", 
+    "Set": "DLC1 - Grimm", 
     "Name": "Unlikely Romance", 
     "Difficulty": "1", 
     "asset": "dlc/10.png", 
