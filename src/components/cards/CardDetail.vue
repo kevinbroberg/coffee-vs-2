@@ -1,7 +1,7 @@
 <template>
     <div class="card-detail">
       <div class="preview">
-        <img :class="{card, big: big}" :src="data.img" :alt="data.Name" @click="clicked()" />
+        <img :class="{big: big}" :src="data.img" :alt="data.Name" @click="clicked()" />
       </div>
       <div class="cardstats">{{data}}</div>
     </div>
@@ -27,12 +27,6 @@ export default {
 </script>
 
 <style scoped>
-    .card {
-      max-width: 25%;
-      max-height: 25%;
-      cursor: zoom-in
-    }
-
     .big {
       max-width: 100%;
       max-height: 100%;
