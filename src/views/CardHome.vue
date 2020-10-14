@@ -1,11 +1,11 @@
 <template>
   <div id="app">    
-    <div>
+    <div id="options">
       <div>
         <multiselect v-model="nameSelection" :options="nameOptions"
           tag-placeholder="Search with this name (or regex!)" :taggable=true @tag="addNameTag"
-          :close-on-select="true" 
-          :clear-on-select="false" :searchable="true" placeholder="Filter by name">
+          :close-on-select="true" :clear-on-select="false"
+          :searchable="true" placeholder="Filter by name">
         </multiselect>
       </div>
       <div>
@@ -14,12 +14,23 @@
         </multiselect>
       </div>
       <div>
+        <multiselect v-model="selectedSymbols2" :options="symbolOptions" :multiple="true" :close-on-select="false" 
+            :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
+        </multiselect>
+      </div>
+      <div>
         <multiselect v-model="selectedOrigins" :options="originOptions" :multiple="true" :close-on-select="false" 
             :clear-on-select="false" :searchable="true" placeholder="Filter by set">
         </multiselect>
       </div>
-      <InfiniteScrollCardDetailList v-bind:filteredCards="filteredCards"/>
+      <div>
+        <multiselect v-model="selectedTypes" :options="typeOptions" :multiple="true" :close-on-select="false" 
+            :clear-on-select="false" :searchable="true" placeholder="Filter by card type">
+        </multiselect>
+      </div>
+      <button @click="clearFilters" type="button">Clear Filters</button>
     </div>
+    <InfiniteScrollCardDetailList v-bind:filteredCards="filteredCards"/>
   </div>
 </template>
 
@@ -39,14 +50,18 @@ export default {
       // TODO do these belong elsewhere?
       symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
       originOptions: [],
+      typeOptions: [],
       nameSelection: '',
       selectedSymbols: [],
+      selectedSymbols2: [],
       selectedOrigins: [],
+      selectedTypes: [],
       cardData: cards
     }
   },
   created() {
       this.originOptions = [...new Set(this.cardData.map(card => card.Set))]
+      this.typeOptions = [...new Set(this.cardData.map(card => card.Type))]
   },
   computed: {
     filteredCards() {
@@ -64,17 +79,27 @@ export default {
       }
       return card
     },
-    symbolMatchFilter(card) {
-      if (this.selectedSymbols && this.selectedSymbols.length > 0) {
-        return card.Resources.some(sym => this.selectedSymbols.includes(sym))
-      } else {
-        return true
+    symbolFilterGenerator(selections){ 
+      return (card) => {
+        if (selections && selections.length > 0) {
+          return card.Resources.some(sym => selections.includes(sym))
+        } else {
+          return true
+        }
       }
     },
     originMatchFilter(card) {
       // names like "setFilter" seemed to get misunderstood by javascript lmao
       if (this.selectedOrigins && this.selectedOrigins.length > 0) {
         return this.selectedOrigins.includes(card.Set)
+      } else {
+        return true
+      }
+    },
+    typeMatchFilter(card) {
+      // names like "setFilter" seemed to get misunderstood by javascript lmao
+      if (this.selectedTypes && this.selectedTypes.length > 0) {
+        return this.selectedTypes.includes(card.Type)
       } else {
         return true
       }
@@ -97,8 +122,19 @@ export default {
         return true
       }
     },
+    clearFilters() {
+      this.nameSelection = ''
+      this.selectedSymbols = []
+      this.selectedSymbols2 = []
+      this.selectedOrigins = []
+      this.selectedTypes = []
+    },
     allFiltersMatch(card) {
-      let filters = [this.originMatchFilter, this.symbolMatchFilter, this.nameFilter]
+      let filters = [this.originMatchFilter, 
+                     this.symbolFilterGenerator(this.selectedSymbols), 
+                     this.symbolFilterGenerator(this.selectedSymbols2),
+                     this.nameFilter,
+                     this.typeMatchFilter]
       return filters.every(f => f(card))
     }
   }
