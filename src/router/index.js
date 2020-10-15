@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import CardHome from '../views/CardHome.vue'
+import Deck from '../views/Deck.vue'
 
 Vue.use(VueRouter)
 
@@ -8,7 +9,13 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home',
-    component: CardHome
+    component: CardHome,
+    props: (route) => ({ query: route.query })
+  },
+  {
+    path: '/deck',
+    name: 'Deck',
+    component: Deck
   },
   {
     path: '/about',

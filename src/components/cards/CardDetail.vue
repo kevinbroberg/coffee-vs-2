@@ -1,7 +1,8 @@
 <template>
     <div class="card-detail">
       <div class="preview">
-        <img :class="{big: big}" :src="data.img" :alt="data.Name" @click="clicked()" />
+        <img :class="{big: big}" :src="data.img" :alt="data.Name" @click="increment()" 
+          @click.right="decrement" @contextmenu.prevent />
       </div>
       <div class="cardstats">{{data}}</div>
     </div>
@@ -19,9 +20,12 @@ export default {
       }
     },
     methods: {
-      clicked() {
-        this.big = !this.big
-      }
+      increment() {
+        this.$store.commit('increment', this.data)
+      },
+      decrement() {
+        this.$store.commit('decrement', this.data)
+      },
     }
 }
 </script>
