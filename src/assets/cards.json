@@ -41,7 +41,7 @@
     "asset": "2020promo/Reverberate.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Reverberate$None",
     "Resources": [
       "Good",
@@ -125,7 +125,7 @@
     "asset": "dlc/Ibis-Minuet.png",
     "Block Modifier": "2",
     "Block Zone": "High",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Ibis Minuet$DLC6 - SC6",
     "Resources": [
       "Death",
@@ -178,7 +178,7 @@
     "asset": "dlc/Titan-Bomb.jpg",
     "Block Modifier": "2",
     "Block Zone": "High",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Titan Bomb$DLC6 - SC6",
     "Resources": [
       "Air",
@@ -231,7 +231,7 @@
     "asset": "dlc/Diamond-Crusher.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Diamond Crusher$DLC6 - SC6",
     "Resources": [
       "All",
@@ -284,7 +284,7 @@
     "asset": "dlc/merry-mantis.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Merry Mantis$DLC6 - SC6",
     "Resources": [
       "Chaos",
@@ -337,7 +337,7 @@
     "asset": "dlc/Falling-Stars-Revenge.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Falling Star's Revenge$DLC5 - Cowboy Bebop",
     "Resources": [
       "Chaos",
@@ -390,7 +390,7 @@
     "asset": "dlc/STAIRWELL-ESCAPE.png",
     "Block Modifier": "2",
     "Block Zone": "Low",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Stairwell Escape Shot$DLC5 - Cowboy Bebop",
     "Resources": [
       "All",
@@ -443,7 +443,7 @@
     "asset": "dlc/Murderous-Fire-1.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Murderous Fire$DLC5 - Cowboy Bebop",
     "Resources": [
       "Air",
@@ -496,7 +496,7 @@
     "asset": "dlc/Cowboy-Lasso.jpg",
     "Block Modifier": "1",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Cowboy Lasso$DLC5 - Cowboy Bebop",
     "Resources": [
       "Death",
@@ -549,7 +549,7 @@
     "asset": "dlc/UVS-Nightwolf2.jpg",
     "Block Modifier": "2",
     "Block Zone": "High",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Tomahawk Swing$DLC4 - Mortal Kombat",
     "Resources": [
       "Chaos",
@@ -602,7 +602,7 @@
     "asset": "dlc/UVS-Noob-Saibot2.jpg",
     "Block Modifier": "2",
     "Block Zone": "",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Shadow Throw$DLC4 - Mortal Kombat",
     "Resources": [
       "Life",
@@ -655,7 +655,7 @@
     "asset": "dlc/UVS-Sheeva2.jpg",
     "Block Modifier": "0",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Furious Stomp$DLC4 - Mortal Kombat",
     "Resources": [
       "All",
@@ -708,7 +708,7 @@
     "asset": "dlc/UVS-Stryker2.jpg",
     "Block Modifier": "",
     "Block Zone": "",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Grenade Toss$DLC4 - Mortal Kombat",
     "Resources": [
       "Air",
@@ -761,7 +761,7 @@
     "asset": "dlc/Zanku-Hadoken.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Zanku Hadoken$DLC3 - Street Fighter",
     "Resources": [
       "Earth",
@@ -814,7 +814,7 @@
     "asset": "dlc/Burst-Time.png",
     "Block Modifier": "2",
     "Block Zone": "Low",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Burst Time$DLC3 - Street Fighter",
     "Resources": [
       "Fire",
@@ -867,7 +867,7 @@
     "asset": "dlc/Kunai-Ikkinage.png",
     "Block Modifier": "0",
     "Block Zone": "Low",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Kunai Ikkinage$DLC3 - Street Fighter",
     "Resources": [
       "All",
@@ -920,7 +920,7 @@
     "asset": "dlc/Psycho-Blast.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Psycho Blast$DLC3 - Street Fighter",
     "Resources": [
       "Air",
@@ -973,7 +973,7 @@
     "asset": "dlc/05.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Geo Da Ray$DLC2 - SC6",
     "Resources": [
       "Chaos",
@@ -1026,7 +1026,7 @@
     "asset": "dlc/Inferno-Gore-Fest.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Gore Fest$DLC2 - SC6",
     "Resources": [
       "All",
@@ -1079,7 +1079,7 @@
     "asset": "dlc/02-3.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Raptor Rush$DLC2 - SC6",
     "Resources": [
       "Evil",
@@ -1132,7 +1132,7 @@
     "asset": "dlc/01-2.png",
     "Block Modifier": "2",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Air Blade Thrust$DLC2 - SC6",
     "Resources": [
       "Air",
@@ -1185,7 +1185,7 @@
     "asset": "dlc/8.png",
     "Block Modifier": "1",
     "Block Zone": "Mid",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Matricide$DLC1 - Grimm",
     "Resources": [
       "Earth",
@@ -1238,7 +1238,7 @@
     "asset": "dlc/0.png",
     "Block Modifier": "2",
     "Block Zone": "Low",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Divine Justice$DLC1 - Grimm",
     "Resources": [
       "Chaos",
@@ -1291,7 +1291,7 @@
     "asset": "dlc/5.png",
     "Block Modifier": "1",
     "Block Zone": "High",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Hellfire Impalement$DLC1 - Grimm",
     "Resources": [
       "Air",
@@ -1344,7 +1344,7 @@
     "asset": "dlc/11.png",
     "Block Modifier": "2",
     "Block Zone": "Low",
-    "Type": " Attack",
+    "Type": "Attack",
     "Id": "Stake Out$DLC1 - Grimm",
     "Resources": [
       "All",
