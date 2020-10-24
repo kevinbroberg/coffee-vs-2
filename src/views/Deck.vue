@@ -4,20 +4,21 @@
     <vue-good-table
       :columns="columns"
       :rows="deckGroupedByTypes"
-      :group-options="{
-            enabled: true,
-      }">
+      :sort-options ="{enabled: true}"
+      :group-options="{enabled: true}"
+      @on-row-click="onRowClick"
+      >
         <template slot="table-row" slot-scope="props">
-            <span v-if="props.column.field == 'removeButton'">
-                <button @click="removeRow(props)" type="button">X</button>
+            <span v-if="props.column.field == 'qty'">
+                {{props.formattedRow[props.column.field]}} <button @click="decrementRow(props)" type="button">-</button>
             </span>
             <span v-else>
                 {{props.formattedRow[props.column.field]}}
             </span>
-  </template>
+        </template>
     </vue-good-table>
   </div>
-</template> 
+</template>
 
 <script>
 import 'vue-good-table/dist/vue-good-table.css'
@@ -30,7 +31,6 @@ export default {
             columns: [
                 {'field': 'Name', 'label': 'Name'},
                 {'field': 'qty', 'label': 'Quantity'},
-                {'field': 'removeButton', label: 'Delete'},
                 {'field': 'Type', 'label': 'Type'},
                 {'field': 'Difficulty', 'label': 'Difficulty', type: 'number' },
                 {'field': 'Control', 'label': 'Control', type: 'number' },
@@ -61,8 +61,14 @@ export default {
         onRowClick(params) {
             this.$store.commit('increment', params.row)
         },
-        removeRow(params) {
-            this.$store.commit('remove', params.row)
+        decrementRow(params) {
+            // TODO ugh this is not healthy;
+            //  the table will emit a onClick for the ROW at the same time as the BUTTON
+            //  so double-decrement to overcome the erroneous increment
+            // possible race condition behavior if you have qty=2 and click to decrement, then both decs here
+            // evaluate before the increment() of the row event does
+            this.$store.commit('decrement', params.row)
+            this.$store.commit('decrement', params.row)
         },
         groupedRows(cards, type) {
               return {
@@ -72,10 +78,7 @@ export default {
                 children: cards.filter(c => c.Type == type)
             }
         },
-        // TODOdeckAsTTS() {
-            // let contents = this.stateDeck // TODO transform
-            // return this.download("deck.txt", contents)
-        // },
+        
         deckAsText() {
             return this.download("deck.txt", this.stateDeck.map(c => c.qty + " " + c.Name).join('\n'))
         },

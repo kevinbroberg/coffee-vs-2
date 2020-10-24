@@ -28,6 +28,7 @@
             :clear-on-select="false" :searchable="true" placeholder="Filter by card type">
         </multiselect>
       </div>
+      <button @click="addAllToDeck" type="button">Add All Cards to your Deck</button>
       <button @click="clearFilters" type="button">Clear Filters</button>
     </div>
     <InfiniteScrollCardDetailList v-bind:filteredCards="filteredCards"/>
@@ -47,7 +48,7 @@ export default {
   },
   data() {
     return {
-      // TODO do these belong elsewhere?
+      // TODO do these symbol options belong elsewhere?
       symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
       originOptions: [],
       typeOptions: [],
@@ -79,6 +80,15 @@ export default {
       }
       return card
     },
+    addAllToDeck() {
+        if (this.filteredCards.length > 100) {
+            // TODO just don't show the button unless they meet this criteria?
+            alert('100 card limit for bulk add. Please set more filters')
+        } else {
+            this.filteredCards.forEach(c => this.$store.commit('increment', c))
+        }
+    },
+    // all methods below relate to filtering
     symbolFilterGenerator(selections){ 
       return (card) => {
         if (selections && selections.length > 0) {
