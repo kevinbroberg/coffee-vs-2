@@ -1,16 +1,19 @@
 <template>
   <div>
     <button @click="deckAsText" type="button">Download as .txt file</button>
+    <!-- text box is editable and attempts to replace $state with user input (when they click a "Save"?) -->
     <vue-good-table
       :columns="columns"
       :rows="deckGroupedByTypes"
       :sort-options ="{enabled: true}"
       :group-options="{enabled: true}"
-      @on-row-click="onRowClick"
+      @on-row-click="incrementRow"
+      @on-row-dblclick="decrementRow"
       >
         <template slot="table-row" slot-scope="props">
-            <span v-if="props.column.field == 'qty'">
-                {{props.formattedRow[props.column.field]}} <button @click="decrementRow(props)" type="button">-</button>
+            <span v-if="props.column.field == 'Resources'">
+                <!-- coming soon; replace with resource symbol icons -->
+                {{props.formattedRow[props.column.field]}}
             </span>
             <span v-else>
                 {{props.formattedRow[props.column.field]}}
@@ -24,7 +27,7 @@
 import 'vue-good-table/dist/vue-good-table.css'
 import { VueGoodTable } from 'vue-good-table';
 export default {
-    name: "Deck",
+    name: "DeckDataGrid",
     components: { VueGoodTable },
     data() {
         return {
@@ -58,16 +61,10 @@ export default {
         }
     },
     methods: {
-        onRowClick(params) {
+        incrementRow(params) {
             this.$store.commit('increment', params.row)
         },
         decrementRow(params) {
-            // TODO ugh this is not healthy;
-            //  the table will emit a onClick for the ROW at the same time as the BUTTON
-            //  so double-decrement to overcome the erroneous increment
-            // possible race condition behavior if you have qty=2 and click to decrement, then both decs here
-            // evaluate before the increment() of the row event does
-            this.$store.commit('decrement', params.row)
             this.$store.commit('decrement', params.row)
         },
         groupedRows(cards, type) {

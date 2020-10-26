@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import CardHome from '../views/CardHome.vue'
-import Deck from '../views/Deck.vue'
+import DeckDataGrid from '../views/DeckDataGrid.vue'
+import DeckLoader from '../views/DeckLoader.vue'
 
 Vue.use(VueRouter)
 
@@ -15,7 +16,12 @@ Vue.use(VueRouter)
   {
     path: '/deck',
     name: 'Deck',
-    component: Deck
+    component: DeckDataGrid
+  },
+  {
+    path: '/input',
+    name: 'Deck Loader',
+    component: DeckLoader
   },
   {
     path: '/about',
