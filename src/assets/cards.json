@@ -7,7 +7,8 @@
     "Block Modifier": "",
     "Block Zone": "",
     "Type": "Foundation",
-    "Id": "A moment of Rest$None",
+    "Id": "A moment of Rest$2020Promo",
+    "Set": "2020Promo",
     "Resources": [
       "Infinity",
       "Infinity",
@@ -23,7 +24,8 @@
     "Block Modifier": 0,
     "Block Zone": "Mid",
     "Type": "Character",
-    "Id": "The Princess and the Pea$None",
+    "Id": "The Princess and the Pea$2020Promo",
+    "Set": "2020Promo",
     "Resources": [
       "All",
       "Good",
@@ -42,7 +44,8 @@
     "Block Modifier": "2",
     "Block Zone": "Mid",
     "Type": "Attack",
-    "Id": "Reverberate$None",
+    "Id": "Reverberate$2020Promo",
+    "Set": "2020Promo",
     "Resources": [
       "Good",
       "Life",
@@ -58,7 +61,8 @@
     "Block Modifier": 0,
     "Block Zone": "Mid",
     "Type": "Character",
-    "Id": "Sela$None",
+    "Id": "Sela$2020Promo",
+    "Set": "2020Promo",
     "Resources": [
       "Good",
       "Life",
@@ -74,7 +78,8 @@
     "Block Modifier": "3",
     "Block Zone": "M",
     "Type": "Foundation",
-    "Id": "Snow White and the Caterpillar$None",
+    "Id": "Snow White and the Caterpillar$2020Promo",
+    "Set": "2020Promo",
     "Resources": [
       "Death",
       "Earth",
@@ -89,7 +94,8 @@
     "Block Modifier": "2",
     "Block Zone": "M",
     "Type": "Asset",
-    "Id": "Soul Calibur$None",
+    "Id": "Soul Calibur$2020Promo",
+    "Set": "2020Promo",
     "Resources": [
       "Infinity",
       "Infinity",
@@ -49510,17 +49516,18 @@
   {
     "Control": 6,
     "Name": "Jiffany Jamber",
-    "Vitality": "20",
     "Difficulty": 6,
     "asset": "6pointpromo/Jiffany Jamber.png",
     "Block Modifier": 0,
     "Block Zone": "Mid",
     "Type": "Character",
-    "Id": "Jiffany Jamber$None",
+    "Id": "Jiffany Jamber$Other",
+    "Set": "Other",
     "Resources": [
       "Infinity"
     ],
-    "Hand Size": "8"
+    "Hand Size": "8",
+    "Vitality": "20"
   },
   {
     "Control": "6",
