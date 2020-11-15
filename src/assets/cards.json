@@ -27,7 +27,7 @@
     "Difficulty": 6,
     "asset": "2020promo/Princess and Pea.png",
     "Formats": [
-      "Standard",
+      "Future",
       "Retro"
     ],
     "Block Modifier": 0,
@@ -93,7 +93,7 @@
     "Difficulty": "2",
     "asset": "2020promo/Snow White and the Caterpillar.png",
     "Formats": [
-      "Standard",
+      "Future",
       "Retro"
     ],
     "Block Modifier": "3",
