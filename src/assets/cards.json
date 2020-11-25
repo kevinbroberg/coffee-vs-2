@@ -27,8 +27,7 @@
     "Difficulty": 6,
     "asset": "2020promo/Princess and Pea.png",
     "Formats": [
-      "Future",
-      "Retro"
+      "Future"
     ],
     "Block Modifier": 0,
     "Block Zone": "Mid",
@@ -93,8 +92,7 @@
     "Difficulty": "2",
     "asset": "2020promo/Snow White and the Caterpillar.png",
     "Formats": [
-      "Future",
-      "Retro"
+      "Future"
     ],
     "Block Modifier": "3",
     "Block Zone": "M",
@@ -65586,6 +65584,7 @@
     "Name": "Street Fighter",
     "Type": "Foundation",
     "Formats": [
+      "Standard",
       "Retro"
     ],
     "Damage": "",
@@ -65610,6 +65609,7 @@
     "Name": "Darkstalkers",
     "Type": "Foundation",
     "Formats": [
+      "Standard",
       "Retro"
     ],
     "Damage": "",
