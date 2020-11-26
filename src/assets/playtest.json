@@ -1,1 +1,1476 @@
-[]
+[
+  {
+    "Control": 6, 
+    "Name": "Dumpster Dive Diner", 
+    "Difficulty": 6, 
+    "asset": "PT1/row0_col0.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row0_col1.jpg", 
+    "Name": "Some of a Burger"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row0_col2.jpg", 
+    "Name": "Stale, Half Eaten Bread"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row0_col3.jpg", 
+    "Name": "Moldy Deli Meat"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row0_col4.jpg", 
+    "Name": "Slimy Lettuce"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row0_col5.jpg", 
+    "Name": "Cardboard Hard Pizza"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row0_col6.jpg", 
+    "Name": "Pristine Candy Corn"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Free Meal Person", 
+    "Difficulty": 6, 
+    "asset": "PT1/row0_col7.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row0_col8.jpg", 
+    "Name": "Italian Restaurant Bread"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row0_col9.jpg", 
+    "Name": "Endless Tortilla Chips"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row1_col0.jpg", 
+    "Name": "Texas Restaurant Peanuts"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row1_col1.jpg", 
+    "Name": "Free Dessert Coupon"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row1_col2.jpg", 
+    "Name": "\"It's my Birthday\" Free Cake"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row1_col3.jpg", 
+    "Name": "After Dinner Mint"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Creamy Chicken Pesto Monster", 
+    "Difficulty": 6, 
+    "asset": "PT1/row1_col4.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row1_col5.jpg", 
+    "Name": "Spirit Penne Rigate"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row1_col6.jpg", 
+    "Name": "Light Spirit Cream"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row1_col7.jpg", 
+    "Name": "Spirit of Basil Pesto"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row1_col8.jpg", 
+    "Name": "Crusty Bread"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row1_col9.jpg", 
+    "Name": "Finely Grated Parmesan"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row2_col0.jpg", 
+    "Name": "Shredded Roasted Chicken"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Loaded Nachos", 
+    "Difficulty": 6, 
+    "asset": "PT1/row2_col1.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row2_col2.jpg", 
+    "Name": "Ultimate Nacho Blast"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row2_col3.jpg", 
+    "Name": "Smoldering Queso Melt"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row2_col4.jpg", 
+    "Name": "Hyper Chive Chop"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row2_col5.jpg", 
+    "Name": "Mind Over Meat"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row2_col6.jpg", 
+    "Name": "Flank Steak Lust"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row2_col7.jpg", 
+    "Name": "Did I Say You Could Stop?"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Garbage Plate", 
+    "Difficulty": 6, 
+    "asset": "PT1/row2_col8.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row2_col9.jpg", 
+    "Name": "White Hot Red Hot"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row3_col0.jpg", 
+    "Name": "Cheeseburger Pile On"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row3_col1.jpg", 
+    "Name": "Italian Sausage"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row3_col2.jpg", 
+    "Name": "Mac Salad"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row3_col3.jpg", 
+    "Name": "Baked Beans"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row3_col4.jpg", 
+    "Name": "Meat Hot Sauce"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Powerful Bruting Juggernaut", 
+    "Difficulty": 6, 
+    "asset": "PT1/row3_col5.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Action", 
+    "asset": "PT1/row3_col6.jpg", 
+    "Name": "Slice Into Triangles"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row3_col7.jpg", 
+    "Name": "Wonderbread Slicer"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row3_col8.jpg", 
+    "Name": "Moms Like You JIF Spreader"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row3_col9.jpg", 
+    "Name": "Ultimate Decruster"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row4_col0.jpg", 
+    "Name": "Smuckers Sticky Helping"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row4_col1.jpg", 
+    "Name": "Jam Jelly or Preserves?"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row4_col2.jpg", 
+    "Name": "White Bread, No Crust"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row4_col3.jpg", 
+    "Name": "Creamy PB"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Big Mac", 
+    "Difficulty": 6, 
+    "asset": "PT1/row4_col4.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row4_col5.jpg", 
+    "Name": "Cheese"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row4_col6.jpg", 
+    "Name": "Special Sauce"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row4_col7.jpg", 
+    "Name": "Two All Beef Patties"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row4_col8.jpg", 
+    "Name": "Lettuce"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row4_col9.jpg", 
+    "Name": "Sesame Seed Bun"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row5_col0.jpg", 
+    "Name": "Would You Like Fries With That?"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row5_col1.jpg", 
+    "Name": "Onion"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row5_col2.jpg", 
+    "Name": "Pickle"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Movie Theatre Tray", 
+    "Difficulty": 6, 
+    "asset": "PT1/row5_col3.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row5_col4.jpg", 
+    "Name": "Super Extreme Large Drink"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row5_col5.jpg", 
+    "Name": "Ridiculously High Calorie Pop-Corn"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row5_col6.jpg", 
+    "Name": "Who Knows How Old Hot Dog"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT1/row5_col7.jpg", 
+    "Name": "Not Yo Nachos"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row5_col8.jpg", 
+    "Name": "MST3K Wannabe in Front Row"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row5_col9.jpg", 
+    "Name": "Sticky Shoes"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row6_col0.jpg", 
+    "Name": "Meh"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT1/row6_col1.jpg", 
+    "Name": "$40 Snacks"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Stuff in my Fridge Man", 
+    "Difficulty": 6, 
+    "asset": "PT2/row0_col0.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Action", 
+    "asset": "PT2/row0_col1.jpg", 
+    "Name": "6 Pack"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row0_col2.jpg", 
+    "Name": "Jar of Pickles"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row0_col3.jpg", 
+    "Name": "Slice of Cheese"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row0_col4.jpg", 
+    "Name": "Only 1 Egg Left"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row0_col5.jpg", 
+    "Name": "Black Spotted Banana"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row0_col6.jpg", 
+    "Name": "Box of Left-Over Pizza"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row0_col7.jpg", 
+    "Name": "Fruit Cake from 2 Years Ago"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row0_col8.jpg", 
+    "Name": "2 Sips of Cola in a 2-Liter"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Colonel KFC", 
+    "Difficulty": 6, 
+    "asset": "PT2/row0_col9.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row1_col0.jpg", 
+    "Name": "Drum Stick Hammer"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row1_col1.jpg", 
+    "Name": "Biscuit Splitter"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row1_col2.jpg", 
+    "Name": "Coleslaw Slaughter"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row1_col3.jpg", 
+    "Name": "Rotisserie Twister"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row1_col4.jpg", 
+    "Name": "Potato Wedges"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row1_col5.jpg", 
+    "Name": "Cup Gravy"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row1_col6.jpg", 
+    "Name": "Unique Mac N Cheese"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row1_col7.jpg", 
+    "Name": "Soggy Corn on the Cob"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Cereal Mascot", 
+    "Difficulty": 6, 
+    "asset": "PT2/row1_col8.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row1_col9.jpg", 
+    "Name": "Chocula Counter"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row2_col0.jpg", 
+    "Name": "Cap'n Cruncher"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row2_col1.jpg", 
+    "Name": "Lucky Leprechaun Charmer"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
+    "asset": "PT2/row2_col2.jpg", 
+    "Name": "Dig 'Em Frog Shacks"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row2_col3.jpg", 
+    "Name": "THEY'RE GREEAAAT!"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row2_col4.jpg", 
+    "Name": "Just Follow Your Nose"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row2_col5.jpg", 
+    "Name": "Snap! Crackle! Pop!"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row2_col6.jpg", 
+    "Name": "Silly Rabbit, Trix Are For Kids"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Muscles Marinara", 
+    "Difficulty": 6, 
+    "asset": "PT2/row2_col7.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row2_col8.jpg", 
+    "Name": "Bivalve Breaker"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row2_col9.jpg", 
+    "Name": "Fra Diavolo Destroyer"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row3_col0.jpg", 
+    "Name": "Spaghett SLAP!!!!"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row3_col1.jpg", 
+    "Name": "Mussel BUSTER"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row3_col2.jpg", 
+    "Name": "Getting Lost in the Sauce"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row3_col3.jpg", 
+    "Name": "Delightfully Devilish Diavolo"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row3_col4.jpg", 
+    "Name": "Shucks to Shuck!"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row3_col5.jpg", 
+    "Name": "Mussel Meltdown"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Keto Kombateer", 
+    "Difficulty": 6, 
+    "asset": "PT2/row3_col6.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row3_col7.jpg", 
+    "Name": "All the Meats"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row3_col8.jpg", 
+    "Name": "Most Nuts"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row3_col9.jpg", 
+    "Name": "All the Oils"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row4_col0.jpg", 
+    "Name": "Most Cheese"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row4_col1.jpg", 
+    "Name": "Fatso Peanut Butter"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row4_col2.jpg", 
+    "Name": "Dark Leafy Greens"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row4_col3.jpg", 
+    "Name": "Mushrooms are OK"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row4_col4.jpg", 
+    "Name": "No Net Carb Bread"
+  }, 
+  {
+    "Control": 6, 
+    "Name": "Taco Bell Toller", 
+    "Difficulty": 6, 
+    "asset": "PT2/row4_col5.jpg", 
+    "formats": [
+      "Playtest"
+    ], 
+    "Block Modifier": 0, 
+    "Block Zone": "Mid", 
+    "Type": "Character"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row4_col6.jpg", 
+    "Name": "Cheesey Gordita Cruncher"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row4_col7.jpg", 
+    "Name": "The Mexi Melter"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row4_col8.jpg", 
+    "Name": "Doritos Locos"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
+    "asset": "PT2/row4_col9.jpg", 
+    "Name": "Crunch Wrap Supreme"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row5_col0.jpg", 
+    "Name": "Chalupa"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row5_col1.jpg", 
+    "Name": "Nacho Fries"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row5_col2.jpg", 
+    "Name": "Enchirito"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
+    "asset": "PT2/row5_col3.jpg", 
+    "Name": "Quesarito"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col0.jpg", 
+    "Name": "row0col0.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col1.jpg", 
+    "Name": "row0col1.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col2.jpg", 
+    "Name": "row0col2.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col3.jpg", 
+    "Name": "row0col3.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col4.jpg", 
+    "Name": "row0col4.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col5.jpg", 
+    "Name": "row0col5.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col6.jpg", 
+    "Name": "row0col6.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col7.jpg", 
+    "Name": "row0col7.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col8.jpg", 
+    "Name": "row0col8.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row0_col9.jpg", 
+    "Name": "row0col9.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col0.jpg", 
+    "Name": "row1col0.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col1.jpg", 
+    "Name": "row1col1.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col2.jpg", 
+    "Name": "row1col2.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col3.jpg", 
+    "Name": "row1col3.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col4.jpg", 
+    "Name": "row1col4.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col5.jpg", 
+    "Name": "row1col5.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col6.jpg", 
+    "Name": "row1col6.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col7.jpg", 
+    "Name": "row1col7.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col8.jpg", 
+    "Name": "row1col8.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row1_col9.jpg", 
+    "Name": "row1col9.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col0.jpg", 
+    "Name": "row2col0.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col1.jpg", 
+    "Name": "row2col1.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col2.jpg", 
+    "Name": "row2col2.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col3.jpg", 
+    "Name": "row2col3.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col4.jpg", 
+    "Name": "row2col4.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col5.jpg", 
+    "Name": "row2col5.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col6.jpg", 
+    "Name": "row2col6.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col7.jpg", 
+    "Name": "row2col7.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col8.jpg", 
+    "Name": "row2col8.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row2_col9.jpg", 
+    "Name": "row2col9.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col0.jpg", 
+    "Name": "row3col0.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col1.jpg", 
+    "Name": "row3col1.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col2.jpg", 
+    "Name": "row3col2.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col3.jpg", 
+    "Name": "row3col3.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col4.jpg", 
+    "Name": "row3col4.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col5.jpg", 
+    "Name": "row3col5.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col6.jpg", 
+    "Name": "row3col6.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col7.jpg", 
+    "Name": "row3col7.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col8.jpg", 
+    "Name": "row3col8.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row3_col9.jpg", 
+    "Name": "row3col9.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col0.jpg", 
+    "Name": "row4col0.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col1.jpg", 
+    "Name": "row4col1.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col2.jpg", 
+    "Name": "row4col2.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col3.jpg", 
+    "Name": "row4col3.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col4.jpg", 
+    "Name": "row4col4.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col5.jpg", 
+    "Name": "row4col5.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col6.jpg", 
+    "Name": "row4col6.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col7.jpg", 
+    "Name": "row4col7.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col8.jpg", 
+    "Name": "row4col8.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row4_col9.jpg", 
+    "Name": "row4col9.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col0.jpg", 
+    "Name": "row5col0.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col1.jpg", 
+    "Name": "row5col1.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col2.jpg", 
+    "Name": "row5col2.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col3.jpg", 
+    "Name": "row5col3.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col4.jpg", 
+    "Name": "row5col4.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col5.jpg", 
+    "Name": "row5col5.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col6.jpg", 
+    "Name": "row5col6.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col7.jpg", 
+    "Name": "row5col7.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col8.jpg", 
+    "Name": "row5col8.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row5_col9.jpg", 
+    "Name": "row5col9.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col0.jpg", 
+    "Name": "row6col0.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col1.jpg", 
+    "Name": "row6col1.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col2.jpg", 
+    "Name": "row6col2.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col3.jpg", 
+    "Name": "row6col3.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col4.jpg", 
+    "Name": "row6col4.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col5.jpg", 
+    "Name": "row6col5.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col6.jpg", 
+    "Name": "row6col6.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col7.jpg", 
+    "Name": "row6col7.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col8.jpg", 
+    "Name": "row6col8.jpg"
+  }, 
+  {
+    "formats": [
+      "Playtest"
+    ], 
+    "asset": "PT3/row6_col9.jpg", 
+    "Name": "row6col9.jpg"
+  }
+]
