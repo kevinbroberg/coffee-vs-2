@@ -50,7 +50,7 @@
 <script>
 import InfiniteScrollCardDetailList from '@/components/cards/InfiniteScrollCardDetailList'
 import Multiselect from 'vue-multiselect'
-import cards from '@/assets/cards.json'
+import cards from '@/assets/playtest.json'
 
 export default {
   name: 'Home',
@@ -73,7 +73,7 @@ export default {
       selectedSymbols2: [],
       selectedOrigins: [],
       selectedTypes: [],
-      selectedFormats: ['Standard'],
+      selectedFormats: [],
       cardData: cards
     }
   },
@@ -132,7 +132,8 @@ export default {
     },
     formatMatchFilter(card) {
         if (this.selectedFormats && this.selectedFormats.length > 0) {
-          return card.Formats.some(format => this.selectedFormats.includes(format))
+          return card.Formats && 
+            card.Formats.some(format => this.selectedFormats && this.selectedFormats.includes(format))
         } else {
           return true
         }
