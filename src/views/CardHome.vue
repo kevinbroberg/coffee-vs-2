@@ -97,6 +97,9 @@ export default {
         // TODO We really ought to not crash the whole display if a card is missing
         card.img = require('@/assets/card_images/' + card.asset);
       }
+      if (!card.Id && card.Name) {
+        card.Id = "Future$" + card.Name
+      }
       return card
     },
     addAllToDeck() {
