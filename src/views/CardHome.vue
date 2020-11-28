@@ -40,7 +40,8 @@
             :clear-on-select="false" :searchable="true" placeholder="Filter by format">
         </multiselect>
       </div>
-      <button @click="addAllToDeck" type="button">Add All Cards to your Deck</button>
+
+      <button @click="addAllToDeck" type="button">Add All {{resultsCount}} Cards to your Deck</button>
       <button @click="clearFilters" type="button">Clear Filters</button>
     </div>
     <InfiniteScrollCardDetailList v-bind:filteredCards="filteredCards"/>
@@ -86,6 +87,9 @@ export default {
   computed: {
     filteredCards() {
       return this.cardData.filter(card => this.allFiltersMatch(card)).map(this.decorateWithImg)
+    },
+    resultsCount() {
+      return this.filteredCards.length
     },
     nameOptions() {
       return this.filteredCards.map(c => c.Name)
