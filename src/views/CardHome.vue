@@ -197,7 +197,14 @@ export default {
                      this.typeMatchFilter,
                      this.formatMatchFilter
                      ]
-      return filters.every(f => f(card))
+      return filters.every(function(f){
+        try {
+            return f(card)
+        } catch (e) {
+            console.error('Error on ' + card.Name + ': ' + e.message)
+            return false
+        }
+      })
     }
   }
 }
