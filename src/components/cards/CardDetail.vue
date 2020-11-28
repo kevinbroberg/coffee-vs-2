@@ -1,8 +1,8 @@
 <template>
     <div class="card-detail">
       <div class="preview">
-        <img :class="{big: big}" :src="data.img" :alt="data.Name" @click="increment()" 
-          @click.right="decrement" @contextmenu.prevent />
+        <img class="preview" :src="data.img" :alt="data.Name"
+          @click="increment()" @click.right="decrement" @contextmenu.prevent />
       </div>
       <div class="cardstats">{{data}}</div>
     </div>
@@ -16,7 +16,7 @@ export default {
     },
     data() {
       return { 
-        big: false
+        // big: false
       }
     },
     methods: {
@@ -31,13 +31,8 @@ export default {
 </script>
 
 <style scoped>
-    .big {
-      max-width: 100%;
-      max-height: 100%;
-      cursor: zoom-out
-    }
-
     .preview {
+      max-height: 50;
       display: inline-block;
       margin: auto;
     }
