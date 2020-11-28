@@ -100,9 +100,9 @@ export default {
       return card
     },
     addAllToDeck() {
-        if (this.filteredCards.length > 100) {
-            // TODO just don't show the button unless they meet this criteria?
-            alert('100 card limit for bulk add. Please set more filters')
+        if (this.filteredCards.length > 200) {
+            // TODO just don't show the button unless they meet this criteria? Show a different one instead?
+            alert('200 card limit for bulk add. Please set more filters')
         } else {
             this.filteredCards.forEach(c => this.$store.commit('increment', c))
         }
