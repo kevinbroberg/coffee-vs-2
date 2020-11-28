@@ -1423,54 +1423,5 @@
     ], 
     "asset": "PT3/row6_col2.jpg", 
     "Name": "row6col2.jpg"
-  }, 
-  {
-    "formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row6_col3.jpg", 
-    "Name": "row6col3.jpg"
-  }, 
-  {
-    "formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row6_col4.jpg", 
-    "Name": "row6col4.jpg"
-  }, 
-  {
-    "formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row6_col5.jpg", 
-    "Name": "row6col5.jpg"
-  }, 
-  {
-    "formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row6_col6.jpg", 
-    "Name": "row6col6.jpg"
-  }, 
-  {
-    "formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row6_col7.jpg", 
-    "Name": "row6col7.jpg"
-  }, 
-  {
-    "formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row6_col8.jpg", 
-    "Name": "row6col8.jpg"
-  }, 
-  {
-    "formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row6_col9.jpg", 
-    "Name": "row6col9.jpg"
   }
 ]
