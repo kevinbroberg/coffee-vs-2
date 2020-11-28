@@ -22,7 +22,7 @@ const store = new Vuex.Store({
     decrement (state, card) {
       let qtyObj = state.deck[card.Id] || {qty: 1}
       let count = qtyObj.qty - 1
-      if(count <= 0) {
+      if(count > 0) {
         Vue.set(state.deck, card.Id, {...card, qty: count})
       } else {
         Vue.delete(state.deck, card.Id)
