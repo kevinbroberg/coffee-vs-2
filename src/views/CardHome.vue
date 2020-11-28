@@ -50,7 +50,8 @@
 <script>
 import InfiniteScrollCardDetailList from '@/components/cards/InfiniteScrollCardDetailList'
 import Multiselect from 'vue-multiselect'
-import cards from '@/assets/playtest.json'
+import playtestCards from '@/assets/playtest.json'
+import cards from '@/assets/cards.json'
 
 export default {
   name: 'Home',
@@ -62,7 +63,7 @@ export default {
     return {
       // TODO do these symbol options belong elsewhere? Could they be reactive to the filtered cards?
       symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
-      formatOptions: ["Standard", "Retro", "Future", "Universal"],
+      formatOptions: ["Standard", "Retro", "Playtest", "Future", "Universal"],
       // reactive options (to the cards overall, if not universally to the current set of filtered ones)
       originOptions: [],
       typeOptions: [],
@@ -74,7 +75,7 @@ export default {
       selectedOrigins: [],
       selectedTypes: [],
       selectedFormats: [],
-      cardData: cards
+      cardData: cards.concat(playtestCards)
     }
   },
   created() {
@@ -133,7 +134,7 @@ export default {
     formatMatchFilter(card) {
         if (this.selectedFormats && this.selectedFormats.length > 0) {
           return card.Formats && 
-            card.Formats.some(format => this.selectedFormats && this.selectedFormats.includes(format))
+            card.Formats.some(format => this.selectedFormats.includes(format))
         } else {
           return true
         }
