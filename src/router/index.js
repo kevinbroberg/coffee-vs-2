@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import CardHome from '../views/CardHome.vue'
-import DeckDataGrid from '../views/DeckDataGrid.vue'
-import DeckLoader from '../views/DeckLoader.vue'
 
 Vue.use(VueRouter)
 
@@ -16,12 +14,10 @@ Vue.use(VueRouter)
   {
     path: '/deck',
     name: 'Deck',
-    component: DeckDataGrid
-  },
-  {
-    path: '/input',
-    name: 'Deck Loader',
-    component: DeckLoader
+    // route level code-splitting
+    // this generates a separate chunk (deck.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/DeckDataGrid.vue')
   },
   {
     path: '/about',
