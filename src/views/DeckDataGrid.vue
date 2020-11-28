@@ -7,11 +7,14 @@
       :rows="deckGroupedByTypes"
       :sort-options ="{enabled: true}"
       :group-options="{enabled: true}"
-      @on-row-click="incrementRow"
-      @on-row-dblclick="decrementRow"
       >
         <template slot="table-row" slot-scope="props">
-            <span v-if="props.column.field == 'Resources'">
+            <span v-if="props.column.field == 'qty'">
+                <button @click="incrementRow(props)" type="button">+</button>
+                {{props.formattedRow[props.column.field]}}
+                <button @click="decrementRow(props)" type="button">-</button>
+            </span>
+            <span v-else-if="props.column.field == 'Resources'">
                 <!-- coming soon; replace with resource symbol icons -->
                 {{props.formattedRow[props.column.field]}}
             </span>
