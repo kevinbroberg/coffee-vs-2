@@ -16,13 +16,13 @@
     <li>On the Deck page, you can adjust quantities with the buttons in the "Qty" row</li>
     <li>You can save your deck offline with the "Download as .txt" button. Cloud storage coming... eventually</li>
     </ul>
-    <p>Formats:</p>
+    <p>Formats</p>
     <ul><li>Standard includes recent promos, DLC, and sets dating back to Battle for Power</li>
         <li>Retro dates to Red Horizon, and includes a variety of old promos, and also includes all of Standard</li>
         <li>Future solely includes unreleased promos (Princess and the Pea)</li>
         <li>Playtest solely includes cards released for Community Playtest on Tabletop Simulator. Updated 28 Nov 2020</li>
         <li>Universal theoretically starts with ShadoWar, but I didn't bother loading those sets. It only includes a few very old promos</li>
     </ul>
-    <p>Contact bro#8018 on Discord if you see a problem; have a feature request; or would like to help!</p>
+    <p>Contact</p><li>Send a message to bro#8018 on Discord if you see a problem; have a feature request; or would like to help!</li>
   </div>
 </template>
