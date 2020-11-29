@@ -124,8 +124,8 @@ export default {
             "selectedOrigins",
             "selectedTypes",
             "selectedFormats"]
-        let queryStr = fields.map(field => this[field] ? field + "=" + JSON.stringify(this[field]) : "")
-            .filter(val => !!val)
+        let queryStr = fields.map(field => this[field] && this[field].length > 0 ? field + "=" + JSON.stringify(this[field]) : "")
+            .filter(val => val.length > 0)
             .join("&")
 
         let filterLink = location.origin + "/#" + this.$route.path + '?' + queryStr
