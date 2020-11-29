@@ -40,8 +40,8 @@
             :clear-on-select="false" :searchable="true" placeholder="Filter by format">
         </multiselect>
       </div>
-
-      <button @click="addAllToDeck" type="button">Add All {{resultsCount}} Cards to your Deck</button>
+      <button v-if="resultsCount > 200" type="button">{{resultsCount}} Cards in Search</button>
+      <button v-if="resultsCount <= 200" @click="addAllToDeck" type="button">Add All {{resultsCount}} Cards to your Deck</button>
       <button @click="clearFilters" type="button">Clear Filters</button>
       <button @click="copyFilterLink" type="button">Copy Link to These Filters</button>
     </div>
