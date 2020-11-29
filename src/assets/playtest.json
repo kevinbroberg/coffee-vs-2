@@ -3,7 +3,7 @@
     "Control": 6, 
     "Name": "Dumpster Dive Diner", 
     "Difficulty": 6, 
-    "asset": "PT1/row0_col0.jpg", 
+    "asset": "communitypt/Update1/row0_col0.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -17,88 +17,88 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Some of a Burger", 
-    "Type": "Attack", 
-    "asset": "PT1/row0_col1.jpg", 
     "Resources": [
       "Earth", 
       "Fire", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row0_col1.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Stale, Half Eaten Bread", 
-    "Type": "Attack", 
-    "asset": "PT1/row0_col2.jpg", 
     "Resources": [
       "Earth", 
       "Fire", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row0_col2.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Moldy Deli Meat", 
-    "Type": "Attack", 
-    "asset": "PT1/row0_col3.jpg", 
     "Resources": [
       "Earth", 
       "Fire", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row0_col3.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Slimy Lettuce", 
-    "Type": "Foundation", 
-    "asset": "PT1/row0_col4.jpg", 
     "Resources": [
       "Earth", 
       "Fire", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row0_col4.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Cardboard Hard Pizza", 
-    "Type": "Foundation", 
-    "asset": "PT1/row0_col5.jpg", 
     "Resources": [
       "Earth", 
       "Fire", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row0_col5.jpg"
   }, 
   {
-    "Name": "Pristine Candy Corn", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT1/row0_col6.jpg", 
+    "Name": "Pristine Candy Corn", 
     "Resources": [
       "Earth", 
       "Fire", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row0_col6.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Free Meal Person", 
     "Difficulty": 6, 
-    "asset": "PT1/row0_col7.jpg", 
+    "asset": "communitypt/Update1/row0_col7.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -112,88 +112,88 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Italian Restaurant Bread", 
-    "Type": "Attack", 
-    "asset": "PT1/row0_col8.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Life"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row0_col8.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Endless Tortilla Chips", 
-    "Type": "Attack", 
-    "asset": "PT1/row0_col9.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Life"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row0_col9.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Texas Restaurant Peanuts", 
-    "Type": "Attack", 
-    "asset": "PT1/row1_col0.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Life"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row1_col0.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Free Dessert Coupon", 
-    "Type": "Foundation", 
-    "asset": "PT1/row1_col1.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Life"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row1_col1.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "\"It's my Birthday\" Free Cake", 
-    "Type": "Foundation", 
-    "asset": "PT1/row1_col2.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Life"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row1_col2.jpg"
   }, 
   {
-    "Name": "After Dinner Mint", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT1/row1_col3.jpg", 
+    "Name": "After Dinner Mint", 
     "Resources": [
       "Death", 
       "Evil", 
       "Life"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row1_col3.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Creamy Chicken Pesto Monster", 
     "Difficulty": 6, 
-    "asset": "PT1/row1_col4.jpg", 
+    "asset": "communitypt/Update1/row1_col4.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -207,88 +207,88 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Spirit Penne Rigate", 
-    "Type": "Attack", 
-    "asset": "PT1/row1_col5.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row1_col5.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Light Spirit Cream", 
-    "Type": "Attack", 
-    "asset": "PT1/row1_col6.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row1_col6.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Spirit of Basil Pesto", 
-    "Type": "Attack", 
-    "asset": "PT1/row1_col7.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row1_col7.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Crusty Bread", 
-    "Type": "Foundation", 
-    "asset": "PT1/row1_col8.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row1_col8.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Finely Grated Parmesan", 
-    "Type": "Foundation", 
-    "asset": "PT1/row1_col9.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row1_col9.jpg"
   }, 
   {
-    "Name": "Shredded Roasted Chicken", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT1/row2_col0.jpg", 
+    "Name": "Shredded Roasted Chicken", 
     "Resources": [
       "All", 
       "Good", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row2_col0.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Loaded Nachos", 
     "Difficulty": 6, 
-    "asset": "PT1/row2_col1.jpg", 
+    "asset": "communitypt/Update1/row2_col1.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -302,88 +302,88 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Ultimate Nacho Blast", 
-    "Type": "Attack", 
-    "asset": "PT1/row2_col2.jpg", 
     "Resources": [
       "All", 
       "Fire", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row2_col2.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Smoldering Queso Melt", 
-    "Type": "Attack", 
-    "asset": "PT1/row2_col3.jpg", 
     "Resources": [
       "All", 
       "Fire", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row2_col3.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Hyper Chive Chop", 
-    "Type": "Attack", 
-    "asset": "PT1/row2_col4.jpg", 
     "Resources": [
       "All", 
       "Fire", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row2_col4.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Mind Over Meat", 
-    "Type": "Foundation", 
-    "asset": "PT1/row2_col5.jpg", 
     "Resources": [
       "All", 
       "Fire", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row2_col5.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Flank Steak Lust", 
-    "Type": "Foundation", 
-    "asset": "PT1/row2_col6.jpg", 
     "Resources": [
       "All", 
       "Fire", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row2_col6.jpg"
   }, 
   {
-    "Name": "Did I Say You Could Stop?", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT1/row2_col7.jpg", 
+    "Name": "Did I Say You Could Stop?", 
     "Resources": [
       "All", 
       "Fire", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row2_col7.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Garbage Plate", 
     "Difficulty": 6, 
-    "asset": "PT1/row2_col8.jpg", 
+    "asset": "communitypt/Update1/row2_col8.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -397,88 +397,88 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "White Hot Red Hot", 
-    "Type": "Attack", 
-    "asset": "PT1/row2_col9.jpg", 
     "Resources": [
       "All", 
       "Life", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row2_col9.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Cheeseburger Pile On", 
-    "Type": "Attack", 
-    "asset": "PT1/row3_col0.jpg", 
     "Resources": [
       "All", 
       "Life", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row3_col0.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Italian Sausage", 
-    "Type": "Attack", 
-    "asset": "PT1/row3_col1.jpg", 
     "Resources": [
       "All", 
       "Life", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row3_col1.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Mac Salad", 
-    "Type": "Foundation", 
-    "asset": "PT1/row3_col2.jpg", 
     "Resources": [
       "All", 
       "Life", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row3_col2.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Baked Beans", 
-    "Type": "Foundation", 
-    "asset": "PT1/row3_col3.jpg", 
     "Resources": [
       "All", 
       "Life", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row3_col3.jpg"
   }, 
   {
-    "Name": "Meat Hot Sauce", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT1/row3_col4.jpg", 
+    "Name": "Meat Hot Sauce", 
     "Resources": [
       "All", 
       "Life", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row3_col4.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Powerful Bruting Juggernaut", 
     "Difficulty": 6, 
-    "asset": "PT1/row3_col5.jpg", 
+    "asset": "communitypt/Update3/row0_col0.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -492,114 +492,114 @@
     ]
   }, 
   {
-    "Name": "Slice Into Triangles", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Action", 
-    "asset": "PT1/row3_col6.jpg", 
+    "Name": "Slice Into Triangles", 
     "Resources": [
       "All", 
       "Death", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row3_col6.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Wonderbread Slicer", 
-    "Type": "Attack", 
-    "asset": "PT1/row3_col7.jpg", 
     "Resources": [
       "All", 
       "Death", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row3_col7.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Moms Like You JIF Spreader", 
-    "Type": "Attack", 
-    "asset": "PT1/row3_col8.jpg", 
     "Resources": [
       "All", 
       "Death", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row3_col8.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Ultimate Decruster", 
-    "Type": "Attack", 
-    "asset": "PT1/row3_col9.jpg", 
     "Resources": [
       "All", 
       "Death", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row3_col9.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Smuckers Sticky Helping", 
-    "Type": "Attack", 
-    "asset": "PT1/row4_col0.jpg", 
     "Resources": [
       "All", 
       "Death", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row4_col0.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Jam Jelly or Preserves?", 
-    "Type": "Foundation", 
-    "asset": "PT1/row4_col1.jpg", 
     "Resources": [
       "All", 
       "Death", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row4_col1.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "White Bread, No Crust", 
-    "Type": "Foundation", 
-    "asset": "PT1/row4_col2.jpg", 
     "Resources": [
       "All", 
       "Death", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row4_col2.jpg"
   }, 
   {
-    "Name": "Creamy PB", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT1/row4_col3.jpg", 
+    "Name": "Creamy PB", 
     "Resources": [
       "All", 
       "Death", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row4_col3.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Big Mac", 
     "Difficulty": 6, 
-    "asset": "PT1/row4_col4.jpg", 
+    "asset": "communitypt/Update3/row0_col9.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -613,114 +613,114 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Cheese", 
-    "Type": "Attack", 
-    "asset": "PT1/row4_col5.jpg", 
     "Resources": [
       "All", 
       "Earth", 
       "Good"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row4_col5.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Special Sauce", 
-    "Type": "Attack", 
-    "asset": "PT1/row4_col6.jpg", 
     "Resources": [
       "All", 
       "Earth", 
       "Good"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row4_col6.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Two All Beef Patties", 
-    "Type": "Attack", 
-    "asset": "PT1/row4_col7.jpg", 
     "Resources": [
       "All", 
       "Earth", 
       "Good"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row4_col7.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Lettuce", 
-    "Type": "Attack", 
-    "asset": "PT1/row4_col8.jpg", 
     "Resources": [
       "All", 
       "Earth", 
       "Good"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row4_col8.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Sesame Seed Bun", 
-    "Type": "Foundation", 
-    "asset": "PT1/row4_col9.jpg", 
     "Resources": [
       "All", 
       "Earth", 
       "Good"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row4_col9.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Would You Like Fries With That?", 
-    "Type": "Foundation", 
-    "asset": "PT1/row5_col0.jpg", 
     "Resources": [
       "All", 
       "Earth", 
       "Good"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row5_col0.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Onion", 
-    "Type": "Foundation", 
-    "asset": "PT1/row5_col1.jpg", 
     "Resources": [
       "All", 
       "Earth", 
       "Good"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row5_col1.jpg"
   }, 
   {
-    "Name": "Pickle", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT1/row5_col2.jpg", 
+    "Name": "Pickle", 
     "Resources": [
       "All", 
       "Earth", 
       "Good"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row5_col2.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Movie Theatre Tray", 
     "Difficulty": 6, 
-    "asset": "PT1/row5_col3.jpg", 
+    "asset": "communitypt/Update3/row1_col8.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -734,114 +734,114 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Super Extreme Large Drink", 
-    "Type": "Attack", 
-    "asset": "PT1/row5_col4.jpg", 
     "Resources": [
       "Air", 
       "Life", 
       "Water"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row5_col4.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Ridiculously High Calorie Pop-Corn", 
-    "Type": "Attack", 
-    "asset": "PT1/row5_col5.jpg", 
     "Resources": [
       "Air", 
       "Life", 
       "Water"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row5_col5.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Who Knows How Old Hot Dog", 
-    "Type": "Attack", 
-    "asset": "PT1/row5_col6.jpg", 
     "Resources": [
       "Air", 
       "Life", 
       "Water"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row5_col6.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Not Yo Nachos", 
-    "Type": "Attack", 
-    "asset": "PT1/row5_col7.jpg", 
     "Resources": [
       "Air", 
       "Life", 
       "Water"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row5_col7.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "MST3K Wannabe in Front Row", 
-    "Type": "Foundation", 
-    "asset": "PT1/row5_col8.jpg", 
     "Resources": [
       "Air", 
       "Life", 
       "Water"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row5_col8.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Sticky Shoes", 
-    "Type": "Foundation", 
-    "asset": "PT1/row5_col9.jpg", 
     "Resources": [
       "Air", 
       "Life", 
       "Water"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row5_col9.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Meh", 
-    "Type": "Foundation", 
-    "asset": "PT1/row6_col0.jpg", 
     "Resources": [
       "Air", 
       "Life", 
       "Water"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row6_col0.jpg"
   }, 
   {
-    "Name": "$40 Snacks", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT1/row6_col1.jpg", 
+    "Name": "$40 Snacks", 
     "Resources": [
       "Air", 
       "Life", 
       "Water"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT1/row6_col1.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Stuff in my Fridge Man", 
     "Difficulty": 6, 
-    "asset": "PT2/row0_col0.jpg", 
+    "asset": "communitypt/Update4/row0_col9.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -855,114 +855,114 @@
     ]
   }, 
   {
-    "Name": "6 Pack", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Action", 
-    "asset": "PT2/row0_col1.jpg", 
+    "Name": "6 Pack", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row0_col1.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Jar of Pickles", 
-    "Type": "Attack", 
-    "asset": "PT2/row0_col2.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row0_col2.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Slice of Cheese", 
-    "Type": "Attack", 
-    "asset": "PT2/row0_col3.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row0_col3.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Only 1 Egg Left", 
-    "Type": "Attack", 
-    "asset": "PT2/row0_col4.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row0_col4.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Black Spotted Banana", 
-    "Type": "Attack", 
-    "asset": "PT2/row0_col5.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row0_col5.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Box of Left-Over Pizza", 
-    "Type": "Foundation", 
-    "asset": "PT2/row0_col6.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row0_col6.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Fruit Cake from 2 Years Ago", 
-    "Type": "Foundation", 
-    "asset": "PT2/row0_col7.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row0_col7.jpg"
   }, 
   {
-    "Name": "2 Sips of Cola in a 2-Liter", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT2/row0_col8.jpg", 
+    "Name": "2 Sips of Cola in a 2-Liter", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row0_col8.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Colonel KFC", 
     "Difficulty": 6, 
-    "asset": "PT2/row0_col9.jpg", 
+    "asset": "communitypt/Update3/row2_col7.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -976,114 +976,114 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Drum Stick Hammer", 
-    "Type": "Attack", 
-    "asset": "PT2/row1_col0.jpg", 
     "Resources": [
       "Fire", 
       "Order", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row1_col0.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Biscuit Splitter", 
-    "Type": "Attack", 
-    "asset": "PT2/row1_col1.jpg", 
     "Resources": [
       "Fire", 
       "Order", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row1_col1.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Coleslaw Slaughter", 
-    "Type": "Attack", 
-    "asset": "PT2/row1_col2.jpg", 
     "Resources": [
       "Fire", 
       "Order", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row1_col2.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Rotisserie Twister", 
-    "Type": "Attack", 
-    "asset": "PT2/row1_col3.jpg", 
     "Resources": [
       "Fire", 
       "Order", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row1_col3.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Potato Wedges", 
-    "Type": "Foundation", 
-    "asset": "PT2/row1_col4.jpg", 
     "Resources": [
       "Fire", 
       "Order", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row1_col4.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Cup Gravy", 
-    "Type": "Foundation", 
-    "asset": "PT2/row1_col5.jpg", 
     "Resources": [
       "Fire", 
       "Order", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row1_col5.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Unique Mac N Cheese", 
-    "Type": "Foundation", 
-    "asset": "PT2/row1_col6.jpg", 
     "Resources": [
       "Fire", 
       "Order", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row1_col6.jpg"
   }, 
   {
-    "Name": "Soggy Corn on the Cob", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT2/row1_col7.jpg", 
+    "Name": "Soggy Corn on the Cob", 
     "Resources": [
       "Fire", 
       "Order", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row1_col7.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Cereal Mascot", 
     "Difficulty": 6, 
-    "asset": "PT2/row1_col8.jpg", 
+    "asset": "communitypt/Update3/row3_col6.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -1097,114 +1097,114 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Chocula Counter", 
-    "Type": "Attack", 
-    "asset": "PT2/row1_col9.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row1_col9.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Cap'n Cruncher", 
-    "Type": "Attack", 
-    "asset": "PT2/row2_col0.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row2_col0.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Lucky Leprechaun Charmer", 
-    "Type": "Attack", 
-    "asset": "PT2/row2_col1.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row2_col1.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Attack", 
     "Name": "Dig 'Em Frog Shacks", 
-    "Type": "Attack", 
-    "asset": "PT2/row2_col2.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row2_col2.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "THEY'RE GREEAAAT!", 
-    "Type": "Foundation", 
-    "asset": "PT2/row2_col3.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row2_col3.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Just Follow Your Nose", 
-    "Type": "Foundation", 
-    "asset": "PT2/row2_col4.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row2_col4.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Snap! Crackle! Pop!", 
-    "Type": "Foundation", 
-    "asset": "PT2/row2_col5.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row2_col5.jpg"
   }, 
   {
-    "Name": "Silly Rabbit, Trix Are For Kids", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT2/row2_col6.jpg", 
+    "Name": "Silly Rabbit, Trix Are For Kids", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row2_col6.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Muscles Marinara", 
     "Difficulty": 6, 
-    "asset": "PT2/row2_col7.jpg", 
+    "asset": "communitypt/Update3/row4_col5.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -1218,114 +1218,114 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
     "Name": "Bivalve Breaker", 
-    "Type": " Attack", 
-    "asset": "PT2/row2_col8.jpg", 
     "Resources": [
       "Earth", 
       "Good", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row2_col8.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
     "Name": "Fra Diavolo Destroyer", 
-    "Type": " Attack", 
-    "asset": "PT2/row2_col9.jpg", 
     "Resources": [
       "Earth", 
       "Good", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row2_col9.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
     "Name": "Spaghett SLAP!!!!", 
-    "Type": " Attack", 
-    "asset": "PT2/row3_col0.jpg", 
     "Resources": [
       "Earth", 
       "Good", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row3_col0.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
     "Name": "Mussel BUSTER", 
-    "Type": " Attack", 
-    "asset": "PT2/row3_col1.jpg", 
     "Resources": [
       "Earth", 
       "Good", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row3_col1.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Getting Lost in the Sauce", 
-    "Type": "Foundation", 
-    "asset": "PT2/row3_col2.jpg", 
     "Resources": [
       "Earth", 
       "Good", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row3_col2.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Delightfully Devilish Diavolo", 
-    "Type": "Foundation", 
-    "asset": "PT2/row3_col3.jpg", 
     "Resources": [
       "Earth", 
       "Good", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row3_col3.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Shucks to Shuck!", 
-    "Type": "Foundation", 
-    "asset": "PT2/row3_col4.jpg", 
     "Resources": [
       "Earth", 
       "Good", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row3_col4.jpg"
   }, 
   {
-    "Name": "Mussel Meltdown", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT2/row3_col5.jpg", 
+    "Name": "Mussel Meltdown", 
     "Resources": [
       "Earth", 
       "Good", 
       "Void"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row3_col5.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Keto Kombateer", 
     "Difficulty": 6, 
-    "asset": "PT2/row3_col6.jpg", 
+    "asset": "communitypt/Update3/row5_col4.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -1339,114 +1339,114 @@
     ]
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
     "Name": "All the Meats", 
-    "Type": " Attack", 
-    "asset": "PT2/row3_col7.jpg", 
     "Resources": [
       "Death", 
       "Earth", 
       "Evil"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row3_col7.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
     "Name": "Most Nuts", 
-    "Type": " Attack", 
-    "asset": "PT2/row3_col8.jpg", 
     "Resources": [
       "Death", 
       "Earth", 
       "Evil"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row3_col8.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
     "Name": "All the Oils", 
-    "Type": " Attack", 
-    "asset": "PT2/row3_col9.jpg", 
     "Resources": [
       "Death", 
       "Earth", 
       "Evil"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row3_col9.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": " Attack", 
     "Name": "Most Cheese", 
-    "Type": " Attack", 
-    "asset": "PT2/row4_col0.jpg", 
     "Resources": [
       "Death", 
       "Earth", 
       "Evil"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row4_col0.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Fatso Peanut Butter", 
-    "Type": "Foundation", 
-    "asset": "PT2/row4_col1.jpg", 
     "Resources": [
       "Death", 
       "Earth", 
       "Evil"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row4_col1.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Dark Leafy Greens", 
-    "Type": "Foundation", 
-    "asset": "PT2/row4_col2.jpg", 
     "Resources": [
       "Death", 
       "Earth", 
       "Evil"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row4_col2.jpg"
   }, 
   {
+    "Formats": [
+      "Playtest"
+    ], 
+    "Type": "Foundation", 
     "Name": "Mushrooms are OK", 
-    "Type": "Foundation", 
-    "asset": "PT2/row4_col3.jpg", 
     "Resources": [
       "Death", 
       "Earth", 
       "Evil"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row4_col3.jpg"
   }, 
   {
-    "Name": "No Net Carb Bread", 
+    "Formats": [
+      "Playtest"
+    ], 
     "Type": "Foundation", 
-    "asset": "PT2/row4_col4.jpg", 
+    "Name": "No Net Carb Bread", 
     "Resources": [
       "Death", 
       "Earth", 
       "Evil"
     ], 
-    "Formats": [
-      "Playtest"
-    ]
+    "asset": "PT2/row4_col4.jpg"
   }, 
   {
     "Control": 6, 
     "Name": "Taco Bell Toller", 
     "Difficulty": 6, 
-    "asset": "PT2/row4_col5.jpg", 
+    "asset": "communitypt/Update4/row0_col0.jpg", 
     "Formats": [
       "Playtest"
     ], 
@@ -1460,9 +1460,7 @@
     ]
   }, 
   {
-    "Formats": [
-      "Playtest"
-    ], 
+    "Name": "Cheesey Gordita Cruncher", 
     "Type": " Attack", 
     "asset": "PT2/row4_col6.jpg", 
     "Resources": [
@@ -1470,12 +1468,12 @@
       "Chaos", 
       "Life"
     ], 
-    "Name": "Cheesey Gordita Cruncher"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "The Mexi Melter", 
     "Type": " Attack", 
     "asset": "PT2/row4_col7.jpg", 
     "Resources": [
@@ -1483,12 +1481,12 @@
       "Chaos", 
       "Life"
     ], 
-    "Name": "The Mexi Melter"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "Doritos Locos", 
     "Type": " Attack", 
     "asset": "PT2/row4_col8.jpg", 
     "Resources": [
@@ -1496,12 +1494,12 @@
       "Chaos", 
       "Life"
     ], 
-    "Name": "Doritos Locos"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "Crunch Wrap Supreme", 
     "Type": " Attack", 
     "asset": "PT2/row4_col9.jpg", 
     "Resources": [
@@ -1509,12 +1507,12 @@
       "Chaos", 
       "Life"
     ], 
-    "Name": "Crunch Wrap Supreme"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "Chalupa", 
     "Type": "Foundation", 
     "asset": "PT2/row5_col0.jpg", 
     "Resources": [
@@ -1522,12 +1520,12 @@
       "Chaos", 
       "Life"
     ], 
-    "Name": "Chalupa"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "Nacho Fries", 
     "Type": "Foundation", 
     "asset": "PT2/row5_col1.jpg", 
     "Resources": [
@@ -1535,12 +1533,12 @@
       "Chaos", 
       "Life"
     ], 
-    "Name": "Nacho Fries"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "Enchirito", 
     "Type": "Foundation", 
     "asset": "PT2/row5_col2.jpg", 
     "Resources": [
@@ -1548,12 +1546,12 @@
       "Chaos", 
       "Life"
     ], 
-    "Name": "Enchirito"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "Quesarito", 
     "Type": "Foundation", 
     "asset": "PT2/row5_col3.jpg", 
     "Resources": [
@@ -1561,762 +1559,688 @@
       "Chaos", 
       "Life"
     ], 
-    "Name": "Quesarito"
+    "Formats": [
+      "Playtest"
+    ]
   }, 
   {
+    "Name": "Tajine", 
     "Formats": [
       "Playtest"
     ], 
-    "asset": "PT3/row0_col0.jpg", 
+    "Type": "Character", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Name": "Tajine"
+    "asset": "communitypt/Update1/row3_col5.jpg"
   }, 
   {
-    "Formats": [
-      "Playtest"
-    ], 
+    "Name": "row0col1.jpg", 
     "asset": "PT3/row0_col1.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Name": "row0col1.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row0col2.jpg", 
     "asset": "PT3/row0_col2.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Name": "row0col2.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row0col3.jpg", 
     "asset": "PT3/row0_col3.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Name": "row0col3.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row0col4.jpg", 
     "asset": "PT3/row0_col4.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Name": "row0col4.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row0col5.jpg", 
     "asset": "PT3/row0_col5.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Name": "row0col5.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row0col6.jpg", 
     "asset": "PT3/row0_col6.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Fire"
     ], 
-    "Name": "row0col6.jpg"
+    "Formats": [
+      "Playtest"
+    ]
   }, 
   {
+    "Name": "Things on a Stick Guy", 
     "Formats": [
       "Playtest"
     ], 
-    "asset": "PT3/row0_col7.jpg", 
+    "Type": "Character", 
     "Resources": [
       "Good", 
       "Life", 
       "Water"
     ], 
-    "Name": "Things on a Stick Guy"
+    "asset": "communitypt/Update1/row4_col2.jpg"
   }, 
   {
-    "Formats": [
-      "Playtest"
-    ], 
+    "Name": "row0col8.jpg", 
     "asset": "PT3/row0_col8.jpg", 
     "Resources": [
       "Good", 
       "Life", 
       "Water"
     ], 
-    "Name": "row0col8.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row0col9.jpg", 
     "asset": "PT3/row0_col9.jpg", 
     "Resources": [
       "Good", 
       "Life", 
       "Water"
     ], 
-    "Name": "row0col9.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row1col0.jpg", 
     "asset": "PT3/row1_col0.jpg", 
     "Resources": [
       "Good", 
       "Life", 
       "Water"
     ], 
-    "Name": "row1col0.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row1col1.jpg", 
     "asset": "PT3/row1_col1.jpg", 
     "Resources": [
       "Good", 
       "Life", 
       "Water"
     ], 
-    "Name": "row1col1.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row1col2.jpg", 
     "asset": "PT3/row1_col2.jpg", 
     "Resources": [
       "Good", 
       "Life", 
       "Water"
     ], 
-    "Name": "row1col2.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row1col3.jpg", 
     "asset": "PT3/row1_col3.jpg", 
     "Resources": [
       "Good", 
       "Life", 
       "Water"
     ], 
-    "Name": "row1col3.jpg"
+    "Formats": [
+      "Playtest"
+    ]
   }, 
   {
+    "Name": "Sizzlin Fajitas", 
     "Formats": [
       "Playtest"
     ], 
-    "asset": "PT3/row1_col4.jpg", 
+    "Type": "Character", 
     "Resources": [
       "Chaos", 
       "Earth", 
       "Evil"
     ], 
-    "Name": "Sizzlin Fajitas"
+    "asset": "communitypt/Update1/row4_col9.jpg"
   }, 
   {
-    "Formats": [
-      "Playtest"
-    ], 
+    "Name": "row1col5.jpg", 
     "asset": "PT3/row1_col5.jpg", 
     "Resources": [
       "Chaos", 
       "Earth", 
       "Evil"
     ], 
-    "Name": "row1col5.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row1col6.jpg", 
     "asset": "PT3/row1_col6.jpg", 
     "Resources": [
       "Chaos", 
       "Earth", 
       "Evil"
     ], 
-    "Name": "row1col6.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row1col7.jpg", 
     "asset": "PT3/row1_col7.jpg", 
     "Resources": [
       "Chaos", 
       "Earth", 
       "Evil"
     ], 
-    "Name": "row1col7.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row1col8.jpg", 
     "asset": "PT3/row1_col8.jpg", 
     "Resources": [
       "Chaos", 
       "Earth", 
       "Evil"
     ], 
-    "Name": "row1col8.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row1col9.jpg", 
     "asset": "PT3/row1_col9.jpg", 
     "Resources": [
       "Chaos", 
       "Earth", 
       "Evil"
     ], 
-    "Name": "row1col9.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row2col0.jpg", 
     "asset": "PT3/row2_col0.jpg", 
     "Resources": [
       "Chaos", 
       "Earth", 
       "Evil"
     ], 
-    "Name": "row2col0.jpg"
+    "Formats": [
+      "Playtest"
+    ]
   }, 
   {
+    "Name": "Pink Box of Donuts", 
     "Formats": [
       "Playtest"
     ], 
-    "asset": "PT3/row2_col1.jpg", 
+    "Type": "Character", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Name": "Pink Box of Donuts"
+    "asset": "communitypt/Update1/row5_col6.jpg"
   }, 
   {
-    "Formats": [
-      "Playtest"
-    ], 
+    "Name": "row2col2.jpg", 
     "asset": "PT3/row2_col2.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Name": "row2col2.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row2col3.jpg", 
     "asset": "PT3/row2_col3.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Name": "row2col3.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row2col4.jpg", 
     "asset": "PT3/row2_col4.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Name": "row2col4.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row2col5.jpg", 
     "asset": "PT3/row2_col5.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Name": "row2col5.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row2col6.jpg", 
     "asset": "PT3/row2_col6.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Name": "row2col6.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row2col7.jpg", 
     "asset": "PT3/row2_col7.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Order"
     ], 
-    "Name": "row2col7.jpg"
+    "Formats": [
+      "Playtest"
+    ]
   }, 
   {
+    "Name": "Break Up Meal", 
     "Formats": [
       "Playtest"
     ], 
-    "asset": "PT3/row2_col8.jpg", 
+    "Type": "Character", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Water"
     ], 
-    "Name": "Break Up Meal"
+    "asset": "communitypt/Update2/row0_col0.jpg"
   }, 
   {
-    "Formats": [
-      "Playtest"
-    ], 
+    "Name": "row2col9.jpg", 
     "asset": "PT3/row2_col9.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Water"
     ], 
-    "Name": "row2col9.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row3col0.jpg", 
     "asset": "PT3/row3_col0.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Water"
     ], 
-    "Name": "row3col0.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row3col1.jpg", 
     "asset": "PT3/row3_col1.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Water"
     ], 
-    "Name": "row3col1.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row3col2.jpg", 
     "asset": "PT3/row3_col2.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Water"
     ], 
-    "Name": "row3col2.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row3col3.jpg", 
     "asset": "PT3/row3_col3.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Water"
     ], 
-    "Name": "row3col3.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row3col4.jpg", 
     "asset": "PT3/row3_col4.jpg", 
     "Resources": [
       "Air", 
       "Chaos", 
       "Water"
     ], 
-    "Name": "row3col4.jpg"
+    "Formats": [
+      "Playtest"
+    ]
   }, 
   {
+    "Name": "Super Spicy Burrito", 
     "Formats": [
       "Playtest"
     ], 
-    "asset": "PT3/row3_col5.jpg", 
-    "Resources": [
-      "All", 
-      "Chaos", 
-      "Void"
-    ], 
-    "Name": "Otaku Feast"
-  }, 
-  {
-    "Formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row3_col6.jpg", 
-    "Resources": [
-      "All", 
-      "Chaos", 
-      "Void"
-    ], 
-    "Name": "row3col6.jpg"
-  }, 
-  {
-    "Formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row3_col7.jpg", 
-    "Resources": [
-      "All", 
-      "Chaos", 
-      "Void"
-    ], 
-    "Name": "row3col7.jpg"
-  }, 
-  {
-    "Formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row3_col8.jpg", 
-    "Resources": [
-      "All", 
-      "Chaos", 
-      "Void"
-    ], 
-    "Name": "row3col8.jpg"
-  }, 
-  {
-    "Formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row3_col9.jpg", 
-    "Resources": [
-      "All", 
-      "Chaos", 
-      "Void"
-    ], 
-    "Name": "row3col9.jpg"
-  }, 
-  {
-    "Formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row4_col0.jpg", 
-    "Resources": [
-      "All", 
-      "Chaos", 
-      "Void"
-    ], 
-    "Name": "row4col0.jpg"
-  }, 
-  {
-    "Formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row4_col1.jpg", 
-    "Resources": [
-      "All", 
-      "Chaos", 
-      "Void"
-    ], 
-    "Name": "row4col1.jpg"
-  }, 
-  {
-    "Formats": [
-      "Playtest"
-    ], 
-    "asset": "PT3/row4_col2.jpg", 
+    "Type": "Character", 
     "Resources": [
       "All", 
       "Void", 
       "Water"
     ], 
-    "Name": "Super Spicy Burrito"
+    "asset": "communitypt/Update2/row0_col7.jpg"
   }, 
   {
-    "Formats": [
-      "Playtest"
-    ], 
+    "Name": "row4col3.jpg", 
     "asset": "PT3/row4_col3.jpg", 
     "Resources": [
       "All", 
       "Void", 
       "Water"
     ], 
-    "Name": "row4col3.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row4col4.jpg", 
     "asset": "PT3/row4_col4.jpg", 
     "Resources": [
       "All", 
       "Void", 
       "Water"
     ], 
-    "Name": "row4col4.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row4col5.jpg", 
     "asset": "PT3/row4_col5.jpg", 
     "Resources": [
       "All", 
       "Void", 
       "Water"
     ], 
-    "Name": "row4col5.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row4col6.jpg", 
     "asset": "PT3/row4_col6.jpg", 
     "Resources": [
       "All", 
       "Void", 
       "Water"
     ], 
-    "Name": "row4col6.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row4col7.jpg", 
     "asset": "PT3/row4_col7.jpg", 
     "Resources": [
       "All", 
       "Void", 
       "Water"
     ], 
-    "Name": "row4col7.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row4col8.jpg", 
     "asset": "PT3/row4_col8.jpg", 
     "Resources": [
       "All", 
       "Void", 
       "Water"
     ], 
-    "Name": "row4col8.jpg"
+    "Formats": [
+      "Playtest"
+    ]
   }, 
   {
+    "Name": "Banana Split", 
     "Formats": [
       "Playtest"
     ], 
-    "asset": "PT3/row4_col9.jpg", 
+    "Type": "Character", 
     "Resources": [
       "Death", 
       "Evil", 
       "Order"
     ], 
-    "Name": "Banana Split"
+    "asset": "communitypt/Update2/row1_col4.jpg"
   }, 
   {
-    "Formats": [
-      "Playtest"
-    ], 
+    "Name": "row5col0.jpg", 
     "asset": "PT3/row5_col0.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Order"
     ], 
-    "Name": "row5col0.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row5col1.jpg", 
     "asset": "PT3/row5_col1.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Order"
     ], 
-    "Name": "row5col1.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row5col2.jpg", 
     "asset": "PT3/row5_col2.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Order"
     ], 
-    "Name": "row5col2.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row5col3.jpg", 
     "asset": "PT3/row5_col3.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Order"
     ], 
-    "Name": "row5col3.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row5col4.jpg", 
     "asset": "PT3/row5_col4.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Order"
     ], 
-    "Name": "row5col4.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row5col5.jpg", 
     "asset": "PT3/row5_col5.jpg", 
     "Resources": [
       "Death", 
       "Evil", 
       "Order"
     ], 
-    "Name": "row5col5.jpg"
+    "Formats": [
+      "Playtest"
+    ]
   }, 
   {
+    "Name": "Definitely Not Yusuke", 
     "Formats": [
       "Playtest"
     ], 
-    "asset": "PT3/row5_col6.jpg", 
+    "Type": "Character", 
     "Resources": [
       "All", 
       "Good", 
       "Life"
     ], 
-    "Name": "Definitely Not Yusuke"
+    "asset": "communitypt/Update2/row2_col1.jpg"
   }, 
   {
-    "Formats": [
-      "Playtest"
-    ], 
+    "Name": "row5col7.jpg", 
     "asset": "PT3/row5_col7.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Life"
     ], 
-    "Name": "row5col7.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row5col8.jpg", 
     "asset": "PT3/row5_col8.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Life"
     ], 
-    "Name": "row5col8.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row5col9.jpg", 
     "asset": "PT3/row5_col9.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Life"
     ], 
-    "Name": "row5col9.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row6col0.jpg", 
     "asset": "PT3/row6_col0.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Life"
     ], 
-    "Name": "row6col0.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row6col1.jpg", 
     "asset": "PT3/row6_col1.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Life"
     ], 
-    "Name": "row6col1.jpg"
-  }, 
-  {
     "Formats": [
       "Playtest"
-    ], 
+    ]
+  }, 
+  {
+    "Name": "row6col2.jpg", 
     "asset": "PT3/row6_col2.jpg", 
     "Resources": [
       "All", 
       "Good", 
       "Life"
     ], 
-    "Name": "row6col2.jpg"
+    "Formats": [
+      "Playtest"
+    ]
   }
 ]
