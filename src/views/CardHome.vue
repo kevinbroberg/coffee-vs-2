@@ -43,6 +43,7 @@
 
       <button @click="addAllToDeck" type="button">Add All {{resultsCount}} Cards to your Deck</button>
       <button @click="clearFilters" type="button">Clear Filters</button>
+      <button @click="copyFilterLink" type="button">Copy Link to These Filters</button>
     </div>
     <InfiniteScrollCardDetailList v-bind:filteredCards="filteredCards"/>
   </div>
@@ -60,6 +61,7 @@ export default {
     Multiselect,
     InfiniteScrollCardDetailList
   },
+  props: ["query"],
   data() {
     return {
       // TODO do these symbol options belong elsewhere? Could they be reactive to the filtered cards?
@@ -69,13 +71,13 @@ export default {
       originOptions: [],
       typeOptions: [],
       textOptions: [],
-      nameSelection: '',
-      textSelection: '',
-      selectedSymbols: [],
-      selectedSymbols2: [],
-      selectedOrigins: [],
-      selectedTypes: [],
-      selectedFormats: [],
+      nameSelection: this.query.nameSelection       ? this.query.nameSelection : '',
+      textSelection: this.query.textSelection       ? this.query.textSelection : '',
+      selectedSymbols: this.query.selectedSymbols   ? JSON.parse(this.query.selectedSymbols) : [],
+      selectedSymbols2: this.query.selectedSymbols2 ? JSON.parse(this.query.selectedSymbols2) : [],
+      selectedOrigins: this.query.selectedOrigins   ? JSON.parse(this.query.selectedOrigins) : [],
+      selectedTypes:   this.query.selectedTypes     ? JSON.parse(this.query.selectedTypes) : [],
+      selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : [],
       cardData: cards.concat(playtestCards)
     }
   },
@@ -113,6 +115,22 @@ export default {
         } else {
             this.filteredCards.forEach(c => this.$store.commit('increment', c))
         }
+    },
+    async copyFilterLink() {
+        let fields = ["nameSelection",
+            "textSelection",
+            "selectedSymbols",
+            "selectedSymbols2",
+            "selectedOrigins",
+            "selectedTypes",
+            "selectedFormats"]
+        let queryStr = fields.map(field => this[field] ? field + "=" + JSON.stringify(this[field]) : "")
+            .filter(val => !!val)
+            .join("&")
+
+        let filterLink = location.origin + "/#" + this.$route.path + '?' + queryStr
+
+        await navigator.clipboard.writeText(filterLink)
     },
     // all methods below relate to filtering
     symbolFilterGenerator(selections){ 
