@@ -58320,6 +58320,7 @@
     "Vitality": "",
     "Attack Zone": "",
     "Difficulty": "1",
+    "asset": "tov/028-tn-preview.jpg",
     "CardText": "R Commit: After your opponent plays an ability that modifies a control check, they lose 2 vitality.  R Commit: After your non-throw attack deals 3 or more damage, gain 1 vitality.",
     "Block Modifier": "",
     "Block Zone": "",
@@ -63935,7 +63936,7 @@
     "asset": "redhorizon/096-tn-preview.jpg",
     "CardText": "F: Add this card to the top of your deck face down.",
     "Block Modifier": "3",
-    "Block Zone": " Low",
+    "Block Zone": "Low",
     "Speed": "",
     "Id": "Made for Speed$Red Horizon",
     "Resources": [

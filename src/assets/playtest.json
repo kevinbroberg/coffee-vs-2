@@ -1222,7 +1222,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Earth", 
       "Good", 
@@ -1235,7 +1235,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Earth", 
       "Good", 
@@ -1248,7 +1248,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Earth", 
       "Good", 
@@ -1261,7 +1261,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Earth", 
       "Good", 
@@ -1343,7 +1343,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Death", 
       "Earth", 
@@ -1356,7 +1356,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Death", 
       "Earth", 
@@ -1369,7 +1369,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Death", 
       "Earth", 
@@ -1382,7 +1382,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Death", 
       "Earth", 
@@ -1464,7 +1464,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Air", 
       "Chaos", 
@@ -1477,7 +1477,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Air", 
       "Chaos", 
@@ -1490,7 +1490,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Air", 
       "Chaos", 
@@ -1503,7 +1503,7 @@
     "Formats": [
       "Playtest"
     ], 
-    "Type": " Attack", 
+    "Type": "Attack", 
     "Resources": [
       "Air", 
       "Chaos", 
