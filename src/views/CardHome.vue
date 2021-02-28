@@ -19,6 +19,11 @@
         </multiselect>
       </div>
       <div>
+        <multiselect v-model="selectedSymbols3" :options="symbolOptions" :multiple="true" :close-on-select="false"
+            :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
+        </multiselect>
+      </div>
+      <div>
         <multiselect v-model="selectedOrigins" :options="originOptions" :multiple="true" :close-on-select="false" 
             :clear-on-select="false" :searchable="true" placeholder="Filter by set">
         </multiselect>
@@ -37,7 +42,7 @@
       </div>
       <div>
         <multiselect v-model="selectedFormats" :options="formatOptions" :multiple="true" :close-on-select="false"
-            :clear-on-select="false" :searchable="true" placeholder="Filter by format">
+            :clear-on-select="false" :searchable="false" placeholder="Filter by format">
         </multiselect>
       </div>
       <button v-if="resultsCount > 200" type="button">{{resultsCount}} Cards in Search</button>
@@ -75,9 +80,10 @@ export default {
       textSelection: this.query.textSelection       ? this.query.textSelection : '',
       selectedSymbols: this.query.selectedSymbols   ? JSON.parse(this.query.selectedSymbols) : [],
       selectedSymbols2: this.query.selectedSymbols2 ? JSON.parse(this.query.selectedSymbols2) : [],
+      selectedSymbols3: this.query.selectedSymbols3 ? JSON.parse(this.query.selectedSymbols3) : [],
       selectedOrigins: this.query.selectedOrigins   ? JSON.parse(this.query.selectedOrigins) : [],
       selectedTypes:   this.query.selectedTypes     ? JSON.parse(this.query.selectedTypes) : [],
-      selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : [],
+      selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : ["Standard"],
       cardData: cards.concat(playtestCards)
     }
   },
@@ -121,6 +127,7 @@ export default {
             "textSelection",
             "selectedSymbols",
             "selectedSymbols2",
+            "selectedSymbols3",
             "selectedOrigins",
             "selectedTypes",
             "selectedFormats"]
@@ -209,6 +216,7 @@ export default {
       this.textSelection = ''
       this.selectedSymbols = []
       this.selectedSymbols2 = []
+      this.selectedSymbols3 = []
       this.selectedOrigins = []
       this.selectedTypes = []
       this.selectedFormats = []
@@ -216,7 +224,8 @@ export default {
     allFiltersMatch(card) {
       let filters = [this.originMatchFilter, 
                      this.symbolFilterGenerator(this.selectedSymbols), 
-                     this.symbolFilterGenerator(this.selectedSymbols2),
+                     this.symbolFilterGenerator(this.selectedSymbols2), 
+                     this.symbolFilterGenerator(this.selectedSymbols3),
                      this.nameFilter,
                      this.textFilter,
                      this.typeMatchFilter,
