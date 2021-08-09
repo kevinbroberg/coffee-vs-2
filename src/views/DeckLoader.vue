@@ -1,31 +1,66 @@
 <template>
-  <div id="deckLoader">
-    <label class="load-input">
-        Read Text File
-        <input type="file" @change="loadTextFromFile">
-    </label>
-    <br>
+  <div id="deckLoader">      
+    <button @click="loadDeck" v-if=deckChanged type="button">Load Deck</button>
+    <FileReader @fileLoaded="text = $event"></FileReader>
+    <br/>
     <!-- TODO how tf am i supposed to style this for mobile? -->
-    <textarea v-model="text" @load="text = $event" rows=20 cols=100></textarea>
+    <textarea v-model="text" @change='deckChanged = true' @fileLoaded="showTextLoadDeck($event)" rows=20 cols=100></textarea>
     
   </div>
 </template>
 
 <script>
+import FileReader from "./FileReader";
+import cards from '@/assets/cards.json'
 export default {
   name: "DeckLoader",
   data() {
       return {
-          text: "",
+          text: '',
+          deckChanged: false
       }
   },
+  components: { FileReader },
+  created() {
+    this.text = Object.values(this.$store.state.deck).map(c => '' + c.qty + ' ' + c.Name).join('\n')
+  },
   methods: {
-    loadTextFromFile(ev) {
-      const file = ev.target.files[0];
-      const reader = new FileReader();
+    showTextLoadDeck(ev) {
+      this.text = ev
+      this.loadDeck()
+    },
+    loadDeck() {
+      let regex = /^\s*(\d+)x?\)? (.*?)\s*$/
+      let sideboard = /^\s*sideboard\s*$/i
 
-      reader.onload = e => this.$emit("load", e.target.result);
-      reader.readAsText(file);
+      let decks = this.text.split(sideboard)
+      let main = decks[0] // TODO load sideboard(s) as well
+        .split('\n')
+        .map(s => s.match(regex))
+        .filter(i => i)
+      // .map(g => `${g[1]}x of ${g[2]}`)
+      for(let idx in main) {
+        let match = main[idx]
+        let qty = Number.parseInt(match[1])
+        // O(N*C) where C is # cards in the 'database', N is # of cards in your deck. I assume this will be awful performance but NO PREMATURE OPTIMIZATION
+        // it's not even fucking slow. damn it all
+        let actualCard = null
+        for (let key in cards) { 
+          if (cards[key].Name.toLowerCase() == match[2].toLowerCase()) { // TODO better case insensitive
+            console.log(`Found an actual match! ${cards[key]}`)
+            actualCard = cards[key]
+            break;
+          }
+        }
+        // console.log(`Actual card for ${match[2]}: ${actualCard}`)
+        if (actualCard) {
+          for(let i = 0 ; i < qty; ++i) {
+            this.$store.commit('increment', actualCard)
+          }
+        }
+      }
+
+      this.deckChanged = false
     }
   }
 };
