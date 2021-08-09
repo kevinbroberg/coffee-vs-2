@@ -57,7 +57,6 @@
 <script>
 import InfiniteScrollCardDetailList from '@/components/cards/InfiniteScrollCardDetailList'
 import Multiselect from 'vue-multiselect'
-import playtestCards from '@/assets/playtest.json'
 import cards from '@/assets/cards.json'
 
 export default {
@@ -84,7 +83,7 @@ export default {
       selectedOrigins: this.query.selectedOrigins   ? JSON.parse(this.query.selectedOrigins) : [],
       selectedTypes:   this.query.selectedTypes     ? JSON.parse(this.query.selectedTypes) : [],
       selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : ["Standard"],
-      cardData: cards.concat(playtestCards)
+      cardData: cards
     }
   },
   created() {
