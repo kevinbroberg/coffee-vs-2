@@ -26,7 +26,23 @@ Vue.use(VueRouter)
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+  },
+  {
+    path: '/ultra',
+    name: 'Ultra Search',
+    // route level code-splitting
+    // this generates a separate chunk (ultra.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/Ultra.vue')
+  },
+  {
+    path: '/loader',
+    name: 'Deck Input',
+    // route level code-splitting
+    // this generates a separate chunk (loader.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import('../views/DeckLoader.vue')
+  },
 ]
 
 const router = new VueRouter({

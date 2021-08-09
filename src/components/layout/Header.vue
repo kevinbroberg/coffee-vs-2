@@ -4,7 +4,9 @@
         <div id="nav">
             <router-link to="/">Home</router-link>|
             <router-link to="/deck">Deck</router-link>|
-            <router-link to="/about">About</router-link>
+            <router-link to="/about">About</router-link>|
+            <router-link to="/ultra">Classic Ultra Search</router-link>|
+            <router-link to="/loader">Deck Input</router-link>
         </div>
     </header>
 </template>
