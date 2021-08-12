@@ -1,122 +1,155 @@
 <template>
-
-<!-- <form method="post" id="search" onsubmit="send_form(0, false); return false;" class="form-inline content-block"> -->
-<div id="search_inputs">
-    <div id="search_general">
-        <strong class="search-label">
-            <a>Card Name</a> <!-- TODO sort arrow -->
-        </strong>
-
-        <input type="text" name="name" id="name" class="form-control"> <input type="button" class="btn btn-default" value="clear" onclick="clear()" /><br />
-			
-        <strong class="search-label">Card Text</strong> <input type="text" name="card_text" id="card_text" class="form-control" /> <input type="button" class="btn btn-default" value="clear" onclick="$('#card_text').clear();" /><br />
-        <strong class="search-label">Format</strong>
-            <input type="radio" name="format" value="all" id="format_all" /> <label for="format_all">All</label>
-            <input type="radio" name="format" value="standard" id="format_standard" /> <label for="format_standard">Standard</label>
-            <input type="radio" name="format" value="extended" id="format_extended" /> <label for="format_extended">Extended</label>
-            <input type="radio" name="format" value="legacy" id="format_legacy" /> <label for="format_legacy">Legacy</label>
-            <input type="radio" name="format" value="turbo" id="format_turbo" /> <label for="format_turbo">Turbo</label>
-            <br />
-        <strong class="search-label"><a href="tri.php?tri=type" onclick="return tri($(this));">Type<span class="tri"><!--<?php echo tri('type'); ?> implements sort arrow--></span></a></strong>
-            <input type="checkbox" name="type[]" value="character" id="character_checkbox"> <label for="character_checkbox">Character</label>
-            <input type="checkbox" name="type[]" value="action" id="action_checkbox"> <label for="action_checkbox">Action</label>
-            <input type="checkbox" name="type[]" value="asset" id="asset_checkbox"> <label for="asset_checkbox">Asset</label>
-            <input type="checkbox" name="type[]" value="attack" id="attack_checkbox"> <label for="attack_checkbox">Attack</label>
-            <input type="checkbox" name="type[]" value="foundation" id="foundation_checkbox"> <label for="foundation_checkbox">Foundation</label>
-        <br />
-        <div id="rarity_div">
-            <strong class="search-label"><a href="tri.php?tri=rarity" onclick="return tri($(this));">Rarity<span class="tri"></span></a></strong>
-            <div id="rarity_list">
-                <div v-for="rarity in rarities" :key=rarity class="float_rarity"><input type="checkbox" name="rarity[]" :value=rarity v-bind:id="rarity + '_checkbox'" /> <label v-bind:for="rarity + '_checkbox'">{{rarity}}</label></div>
+  <div class="card" 
+  onmouseover="//preview('$extension', '$padded_numero');"
+  >
+    <div>
+      <div class="card_image" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
+        <img class="preview mini_image" 
+          :src="(data.img || 'loading.png')" 
+          :alt="data.Name"
+          @click="increment()" @click.right="decrement" @contextmenu.prevent
+          />
+      </div>
+      <div class="card_infos">
+      <!-- UFSUltra had a timer to render -->
+      <!-- TODO colorbox; it should have easy click buttons for each quantity! -->
+      <div class="card_title" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});"> 
+          <h1>{{data.Name}}</h1>
+          <div class="card-important-info">
+            <!-- class="label card-list-{{data.Type}}" but interpolation inside attributes is not an option. FIXME-->
+              <span class="label card-list">{{data.Type}}</span><br />
+              {{data.Rarity || ""}}
+          </div>
+      </div>
+    <div class="card_division cd1">
+        Set Extension# - <span title="Date of Expansion release"><a href="extension_pdf.php?id=<?php echo $card->get_id_extension(); ?>" 
+          title="Extension PDF for : <?php echo $list_extensions[$card->get_id_extension()]['name']; ?>">Name of Extension goes here</a></span><br />
+        Universe - Block $Extension.Block<br />
+        <!-- display formats --><br />
+        <!-- if card has rochester data -->
+        <span class="glyphicon glyphicon-star"></span> <a :href="data.RochesterURL">View on RochesterCCG</a><br />
+        <a href="deck_with_card.php?id=<?php echo $card->get_id(); ?>"><span class="glyphicon glyphicon-list"></span> Decks with this card</a><br />
+        <a href="showcard.php?id=<?php echo $card->get_id(); ?>"><span class="glyphicon glyphicon-arrow-right"></span> Direct Link</a>
+    </div>
+    <div class="card_division cd2" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
+      <!-- display keywords: not presently -->
+        {{data.CardText ||"Missing text"}}><br />
+    </div>
+    <div class="card_division cd3" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
+        {{data.Resources}}<br />
+        {{data.Control}}<br />
+        {{data.Difficulty}}<br />
+        <div class="hasblock" v-if="data['Block Zone']">
+          <!-- FIXME interpolate {{data['Block Zone']}} -->
+          Block : +{{data['Block Modifier']}}  <img src="images/icons/blockmid.png" title="Block" style="vertical-align : -3px;" />'<br />
+        </div>
+        Attack : SKIP 
+        <!-- <?php if(is_null($card->get_damage())) echo '-'; else echo $card->get_speed().' <img src="images/icons/block'.$card->get_attack_zone().'.png" 
+          title="'.$card->get_attack_zone().'" style="vertical-align : -3px;" /> / '.$card->get_damage(); ?>-->
+          <br /> 
+        <div class="ischaracter" v-if="data['Type'] == 'Character'" >
+            Handsize : {{data['Hand Size']}} <br />
+            Vitality : {{data['Vitality']}} <br />
+        </div>
+    </div>
+                <div class="card_division actions">
+                    <!-- if user has a deck -->
+                        <!-- if(array_key_exists($card->get_id(), $deck_cards)) -->
+                        $dc = '<span class="badge badge-success">X{{data.qty}}</span>'; <!-- shows # of copies of this card in the deck -->
+                        $deck_link = '&id_deck_card='.$deck_cards[$card->get_id()]['id_deck_card'];
+                        <!-- $sticky_js .= '$("#set_card_'.$card->get_id().'").cluetip({sticky : true, activation : "click", showTitle : false, titleAttribute: "alt", closeText : "", leftOffset: 0, topOffset : 0, cursor : "cursor"});'; -->
+                    
+                    <div class="btn-toolbar">
+                        <div class="btn-group btn-group-vertical">
+                            <!-- if user has a deck -->
+                            <a class="btn btn-default" role="button" 
+                              href="set_number_card.php?id=<?php echo $card->get_id().$deck_link; ?>"  
+                              rel="set_number_card.php?id=<?php echo $card->get_id().$deck_link; ?>" 
+                              id="set_card_<?php echo $card->get_id(); ?>" 
+                              onclick="$('#set_<?php echo $card->get_id(); ?>').toggle(); return false;" 
+                              title="Define the number of this card in your current deck">
+                                <span class="set_card" />
+                            </a>
+                            <!-- if user is logged in at all -->
+                            <a href="ajaxReport.php?id_card=<?php echo $card->get_id(); ?>" class="btn btn-default report-error" role="button" title="Report an error on this card">
+                                <i class="glyphicon glyphicon-warning-sign"></i>
+                            </a>
+                            <!-- if user is an administrator -->
+                            <a href="card.php?id=<?php echo $card->get_id(); ?>&action=edit" class="btn btn-default" role="button" onclick="$.colorbox({'href' : $(this).attr('href')}); return false;">
+                                <i class="glyphicon glyphicon-edit"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             
-            </div>
-        </div>
-            <br style="clear : both;" />
-        <strong class="search-label">Extension</strong>
-        <select name="extension[]" id="extension" multiple class="form-control">
-                <option v-for="extension in sets" :key=extension :value="extension">{{extension}}</option>
-        </select><br />
-        <strong class="search-label-big">Resource Symbol</strong> <input type="checkbox" name="ressource_match_all" id="ressource_match_all" /> <label for="ressource_match_all"><small>Match All Selected Resources</small></label>
-        <div id="rs_div">
-            <div v-for="symbol in symbols" :key=symbol class="float_rs"><input type="checkbox" name="rs[]" :value=symbol v-bind:id="'rs_' + symbol"><label v-bind:for="'rs_' + symbol"><img v-bind:src="require('@/assets/icons/' + symbol.toLowerCase() + '.png')" style="vertical-align -1px;" /> {{symbol}}</label></div>
-        </div><br />
     </div>
-    <div id="search_infos">
-        <strong class="search-label"><a href="tri.php?tri=cc" onclick="return tri($(this));">Control</a></strong>
-        <span v-for="eye in [0, 1, 2, 3, 4, 5, 6]" :key=eye>
-            <input type="checkbox" name="cc[]" :value=eye v-bind:id="'cc_' + eye" /><label v-bind:for="'cc_' + eye">{{eye ? eye : 'X'}}</label>
-        </span>
-        <br />
-        <strong class="search-label"><a href="tri.php?tri=difficulty" onclick="return tri($(this));">Difficulty</a></strong> <select name="difficulty_operand" class="form-control input-sm"><option value=">">></option><option value="=" selected="selected">=</option><option value="<">&lt;</option></select><input type="text" class="form-control" name="difficulty" id="difficulty" /><br />
-        <strong class="search-label">Keyword</strong> <input type="checkbox" name="keyword_match_all" id="keyword_match_all" /> <label for="keyword_match_all"><small>Match All Selected Keywords</small></label>
-        <div id="keyword_div">
-            <div class="float_keyword" v-for="keyword in keywords" :key=keyword>
-                <input type="checkbox" name="keyword[]" v-bind:id="'keyword_' + keyword" :value=keyword><label v-bind:for="'keyword_' + keyword">{{keyword}}</label>
-            </div>
-        </div>
-        <div id="block_div">
-            <strong class="search-label-medium"><a href="tri.php?tri=block" onclick="return tri($(this));">Block Modifier</a></strong> <select name="bm_operand" class="form-control"><option value=">">></option><option value="=" selected="selected">=</option><option value="<">&lt;</option></select> <input type="text" class="form-control" name="block" id="block" /><br />
-        </div>
-        <strong class="search-label-medium"><a href="tri.php?tri=block_zone" onclick="return tri($(this));">Block Zone</a></strong>
-        <span v-for="zone in zones" :key=zone>
-            <input type="checkbox" name="block_zone[]" :value=zone v-bind:id="'block_' + zone" /> <label v-bind:for="'block_' + zone">{{capitalize(zone)}}</label>
-        </span>
-        <br />
-        <strong class="search-label-medium"><a href="tri.php?tri=speed" onclick="return tri($(this));">Attack Speed</a></strong> <select name="as_operand" class="form-control"><option value=">">></option><option value="=" selected="selected">=</option><option value="<">&lt;</option></select> <input type="text" class="form-control" name="speed" id="speed" /><br />
-        <strong class="search-label-medium"><a href="tri.php?tri=damage" onclick="return tri($(this));">Attack Damage</a></strong> <select name="ad_operand" class="form-control"><option value=">">></option><option value="=" selected="selected">=</option><option value="<">&lt;</option></select> <input type="text" class="form-control" name="damage" id="damage" /><br />
-        <strong class="search-label-medium"><a href="tri.php?tri=attack_zone" onclick="return tri($(this));">Attack Zone</a></strong>
-        <span v-for="zone in zones" :key=zone>
-            <input type="checkbox" name="attack_zone[]" :value=zone v-bind:id="'attack_' + zone" /> <label v-bind:for="'attack_' + zone">{{capitalize(zone)}}</label>
-        </span>
-        <br />
-        <div id="search_more" v-if="showMore">
-            <strong class="search-label-medium"><a href="tri.php?tri=hand_size" onclick="return tri($(this));">Hand Size</a></strong> 
-            <span v-for="hs in [3, 4, 5, 6, 7, 8]" :key=hs>
-                <input type="checkbox" name="hs[]" :value=hs v-bind:id="'hs_' + hs" /> <label v-bind:for="'hs_' + hs">{{hs}}</label>
-            </span>
-            <br />
-            <strong class="search-label-medium"><a href="tri.php?tri=vitality" onclick="return tri($(this));">Vitality</a></strong><select name="v_operand" class="form-control"><option value=">">></option><option value="=" selected="selected">=</option><option value="<">&lt;</option></select> <input type="text" class="form-control" name="vitality" id="vitality" /><br />
-            <strong class="search-label-big">Keyword additional text</strong> <input type="text" class="form-control" name="keyword_text" id="keyword_text" /><br />
-            <strong class="search-label-big">Keyword count</strong> <select name="keyword_count_operand" class="form-control input-sm"><option value=">">></option><option value="=" selected="selected">=</option><option value="<">&lt;</option></select> <input type="text" class="form-control" name="keyword_count" id="keyword_count" /><br/>
-        </div>
-        <div id="search_buttons" >
-            <span class="pull-right btn btn-default btn-sm" id="btn_search_more" title="More Options">
-                <button @click="showMore = !showMore">{{showMore ? "Fewer Filters" : "More Filters"}}</button>
-            </span>
-            <!-- <button type="submit" class="btn btn-success" onclick="$('#search').submit(); return false;"><i class="glyphicon glyphicon-search"></i>Search</button> 
-            <input type="reset" class="btn btn-default" name="reset" id="reset" value="Reset" onclick="$('#div_reset').load('tri.php?tri=reset'); $('.tri').html('');" /> -->
-            <div id="div_reset"></div>
-        </div>
-    </div>
-</div>
+		</div>
+            <div class="clear"></div>
+	</div>
 </template>
 
 <script>
-
 export default {
-  name: 'Ultra',
-  data() {
-      return {
-          rarities: ['Common', 'Uncommon', 'Rare', 'Ultra Rare', 'Promo'],
-          symbols: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
-          sets: [ '2020Promo', 'DLC'],
-          zones: ["high", "mid", "low"],
-          keywords: ['Weapon', 'Combo', 'Ally', 'Reversal', 'Stun', 'Breaker', 'Unique', 'Ranged', 'Throw', 'Kick', 'Multiple', 'Desperation', 
-            'Terrain', 'Punch', 'Powerful', 'Only', 'Taunt', 'Flash', 'Safe', 'Slam', 'Charge', 'Fury', 'Tech', 'EX', 'Deadlock', 'Gauge'
-          ],
-          showMore: false
+    name: "CardDetail",
+    props: {
+      data: Object
+      // should I store the image locally rather than setting it on the data? is this fucky somehow?
+    },
+    created() {
+      this.getImage()
+    },
+    data() {
+      return { 
+        // big: false
       }
-  },
-  methods: {
-      capitalize(str) {
-          return str.charAt(0).toUpperCase() + str.slice(1)
-      }
-  }
+    },
+    methods: {
+      getImage() {
+        // https://stackoverflow.com/questions/50659676/how-to-load-image-src-url-in-vuejs-asyncronously
+        setTimeout(() => {
+          this.data.img = require('@/assets/card_images/' + this.data.asset);
+        }, 1000)
+      },
+      // async decorateWithImg(card) {
+      //   if (card.asset && !card.img) {
+      //     // TODO We really ought to not crash the whole display if a card is missing
+      //     card.img = await require('@/assets/card_images/' + card.asset);
+      //   }
+      //   // FIXME this is a hack
+      //   if (!card.Id && card.Name) {
+      //     card.Id = "Future$" + card.Name
+      //   }
+      //   return card
+      // },
+      increment() {
+        this.$store.commit('increment', this.data)
+      },
+      decrement() {
+        this.$store.commit('decrement', this.data)
+      },
+    }
 }
 </script>
 
-<style>
-body
+<style scoped>
+    .preview {
+      max-height: 50;
+      display: inline-block;
+      margin: auto;
+    }
+    
+    .cardstats {
+      display: inline-block;
+      width: 50
+    }
+
+    .card-detail {
+        background: #f4f4f4;
+        padding: 10px;
+        border-bottom: 1px #ccc dotted;
+    }
+
+    body
 {
     font-family : arial;
     background-color : #D9D9D9;
@@ -208,6 +241,25 @@ img.ci-micro_image
 	border-radius: 2px;
 	box-shadow: 0 1px 2px #666;
 	vertical-align: bottom;
+}
+
+#ajax_load
+{
+	display: none;
+	/* background: url('../images/ajax-loader.gif'); */
+	width: 16px;
+	height: 16px;
+    margin-left: 482px;
+    margin-top: 5px;
+}
+
+.deck_ajax_load
+{
+	display: none;
+	/* background: url('../images/ajax-loader.gif'); */
+	width: 16px;
+	height: 16px;
+    margin: auto;
 }
 
 .deck-info
@@ -408,6 +460,11 @@ img.ci-micro_image
     width : 200px;
 }
 
+#search_more
+{
+	display : none;
+}
+
 #btn_search_more
 {
 	margin-right: 5px;
@@ -485,6 +542,55 @@ input
     color : black;
 }
 
+/* ICONS */
+.report_error
+{
+    /* background : url('../images/icons/report_an_error.png'); */
+    display : block;
+    width : 16px;
+    height : 16px;
+    margin : auto;
+    margin-bottom : 2px;
+}
+
+.set_card
+{
+    /* background : url('../images/icons/set_card.png'); */
+    display : block;
+    width : 18px;
+    height : 24px;
+    margin : auto;
+    margin-bottom : 2px;
+}
+
+.set_card_deck
+{
+    /* background : url('../images/icons/set_card.png') no-repeat scroll right 0; */
+    display : inline-block;
+    width : 100px;
+    height : 24px;
+    margin : auto;
+    margin-bottom : 2px;
+    vertical-align : middle;
+}
+
+.edit_card
+{
+    /* background : url('../images/icons/edit.png'); */
+    display : block;
+    width : 14px;
+    height : 16px;
+    margin : auto;
+}
+
+.edit_deck
+{
+    /* background : url('../images/icons/edit.png'); */
+    display : inline-block;
+    width : 14px;
+    height : 16px;
+}
+
 .deck-actions .pull-right
 {
 	margin-right : 15px;
@@ -544,6 +650,7 @@ table th {
 }
 
 .ui-resizable-s { 
+	/* background:#EEEEEE url(../images/grippie.png) no-repeat scroll center 2px; */
 	border-top:1px solid #CCCCCC;
 	bottom:-5px;
 	cursor:s-resize;
@@ -1134,5 +1241,4 @@ label
 	clear : both;
 	text-align: center;
 }
-
 </style>
