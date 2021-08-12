@@ -5,7 +5,7 @@
           @click="increment()" @click.right="decrement" @contextmenu.prevent />
       </div>
       <div class="cardstats">{{data}}</div>
-    </div>
+	</div>
 </template>
 
 <script>
@@ -13,6 +13,10 @@ export default {
     name: "CardDetail",
     props: {
       data: Object
+      // should I store the image locally rather than setting it on the data? is this fucky somehow?
+    },
+    created() {
+      this.getImage()
     },
     data() {
       return { 
@@ -20,6 +24,23 @@ export default {
       }
     },
     methods: {
+      getImage() {
+        // https://stackoverflow.com/questions/50659676/how-to-load-image-src-url-in-vuejs-asyncronously
+        setTimeout(() => {
+          this.data.img = require('@/assets/card_images/' + this.data.asset);
+        }, 1)
+      },
+      // async decorateWithImg(card) {
+      //   if (card.asset && !card.img) {
+      //     // TODO We really ought to not crash the whole display if a card is missing
+      //     card.img = await require('@/assets/card_images/' + card.asset);
+      //   }
+      //   // FIXME this is a hack
+      //   if (!card.Id && card.Name) {
+      //     card.Id = "Future$" + card.Name
+      //   }
+      //   return card
+      // },
       increment() {
         this.$store.commit('increment', this.data)
       },
@@ -32,9 +53,13 @@ export default {
 
 <style scoped>
     .preview {
-      max-height: 50;
       display: inline-block;
       margin: auto;
+        max-width : 50vw;
+        max-height : 25vh;
+        border-radius: 5px;
+        box-shadow: 0 2px 3px #666;
+        vertical-align: bottom;
     }
     
     .cardstats {

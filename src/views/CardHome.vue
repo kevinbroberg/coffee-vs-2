@@ -93,7 +93,7 @@ export default {
   },
   computed: {
     filteredCards() {
-      return this.cardData.filter(card => this.allFiltersMatch(card)).map(this.decorateWithImg)
+      return this.cardData.filter(card => this.allFiltersMatch(card))//.map(this.decorateWithImg)
     },
     resultsCount() {
       return this.filteredCards.length
@@ -103,16 +103,6 @@ export default {
     }
   },
   methods: {
-    decorateWithImg(card) {
-      if (card.asset && !card.img) {
-        // TODO We really ought to not crash the whole display if a card is missing
-        card.img = require('@/assets/card_images/' + card.asset);
-      }
-      if (!card.Id && card.Name) {
-        card.Id = "Future$" + card.Name
-      }
-      return card
-    },
     addAllToDeck() {
         if (this.filteredCards.length > 200) {
             // TODO just don't show the button unless they meet this criteria? Show a different one instead?
