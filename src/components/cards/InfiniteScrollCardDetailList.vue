@@ -7,6 +7,7 @@
 
 <script>
 import CardDetail from './CardDetail.vue'
+import UltraCardDetail from './UltraCardDetail.vue'
 import ListScroller from 'vue-list-scroller'
 
 export default {
@@ -18,7 +19,8 @@ export default {
         return {
             scrollLimit: 3,
             scrollPageSize: 10,
-            item: CardDetail
+            item: UltraCardDetail,
+            alternateItem: CardDetail // TODO switch components at runtime
         }
     },
     computed: {

@@ -6,8 +6,7 @@
       <div class="card_image" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
         <img class="preview mini_image" 
           :src="(data.img || 'loading.png')" 
-          :alt="data.Name"
-          @click="increment()" @click.right="decrement" @contextmenu.prevent
+          :alt="data.Name" @click="increment()" @click.right="decrement" @contextmenu.prevent
           />
       </div>
       <div class="card_infos">
@@ -22,43 +21,25 @@
           </div>
       </div>
     <div class="card_division cd1">
-        Set Extension# - <span title="Date of Expansion release"><a href="extension_pdf.php?id=<?php echo $card->get_id_extension(); ?>" 
-          title="Extension PDF for : <?php echo $list_extensions[$card->get_id_extension()]['name']; ?>">Name of Extension goes here</a></span><br />
-        Universe - Block $Extension.Block<br />
-        <!-- display formats --><br />
-        <!-- if card has rochester data -->
-        <span class="glyphicon glyphicon-star"></span> <a :href="data.RochesterURL">View on RochesterCCG</a><br />
-        <a href="deck_with_card.php?id=<?php echo $card->get_id(); ?>"><span class="glyphicon glyphicon-list"></span> Decks with this card</a><br />
-        <a href="showcard.php?id=<?php echo $card->get_id(); ?>"><span class="glyphicon glyphicon-arrow-right"></span> Direct Link</a>
-    </div>
-    <div class="card_division cd2" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
-      <!-- display keywords: not presently -->
-        {{data.CardText ||"Missing text"}}><br />
-    </div>
-    <div class="card_division cd3" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
-        {{data.Resources}}<br />
-        {{data.Control}}<br />
-        {{data.Difficulty}}<br />
-        <div class="hasblock" v-if="data['Block Zone']">
-          <!-- FIXME interpolate {{data['Block Zone']}} -->
-          Block : +{{data['Block Modifier']}}  <img src="images/icons/blockmid.png" title="Block" style="vertical-align : -3px;" />'<br />
-        </div>
-        Attack : SKIP 
-        <!-- <?php if(is_null($card->get_damage())) echo '-'; else echo $card->get_speed().' <img src="images/icons/block'.$card->get_attack_zone().'.png" 
-          title="'.$card->get_attack_zone().'" style="vertical-align : -3px;" /> / '.$card->get_damage(); ?>-->
-          <br /> 
+        <Elements v-bind:card=data />
+        {{data.Difficulty}} Difficulty {{data.Control}} Control<br />
+        <BlockData v-bind:card=data />
+        <AttackData v-bind:card=data />
         <div class="ischaracter" v-if="data['Type'] == 'Character'" >
             Handsize : {{data['Hand Size']}} <br />
             Vitality : {{data['Vitality']}} <br />
         </div>
+        <span v-if="myQty > 0" class="badge badge-success">Quantity in Deck {{myQty}}</span>
+    </div>
+    <div class="card_division cd2" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
+      <!-- display keywords: not presently -->
+        {{data.CardText ||"Missing text"}}<br />
+    </div>
+    <div class="card_division cd3" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
     </div>
                 <div class="card_division actions">
-                    <!-- if user has a deck -->
-                        <!-- if(array_key_exists($card->get_id(), $deck_cards)) -->
-                        $dc = '<span class="badge badge-success">X{{data.qty}}</span>'; <!-- shows # of copies of this card in the deck -->
-                        $deck_link = '&id_deck_card='.$deck_cards[$card->get_id()]['id_deck_card'];
-                        <!-- $sticky_js .= '$("#set_card_'.$card->get_id().'").cluetip({sticky : true, activation : "click", showTitle : false, titleAttribute: "alt", closeText : "", leftOffset: 0, topOffset : 0, cursor : "cursor"});'; -->
                     
+
                     <div class="btn-toolbar">
                         <div class="btn-group btn-group-vertical">
                             <!-- if user has a deck -->
@@ -89,14 +70,29 @@
 </template>
 
 <script>
+import BlockData from '@/components/cards/detail/BlockData'
+import AttackData from '@/components/cards/detail/AttackData'
+import Elements from '@/components/cards/detail/Elements'
+
 export default {
     name: "CardDetail",
+    components: {
+        BlockData,
+        AttackData,
+        Elements
+    },
     props: {
       data: Object
       // should I store the image locally rather than setting it on the data? is this fucky somehow?
     },
     created() {
       this.getImage()
+    },
+    computed: {
+      myQty() {
+        let card = this.$store.state.deck[this.data.Id]
+        return card ? card.qty : 0
+      } 
     },
     data() {
       return { 
@@ -106,9 +102,10 @@ export default {
     methods: {
       getImage() {
         // https://stackoverflow.com/questions/50659676/how-to-load-image-src-url-in-vuejs-asyncronously
+        // I am starting to think ^ is dubious...
         setTimeout(() => {
           this.data.img = require('@/assets/card_images/' + this.data.asset);
-        }, 1000)
+        }, 10)
       },
       // async decorateWithImg(card) {
       //   if (card.asset && !card.img) {
@@ -213,6 +210,14 @@ input[type=checkbox], input[type=radio]
 .pagination
 {
     text-align : center;
+}
+
+img.full_image
+{
+    max-width : 80;
+    max-height : 50;
+    
+	vertical-align: bottom;
 }
 
 img.mini_image
