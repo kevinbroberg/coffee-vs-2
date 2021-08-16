@@ -27,7 +27,7 @@ export default {
       getImage() {
         // https://stackoverflow.com/questions/50659676/how-to-load-image-src-url-in-vuejs-asyncronously
         setTimeout(() => {
-          this.data.img = require('@/assets/card_images/' + this.data.asset);
+          this.data.img = require('@/images/card_images/' + this.data.asset);
         }, 1)
       },
       // async decorateWithImg(card) {
