@@ -72,9 +72,8 @@ export default {
       symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
       formatOptions: ["standard", "retro", "future", "universal"],
       // reactive options (to the cards overall, if not universally to the current set of filtered ones)
-      originOptions: [],
       typeOptions: [],
-      textOptions: [],
+      // selections
       nameSelection: this.query.nameSelection       ? this.query.nameSelection : '',
       textSelection: this.query.textSelection       ? this.query.textSelection : '',
       selectedSymbols: this.query.selectedSymbols   ? JSON.parse(this.query.selectedSymbols) : [],
@@ -87,9 +86,7 @@ export default {
     }
   },
   created() {
-      this.originOptions = [...new Set(this.filteredCards.map(card => card.extension))]
-      this.typeOptions = [...new Set(this.filteredCards.map(card => card.type))]
-      this.textOptions = ["NONE", ...new Set(this.filteredCards.map(c => c.text))]
+      this.typeOptions = [...new Set(this.cardData.map(card => card.type))]
   },
   computed: {
     filteredCards() {
@@ -100,6 +97,12 @@ export default {
     },
     nameOptions() {
       return this.filteredCards.map(c => c.name)
+    },
+    originOptions() {
+      return [...new Set(this.filteredCards.map(card => card.extension))]
+    },
+    textOptions() {
+      return ["NONE", ...new Set(this.filteredCards.map(c => c.text))]
     }
   },
   methods: {
