@@ -35,21 +35,21 @@ export default {
     data() {
         return {
             columns: [
-                {'field': 'Name', 'label': 'Name'},
+                {'field': 'name', 'label': 'Name'},
                 {'field': 'qty', 'label': 'Quantity'},
-                {'field': 'Type', 'label': 'Type'},
-                {'field': 'Difficulty', 'label': 'Difficulty', type: 'number' },
-                {'field': 'Control', 'label': 'Control', type: 'number' },
-                {'field': 'Set', 'label': 'Set'},
-                {'field': 'Block Modifier', 'label': 'Block Modifier', type: 'number' },
-                {'field': 'Block Zone', 'label': 'Block Zone'},
-                {'field': 'Attack Zone', 'label': 'Attack Zone'},
-                {'field': 'Speed', 'label': 'Speed', type: 'number' },
-                {'field': 'Damage', 'label': 'Damage', type: 'number' },
-                //{'field': 'Vitality', 'label': 'Vitality', type: 'number' },
-                //{'field': 'Hand Size', 'label': 'Hand Size', type: 'number' },
-                {'field': 'Resources', 'label': 'Resources'},
-                {'field': 'CardText', 'label': 'CardText'},
+                {'field': 'type', 'label': 'Type'},
+                {'field': 'difficulty', 'label': 'Difficulty', type: 'number' },
+                {'field': 'control', 'label': 'Control', type: 'number' },
+                {'field': 'extension', 'label': 'Set'},
+                {'field': 'block_modifier', 'label': 'Block Modifier', type: 'number' },
+                {'field': 'block_zone', 'label': 'Block Zone'},
+                {'field': 'attack_zone', 'label': 'Attack Zone'},
+                {'field': 'speed', 'label': 'Speed', type: 'number' },
+                {'field': 'damage', 'label': 'Damage', type: 'number' },
+                //{'field': 'vitality', 'label': 'Vitality', type: 'number' },
+                //{'field': 'hand Size', 'label': 'Hand Size', type: 'number' },
+                {'field': 'resources', 'label': 'Resources'},
+                {'field': 'text', 'label': 'Text'},
             ]
         }
     },
@@ -59,7 +59,7 @@ export default {
         },
         deckGroupedByTypes() {
             let myCards = this.stateDeck
-            let groups = [...new Set(myCards.map(card => card.Type))]
+            let groups = [...new Set(myCards.map(card => card.type))]
             return groups.map(g => this.groupedRows(myCards, g))
         }
     },
@@ -75,12 +75,12 @@ export default {
                 mode: 'span',
                 label: type,
                 html: false, 
-                children: cards.filter(c => c.Type == type)
+                children: cards.filter(c => c.type == type)
             }
         },
         
         deckAsText() {
-            return this.download("deck.txt", this.stateDeck.map(c => c.qty + " " + c.Name).join('\n'))
+            return this.download("deck.txt", this.stateDeck.map(c => c.qty + " " + c.name).join('\n'))
         },
         download(filename, contents) {
             var element = document.createElement('a');

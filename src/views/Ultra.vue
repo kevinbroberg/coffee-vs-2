@@ -38,7 +38,7 @@
         </select><br />
         <strong class="search-label-big">Resource Symbol</strong> <input type="checkbox" name="ressource_match_all" id="ressource_match_all" /> <label for="ressource_match_all"><small>Match All Selected Resources</small></label>
         <div id="rs_div">
-            <div v-for="symbol in symbols" :key=symbol class="float_rs"><input type="checkbox" name="rs[]" :value=symbol v-bind:id="'rs_' + symbol"><label v-bind:for="'rs_' + symbol"><img v-bind:src="require('@/assets/icons/' + symbol.toLowerCase() + '.png')" style="vertical-align -1px;" /> {{symbol}}</label></div>
+            <div v-for="symbol in symbols" :key=symbol class="float_rs"><input type="checkbox" name="rs[]" :value=symbol v-bind:id="'rs_' + symbol"><label v-bind:for="'rs_' + symbol"><img v-bind:src="require('@/images/' + symbol.toLowerCase() + '.png')" style="vertical-align -1px;" /> {{symbol}}</label></div>
         </div><br />
     </div>
     <div id="search_infos">

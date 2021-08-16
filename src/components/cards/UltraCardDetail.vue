@@ -5,41 +5,38 @@
     <div>
       <div class="card_image" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
         <img class="preview mini_image" 
-          :src="(data.img || 'loading.png')" 
-          :alt="data.Name" @click="increment()" @click.right="decrement" @contextmenu.prevent
+          :src="data.img" 
+          :alt="data.name" @click="increment()"
           />
       </div>
       <div class="card_infos">
       <!-- UFSUltra had a timer to render -->
       <!-- TODO colorbox; it should have easy click buttons for each quantity! -->
       <div class="card_title" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});"> 
-          <h1>{{data.Name}}</h1>
+          <h1>{{data.name}}</h1>
           <div class="card-important-info">
-            <!-- class="label card-list-{{data.Type}}" but interpolation inside attributes is not an option. FIXME-->
-              <span class="label card-list">{{data.Type}}</span><br />
-              {{data.Rarity || ""}}
+              <span class="label" :class="'card-list-' + data.type">{{data.type}}</span><br />
+              {{data.rarity || ""}}
           </div>
       </div>
     <div class="card_division cd1">
         <Elements v-bind:card=data />
-        {{data.Difficulty}} Difficulty {{data.Control}} Control<br />
+        {{data.difficulty}} Difficulty {{data.control}} Control<br />
         <BlockData v-bind:card=data />
         <AttackData v-bind:card=data />
-        <div class="ischaracter" v-if="data['Type'] == 'Character'" >
-            Handsize : {{data['Hand Size']}} <br />
-            Vitality : {{data['Vitality']}} <br />
+        <div class="ischaracter" v-if="data['type'] == 'character'" >
+            Handsize : {{data['hand_size']}} <br />
+            Vitality : {{data['vitality']}} <br />
         </div>
         <span v-if="myQty > 0" class="badge badge-success">Quantity in Deck {{myQty}}</span>
     </div>
     <div class="card_division cd2" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
       <!-- display keywords: not presently -->
-        {{data.CardText ||"Missing text"}}<br />
+        {{data.text ||"Missing text"}}<br />
     </div>
     <div class="card_division cd3" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
     </div>
                 <div class="card_division actions">
-                    
-
                     <div class="btn-toolbar">
                         <div class="btn-group btn-group-vertical">
                             <!-- if user has a deck -->
@@ -90,13 +87,12 @@ export default {
     },
     computed: {
       myQty() {
-        let card = this.$store.state.deck[this.data.Id]
+        let card = this.$store.state.deck[this.data.asset]
         return card ? card.qty : 0
       } 
     },
     data() {
       return { 
-        // big: false
       }
     },
     methods: {
@@ -104,20 +100,9 @@ export default {
         // https://stackoverflow.com/questions/50659676/how-to-load-image-src-url-in-vuejs-asyncronously
         // I am starting to think ^ is dubious...
         setTimeout(() => {
-          this.data.img = require('@/assets/card_images/' + this.data.asset);
+          this.data.img = require('@/images/card_images/' + this.data.asset);
         }, 10)
       },
-      // async decorateWithImg(card) {
-      //   if (card.asset && !card.img) {
-      //     // TODO We really ought to not crash the whole display if a card is missing
-      //     card.img = await require('@/assets/card_images/' + card.asset);
-      //   }
-      //   // FIXME this is a hack
-      //   if (!card.Id && card.Name) {
-      //     card.Id = "Future$" + card.Name
-      //   }
-      //   return card
-      // },
       increment() {
         this.$store.commit('increment', this.data)
       },
@@ -310,7 +295,7 @@ img.ci-micro_image
 	clear : both;
 	border : 1px solid #989DB3;
 	padding-top : 3px;
-	width : 870px;
+	/* width : 870px; */
 }
 
 .odd
@@ -337,7 +322,7 @@ img.ci-micro_image
 
 .card_infos
 {
-	width : 710px;
+	width : 715px;
 	float : left;
 }
 

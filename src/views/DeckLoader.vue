@@ -22,7 +22,7 @@ export default {
   },
   components: { FileReader },
   created() {
-    this.text = Object.values(this.$store.state.deck).map(c => '' + c.qty + ' ' + c.Name).join('\n')
+    this.text = Object.values(this.$store.state.deck).map(c => '' + c.qty + ' ' + c.name).join('\n')
   },
   methods: {
     showTextLoadDeck(ev) {
@@ -39,11 +39,11 @@ export default {
         .map(s => s.match(regex))
         .filter(i => i)
       // .map(g => `${g[1]}x of ${g[2]}`)
-      for(let idx in main) {
+      for (let idx in main) {
         let match = main[idx]
         let qty = Number.parseInt(match[1])
         // O(N*C) where C is # cards in the 'database', N is # of cards in your deck. I assume this will be awful performance but NO PREMATURE OPTIMIZATION
-        // it's not even fucking slow. damn it all
+        // later-me finds: it's not even fucking slow. damn it all
         let actualCard = null
         for (let key in cards) { 
           if (cards[key].Name.toLowerCase() == match[2].toLowerCase()) { // TODO better case insensitive

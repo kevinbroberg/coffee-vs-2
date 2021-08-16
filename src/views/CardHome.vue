@@ -70,7 +70,7 @@ export default {
     return {
       // TODO do these symbol options belong elsewhere? Could they be reactive to the filtered cards?
       symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
-      formatOptions: ["Standard", "Retro", "Playtest", "Future", "Universal"],
+      formatOptions: ["standard", "retro", "Playtest", "future", "universal"],
       // reactive options (to the cards overall, if not universally to the current set of filtered ones)
       originOptions: [],
       typeOptions: [],
@@ -82,24 +82,24 @@ export default {
       selectedSymbols3: this.query.selectedSymbols3 ? JSON.parse(this.query.selectedSymbols3) : [],
       selectedOrigins: this.query.selectedOrigins   ? JSON.parse(this.query.selectedOrigins) : [],
       selectedTypes:   this.query.selectedTypes     ? JSON.parse(this.query.selectedTypes) : [],
-      selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : ["Standard"],
+      selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : ["standard"],
       cardData: cards
     }
   },
   created() {
-      this.originOptions = [...new Set(this.cardData.map(card => card.Set))]
-      this.typeOptions = [...new Set(this.cardData.map(card => card.Type))]
-      this.textOptions = ["NONE", ...new Set(this.filteredCards.map(c => c.CardText))]
+      this.originOptions = [...new Set(this.filteredCards.map(card => card.extension))]
+      this.typeOptions = [...new Set(this.filteredCards.map(card => card.type))]
+      this.textOptions = ["NONE", ...new Set(this.filteredCards.map(c => c.text))]
   },
   computed: {
     filteredCards() {
-      return this.cardData.filter(card => this.allFiltersMatch(card))//.map(this.decorateWithImg)
+      return this.cardData.filter(card => this.allFiltersMatch(card))
     },
     resultsCount() {
       return this.filteredCards.length
     },
     nameOptions() {
-      return this.filteredCards.map(c => c.Name)
+      return this.filteredCards.map(c => c.name)
     }
   },
   methods: {
@@ -132,7 +132,7 @@ export default {
     symbolFilterGenerator(selections){ 
       return (card) => {
         if (selections && selections.length > 0) {
-          return card.Resources.some(sym => selections.includes(sym))
+          return card.resources.some(sym => selections.includes(sym.toLowerCase()))
         } else {
           return true
         }
@@ -140,22 +140,22 @@ export default {
     },
     originMatchFilter(card) {
       if (this.selectedOrigins && this.selectedOrigins.length > 0) {
-        return this.selectedOrigins.includes(card.Set)
+        return this.selectedOrigins.includes(card.extension)
       } else {
         return true
       }
     },
     typeMatchFilter(card) {
       if (this.selectedTypes && this.selectedTypes.length > 0) {
-        return this.selectedTypes.includes(card.Type)
+        return this.selectedTypes.includes(card.type)
       } else {
         return true
       }
     },
     formatMatchFilter(card) {
         if (this.selectedFormats && this.selectedFormats.length > 0) {
-          return card.Formats && 
-            card.Formats.some(format => this.selectedFormats.includes(format))
+          return card.formats && 
+            card.formats.some(format => this.selectedFormats.includes(format))
         } else {
           return true
         }
@@ -181,7 +181,7 @@ export default {
         let frontanchor = this.nameSelection.startsWith('^') ? '^' : '.*'
         let backanchor = this.nameSelection.endsWith('$') ? '$' : '.*'
         const regex = new RegExp(frontanchor + this.nameSelection + backanchor, 'i')
-        return regex.test(card.Name)
+        return regex.test(card.name)
       } else {
         return true
       }
@@ -189,12 +189,12 @@ export default {
     textFilter(card) {
       if (this.textSelection && this.textSelection.length > 0) {
         if (this.textSelection == "NONE") {
-          return !card.CardText
+          return !card.text
         } else {
             let frontanchor = this.textSelection.startsWith('^') ? '^' : '.*'
             let backanchor = this.textSelection.endsWith('$') ? '$' : '.*'
             const regex = new RegExp(frontanchor + this.textSelection + backanchor, 'i')
-            return regex.test(card.CardText)
+            return regex.test(card.text)
         }
       } else {
         return true
@@ -220,11 +220,11 @@ export default {
                      this.typeMatchFilter,
                      this.formatMatchFilter
                      ]
-      return filters.every(function(f){
+      return filters.every(function(f) {
         try {
             return f(card)
         } catch (e) {
-            console.error('Error on ' + card.Name + ': ' + e.message)
+            console.error('Error on ' + card.name + ': ' + e.message)
             return false
         }
       })
