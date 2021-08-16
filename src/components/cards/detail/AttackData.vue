@@ -1,6 +1,6 @@
 <template>
 <div class="isattack" v-if="card['type'] == 'attack'" >
-  Attack {{getSpeed()}} <img :src="getSource(rawzone)" title="Attack" style="vertical-align : -3px;" :alt="switchSource(rawzone)" /> {{getDamage()}} <br />
+  Attack {{getSpeed()}} <img :src="getZonePic()" title="Attack" style="vertical-align : -3px;" :alt="getZone()" /> {{getDamage()}} <br />
   </div>
 </template>
 
@@ -11,15 +11,18 @@ export default {
       card: Object
     },
     data() {
-      return { 
-        rawzone: this.card['attack_zone']
+      return {
       }
     },
     methods: {
-      getSource(s) {
-          return require('@/images/attack' + this.switchSource(s) + '.png')
+      getZonePic() {
+          return require('@/images/attack' + this.getZone() + '.png')
       },
-      switchSource(s) {
+      getZone() {
+        let s = this.card['attack_zone']
+        if(!s) {
+          return "unknown"
+        }
         s = s.toLowerCase();
         if (s.startsWith('h')) {
           return 'high';
