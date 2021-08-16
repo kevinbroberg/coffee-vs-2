@@ -46,7 +46,7 @@ export default {
         // later-me finds: it's not even fucking slow. damn it all
         let actualCard = null
         for (let key in cards) { 
-          if (cards[key].Name.toLowerCase() == match[2].toLowerCase()) { // TODO better case insensitive
+          if (cards[key].name.toLowerCase() == match[2].toLowerCase()) { // TODO better case insensitive
             console.log(`Found an actual match! ${cards[key]}`)
             actualCard = cards[key]
             break;
