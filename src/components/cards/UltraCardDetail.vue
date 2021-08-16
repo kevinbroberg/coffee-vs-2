@@ -31,7 +31,7 @@
         <span v-if="myQty > 0" class="badge badge-success">Quantity in Deck {{myQty}}</span>
     </div>
     <div class="card_division cd2" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
-      <!-- display keywords: not presently -->
+        <h4>{{(data.keywords ? data.keywords : []).join(' - ')}}</h4>
         {{data.text ||"Missing text"}}<br />
     </div>
     <div class="card_division cd3" onclick="$(this).colorbox({'href' : 'card.php?id=<?php echo $card->get_id(); ?>'});">
