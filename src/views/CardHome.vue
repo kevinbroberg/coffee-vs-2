@@ -70,7 +70,7 @@ export default {
     return {
       // TODO do these symbol options belong elsewhere? Could they be reactive to the filtered cards?
       symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
-      formatOptions: ["standard", "retro", "Playtest", "future", "universal"],
+      formatOptions: ["standard", "retro", "future", "universal"],
       // reactive options (to the cards overall, if not universally to the current set of filtered ones)
       originOptions: [],
       typeOptions: [],

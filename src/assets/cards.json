@@ -7,9 +7,7 @@
       "order"
     ],
     "formats": [
-      "standard",
-      "retro",
-      "universal"
+      "future"
     ],
     "control": "4",
     "difficulty": "2",
@@ -36,9 +34,7 @@
       "void"
     ],
     "formats": [
-      "standard",
-      "retro",
-      "universal"
+      "future"
     ],
     "control": "3",
     "difficulty": "5",
@@ -64,9 +60,7 @@
       "all"
     ],
     "formats": [
-      "standard",
-      "retro",
-      "universal"
+      "future"
     ],
     "control": "6",
     "difficulty": "6",
@@ -144,9 +138,7 @@
       "earth"
     ],
     "formats": [
-      "standard",
-      "retro",
-      "universal"
+      "future"
     ],
     "control": "6",
     "difficulty": "6",
@@ -1498,7 +1490,7 @@
       "all"
     ],
     "formats": [
-      "standard",
+      "standard banned",
       "retro",
       "universal"
     ],
@@ -2606,8 +2598,8 @@
       "void"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "2",
@@ -3425,7 +3417,7 @@
     ],
     "formats": [
       "standard",
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "3",
@@ -4203,8 +4195,8 @@
       "fire"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "3",
@@ -4765,8 +4757,8 @@
       "life"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "3",
@@ -8245,8 +8237,8 @@
       "fire"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "2",
@@ -14781,8 +14773,8 @@
       "all"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -16997,8 +16989,8 @@
       "water"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -17266,8 +17258,8 @@
       "order"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -17864,8 +17856,8 @@
       "life"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -20659,8 +20651,8 @@
       "good"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -22757,8 +22749,8 @@
       "evil"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -22817,7 +22809,7 @@
     ],
     "formats": [
       "standard",
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "3",
@@ -22925,8 +22917,8 @@
       "life"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -22979,8 +22971,8 @@
       "water"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -23141,8 +23133,8 @@
       "fire"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -25809,8 +25801,8 @@
       "water"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -27351,7 +27343,7 @@
     ],
     "formats": [
       "standard",
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "4",
@@ -36266,7 +36258,7 @@
       "life"
     ],
     "formats": [
-      "standard",
+      "standard banned",
       "retro",
       "universal"
     ],
@@ -38413,8 +38405,8 @@
       "water"
     ],
     "formats": [
-      "standard",
-      "retro",
+      "standard banned",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -42009,7 +42001,7 @@
       "void"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "4",
@@ -42534,8 +42526,6 @@
       "infinity"
     ],
     "formats": [
-      "retro",
-      "universal"
     ],
     "control": "4",
     "difficulty": "2",
@@ -44818,7 +44808,7 @@
       "order"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "5",
@@ -50440,7 +50430,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -52763,7 +52753,7 @@
       "infinity"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -53366,7 +53356,7 @@
       "good"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -53870,7 +53860,7 @@
       "life"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "5",
@@ -55969,7 +55959,7 @@
       "void"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -60065,7 +60055,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -63085,7 +63075,7 @@
       "void"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -63873,7 +63863,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "4",
@@ -64639,7 +64629,7 @@
       "fire"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -64717,7 +64707,7 @@
       "good"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -64848,7 +64838,7 @@
       "void"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "5",
@@ -67460,7 +67450,7 @@
       "good"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -67909,7 +67899,7 @@
       "void"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "5",
@@ -68835,7 +68825,7 @@
       "order"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "2",
@@ -75137,7 +75127,7 @@
       "death"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "4",
@@ -87653,7 +87643,7 @@
       "infinity"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "5",
@@ -87835,7 +87825,7 @@
       "good"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "4",
@@ -87959,7 +87949,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "4",
@@ -88487,7 +88477,7 @@
       "infinity"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "5",
@@ -88507,7 +88497,7 @@
       "infinity"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -88630,7 +88620,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "5",
@@ -88706,7 +88696,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -88810,7 +88800,7 @@
       "void"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -88834,7 +88824,7 @@
       "good"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -88863,7 +88853,7 @@
       "evil"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -88888,7 +88878,7 @@
       "death"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -88913,7 +88903,7 @@
       "life"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -88967,7 +88957,7 @@
       "air"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -88992,7 +88982,7 @@
       "void"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -89020,7 +89010,7 @@
       "earth"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -89046,7 +89036,7 @@
       "chaos"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -89428,7 +89418,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "1",
@@ -90334,7 +90324,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "3",
@@ -90362,7 +90352,7 @@
       "order"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "5",
@@ -90386,7 +90376,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "5",
@@ -90562,7 +90552,7 @@
       "evil"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
@@ -90640,7 +90630,7 @@
       "water"
     ],
     "formats": [
-      "retro",
+      "retro banned",
       "universal"
     ],
     "control": "6",
