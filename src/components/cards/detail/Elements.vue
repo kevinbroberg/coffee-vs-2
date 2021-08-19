@@ -15,7 +15,7 @@ export default {
             return require('@/images/' + this.switchSource(s) + '.png')
         },
         switchSource(s) {
-          return s.toLowerCase();
+          return s ? s.toLowerCase() : "";
       }
     }
 }

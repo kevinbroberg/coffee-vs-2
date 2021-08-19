@@ -14,9 +14,8 @@
                 {{props.formattedRow[props.column.field]}}
                 <button @click="decrementRow(props)" type="button">-</button>
             </span>
-            <span v-else-if="props.column.field == 'Resources'">
-                <!-- coming soon; replace with resource symbol icons -->
-                {{props.formattedRow[props.column.field]}}
+            <span v-else-if="props.column.field == 'resources'">
+                <Elements v-bind:card=props.formattedRow />
             </span>
             <span v-else>
                 {{props.formattedRow[props.column.field]}}
@@ -29,9 +28,13 @@
 <script>
 import 'vue-good-table/dist/vue-good-table.css'
 import { VueGoodTable } from 'vue-good-table';
+import Elements from '@/components/cards/detail/Elements'
 export default {
     name: "DeckDataGrid",
-    components: { VueGoodTable },
+    components: { 
+        VueGoodTable,
+        Elements
+    },
     data() {
         return {
             columns: [
