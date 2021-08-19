@@ -34,6 +34,11 @@
         </multiselect>
       </div>
       <div>
+        <multiselect v-model="selectedKeywords" :options="keywordOptions" :multiple="true" :close-on-select="false"
+            :clear-on-select="false" :searchable="true" placeholder="Filter by keyword">
+        </multiselect>
+      </div>
+      <div>
         <multiselect v-model="textSelection" :options="textOptions"
           tag-placeholder="Search for text" :taggable=true @tag="addTextTag"
           :close-on-select="true" :clear-on-select="false"
@@ -79,6 +84,7 @@ export default {
       selectedSymbols3: this.query.selectedSymbols3 ? JSON.parse(this.query.selectedSymbols3) : [],
       selectedOrigins: this.query.selectedOrigins   ? JSON.parse(this.query.selectedOrigins) : [],
       selectedTypes:   this.query.selectedTypes     ? JSON.parse(this.query.selectedTypes) : [],
+      selectedKeywords: this.query.selectedKeywords ? JSON.parse(this.query.selectedKeywords) : [],
       selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : ["standard"],
       cardData: cards
     }
@@ -86,6 +92,10 @@ export default {
   computed: {
     filteredCards() {
       return this.cardData.filter(card => this.allFiltersMatch(card))
+    },
+    typeOptions() {
+      // not reactive
+      return [...new Set(this.cardData.map(card => card.type))]
     },
     resultsCount() {
       return this.filteredCards.length
@@ -98,7 +108,10 @@ export default {
     },
     textOptions() {
       return ["NONE", ...new Set(this.filteredCards.map(c => c.text))]
-    }
+    },
+    keywordOptions() {
+      return [...new Set(this.filteredCards.map(card => card.keywords).flat())]
+    },
   },
   methods: {
     addAllToDeck() {
@@ -120,12 +133,13 @@ export default {
             "selectedSymbols3",
             "selectedOrigins",
             "selectedTypes",
+            "selectedKeywords",
             "selectedFormats"]
         let queryStr = fields.map(field => this[field] && this[field].length > 0 ? field + "=" + JSON.stringify(this[field]) : "")
             .filter(val => val.length > 0)
             .join("&")
 
-        let filterLink = location.origin + "/#" + this.$route.path + '?' + queryStr
+        let filterLink = location.origin + "/#" + this.$route.path + '?' + queryStr // TODO this looks sus
 
         await navigator.clipboard.writeText(filterLink)
     },
@@ -201,6 +215,13 @@ export default {
         return true
       }
     },
+    keywordFilter(card) {
+      if (this.selectedKeywords && this.selectedKeywords.length > 0) {
+        return card.keywords.some(keyword => this.selectedKeywords.includes(keyword))
+      } else {
+        return true
+      }
+    },
     clearFilters() {
       this.nameSelection = ''
       this.textSelection = ''
@@ -210,6 +231,7 @@ export default {
       this.selectedOrigins = []
       this.selectedTypes = []
       this.selectedFormats = []
+      this.selectedKeywords = []
     },
     allFiltersMatch(card) {
       let filters = [this.originMatchFilter, 
@@ -219,7 +241,8 @@ export default {
                      this.nameFilter,
                      this.textFilter,
                      this.typeMatchFilter,
-                     this.formatMatchFilter
+                     this.formatMatchFilter,
+                     this.keywordFilter
                      ]
       return filters.every(function(f) {
         try {
