@@ -9,17 +9,17 @@
         </multiselect>
       </div>
       <div>
-        <multiselect v-model="selectedSymbols" :options="symbolOptions" :multiple="true" :close-on-select="false" 
+        <multiselect v-model="selectedSymbols" :options="symbolOptions" :multiple="true" :close-on-select="false" :customLabel=initialCap
             :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
         </multiselect>
       </div>
       <div>
-        <multiselect v-model="selectedSymbols2" :options="symbolOptions" :multiple="true" :close-on-select="false"
+        <multiselect v-model="selectedSymbols2" :options="symbolOptions" :multiple="true" :close-on-select="false" :customLabel=initialCap
             :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
         </multiselect>
       </div>
       <div>
-        <multiselect v-model="selectedSymbols3" :options="symbolOptions" :multiple="true" :close-on-select="false"
+        <multiselect v-model="selectedSymbols3" :options="symbolOptions" :multiple="true" :close-on-select="false" :customLabel=initialCap
             :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
         </multiselect>
       </div>
@@ -29,7 +29,7 @@
         </multiselect>
       </div>
       <div>
-        <multiselect v-model="selectedTypes" :options="typeOptions" :multiple="true" :close-on-select="false" 
+        <multiselect v-model="selectedTypes" :options="typeOptions" :multiple="true" :close-on-select="false" :customLabel=initialCap
             :clear-on-select="false" :searchable="true" placeholder="Filter by card type">
         </multiselect>
       </div>
@@ -69,10 +69,8 @@ export default {
   data() {
     return {
       // TODO do these symbol options belong elsewhere? Could they be reactive to the filtered cards?
-      symbolOptions: ["Air", "All", "Chaos", "Death", "Earth", "Evil", "Fire", "Good", "Infinity", "Life", "Order", "Void", "Water"],
+      symbolOptions: ["air", "all", "chaos", "death", "earth", "evil", "fire", "good", "infinity", "life", "order", "void", "water"],
       formatOptions: ["standard", "retro", "future", "universal"],
-      // reactive options (to the cards overall, if not universally to the current set of filtered ones)
-      typeOptions: [],
       // selections
       nameSelection: this.query.nameSelection       ? this.query.nameSelection : '',
       textSelection: this.query.textSelection       ? this.query.textSelection : '',
@@ -84,9 +82,6 @@ export default {
       selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : ["standard"],
       cardData: cards
     }
-  },
-  created() {
-      this.typeOptions = [...new Set(this.cardData.map(card => card.type))]
   },
   computed: {
     filteredCards() {
@@ -113,6 +108,9 @@ export default {
         } else {
             this.filteredCards.forEach(c => this.$store.commit('increment', c))
         }
+    },
+    initialCap([first, ...rest]) {
+      return first.toUpperCase() + rest.join('')
     },
     async copyFilterLink() {
         let fields = ["nameSelection",
