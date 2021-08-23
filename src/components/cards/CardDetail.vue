@@ -30,17 +30,6 @@ export default {
           this.data.img = require('@/images/card_images/' + this.data.asset);
         }, 1)
       },
-      // async decorateWithImg(card) {
-      //   if (card.asset && !card.img) {
-      //     // TODO We really ought to not crash the whole display if a card is missing
-      //     card.img = await require('@/assets/card_images/' + card.asset);
-      //   }
-      //   // FIXME this is a hack
-      //   if (!card.Id && card.Name) {
-      //     card.Id = "Future$" + card.Name
-      //   }
-      //   return card
-      // },
       increment() {
         this.$store.commit('increment', this.data)
       },
