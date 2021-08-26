@@ -35,6 +35,7 @@
       </div>
       <div>
         <multiselect v-model="selectedKeywords" :options="keywordOptions" :multiple="true" :close-on-select="false"
+            tag-placeholder="Search keywords" :taggable=true @tag="addKeywordTag"
             :clear-on-select="false" :searchable="true" placeholder="Filter by keyword">
         </multiselect>
       </div>
@@ -46,7 +47,7 @@
         </multiselect>
       </div>
       <div>
-        <multiselect v-model="selectedFormats" :options="formatOptions" :multiple="true" :close-on-select="false"
+        <multiselect v-model="selectedFormats" :options="formatOptions" :multiple="true" :close-on-select="false" :customLabel=initialCap
             :clear-on-select="false" :searchable="false" placeholder="Filter by format">
         </multiselect>
       </div>
@@ -86,6 +87,9 @@ export default {
       selectedTypes:   this.query.selectedTypes     ? JSON.parse(this.query.selectedTypes) : [],
       selectedKeywords: this.query.selectedKeywords ? JSON.parse(this.query.selectedKeywords) : [],
       selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : ["standard"],
+      nameTags: [],
+      keywordTags: [],
+      textTags: [],
       cardData: cards
     }
   },
@@ -101,7 +105,7 @@ export default {
       return this.filteredCards.length
     },
     nameOptions() {
-      return this.filteredCards.map(c => c.name)
+      return [...this.nameTags, ...this.textTags, ...this.filteredCards.map(c => c.name)]
     },
     originOptions() {
       return [...new Set(this.filteredCards.map(card => card.extension))]
@@ -110,7 +114,7 @@ export default {
       return ["NONE", ...new Set(this.filteredCards.map(c => c.text))]
     },
     keywordOptions() {
-      return [...new Set(this.filteredCards.map(card => card.keywords).flat())]
+      return [...this.keywordTags, ...new Set(this.filteredCards.map(card => card.keywords).flat())]
     },
   },
   methods: {
@@ -122,7 +126,7 @@ export default {
             this.filteredCards.forEach(c => this.$store.commit('increment', c))
         }
     },
-    initialCap([first, ...rest]) {
+    initialCap([first, ...rest]) { // I LOVE destructuring but this has bad edge case handling
       return first.toUpperCase() + rest.join('')
     },
     async copyFilterLink() {
@@ -180,7 +184,7 @@ export default {
         name: newTag,
         code: Math.floor((Math.random() * 10000000))
       }
-      this.nameOptions.push(tag)
+      this.nameTags.push(tag)
       this.nameSelection = newTag
     },
     addTextTag(newTag) {
@@ -188,8 +192,16 @@ export default {
         name: newTag,
         code: Math.floor((Math.random() * 10000000))
       }
-      this.textOptions.push(tag)
+      this.textTags.push(tag)
       this.textSelection = newTag
+    },
+    addKeywordTag(newTag) {
+      let tag = {
+        name: newTag,
+        code: Math.floor((Math.random() * 10000000))
+      }
+      this.keywordTags.push(tag)
+      this.selectedKeywords.push(newTag)
     },
     nameFilter(card) {
       if (this.nameSelection && this.nameSelection.length > 0) {
@@ -217,7 +229,7 @@ export default {
     },
     keywordFilter(card) {
       if (this.selectedKeywords && this.selectedKeywords.length > 0) {
-        return card.keywords.some(keyword => this.selectedKeywords.includes(keyword))
+        return card.keywords && card.keywords.some(cardKeyword => this.selectedKeywords.some(choice => cardKeyword.includes(choice)))
       } else {
         return true
       }
