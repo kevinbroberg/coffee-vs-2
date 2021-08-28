@@ -222,7 +222,7 @@
     "name": "Reverberate",
     "keywords": [
       "Charge",
-      "ReversalSela ",
+      "Sela Reversal",
       "Multiple: 2"
     ],
     "resources": [
@@ -611,7 +611,7 @@
     "keywords": [
       "Weapon",
       "Breaker: 2",
-      "Combo(Weapon, Weapon)"
+      "Combo (Weapon, Weapon)"
     ],
     "resources": [
       "earth",
@@ -1118,7 +1118,7 @@
     "keywords": [
       "Charge",
       "Ranged",
-      "Combo(Ranged)"
+      "Combo (Ranged)"
     ],
     "resources": [
       "water",
@@ -1204,7 +1204,7 @@
       "Charge",
       "Multiple: 3",
       "Stun: 1",
-      "Combo(Stun, Stun)"
+      "Combo (Stun, Stun)"
     ],
     "resources": [
       "fire",
@@ -2289,7 +2289,7 @@
     "keywords": [
       "Fury",
       "Weapon",
-      "Combo(Weapon)"
+      "Combo (Weapon)"
     ],
     "resources": [
       "death",
@@ -2769,7 +2769,7 @@
       "Fury",
       "Powerful: 3",
       "Weapon",
-      "Combo(Fury)"
+      "Combo (Fury)"
     ],
     "resources": [
       "death",
@@ -2803,9 +2803,9 @@
     "name": "Scratch Glissando",
     "keywords": [
       "Fury",
-      "Kick ",
+      "Kick",
       "Reversal",
-      "Combo(Weapon) "
+      "Combo (Weapon)"
     ],
     "resources": [
       "death",
@@ -2841,7 +2841,7 @@
       "Fury",
       "Weapon",
       "Desperation: 3",
-      "Combo(Fury)"
+      "Combo (Fury)"
     ],
     "resources": [
       "death",
@@ -2876,7 +2876,7 @@
     "keywords": [
       "Fury",
       "Weapon",
-      "Combo(Fury)"
+      "Combo (Fury)"
     ],
     "resources": [
       "death",
@@ -3056,7 +3056,7 @@
       "Punch",
       "Multiple: 2",
       "Weapon",
-      "Combo(Charge)"
+      "Combo (Charge)"
     ],
     "resources": [
       "air",
@@ -3089,10 +3089,10 @@
   {
     "name": "Rapid Gale Barrage",
     "keywords": [
-      "Charge ",
+      "Charge",
       "Reversal",
       "Weapon",
-      "Combo(Combo)"
+      "Combo (Combo)"
     ],
     "resources": [
       "air",
@@ -3162,7 +3162,7 @@
     "keywords": [
       "Multiple: 2",
       "Weapon",
-      "Combo(Charge)"
+      "Combo (Charge)"
     ],
     "resources": [
       "air",
@@ -3339,7 +3339,7 @@
     "name": "Violet Squall",
     "keywords": [
       "Weapon",
-      "Combo(Weapon)"
+      "Combo (Weapon)"
     ],
     "resources": [
       "all",
@@ -3906,7 +3906,7 @@
     "name": "Leap of the Loach",
     "keywords": [
       "Weapon",
-      "Combo(Weapon)"
+      "Combo (Weapon)"
     ],
     "resources": [
       "fire",
@@ -3941,7 +3941,7 @@
     "keywords": [
       "Safe",
       "Stun: 1",
-      "Weapon "
+      "Weapon"
     ],
     "resources": [
       "fire",
@@ -3975,7 +3975,7 @@
     "name": "Exploding Flame Roar",
     "keywords": [
       "Weapon",
-      "Combo(Weapon, Attack)"
+      "Combo (Weapon, Attack)"
     ],
     "resources": [
       "fire",
@@ -4010,7 +4010,7 @@
     "keywords": [
       "Reversal",
       "Weapon",
-      "Combo(Weapon)"
+      "Combo (Weapon)"
     ],
     "resources": [
       "fire",
@@ -4127,7 +4127,7 @@
   {
     "name": "Born From Destruction",
     "keywords": [
-      "BreakerDesperation : 2"
+      "Desperation Breaker: 2"
     ],
     "resources": [
       "all",
@@ -4187,7 +4187,7 @@
     "name": "Shadow Slicer",
     "keywords": [
       "Desperation: 3",
-      "Weapon "
+      "Weapon"
     ],
     "resources": [
       "all",
@@ -4783,7 +4783,7 @@
     "name": "Reproaching Cherubim",
     "keywords": [
       "Weapon",
-      "Combo(Mid Block)"
+      "Combo (Mid Block)"
     ],
     "resources": [
       "earth",
@@ -5344,7 +5344,7 @@
     "keywords": [
       "Multiple: 1",
       "Weapon",
-      "Combo(Throw)"
+      "Combo (Throw)"
     ],
     "resources": [
       "earth",
@@ -5413,7 +5413,7 @@
     "keywords": [
       "Desperation: 4",
       "Weapon",
-      "Combo(Throw)"
+      "Combo (Throw)"
     ],
     "resources": [
       "earth",
@@ -5593,7 +5593,7 @@
     "keywords": [
       "Gauge: 3",
       "Multiple: 1",
-      "Weapon "
+      "Weapon"
     ],
     "resources": [
       "life",
@@ -6977,7 +6977,7 @@
     "name": "Prism Storm of Torment",
     "keywords": [
       "Ally",
-      "StunDeadlock : 7",
+      "Deadlock Stun: 7",
       "Gauge: 7",
       "Ranged"
     ],
@@ -7809,7 +7809,7 @@
   {
     "name": "Launching Whip Strike",
     "keywords": [
-      "StunDeadlock : 3",
+      "Deadlock Stun: 3",
       "Reversal",
       "Weapon"
     ],
@@ -9832,7 +9832,7 @@
       "Charge",
       "Gauge: 4",
       "Punch",
-      "Combo(Gauge)"
+      "Combo (Gauge)"
     ],
     "resources": [
       "air",
@@ -9904,7 +9904,7 @@
       "Gauge: 3",
       "Punch",
       "Reversal",
-      "Slam "
+      "Slam"
     ],
     "resources": [
       "air",
@@ -10185,7 +10185,7 @@
   {
     "name": "Bloodthirst",
     "keywords": [
-      "Combo(Gauge)"
+      "Combo (Gauge)"
     ],
     "resources": [
       "death",
@@ -10396,9 +10396,9 @@
   {
     "name": "Napalm Stream",
     "keywords": [
-      "EX:3",
+      "EX: 3",
       "Tech",
-      "Combo(High Attack)"
+      "Combo (High Attack)"
     ],
     "resources": [
       "air",
@@ -10501,7 +10501,7 @@
     "keywords": [
       "EX: 2",
       "Gauge: 3",
-      "Combo(High Attack)"
+      "Combo (High Attack)"
     ],
     "resources": [
       "air",
@@ -10783,7 +10783,7 @@
     "name": "Crusader's Oath",
     "keywords": [
       "Charge",
-      "EX:2",
+      "EX: 2",
       "Gauge: 5",
       "Weapon"
     ],
@@ -11064,7 +11064,7 @@
     "keywords": [
       "Gauge: 3",
       "Ranged",
-      "Combo(Ranged)"
+      "Combo (Ranged)"
     ],
     "resources": [
       "chaos",
@@ -11272,7 +11272,7 @@
   {
     "name": "Charnel Blast",
     "keywords": [
-      "EX:2",
+      "EX: 2",
       "Ranged",
       "Reversal"
     ],
@@ -11520,7 +11520,7 @@
     "keywords": [
       "Ally",
       "Ranged",
-      "Combo(Ranged)"
+      "Combo (Ranged)"
     ],
     "resources": [
       "death",
@@ -11831,9 +11831,9 @@
   {
     "name": "The Voice from the Abyss",
     "keywords": [
-      "Fury ",
-      "Reversal  ",
-      "Weapon "
+      "Fury",
+      "Reversal",
+      "Weapon"
     ],
     "resources": [
       "fire",
@@ -11866,9 +11866,9 @@
   {
     "name": "Adad's Great Shears",
     "keywords": [
-      "Powerful: 3 ",
-      "Reversal  ",
-      "Weapon  "
+      "Powerful: 3",
+      "Reversal",
+      "Weapon"
     ],
     "resources": [
       "fire",
@@ -11901,9 +11901,9 @@
   {
     "name": "Lilitu's Ingress",
     "keywords": [
-      "Fury ",
-      "Reversal  ",
-      "Weapon "
+      "Fury",
+      "Reversal",
+      "Weapon"
     ],
     "resources": [
       "fire",
@@ -11936,8 +11936,8 @@
   {
     "name": "Kafziel",
     "keywords": [
-      "Unique ",
-      "Weapon "
+      "Unique",
+      "Weapon"
     ],
     "resources": [
       "fire",
@@ -12023,8 +12023,8 @@
   {
     "name": "Warrior of a Lost Clan",
     "keywords": [
-      "Unique ",
-      "Weapon "
+      "Unique",
+      "Weapon"
     ],
     "resources": [
       "death",
@@ -12055,8 +12055,8 @@
   {
     "name": "The Original Mechanical Ninja",
     "keywords": [
-      "Breaker:1 ",
-      "Weapon "
+      "Breaker: 1",
+      "Weapon"
     ],
     "resources": [
       "death",
@@ -12118,8 +12118,8 @@
   {
     "name": "Shoki Gehosen",
     "keywords": [
-      "Multiple: 2 ",
-      "Weapon "
+      "Multiple: 2",
+      "Weapon"
     ],
     "resources": [
       "death",
@@ -12152,8 +12152,8 @@
   {
     "name": "Ghost Thief Funeral",
     "keywords": [
-      "Fury ",
-      "Weapon "
+      "Fury",
+      "Weapon"
     ],
     "resources": [
       "death",
@@ -12186,7 +12186,7 @@
   {
     "name": "Face Splitter",
     "keywords": [
-      "Weapon ",
+      "Weapon",
       "Combo (Weapon)"
     ],
     "resources": [
@@ -12220,8 +12220,8 @@
   {
     "name": "Manji Sword & Fu-Ma Blade",
     "keywords": [
-      "Unique ",
-      "Weapon "
+      "Unique",
+      "Weapon"
     ],
     "resources": [
       "death",
@@ -12397,9 +12397,9 @@
     "name": "Sublimating Blade",
     "keywords": [
       "Fury",
-      "Multiple : 2 ",
-      "Safe  ",
-      "Weapon "
+      "Multiple: 2",
+      "Safe",
+      "Weapon"
     ],
     "resources": [
       "water",
@@ -12432,10 +12432,10 @@
   {
     "name": "Mei Guei Hua",
     "keywords": [
-      "Powerful: 2 ",
-      "Safe  ",
-      "Stun : 1 ",
-      "Weapon "
+      "Powerful: 2",
+      "Safe",
+      "Stun: 1",
+      "Weapon"
     ],
     "resources": [
       "water",
@@ -12468,9 +12468,9 @@
   {
     "name": "Lower Great Wall",
     "keywords": [
-      "Safe ",
-      "Stun : 2 ",
-      "Weapon  ",
+      "Safe",
+      "Stun: 2",
+      "Weapon",
       "Combo (3 Damage)"
     ],
     "resources": [
@@ -12504,8 +12504,8 @@
   {
     "name": "Krita Yuga",
     "keywords": [
-      "Unique ",
-      "Weapon "
+      "Unique",
+      "Weapon"
     ],
     "resources": [
       "water",
@@ -12677,8 +12677,8 @@
   {
     "name": "Ninja Cannon",
     "keywords": [
-      "EX: 2 ",
-      "Punch "
+      "EX: 2",
+      "Punch"
     ],
     "resources": [
       "evil",
@@ -12711,9 +12711,9 @@
   {
     "name": "Fu-Ma Seal, Fatal Violet",
     "keywords": [
-      "Powerful: 3 ",
-      "Reversal Taki  ",
-      "Weapon "
+      "Powerful: 3",
+      "Taki Reversal",
+      "Weapon"
     ],
     "resources": [
       "evil",
@@ -12746,9 +12746,9 @@
   {
     "name": "Fog Blanket",
     "keywords": [
-      "Kick ",
-      "Reversal  ",
-      "Stun : 2 ",
+      "Kick",
+      "Reversal",
+      "Stun: 2",
       "Combo (3 Speed)"
     ],
     "resources": [
@@ -12782,8 +12782,8 @@
   {
     "name": "Rekki-Maru & Mekki-Maru",
     "keywords": [
-      "Unique ",
-      "Weapon "
+      "Unique",
+      "Weapon"
     ],
     "resources": [
       "evil",
@@ -12954,8 +12954,8 @@
   {
     "name": "Providential Thunder",
     "keywords": [
-      "Ranged ",
-      "Weapon "
+      "Ranged",
+      "Weapon"
     ],
     "resources": [
       "order",
@@ -12988,8 +12988,8 @@
   {
     "name": "Heaven to Hell",
     "keywords": [
-      "Stun: 1 ",
-      "Throw "
+      "Stun: 1",
+      "Throw"
     ],
     "resources": [
       "order",
@@ -13022,8 +13022,8 @@
   {
     "name": "Guardian's Judgement",
     "keywords": [
-      "Safe ",
-      "Slam "
+      "Safe",
+      "Slam"
     ],
     "resources": [
       "order",
@@ -13056,8 +13056,8 @@
   {
     "name": "Omega Sword and Elk Shield",
     "keywords": [
-      "Unique ",
-      "Weapon "
+      "Unique",
+      "Weapon"
     ],
     "resources": [
       "order",
@@ -13228,9 +13228,9 @@
   {
     "name": "Rook Splitter",
     "keywords": [
-      "Powerful:2 ",
-      "Stun :2 ",
-      "Weapon "
+      "Powerful: 2",
+      "Stun: 2",
+      "Weapon"
     ],
     "resources": [
       "void",
@@ -13263,10 +13263,10 @@
   {
     "name": "Reborn Grinder",
     "keywords": [
-      "Charge ",
-      "Safe  ",
-      "Slam  ",
-      "Weapon "
+      "Charge",
+      "Safe",
+      "Slam",
+      "Weapon"
     ],
     "resources": [
       "void",
@@ -13298,9 +13298,9 @@
   {
     "name": "Deep Scar",
     "keywords": [
-      "Breaker:3 ",
-      "Fury  ",
-      "Weapon "
+      "Breaker: 3",
+      "Fury",
+      "Weapon"
     ],
     "resources": [
       "void",
@@ -13333,8 +13333,8 @@
   {
     "name": "Requiem",
     "keywords": [
-      "Unique ",
-      "Weapon "
+      "Unique",
+      "Weapon"
     ],
     "resources": [
       "void",
@@ -13449,7 +13449,7 @@
   {
     "name": "Demon Mutation",
     "keywords": [
-      "BreakerDesperation : 1"
+      "Desperation Breaker: 1"
     ],
     "resources": [
       "fire",
@@ -13508,7 +13508,7 @@
   {
     "name": "Skull Chopper",
     "keywords": [
-      "Weapon ",
+      "Weapon",
       "Combo (Mid Attack)"
     ],
     "resources": [
@@ -13541,9 +13541,9 @@
   {
     "name": "Dark Reconquista: Triumph",
     "keywords": [
-      "Ally ",
-      "Charge  ",
-      "Fury  ",
+      "Ally",
+      "Charge",
+      "Fury",
       "Combo (Attack)"
     ],
     "resources": [
@@ -13577,7 +13577,7 @@
   {
     "name": "Crimson Vortex",
     "keywords": [
-      "Weapon ",
+      "Weapon",
       "Combo (High Attack)"
     ],
     "resources": [
@@ -13611,8 +13611,8 @@
   {
     "name": "Soul Edge",
     "keywords": [
-      "Unique ",
-      "Weapon "
+      "Unique",
+      "Weapon"
     ],
     "resources": [
       "fire",
@@ -13793,8 +13793,8 @@
     "name": "Zen Blade",
     "keywords": [
       "Combo (Weapon)",
-      "Weapon  ",
-      "Stun:1 "
+      "Weapon",
+      "Stun: 1"
     ],
     "resources": [
       "void",
@@ -13827,9 +13827,9 @@
   {
     "name": "Thunderbolt Blade",
     "keywords": [
-      "Weapon ",
-      "Stun : 2 ",
-      "Fury "
+      "Weapon",
+      "Stun: 2",
+      "Fury"
     ],
     "resources": [
       "void",
@@ -13862,8 +13862,8 @@
   {
     "name": "Purifying Thrust",
     "keywords": [
-      "Weapon ",
-      "Stun:1 "
+      "Weapon",
+      "Stun: 1"
     ],
     "resources": [
       "void",
@@ -13896,9 +13896,9 @@
   {
     "name": "Shishi-Oh",
     "keywords": [
-      "Weapon ",
-      "Unique  ",
-      "Breaker:1 "
+      "Weapon",
+      "Unique",
+      "Breaker: 1"
     ],
     "resources": [
       "void",
@@ -14073,8 +14073,8 @@
   {
     "name": "Snake Wing Sobat",
     "keywords": [
-      "Kick ",
-      "Fury "
+      "Kick",
+      "Fury"
     ],
     "resources": [
       "good",
@@ -14108,8 +14108,8 @@
     "name": "Raging Dragon Zodiac",
     "keywords": [
       "Combo (Foundation)",
-      "Punch  ",
-      "Fury "
+      "Punch",
+      "Fury"
     ],
     "resources": [
       "good",
@@ -14143,9 +14143,9 @@
     "name": "Black Serpent",
     "keywords": [
       "Combo (Foundation)",
-      "Weapon  ",
-      "Stun :1 ",
-      "Fury "
+      "Weapon",
+      "Stun: 1",
+      "Fury"
     ],
     "resources": [
       "good",
@@ -14178,8 +14178,8 @@
   {
     "name": "Fatibal",
     "keywords": [
-      "Weapon ",
-      "Unique "
+      "Weapon",
+      "Unique"
     ],
     "resources": [
       "good",
@@ -14350,8 +14350,8 @@
     "name": "Rushing Waterfall",
     "keywords": [
       "Combo (Weapon)",
-      "Weapon  ",
-      "Safe "
+      "Weapon",
+      "Safe"
     ],
     "resources": [
       "water",
@@ -14384,9 +14384,9 @@
   {
     "name": "Forbidden Moonset",
     "keywords": [
-      "Weapon ",
-      "Safe  ",
-      "Fury "
+      "Weapon",
+      "Safe",
+      "Fury"
     ],
     "resources": [
       "water",
@@ -14419,9 +14419,9 @@
   {
     "name": "Dirty Bo",
     "keywords": [
-      "Weapon ",
-      "Safe  ",
-      "Breaker: 2 "
+      "Weapon",
+      "Safe",
+      "Breaker: 2"
     ],
     "resources": [
       "water",
@@ -14454,8 +14454,8 @@
   {
     "name": "Kali Yuga",
     "keywords": [
-      "Weapon ",
-      "Unique "
+      "Weapon",
+      "Unique"
     ],
     "resources": [
       "water",
@@ -14601,8 +14601,8 @@
   {
     "name": "Coiling Contempt",
     "keywords": [
-      "Weapon ",
-      "Breaker: 2 "
+      "Weapon",
+      "Breaker: 2"
     ],
     "resources": [
       "life",
@@ -14633,8 +14633,8 @@
   {
     "name": "Wind Embrace",
     "keywords": [
-      "Weapon ",
-      "Throw "
+      "Weapon",
+      "Throw"
     ],
     "resources": [
       "life",
@@ -14666,8 +14666,8 @@
   {
     "name": "Redemption",
     "keywords": [
-      "Weapon ",
-      "Ranged "
+      "Weapon",
+      "Ranged"
     ],
     "resources": [
       "life",
@@ -14735,7 +14735,7 @@
     "name": "Ivy Blade",
     "keywords": [
       "Weapon",
-      "Unique "
+      "Unique"
     ],
     "resources": [
       "life",
@@ -14910,7 +14910,7 @@
     "name": "Guilt Seeker",
     "keywords": [
       "Throw",
-      "Multiple: 1 "
+      "Multiple: 1"
     ],
     "resources": [
       "water",
@@ -14979,7 +14979,7 @@
     "name": "Calamitous Judgment",
     "keywords": [
       "Reversal",
-      "MultipleGroh : 1 ",
+      "Groh Multiple: 1",
       "Weapon"
     ],
     "resources": [
@@ -15014,8 +15014,8 @@
     "name": "Arondight Replica",
     "keywords": [
       "Weapon",
-      "Unique  ",
-      "Breaker: 3 "
+      "Unique",
+      "Breaker: 3"
     ],
     "resources": [
       "water",
@@ -15377,10 +15377,10 @@
   {
     "name": "Thunder Break",
     "keywords": [
-      "Charge ",
-      "Powerful : 3 ",
-      "Punch  ",
-      "Slam "
+      "Charge",
+      "Powerful: 3",
+      "Punch",
+      "Slam"
     ],
     "resources": [
       "chaos",
@@ -15413,8 +15413,8 @@
   {
     "name": "Flip Cat",
     "keywords": [
-      "EX: 3 ",
-      "Slam "
+      "EX: 3",
+      "Slam"
     ],
     "resources": [
       "air",
@@ -15447,8 +15447,8 @@
   {
     "name": "Dark Chireitou",
     "keywords": [
-      "Multiple: 2 ",
-      "Ranged "
+      "Multiple: 2",
+      "Ranged"
     ],
     "resources": [
       "earth",
@@ -15733,10 +15733,10 @@
   {
     "name": "Thundering Impact",
     "keywords": [
-      "EX: 1 ",
-      "Slam  ",
-      "Throw  ",
-      "Powerful Deadlock : 4"
+      "EX: 1",
+      "Slam",
+      "Throw",
+      "Deadlock Powerful: 4"
     ],
     "resources": [
       "evil",
@@ -15769,10 +15769,10 @@
   {
     "name": "Fusion Soul Fist",
     "keywords": [
-      "Desperation: 4 ",
-      "Fury  ",
-      "Ranged  ",
-      "Punch "
+      "Desperation: 4",
+      "Fury",
+      "Ranged",
+      "Punch"
     ],
     "resources": [
       "evil",
@@ -15805,10 +15805,10 @@
   {
     "name": "Draining Vector",
     "keywords": [
-      "Charge ",
-      "Slam  ",
-      "Tech  ",
-      "Throw "
+      "Charge",
+      "Slam",
+      "Tech",
+      "Throw"
     ],
     "resources": [
       "evil",
@@ -15841,10 +15841,10 @@
   {
     "name": "Astral Vision",
     "keywords": [
-      "EX: 3 ",
-      "Fury  ",
-      "Kick  ",
-      "Weapon "
+      "EX: 3",
+      "Fury",
+      "Kick",
+      "Weapon"
     ],
     "resources": [
       "evil",
@@ -16014,9 +16014,9 @@
   {
     "name": "Sweet Chainsaw Music",
     "keywords": [
-      "Charge ",
-      "Flash  ",
-      "Weapon "
+      "Charge",
+      "Flash",
+      "Weapon"
     ],
     "resources": [
       "air",
@@ -16049,9 +16049,9 @@
   {
     "name": "Stinging Skull",
     "keywords": [
-      "Kick ",
-      "Flash  ",
-      "Weapon "
+      "Kick",
+      "Flash",
+      "Weapon"
     ],
     "resources": [
       "air",
@@ -16084,9 +16084,9 @@
   {
     "name": "Leg Shredder",
     "keywords": [
-      "Kick ",
-      "Flash  ",
-      "Weapon "
+      "Kick",
+      "Flash",
+      "Weapon"
     ],
     "resources": [
       "air",
@@ -16119,9 +16119,9 @@
   {
     "name": "Hurricane of Death",
     "keywords": [
-      "Desperation: 5 ",
-      "Flash  ",
-      "Weapon "
+      "Desperation: 5",
+      "Flash",
+      "Weapon"
     ],
     "resources": [
       "air",
@@ -16291,8 +16291,8 @@
   {
     "name": "Swallow Your Soul",
     "keywords": [
-      "Safe ",
-      "Throw  ",
+      "Safe",
+      "Throw",
       "Combo (3 Damage)"
     ],
     "resources": [
@@ -16326,9 +16326,9 @@
   {
     "name": "Surprise Soul Flash",
     "keywords": [
-      "Fury ",
-      "Ranged  ",
-      "Powerful : 2"
+      "Fury",
+      "Ranged",
+      "Powerful: 2"
     ],
     "resources": [
       "chaos",
@@ -16361,8 +16361,8 @@
   {
     "name": "Lilith's Cryptic Needle",
     "keywords": [
-      "Reversal ",
-      "Stun Deadlock : 3"
+      "Reversal",
+      "Deadlock Stun: 3"
     ],
     "resources": [
       "chaos",
@@ -16395,9 +16395,9 @@
   {
     "name": "Betrayer Betrayal",
     "keywords": [
-      "Fury ",
-      "Reversal  ",
-      "Stun : 1"
+      "Fury",
+      "Reversal",
+      "Stun: 1"
     ],
     "resources": [
       "chaos",
@@ -16540,7 +16540,7 @@
   {
     "name": "I Feel VIOLENT",
     "keywords": [
-      "BreakerDeadlock : 3"
+      "Deadlock Breaker: 3"
     ],
     "resources": [
       "all",
@@ -16570,10 +16570,10 @@
   {
     "name": "VIOLENT Tatsumaki",
     "keywords": [
-      "Fury ",
-      "Kick  ",
-      "Multiple : 2 ",
-      "Reversal Deadlock "
+      "Fury",
+      "Kick",
+      "Multiple: 2",
+      "Deadlock Reversal"
     ],
     "resources": [
       "all",
@@ -16606,8 +16606,8 @@
   {
     "name": "VIOLENT Shoryuken",
     "keywords": [
-      "Fury ",
-      "Punch  ",
+      "Fury",
+      "Punch",
       "Combo (Kick)"
     ],
     "resources": [
@@ -16641,8 +16641,8 @@
   {
     "name": "Kurubushi Kick",
     "keywords": [
-      "Fury ",
-      "Kick "
+      "Fury",
+      "Kick"
     ],
     "resources": [
       "all",
@@ -16675,9 +16675,9 @@
   {
     "name": "Inazuma Kakato Wari",
     "keywords": [
-      "Fury ",
-      "Kick  ",
-      "Stun : 2"
+      "Fury",
+      "Kick",
+      "Stun: 2"
     ],
     "resources": [
       "all",
@@ -16845,9 +16845,9 @@
   {
     "name": "Spirale Divina",
     "keywords": [
-      "EX: 2 ",
-      "Reversal  ",
-      "Weapon "
+      "EX: 2",
+      "Reversal",
+      "Weapon"
     ],
     "resources": [
       "chaos",
@@ -16880,10 +16880,10 @@
   {
     "name": "Sangue Sacrificale",
     "keywords": [
-      "Fury ",
-      "Reversal  ",
-      "Stun : 1 ",
-      "Weapon "
+      "Fury",
+      "Reversal",
+      "Stun: 1",
+      "Weapon"
     ],
     "resources": [
       "chaos",
@@ -16916,8 +16916,8 @@
   {
     "name": "Falce Inizio",
     "keywords": [
-      "Reversal ",
-      "Weapon "
+      "Reversal",
+      "Weapon"
     ],
     "resources": [
       "chaos",
@@ -16950,9 +16950,9 @@
   {
     "name": "Dita del Lamento",
     "keywords": [
-      "MultipleJedah : 2 ",
-      "Ranged  ",
-      "Reversal "
+      "Jedah Multiple: 2",
+      "Ranged",
+      "Reversal"
     ],
     "resources": [
       "chaos",
@@ -17391,9 +17391,9 @@
   {
     "name": "Sohakkei",
     "keywords": [
-      "Fury ",
-      "Punch  ",
-      "Reversal "
+      "Fury",
+      "Punch",
+      "Reversal"
     ],
     "resources": [
       "air",
@@ -17426,8 +17426,8 @@
   {
     "name": "Leaping Elbow Smash",
     "keywords": [
-      "Fury ",
-      "Punch "
+      "Fury",
+      "Punch"
     ],
     "resources": [
       "air",
@@ -17460,9 +17460,9 @@
   {
     "name": "Hoyokusen",
     "keywords": [
-      "Fury ",
-      "Kick  ",
-      "Multiple : 1 ",
+      "Fury",
+      "Kick",
+      "Multiple: 1",
       "Combo (Fury)"
     ],
     "resources": [
@@ -17496,8 +17496,8 @@
   {
     "name": "Aether Leg",
     "keywords": [
-      "Fury ",
-      "Kick "
+      "Fury",
+      "Kick"
     ],
     "resources": [
       "air",
@@ -17665,8 +17665,8 @@
   {
     "name": "Sekia Kuretsuha",
     "keywords": [
-      "Fury ",
-      "Powerful : 5"
+      "Fury",
+      "Powerful: 5"
     ],
     "resources": [
       "evil",
@@ -17699,9 +17699,9 @@
   {
     "name": "Kongou Kokuretsuzan",
     "keywords": [
-      "Fury ",
-      "Powerful : 2 ",
-      "Reversal "
+      "Fury",
+      "Powerful: 2",
+      "Reversal"
     ],
     "resources": [
       "evil",
@@ -17734,9 +17734,9 @@
   {
     "name": "Dohatsu Shoten",
     "keywords": [
-      "Desperation: 3 ",
-      "Fury  ",
-      "Powerful : 2"
+      "Desperation: 3",
+      "Fury",
+      "Powerful: 2"
     ],
     "resources": [
       "evil",
@@ -17769,10 +17769,10 @@
   {
     "name": "Dhylec Devil Slayer",
     "keywords": [
-      "EX: 3 ",
-      "Fury  ",
-      "Powerful : 3 ",
-      "Weapon "
+      "EX: 3",
+      "Fury",
+      "Powerful: 3",
+      "Weapon"
     ],
     "resources": [
       "evil",
@@ -19192,7 +19192,7 @@
     "name": "Ovipositor Charger",
     "keywords": [
       "Charge",
-      "ReversalDeadlock ",
+      "Deadlock Reversal",
       "EX: 2",
       "Fury"
     ],
@@ -20087,7 +20087,7 @@
     "keywords": [
       "Slam",
       "Tech",
-      "ReversalDeadlock "
+      "Deadlock Reversal"
     ],
     "resources": [
       "air",
@@ -25041,7 +25041,7 @@
     "name": "Getaway Fire",
     "keywords": [
       "Ranged",
-      "StunFaye : 2",
+      "Faye Stun: 2",
       "Combo (Tech)"
     ],
     "resources": [
@@ -27533,7 +27533,7 @@
     "name": "Time Slow",
     "keywords": [
       "Charge",
-      "StunDesperation : 2",
+      "Desperation Stun: 2",
       "Stun: 2"
     ],
     "resources": [
@@ -29938,7 +29938,7 @@
     "keywords": [
       "Charge",
       "Kick",
-      "StunDeadlock : 3"
+      "Deadlock Stun: 3"
     ],
     "resources": [
       "all",
@@ -30163,7 +30163,7 @@
     "keywords": [
       "Fury",
       "Ranged",
-      "DesperationDhalsim : 5",
+      "Dhalsim Desperation: 5",
       "Powerful: 6"
     ],
     "resources": [
@@ -30997,7 +30997,7 @@
       "Charge",
       "Kick",
       "EX: 1",
-      "ReversalGuile "
+      "Guile Reversal"
     ],
     "resources": [
       "earth",
@@ -31254,7 +31254,7 @@
     "name": "Ken's Shoryuken",
     "keywords": [
       "Punch",
-      "ReversalKen "
+      "Ken Reversal"
     ],
     "resources": [
       "all",
@@ -31953,7 +31953,7 @@
     "name": "Shouoken",
     "keywords": [
       "Punch",
-      "StunSakura : 2"
+      "Sakura Stun: 2"
     ],
     "resources": [
       "all",
@@ -32245,7 +32245,7 @@
     "keywords": [
       "Fury",
       "Throw",
-      "DesperationT.Hawk : 4"
+      "T.Hawk Desperation: 4"
     ],
     "resources": [
       "earth",
@@ -32724,7 +32724,7 @@
     "keywords": [
       "Fury",
       "Throw",
-      "DesperationZangief : 5"
+      "Zangief Desperation: 5"
     ],
     "resources": [
       "earth",
@@ -33996,7 +33996,7 @@
     "keywords": [
       "Flash",
       "Fury",
-      "DesperationAkuma : 5"
+      "Akuma Desperation: 5"
     ],
     "resources": [
       "evil",
@@ -34199,7 +34199,7 @@
     "keywords": [
       "Ally",
       "Desperation: 3",
-      "StunDeadlock : 3"
+      "Deadlock Stun: 3"
     ],
     "resources": [
       "fire",
@@ -34398,7 +34398,7 @@
     "name": "Hellgate Executioner",
     "keywords": [
       "Powerful: 4",
-      "StunDeadlock : 4"
+      "Deadlock Stun: 4"
     ],
     "resources": [
       "chaos",
@@ -41811,7 +41811,7 @@
   {
     "name": "Rush Jet Adapter",
     "keywords": [
-      "OnlyMega Man "
+      "Mega Man Only"
     ],
     "resources": [
       "good",
@@ -42354,7 +42354,7 @@
     "name": "Leap Into the Fray",
     "keywords": [
       "Slam",
-      "Combo(Mid Attack)"
+      "Combo (Mid Attack)"
     ],
     "resources": [
       "earth",
@@ -42386,7 +42386,7 @@
     "keywords": [
       "Powerful: 3",
       "Slam",
-      "Combo(Attack, Foundation)"
+      "Combo (Attack, Foundation)"
     ],
     "resources": [
       "all",
@@ -42526,8 +42526,7 @@
     "resources": [
       "infinity"
     ],
-    "formats": [
-    ],
+    "formats": [],
     "control": "4",
     "difficulty": "2",
     "text": "The third each attack a player plays during a turn gets +3 damage and +3 speed.\n\nPlayers may not play more than 3 foundations each turn.",
@@ -42773,7 +42772,7 @@
   {
     "name": "Soul Breaker",
     "keywords": [
-      "Combo(Mid Attack, Mid Attack)",
+      "Combo (Mid Attack, Mid Attack)",
       "Breaker: 2"
     ],
     "resources": [
@@ -49580,7 +49579,7 @@
     "name": "Skull Fortress",
     "keywords": [
       "Terrain",
-      "OnlyDr. Wily "
+      "Dr. Wily Only"
     ],
     "resources": [
       "death",
@@ -50341,7 +50340,7 @@
     "name": "Gemini Beam",
     "keywords": [
       "Ranged",
-      "Combo(Slam)"
+      "Combo (Slam)"
     ],
     "resources": [
       "air",
@@ -54174,7 +54173,7 @@
     "name": "Valiant Assault",
     "keywords": [
       "Punch",
-      "Combo(Punch)"
+      "Combo (Punch)"
     ],
     "resources": [
       "air",
@@ -56965,7 +56964,7 @@
   {
     "name": "Elec Slam",
     "keywords": [
-      "Combo(High Attack)"
+      "Combo (High Attack)"
     ],
     "resources": [
       "air",
@@ -58987,7 +58986,7 @@
     "keywords": [
       "Punch",
       "Stun: 2",
-      "Combo(Kick, Kick)"
+      "Combo (Kick, Kick)"
     ],
     "resources": [
       "chaos",
@@ -59016,7 +59015,7 @@
     "name": "R.E.D. Kick",
     "keywords": [
       "Kick",
-      "Combo(Kick)"
+      "Combo (Kick)"
     ],
     "resources": [
       "chaos",
@@ -59047,7 +59046,7 @@
     "name": "75-Shiki Kai",
     "keywords": [
       "Kick",
-      "Combo(Kick)"
+      "Combo (Kick)"
     ],
     "resources": [
       "chaos",
@@ -59206,7 +59205,7 @@
     "name": "Heat Drive",
     "keywords": [
       "Punch",
-      "Combo(Mid Attack, High Attack)"
+      "Combo (Mid Attack, High Attack)"
     ],
     "resources": [
       "death",
@@ -59415,7 +59414,7 @@
     "name": "Ura 1207-Shiki Yamisogi",
     "keywords": [
       "Desperation: 3",
-      "Combo(Mid Attack)"
+      "Combo (Mid Attack)"
     ],
     "resources": [
       "chaos",
@@ -60750,7 +60749,7 @@
     "name": "Hien Shippuu Ryuujen Kyaku",
     "keywords": [
       "Kick",
-      "Combo(Kick)"
+      "Combo (Kick)"
     ],
     "resources": [
       "air",
@@ -61084,7 +61083,7 @@
   {
     "name": "Biruto Appar",
     "keywords": [
-      "ReversalTakuma "
+      "Takuma Reversal"
     ],
     "resources": [
       "air",
@@ -61852,7 +61851,7 @@
     "name": "Team Japan",
     "keywords": [
       "Ally",
-      "OnlyBenimaru/Goro/Kyo ",
+      "Benimaru/Goro/Kyo Only",
       "Unique"
     ],
     "resources": [
@@ -62239,7 +62238,7 @@
     "name": "Raiden Bomber",
     "keywords": [
       "Reversal",
-      "Combo(Mid Attack)"
+      "Combo (Mid Attack)"
     ],
     "resources": [
       "earth",
@@ -62270,7 +62269,7 @@
     "name": "Head Crush",
     "keywords": [
       "Throw",
-      "Combo(Mid Block)"
+      "Combo (Mid Block)"
     ],
     "resources": [
       "earth",
@@ -62481,7 +62480,7 @@
     "keywords": [
       "Kick",
       "Multiple: 3",
-      "Combo(High Attack)"
+      "Combo (High Attack)"
     ],
     "resources": [
       "good",
@@ -62510,7 +62509,7 @@
     "name": "Houou Hiten Kyaku",
     "keywords": [
       "Kick",
-      "Combo(High Attack)"
+      "Combo (High Attack)"
     ],
     "resources": [
       "good",
@@ -62541,7 +62540,7 @@
     "name": "Hangetsuzan",
     "keywords": [
       "Kick",
-      "Combo(High Attack)"
+      "Combo (High Attack)"
     ],
     "resources": [
       "good",
@@ -62719,7 +62718,7 @@
     "name": "Final Dragon Kick",
     "keywords": [
       "Kick",
-      "ComboHwa (Kick, Kick)"
+      "Hwa Combo (Kick, Kick)"
     ],
     "resources": [
       "air",
@@ -62748,7 +62747,7 @@
     "name": "Dragon Tail",
     "keywords": [
       "Kick",
-      "Combo(Kick)"
+      "Combo (Kick)"
     ],
     "resources": [
       "air",
@@ -63191,9 +63190,9 @@
   {
     "name": "Neo Freeze Execution",
     "keywords": [
-      "ReversalKula ",
+      "Kula Reversal",
       "Stun: 2",
-      "Combo(Mid Attack)"
+      "Combo (Mid Attack)"
     ],
     "resources": [
       "evil",
@@ -63425,7 +63424,7 @@
     "name": "Hyper Chain Drive",
     "keywords": [
       "Ranged",
-      "Combo(Combo, Combo)"
+      "Combo (Combo, Combo)"
     ],
     "resources": [
       "chaos",
@@ -63456,7 +63455,7 @@
     "name": "Second Shoot",
     "keywords": [
       "Ranged",
-      "Combo(Ranged)"
+      "Combo (Ranged)"
     ],
     "resources": [
       "chaos",
@@ -63485,7 +63484,7 @@
     "name": "Ein Trigger",
     "keywords": [
       "Ranged",
-      "Combo(Combo)"
+      "Combo (Combo)"
     ],
     "resources": [
       "chaos",
@@ -63724,7 +63723,7 @@
     "name": "Gekiken",
     "keywords": [
       "Punch",
-      "Combo(Mid Attack)"
+      "Combo (Mid Attack)"
     ],
     "resources": [
       "all",
@@ -63755,7 +63754,7 @@
     "name": "Team Elisabeth",
     "keywords": [
       "Ally",
-      "OnlyDuo/Elisabeth/Shen ",
+      "Duo/Elisabeth/Shen Only",
       "Unique"
     ],
     "resources": [
@@ -63906,7 +63905,7 @@
     "name": "Etoile - Filante",
     "keywords": [
       "Reversal",
-      "Combo(Low Attack, Mid Attack)"
+      "Combo (Low Attack, Mid Attack)"
     ],
     "resources": [
       "all",
@@ -63936,7 +63935,7 @@
   {
     "name": "Mistral",
     "keywords": [
-      "Combo(Mid Attack)"
+      "Combo (Mid Attack)"
     ],
     "resources": [
       "all",
@@ -64142,7 +64141,7 @@
     "name": "Juon Shikon",
     "keywords": [
       "Ranged",
-      "Combo(Low Attack)"
+      "Combo (Low Attack)"
     ],
     "resources": [
       "all",
@@ -64170,7 +64169,7 @@
   {
     "name": "Hiden - Genmu Juon Shikon Sou",
     "keywords": [
-      "ComboDuo (Low Attack, Low Attack)"
+      "Duo Combo (Low Attack, Low Attack)"
     ],
     "resources": [
       "all",
@@ -64227,7 +64226,7 @@
   {
     "name": "Himoukyaku - Go",
     "keywords": [
-      "OnlyDuo/Elisabeth/Shen "
+      "Duo/Elisabeth/Shen Only"
     ],
     "resources": [
       "all",
@@ -65011,7 +65010,7 @@
     "name": "Vulcan Punch\u00b7\u00b7",
     "keywords": [
       "Punch",
-      "Combo(Punch)"
+      "Combo (Punch)"
     ],
     "resources": [
       "fire",
@@ -65947,7 +65946,7 @@
     "name": "Negative Gain",
     "keywords": [
       "Throw",
-      "Combo(High Attack)"
+      "Combo (High Attack)"
     ],
     "resources": [
       "chaos",
@@ -66101,7 +66100,7 @@
   {
     "name": "Leona Blade",
     "keywords": [
-      "Combo(Ranged)",
+      "Combo (Ranged)",
       "Weapon"
     ],
     "resources": [
@@ -66256,7 +66255,7 @@
     "name": "King's Handkerchief",
     "keywords": [
       "Unique",
-      "OnlyKing "
+      "King Only"
     ],
     "resources": [
       "earth",
@@ -66284,7 +66283,7 @@
     "name": "Kin 1218-Shiki - YATAGARASU",
     "keywords": [
       "Ranged",
-      "OnlyIori ",
+      "Iori Only",
       "Desperation: 3"
     ],
     "resources": [
@@ -66374,7 +66373,7 @@
   {
     "name": "Jet Vulcan Punch",
     "keywords": [
-      "ComboRalf (Punch, Punch)",
+      "Ralf Combo (Punch, Punch)",
       "Stun: 2",
       "Punch"
     ],
@@ -66460,7 +66459,7 @@
     "name": "Iori's Guitar",
     "keywords": [
       "Unique",
-      "OnlyIori ",
+      "Iori Only",
       "Desperation: 1"
     ],
     "resources": [
@@ -67223,7 +67222,7 @@
   {
     "name": "203-Shiki - Tsuchi Tsubaki",
     "keywords": [
-      "Combo(Desperation)",
+      "Combo (Desperation)",
       "Throw",
       "Desperation: 4"
     ],
@@ -67257,7 +67256,7 @@
     "keywords": [
       "Stun: 1",
       "Ranged",
-      "DesperationMai : 3"
+      "Mai Desperation: 3"
     ],
     "resources": [
       "fire",
@@ -67416,7 +67415,7 @@
   {
     "name": "Death Row",
     "keywords": [
-      "Combo(Mid Attack)"
+      "Combo (Mid Attack)"
     ],
     "resources": [
       "chaos",
@@ -67686,7 +67685,7 @@
   {
     "name": "Power Wave\u00b7\u00b7",
     "keywords": [
-      "Combo(Punch)",
+      "Combo (Punch)",
       "Ranged"
     ],
     "resources": [
@@ -68206,7 +68205,7 @@
     "keywords": [
       "Powerful: 2",
       "Ranged",
-      "OnlyZoey "
+      "Zoey Only"
     ],
     "resources": [
       "air",
@@ -68266,7 +68265,7 @@
   {
     "name": "Maori Defender",
     "keywords": [
-      "Combo(Ranged)"
+      "Combo (Ranged)"
     ],
     "resources": [
       "air",
@@ -68326,7 +68325,7 @@
     "name": "Sure You Can!",
     "keywords": [
       "Powerful: 1",
-      "Combo(Ranged)"
+      "Combo (Ranged)"
     ],
     "resources": [
       "air",
@@ -68443,7 +68442,7 @@
   {
     "name": "Legendary Accomplice",
     "keywords": [
-      "OnlyZoey "
+      "Zoey Only"
     ],
     "resources": [
       "air",
@@ -68572,7 +68571,7 @@
     "name": "Body Count",
     "keywords": [
       "Unique",
-      "OnlyVincent Grey "
+      "Vincent Grey Only"
     ],
     "resources": [
       "evil",
@@ -68692,7 +68691,7 @@
     "name": "Mythic Fire Storm",
     "keywords": [
       "Powerful: 2",
-      "Combo(Punch, Kick)"
+      "Combo (Punch, Kick)"
     ],
     "resources": [
       "evil",
@@ -68724,7 +68723,7 @@
     "keywords": [
       "Kick",
       "Reversal",
-      "Combo(Punch)"
+      "Combo (Punch)"
     ],
     "resources": [
       "evil",
@@ -68849,7 +68848,7 @@
     "name": "Jackhammer Kick",
     "keywords": [
       "Kick",
-      "Combo(Low Attack)"
+      "Combo (Low Attack)"
     ],
     "resources": [
       "evil",
@@ -69155,7 +69154,7 @@
       "Powerful: 4",
       "Reversal",
       "Stun: 2",
-      "OnlyVespera "
+      "Vespera Only"
     ],
     "resources": [
       "death",
@@ -69214,7 +69213,7 @@
     "name": "Grasping Widow",
     "keywords": [
       "Reversal",
-      "Combo(Reversal, Reversal)"
+      "Combo (Reversal, Reversal)"
     ],
     "resources": [
       "death",
@@ -69243,7 +69242,7 @@
     "name": "Reverse Spider Uppercut",
     "keywords": [
       "Reversal",
-      "Combo(Action)"
+      "Combo (Action)"
     ],
     "resources": [
       "death",
@@ -69370,7 +69369,7 @@
       "Ally",
       "Breaker: 1",
       "Unique",
-      "OnlyVespera "
+      "Vespera Only"
     ],
     "resources": [
       "death",
@@ -70133,7 +70132,7 @@
   {
     "name": "Jigoku Banishment",
     "keywords": [
-      "OnlySatoshi ",
+      "Satoshi Only",
       "Weapon"
     ],
     "resources": [
@@ -70165,7 +70164,7 @@
     "name": "Yokai Fury",
     "keywords": [
       "Weapon",
-      "Combo(Weapon)"
+      "Combo (Weapon)"
     ],
     "resources": [
       "air",
@@ -70224,7 +70223,7 @@
     "name": "Oni Low Slash",
     "keywords": [
       "Weapon",
-      "Combo(High Weapon)"
+      "Combo (High Weapon)"
     ],
     "resources": [
       "air",
@@ -70255,7 +70254,7 @@
     "name": "Oni High Slash",
     "keywords": [
       "Weapon",
-      "Combo(Low Weapon)"
+      "Combo (Low Weapon)"
     ],
     "resources": [
       "air",
@@ -70734,7 +70733,7 @@
     "name": "Searing Inferno",
     "keywords": [
       "Weapon",
-      "Combo(Ranged)"
+      "Combo (Ranged)"
     ],
     "resources": [
       "chaos",
@@ -70763,7 +70762,7 @@
     "name": "Ruthless Advance",
     "keywords": [
       "Weapon",
-      "Combo(Ranged)"
+      "Combo (Ranged)"
     ],
     "resources": [
       "chaos",
@@ -70824,7 +70823,7 @@
   {
     "name": "Nehtali's Pennate Guard",
     "keywords": [
-      "OnlyNehtali ",
+      "Nehtali Only",
       "Unique"
     ],
     "resources": [
@@ -71062,7 +71061,7 @@
     "keywords": [
       "Powerful: 2",
       "Stun: 2",
-      "Combo(Powerful, Powerful)"
+      "Combo (Powerful, Powerful)"
     ],
     "resources": [
       "earth",
@@ -71092,7 +71091,7 @@
   {
     "name": "Rising Host",
     "keywords": [
-      "Combo(Powerful)"
+      "Combo (Powerful)"
     ],
     "resources": [
       "earth",
@@ -71151,7 +71150,7 @@
     "name": "Flying Body Vice",
     "keywords": [
       "Powerful: 1",
-      "Combo(High Attack)"
+      "Combo (High Attack)"
     ],
     "resources": [
       "earth",
@@ -71180,7 +71179,7 @@
     "name": "Dread Clangor",
     "keywords": [
       "Powerful: 2",
-      "Combo(Powerful)"
+      "Combo (Powerful)"
     ],
     "resources": [
       "earth",
@@ -71502,7 +71501,7 @@
   {
     "name": "13th Story Oblivion",
     "keywords": [
-      "OnlyGabrek ",
+      "Gabrek Only",
       "Stun: 3",
       "Throw"
     ],
@@ -71534,7 +71533,7 @@
   {
     "name": "Whiplash Buster",
     "keywords": [
-      "Combo(Throw)"
+      "Combo (Throw)"
     ],
     "resources": [
       "earth",
@@ -71622,7 +71621,7 @@
   {
     "name": "Rolling Ankle Grab",
     "keywords": [
-      "Combo(Throw, Throw)"
+      "Combo (Throw, Throw)"
     ],
     "resources": [
       "earth",
@@ -71974,7 +71973,7 @@
   {
     "name": "Final Judgment",
     "keywords": [
-      "OnlyOmniel ",
+      "Omniel Only",
       "Powerful: 3",
       "Stun: 4"
     ],
@@ -72004,8 +72003,8 @@
   {
     "name": "Bane Slayer",
     "keywords": [
-      "OnlySyrithe ",
-      "Combo(Mid Attack)"
+      "Syrithe Only",
+      "Combo (Mid Attack)"
     ],
     "resources": [
       "chaos",
@@ -72035,8 +72034,8 @@
   {
     "name": "Guard Crusher",
     "keywords": [
-      "OnlyAllahra ",
-      "Combo(Mid Attack)"
+      "Allahra Only",
+      "Combo (Mid Attack)"
     ],
     "resources": [
       "chaos",
@@ -72722,7 +72721,7 @@
     "name": "Valiant Assault",
     "keywords": [
       "Punch",
-      "Combo(Punch)"
+      "Combo (Punch)"
     ],
     "resources": [
       "air",
@@ -72752,7 +72751,7 @@
   {
     "name": "Sovereign's Glory",
     "keywords": [
-      "DesperationReese : 3",
+      "Reese Desperation: 3",
       "Ranged"
     ],
     "resources": [
@@ -72905,7 +72904,7 @@
     "name": "Ballista",
     "keywords": [
       "Ranged",
-      "Combo(Punch)"
+      "Combo (Punch)"
     ],
     "resources": [
       "air",
@@ -73228,7 +73227,7 @@
     "name": "Hell's Salvation",
     "keywords": [
       "Weapon",
-      "Combo(High Attack, Combo)"
+      "Combo (High Attack, Combo)"
     ],
     "resources": [
       "chaos",
@@ -73259,7 +73258,7 @@
     "name": "Hell Ripper",
     "keywords": [
       "Weapon",
-      "Combo(High Attack)"
+      "Combo (High Attack)"
     ],
     "resources": [
       "chaos",
@@ -73290,7 +73289,7 @@
     "name": "Heaven's Punishment",
     "keywords": [
       "Ranged",
-      "Combo(Combo, Combo)"
+      "Combo (Combo, Combo)"
     ],
     "resources": [
       "chaos",
@@ -73811,7 +73810,7 @@
     "name": "Bear Rush",
     "keywords": [
       "Ally",
-      "OnlyMiska "
+      "Miska Only"
     ],
     "resources": [
       "air",
@@ -73842,7 +73841,7 @@
     "name": "Baltic Launcher",
     "keywords": [
       "Ranged",
-      "Combo(Ally, Ranged)"
+      "Combo (Ally, Ranged)"
     ],
     "resources": [
       "air",
@@ -74198,7 +74197,7 @@
     "keywords": [
       "Ranged",
       "Reversal",
-      "Combo(Ranged)"
+      "Combo (Ranged)"
     ],
     "resources": [
       "death",
@@ -74752,7 +74751,7 @@
     "name": "Chain Extension",
     "keywords": [
       "Ranged",
-      "Combo(Mid Attack, Mid Attack)"
+      "Combo (Mid Attack, Mid Attack)"
     ],
     "resources": [
       "earth",
@@ -75073,7 +75072,7 @@
   {
     "name": "Auto Defense Engine",
     "keywords": [
-      "Combo(Low Attack)"
+      "Combo (Low Attack)"
     ],
     "resources": [
       "evil",
@@ -75264,7 +75263,7 @@
   {
     "name": "Rolling Revenge",
     "keywords": [
-      "Combo(Low Attack, Low Attack)"
+      "Combo (Low Attack, Low Attack)"
     ],
     "resources": [
       "earth",
@@ -75319,7 +75318,7 @@
   {
     "name": "Lower Celtis",
     "keywords": [
-      "Combo(Action)",
+      "Combo (Action)",
       "Weapon"
     ],
     "resources": [
@@ -75552,7 +75551,7 @@
   {
     "name": "Spiral Blade",
     "keywords": [
-      "Combo(High Weapon)",
+      "Combo (High Weapon)",
       "Weapon"
     ],
     "resources": [
@@ -75669,7 +75668,7 @@
   {
     "name": "Deathcopter Attack",
     "keywords": [
-      "Combo(Ranged)",
+      "Combo (Ranged)",
       "Weapon"
     ],
     "resources": [
@@ -75754,7 +75753,7 @@
     "keywords": [
       "Unique",
       "Weapon",
-      "OnlyYoshimitsu "
+      "Yoshimitsu Only"
     ],
     "resources": [
       "death",
@@ -76002,7 +76001,7 @@
   {
     "name": "Triple Botta in Tempo",
     "keywords": [
-      "Combo(Weapon)",
+      "Combo (Weapon)",
       "Reversal",
       "Weapon"
     ],
@@ -76152,7 +76151,7 @@
   {
     "name": "Bloody Funeral",
     "keywords": [
-      "ComboAmy (Low Weapon, Weapon)"
+      "Amy Combo (Low Weapon, Weapon)"
     ],
     "resources": [
       "good",
@@ -76458,7 +76457,7 @@
   {
     "name": "Waterfall",
     "keywords": [
-      "Combo(Weapon, Weapon)",
+      "Combo (Weapon, Weapon)",
       "Multiple: 1"
     ],
     "resources": [
@@ -76488,7 +76487,7 @@
   {
     "name": "Twisting Lotus Flow",
     "keywords": [
-      "Combo(High Attack, Mid Weapon)",
+      "Combo (High Attack, Mid Weapon)",
       "Weapon"
     ],
     "resources": [
@@ -76577,7 +76576,7 @@
   {
     "name": "Pointing Thrust",
     "keywords": [
-      "Combo(Action)",
+      "Combo (Action)",
       "Weapon"
     ],
     "resources": [
@@ -76607,7 +76606,7 @@
   {
     "name": "Playful Slice",
     "keywords": [
-      "Combo(Weapon, Action)",
+      "Combo (Weapon, Action)",
       "Weapon"
     ],
     "resources": [
@@ -76941,7 +76940,7 @@
   {
     "name": "Ninja Cannon: Fury",
     "keywords": [
-      "ComboTaki (Weapon, Weapon)"
+      "Taki Combo (Weapon, Weapon)"
     ],
     "resources": [
       "air",
@@ -76999,7 +76998,7 @@
   {
     "name": "Crossing the Cliff",
     "keywords": [
-      "Combo(Weapon, Weapon)",
+      "Combo (Weapon, Weapon)",
       "Throw"
     ],
     "resources": [
@@ -77057,7 +77056,7 @@
   {
     "name": "Assassin's Secret",
     "keywords": [
-      "Combo(Weapon)",
+      "Combo (Weapon)",
       "Kick"
     ],
     "resources": [
@@ -77113,7 +77112,7 @@
   {
     "name": "Rekki-Maru and Mekki-Maru \u00b7",
     "keywords": [
-      "OnlyTaki ",
+      "Taki Only",
       "Unique",
       "Weapon"
     ],
@@ -77141,7 +77140,7 @@
   {
     "name": "Ninja Tactics",
     "keywords": [
-      "Combo(Combo, Combo)"
+      "Combo (Combo, Combo)"
     ],
     "resources": [
       "air",
@@ -77399,7 +77398,7 @@
   {
     "name": "Steel Slicer",
     "keywords": [
-      "Combo(Mid Attack)",
+      "Combo (Mid Attack)",
       "Weapon"
     ],
     "resources": [
@@ -77456,7 +77455,7 @@
   {
     "name": "Full Moon Disembowel",
     "keywords": [
-      "Combo(Action)",
+      "Combo (Action)",
       "Weapon"
     ],
     "resources": [
@@ -77486,7 +77485,7 @@
   {
     "name": "Forced Prayer Divide",
     "keywords": [
-      "Combo(Mid Weapon)"
+      "Combo (Mid Weapon)"
     ],
     "resources": [
       "all",
@@ -77515,7 +77514,7 @@
   {
     "name": "Fire Brand",
     "keywords": [
-      "Combo(Action, Weapon)",
+      "Combo (Action, Weapon)",
       "Weapon"
     ],
     "resources": [
@@ -77571,7 +77570,7 @@
   {
     "name": "Shishi-Oh \u00b7",
     "keywords": [
-      "OnlyMitsurugi ",
+      "Mitsurugi Only",
       "Unique",
       "Weapon"
     ],
@@ -77701,7 +77700,7 @@
     "name": "Law's Somersault Kick",
     "keywords": [
       "Kick",
-      "Combo(Kick)"
+      "Combo (Kick)"
     ],
     "resources": [
       "air",
@@ -77731,7 +77730,7 @@
     "name": "Blazing Fist",
     "keywords": [
       "Punch",
-      "Combo(Punch, Punch)"
+      "Combo (Punch, Punch)"
     ],
     "resources": [
       "chaos",
@@ -78084,7 +78083,7 @@
     "name": "Neutron Bomb",
     "keywords": [
       "Kick",
-      "Combo(Stun)"
+      "Combo (Stun)"
     ],
     "resources": [
       "all",
@@ -78144,7 +78143,7 @@
     "keywords": [
       "Punch",
       "Stun: 1",
-      "Combo(Stun)"
+      "Combo (Stun)"
     ],
     "resources": [
       "all",
@@ -78174,7 +78173,7 @@
     "name": "Phoenix Smasher",
     "keywords": [
       "Punch",
-      "ComboPaul (Stun, Stun)"
+      "Paul Combo (Stun, Stun)"
     ],
     "resources": [
       "all",
@@ -78289,7 +78288,7 @@
   {
     "name": "Toughest in the Universe",
     "keywords": [
-      "Combo(Stun, Stun)"
+      "Combo (Stun, Stun)"
     ],
     "resources": [
       "all",
@@ -78543,7 +78542,7 @@
     "name": "Ice Pick",
     "keywords": [
       "Kick",
-      "ComboNina Williams (Kick)"
+      "Nina Williams Combo (Kick)"
     ],
     "resources": [
       "air",
@@ -78952,7 +78951,7 @@
     "name": "Flinging Half Nelson",
     "keywords": [
       "Throw",
-      "Combo(High Throw)"
+      "Combo (High Throw)"
     ],
     "resources": [
       "earth",
@@ -78982,7 +78981,7 @@
     "name": "King's Reverse DDT",
     "keywords": [
       "Throw",
-      "ComboKing (High Throw, Mid Throw)"
+      "King Combo (High Throw, Mid Throw)"
     ],
     "resources": [
       "earth",
@@ -79012,7 +79011,7 @@
     "name": "Cobra Twist",
     "keywords": [
       "Throw",
-      "Combo(High Throw)"
+      "Combo (High Throw)"
     ],
     "resources": [
       "earth",
@@ -79071,7 +79070,7 @@
     "name": "Jaguar Straight",
     "keywords": [
       "Punch",
-      "Combo(Throw)"
+      "Combo (Throw)"
     ],
     "resources": [
       "earth",
@@ -79159,7 +79158,7 @@
   {
     "name": "Jaguar Mask",
     "keywords": [
-      "OnlyKing ",
+      "King Only",
       "Unique"
     ],
     "resources": [
@@ -79440,7 +79439,7 @@
     "name": "Lion Slayer",
     "keywords": [
       "Punch",
-      "Combo(Kick)"
+      "Combo (Kick)"
     ],
     "resources": [
       "chaos",
@@ -79499,7 +79498,7 @@
     "name": "Double Face Kick",
     "keywords": [
       "Throw",
-      "Combo(Kick)"
+      "Combo (Kick)"
     ],
     "resources": [
       "chaos",
@@ -79559,7 +79558,7 @@
     "name": "Lightning Uppercut",
     "keywords": [
       "Punch",
-      "ComboKazuya (Action)"
+      "Kazuya Combo (Action)"
     ],
     "resources": [
       "chaos",
@@ -79640,7 +79639,7 @@
   {
     "name": "Destruction in His Wake",
     "keywords": [
-      "Combo(Mid Attack, Low Attack, High Attack)"
+      "Combo (Mid Attack, Low Attack, High Attack)"
     ],
     "resources": [
       "chaos",
@@ -79923,7 +79922,7 @@
     "name": "Fruit Picker",
     "keywords": [
       "Kick",
-      "ComboChristie (Action, Kick)"
+      "Christie Combo (Action, Kick)"
     ],
     "resources": [
       "all",
@@ -79982,7 +79981,7 @@
     "name": "Side Flop",
     "keywords": [
       "Kick",
-      "Combo(High Kick)"
+      "Combo (High Kick)"
     ],
     "resources": [
       "all",
@@ -80012,7 +80011,7 @@
     "name": "Slippery Kick",
     "keywords": [
       "Kick",
-      "Combo(Low Kick)"
+      "Combo (Low Kick)"
     ],
     "resources": [
       "all",
@@ -80042,7 +80041,7 @@
     "name": "Samba",
     "keywords": [
       "Kick",
-      "Combo(Mid Kick)"
+      "Combo (Mid Kick)"
     ],
     "resources": [
       "all",
@@ -80433,7 +80432,7 @@
   {
     "name": "Eagle Talon",
     "keywords": [
-      "Combo(Low Weapon)"
+      "Combo (Low Weapon)"
     ],
     "resources": [
       "fire",
@@ -80462,7 +80461,7 @@
   {
     "name": "Lightning Horn",
     "keywords": [
-      "Combo(Mid Attack, Mid Attack)"
+      "Combo (Mid Attack, Mid Attack)"
     ],
     "resources": [
       "fire",
@@ -80881,7 +80880,7 @@
   {
     "name": "Oratorio Halcyon",
     "keywords": [
-      "Combo(Mid Attack, Mid Attack)",
+      "Combo (Mid Attack, Mid Attack)",
       "Weapon"
     ],
     "resources": [
@@ -81410,7 +81409,7 @@
   {
     "name": "Valentine*",
     "keywords": [
-      "OnlyIvy ",
+      "Ivy Only",
       "Unique"
     ],
     "resources": [
@@ -81745,7 +81744,7 @@
   {
     "name": "Curse of the Ancient Mariner",
     "keywords": [
-      "Combo(High Attack, High Attack)"
+      "Combo (High Attack, High Attack)"
     ],
     "resources": [
       "chaos",
@@ -82185,7 +82184,7 @@
   {
     "name": "Alshain Najm",
     "keywords": [
-      "ComboAlgol (Low Attack, Mid Attack)"
+      "Algol Combo (Low Attack, Mid Attack)"
     ],
     "resources": [
       "all",
@@ -82241,7 +82240,7 @@
   {
     "name": "Alaraph Achernar",
     "keywords": [
-      "Combo(Low Attack)"
+      "Combo (Low Attack)"
     ],
     "resources": [
       "all",
@@ -82296,7 +82295,7 @@
   {
     "name": "Pseudo-Soul Edge",
     "keywords": [
-      "OnlyAlgol ",
+      "Algol Only",
       "Unique"
     ],
     "resources": [
@@ -82323,7 +82322,7 @@
   {
     "name": "Pseudo-Soul Calibur",
     "keywords": [
-      "OnlyAlgol ",
+      "Algol Only",
       "Unique"
     ],
     "resources": [
@@ -82575,7 +82574,7 @@
   {
     "name": "Hades Destroyer",
     "keywords": [
-      "PowerfulAstaroth : 2",
+      "Astaroth Powerful: 2",
       "Throw"
     ],
     "resources": [
@@ -82632,7 +82631,7 @@
   {
     "name": "Hades",
     "keywords": [
-      "Combo(Mid Weapon)                 "
+      "Combo (Mid Weapon)"
     ],
     "resources": [
       "earth",
@@ -82661,7 +82660,7 @@
   {
     "name": "Titan Ax",
     "keywords": [
-      "Combo(Mid Attack, High Attack)"
+      "Combo (Mid Attack, High Attack)"
     ],
     "resources": [
       "earth",
@@ -82743,7 +82742,7 @@
   {
     "name": "Kulutues*",
     "keywords": [
-      "OnlyAsataroth ",
+      "Asataroth Only",
       "Unique"
     ],
     "resources": [
@@ -83103,7 +83102,7 @@
   {
     "name": "Reborn Slasher",
     "keywords": [
-      "Combo(Low Attack)                 "
+      "Combo (Low Attack)"
     ],
     "resources": [
       "earth",
@@ -83132,7 +83131,7 @@
   {
     "name": "Double Grounder Beta",
     "keywords": [
-      "Combo(Mid Weapon)                 "
+      "Combo (Mid Weapon)"
     ],
     "resources": [
       "earth",
@@ -83187,7 +83186,7 @@
   {
     "name": "Soul Calibur*",
     "keywords": [
-      "OnlySiegfried ",
+      "Siegfried Only",
       "Unique"
     ],
     "resources": [
@@ -83540,7 +83539,7 @@
   {
     "name": "Knight Breaker",
     "keywords": [
-      "Combo(Mid Attack, High Attack)",
+      "Combo (Mid Attack, High Attack)",
       "Weapon"
     ],
     "resources": [
@@ -83570,7 +83569,7 @@
   {
     "name": "Soul Smasher",
     "keywords": [
-      "Combo(Stun)"
+      "Combo (Stun)"
     ],
     "resources": [
       "death",
@@ -83625,7 +83624,7 @@
   {
     "name": "Soul Edge*",
     "keywords": [
-      "OnlyNightmare ",
+      "Nightmare Only",
       "Unique"
     ],
     "resources": [
@@ -83872,7 +83871,7 @@
   {
     "name": "Command the Sandstorm",
     "keywords": [
-      "Combo(Throw)",
+      "Combo (Throw)",
       "Ranged"
     ],
     "resources": [
@@ -83929,7 +83928,7 @@
   {
     "name": "One-Handed Crocodile Grasp",
     "keywords": [
-      "StunRashotep : 2",
+      "Rashotep Stun: 2",
       "Throw"
     ],
     "resources": [
@@ -84070,7 +84069,7 @@
   {
     "name": "The Double Crown of Egypt",
     "keywords": [
-      "OnlyRashotep ",
+      "Rashotep Only",
       "Unique"
     ],
     "resources": [
@@ -84319,7 +84318,7 @@
   {
     "name": "Descending Dragon Spear",
     "keywords": [
-      "ComboTemujin (Mid Weapon)"
+      "Temujin Combo (Mid Weapon)"
     ],
     "resources": [
       "air",
@@ -84349,7 +84348,7 @@
     "name": "Sweeping Tail Strike",
     "keywords": [
       "Punch",
-      "Combo(Weapon)"
+      "Combo (Weapon)"
     ],
     "resources": [
       "air",
@@ -84379,7 +84378,7 @@
     "name": "Dragon's Flame",
     "keywords": [
       "Ranged",
-      "Combo(Mid Weapon, High Attack)"
+      "Combo (Mid Weapon, High Attack)"
     ],
     "resources": [
       "air",
@@ -84410,7 +84409,7 @@
     "keywords": [
       "Stun: 2",
       "Weapon",
-      "Combo(Kick)"
+      "Combo (Kick)"
     ],
     "resources": [
       "air",
@@ -84440,7 +84439,7 @@
     "name": "Grappling Knee Strike",
     "keywords": [
       "Kick",
-      "Combo(Weapon)"
+      "Combo (Weapon)"
     ],
     "resources": [
       "air",
@@ -84770,7 +84769,7 @@
   {
     "name": "Wrath of Heaven",
     "keywords": [
-      "Combo(Reversal, Reversal)"
+      "Combo (Reversal, Reversal)"
     ],
     "resources": [
       "good",
@@ -84886,7 +84885,7 @@
   {
     "name": "Crane Strike",
     "keywords": [
-      "Combo(Reversal)"
+      "Combo (Reversal)"
     ],
     "resources": [
       "good",
@@ -85217,7 +85216,7 @@
     "name": "Rage of the Dragon",
     "keywords": [
       "Punch",
-      "OnlyYi Shan "
+      "Yi Shan Only"
     ],
     "resources": [
       "earth",
@@ -85685,7 +85684,7 @@
   {
     "name": "Execution Technique Third Rite",
     "keywords": [
-      "Combo(Low Weapon, High Weapon)"
+      "Combo (Low Weapon, High Weapon)"
     ],
     "resources": [
       "air",
@@ -86257,7 +86256,7 @@
   {
     "name": "Odin's Wrath",
     "keywords": [
-      "DesperationAstrid : 6",
+      "Astrid Desperation: 6",
       "Weapon"
     ],
     "resources": [
@@ -86549,7 +86548,7 @@
   {
     "name": "Jotun's Fury",
     "keywords": [
-      "DesperationRagnar : 5"
+      "Ragnar Desperation: 5"
     ],
     "resources": [
       "death",
@@ -86604,7 +86603,7 @@
   {
     "name": "Mighty Knee Strike",
     "keywords": [
-      "Combo(Throw)"
+      "Combo (Throw)"
     ],
     "resources": [
       "death",
@@ -87054,7 +87053,7 @@
   {
     "name": "Ancient Ensnaring Sleeve Technique",
     "keywords": [
-      "Ranged "
+      "Ranged"
     ],
     "resources": [
       "chaos",
@@ -87083,8 +87082,8 @@
   {
     "name": "Twilight Embrace",
     "keywords": [
-      "OnlyZhao Daiyu ",
-      "Combo(Mid Attack, Low Attack)"
+      "Zhao Daiyu Only",
+      "Combo (Mid Attack, Low Attack)"
     ],
     "resources": [
       "chaos",
@@ -87454,7 +87453,7 @@
     "text": "This card is an exact printed copy of the card displayed at: www.jascogames.com/worldchampionshps",
     "numero": "44",
     "numero_image": "68",
-    "type": "Purple",
+    "type": "purple",
     "rarity": "promo",
     "extension_short": "6pointpromo",
     "extension": "6 Points Promos",
@@ -88225,7 +88224,7 @@
     "name": "Galactica Phantom**",
     "keywords": [
       "Punch",
-      "Combo(Mid Punch, Mid Punch)"
+      "Combo (Mid Punch, Mid Punch)"
     ],
     "resources": [
       "fire",
@@ -88848,7 +88847,7 @@
     "name": "Curse of Corruption",
     "keywords": [
       "Breaker: 3",
-      "Combo(Attack)"
+      "Combo (Attack)"
     ],
     "resources": [
       "evil"
@@ -90493,57 +90492,6 @@
     "extension_short": "retroshadowar",
     "extension": "6 Points Promos",
     "asset": "retroshadowar/006.jpg"
-  },{
-    "name": "\u00b7 Lu Chen \u00b7",
-    "resources": [
-      "all",
-      "good",
-      "water"
-    ],
-    "formats": [
-      "retro",
-      "universal"
-    ],
-    "control": "6",
-    "difficulty": "6",
-    "block_modifier": "0",
-    "block_zone": "mid",
-    "hand_size": "6",
-    "vitality": "27",
-    "text": "R Commit: After you block an attack, draw X cards. X equals the block modifier of your block.  R Commit 1 Foundation: After you check a Reversal when attempting to block an attack, add the checked Reversal to your hand. Playable while committed.",
-    "numero": "112",
-    "numero_image": "112",
-    "type": "character",
-    "rarity": "",
-    "extension_short": "retroshadowar",
-    "extension": "4 Points Promos",
-    "asset": "retroshadowar/112.jpg"
-  },
-  {
-    "name": "\u00b7 Rashotep \u00b7",
-    "resources": [
-      "death",
-      "evil",
-      "order"
-    ],
-    "formats": [
-      "retro",
-      "universal"
-    ],
-    "control": "6",
-    "difficulty": "6",
-    "block_modifier": "0",
-    "block_zone": "mid",
-    "hand_size": "6",
-    "vitality": "27",
-    "text": "R Commit, discard X cards: After your opponent's Ready Step, commit X non character cards in their staging area.",
-    "numero": "113",
-    "numero_image": "113",
-    "type": "character",
-    "rarity": "",
-    "extension_short": "retroshadowar",
-    "extension": "4 Points Promos",
-    "asset": "retroshadowar/113.jpg"
   },
   {
     "name": "\u00b7Paul Bittner\u00b7",
