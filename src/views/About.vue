@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>CoffeeVS helps you find cards and build decks for Universus</h1>
+    <h1>Build.UVS helps you find cards and build decks for Universus</h1>
     <p>Search features</p>
     <ul>
     <li>The Name filter dropdown has the names of all cards that match your other filters</li>

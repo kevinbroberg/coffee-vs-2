@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <h1>Coffee.vs</h1>
+        <h1>Build.UVS</h1>
         <div id="nav">
             <router-link to="/">Home</router-link>|
             <router-link to="/deck">Deck</router-link>|
