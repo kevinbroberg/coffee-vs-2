@@ -8,16 +8,9 @@
           :searchable="true" placeholder="Filter by name">
         </multiselect>
       </div>
-      <div>
-        <multiselect v-model="selectedSymbols" :options="symbolOptions" :multiple="true" :close-on-select="false" :customLabel=initialCap
-            :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
-        </multiselect>
-      </div>
-      <div>
-        <multiselect v-model="selectedSymbols2" :options="symbolOptions" :multiple="true" :close-on-select="false" :customLabel=initialCap
-            :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
-        </multiselect>
-      </div>
+      <multiselect v-for="(filter, index) in symbolFilters" v-bind:key=index v-model="filter.selections" :options="filter.options" :multiple="true" :close-on-select="false" :customLabel=initialCap
+        :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
+      </multiselect>
       <div>
         <multiselect @close="selectedOrigins = $event" v-model="indirectOrigins" :options="originOptions" :multiple="true" :close-on-select="false" 
             :clear-on-select="false" :searchable="true" placeholder="Filter by set">
@@ -43,7 +36,7 @@
       </div>
       <div>
         <multiselect v-model="selectedFormats" :options="formatOptions" :multiple="true" :close-on-select="false" :customLabel=initialCap
-            :clear-on-select="false" :searchable="false" placeholder="Filter by format">
+            :clear-on-select="false" :searchable="true" placeholder="Filter by format">
         </multiselect>
       </div>
       <button v-if="resultsCount > 200" type="button">{{resultsCount}} Cards in Search</button>
@@ -69,15 +62,15 @@ export default {
   props: ["query"],
   data() {
     return {
-      // TODO do these symbol options belong elsewhere? Could they be reactive to the filtered cards?
-      symbolOptions: ["air", "all", "chaos", "death", "earth", "evil", "fire", "good", "infinity", "life", "order", "void", "water"],
-      formatOptions: ["standard", "retro", "future", "universal"],
       // selections
       nameSelection: this.query.nameSelection       ? this.query.nameSelection : '',
       textSelection: this.query.textSelection       ? this.query.textSelection : '',
-      selectedSymbols: this.query.selectedSymbols   ? JSON.parse(this.query.selectedSymbols) : [],
-      selectedSymbols2: this.query.selectedSymbols2 ? JSON.parse(this.query.selectedSymbols2) : [],
-      selectedSymbols3: this.query.selectedSymbols3 ? JSON.parse(this.query.selectedSymbols3) : [],
+      symbolFilters: [
+        this.symbolFilterGenerator(["air", "all", "chaos", "death", "earth", "evil", "fire", "good", "infinity", "life", "order", "void", "water"], this.pureSymbolFilter), 
+        this.symbolFilterGenerator(["air", "all", "chaos", "death", "earth", "evil", "fire", "good", "infinity", "life", "order", "void", "water"], this.pureSymbolFilter), 
+        this.symbolFilterGenerator(["air", "all", "chaos", "death", "earth", "evil", "fire", "good", "infinity", "life", "order", "void", "water"], this.pureSymbolFilter)
+      ],
+      
       selectedOrigins: this.query.selectedOrigins   ? JSON.parse(this.query.selectedOrigins) : [],
       selectedTypes:   this.query.selectedTypes     ? JSON.parse(this.query.selectedTypes) : [],
       selectedKeywords: this.query.selectedKeywords ? JSON.parse(this.query.selectedKeywords) : [],
@@ -132,6 +125,9 @@ export default {
     initialCap([first, ...rest]) { // I LOVE destructuring but this has bad edge case handling
       return first.toUpperCase() + rest.join('')
     },
+    pureSymbolFilter(choices, card) {
+      return card.resources.some(sym => choices.includes(sym.toLowerCase()))
+    },
     async copyFilterLink() {
         let fields = ["nameSelection",
             "textSelection",
@@ -151,14 +147,21 @@ export default {
         await navigator.clipboard.writeText(filterLink)
     },
     // all methods below relate to filtering
-    symbolFilterGenerator(selections){ 
-      return (card) => {
-        if (selections && selections.length > 0) {
-          return card.resources.some(sym => selections.includes(sym.toLowerCase()))
+    symbolFilterGenerator(options, condition) {
+      let fi = {
+        // options: ["air", "all", "chaos", "death", "earth", "evil", "fire", "good", "infinity", "life", "order", "void", "water"],
+        options: options,
+        selections: []
+      }
+      fi.filter = (card) => {
+        if (fi.selections && fi.selections.length > 0) {
+          // return card.resources.some(sym => choices.includes(sym.toLowerCase()))
+          return condition(fi.selections, card)
         } else {
           return true
         }
       }
+      return fi
     },
     originMatchFilter(card) {
       if (this.selectedOrigins && this.selectedOrigins.length > 0) {
@@ -249,15 +252,14 @@ export default {
       this.selectedKeywords = []
     },
     allFiltersMatch(card) {
-      let filters = [this.originMatchFilter, 
-                     this.symbolFilterGenerator(this.selectedSymbols), 
-                     this.symbolFilterGenerator(this.selectedSymbols2), 
-                     this.symbolFilterGenerator(this.selectedSymbols3),
+      let filters = [
+                     this.originMatchFilter,
                      this.nameFilter,
                      this.textFilter,
                      this.typeMatchFilter,
                      this.formatMatchFilter,
-                     this.keywordFilter
+                     this.keywordFilter,
+                     ...this.symbolFilters.map(f => f.filter),
                      ]
       return filters.every(function(f) {
         try {
