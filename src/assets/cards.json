@@ -2365,7 +2365,7 @@
     "asset": "libra/110.jpg"
   },
   {
-    "name": "\u00b7Maxi\u00b7",
+    "name": "Maxi1",
     "resources": [
       "air",
       "all",
@@ -2640,7 +2640,7 @@
     "asset": "libra/101.jpg"
   },
   {
-    "name": "\u00b7Voldo\u00b7",
+    "name": "Voldo1",
     "resources": [
       "chaos",
       "death",
@@ -2923,7 +2923,7 @@
     "asset": "libra/092.jpg"
   },
   {
-    "name": "\u00b7Tira\u00b7",
+    "name": "Tira1",
     "resources": [
       "death",
       "evil",
@@ -3202,7 +3202,7 @@
     "asset": "libra/083.jpg"
   },
   {
-    "name": "\u00b7Talim\u00b7",
+    "name": "Talim1",
     "resources": [
       "chaos",
       "water",
@@ -3477,7 +3477,7 @@
     "asset": "libra/074.jpg"
   },
   {
-    "name": "\u00b7Seong Mi-na\u00b7",
+    "name": "Seong Mi-na1",
     "resources": [
       "all",
       "good",
@@ -3757,7 +3757,7 @@
     "asset": "libra/065.jpg"
   },
   {
-    "name": "\u00b7Raphael\u00b7",
+    "name": "Raphael1",
     "resources": [
       "air",
       "life",
@@ -4030,7 +4030,7 @@
     "asset": "libra/056.jpg"
   },
   {
-    "name": "\u00b7\u00b7Mitsurugi\u00b7\u00b7",
+    "name": "Mitsurugi2",
     "resources": [
       "good",
       "water",
@@ -4308,7 +4308,7 @@
     "asset": "libra/047.jpg"
   },
   {
-    "name": "\u00b7Inferno\u00b7",
+    "name": "Inferno1",
     "resources": [
       "all",
       "evil",
@@ -4584,7 +4584,7 @@
     "asset": "libra/038.jpg"
   },
   {
-    "name": "\u00b7Cervantes\u00b7",
+    "name": "Cervantes1",
     "resources": [
       "air",
       "death",
@@ -4858,7 +4858,7 @@
     "asset": "libra/029.jpg"
   },
   {
-    "name": "\u00b7Cassandra\u00b7",
+    "name": "Cassandra1",
     "resources": [
       "earth",
       "good",
@@ -5127,7 +5127,7 @@
     "asset": "libra/020.jpg"
   },
   {
-    "name": "\u00b7\u00b7Azwel\u00b7\u00b7",
+    "name": "Azwel2",
     "resources": [
       "all",
       "chaos",
@@ -5409,7 +5409,7 @@
     "asset": "libra/011.jpg"
   },
   {
-    "name": "\u00b7Astaroth\u00b7",
+    "name": "Astaroth1",
     "resources": [
       "earth",
       "evil",
@@ -5685,7 +5685,7 @@
     "asset": "libra/002.jpg"
   },
   {
-    "name": "\u00b7Amy\u00b7",
+    "name": "Amy1",
     "resources": [
       "life",
       "order",
@@ -8740,7 +8740,7 @@
     "asset": "championpromos5/007.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Tim Keefe\u00b7\u00b7\u00b7",
+    "name": "Tim Keefe3",
     "resources": [
       "air",
       "good",
@@ -8767,7 +8767,7 @@
     "asset": "championpromos5/006.jpg"
   },
   {
-    "name": "\u00b7\u00b7Tim Keefe\u00b7\u00b7",
+    "name": "Tim Keefe2",
     "resources": [
       "chaos",
       "earth",
@@ -8794,7 +8794,7 @@
     "asset": "championpromos5/005.jpg"
   },
   {
-    "name": "\u00b7\u00b7Mike Hardiman\u00b7\u00b7",
+    "name": "Mike Hardiman2",
     "resources": [
       "all",
       "earth",
@@ -8821,7 +8821,7 @@
     "asset": "championpromos5/004.jpg"
   },
   {
-    "name": "\u00b7\u00b7Kevin Broberg\u00b7\u00b7",
+    "name": "Kevin Broberg2",
     "resources": [
       "evil",
       "good",
@@ -8848,7 +8848,7 @@
     "asset": "championpromos5/003.jpg"
   },
   {
-    "name": "\u00b7::Garett Brett::\u00b7",
+    "name": "Garett Brett5",
     "resources": [
       "all",
       "good"
@@ -8874,7 +8874,7 @@
     "asset": "championpromos5/002.jpg"
   },
   {
-    "name": "\u00b7Barret Bryant\u00b7",
+    "name": "Barret Bryant1",
     "resources": [
       "death",
       "order",
@@ -9594,7 +9594,7 @@
     "asset": "7thcross/066.jpg"
   },
   {
-    "name": "\u00b7\u00b7Zsolt\u00b7\u00b7",
+    "name": "Zsolt2",
     "resources": [
       "chaos",
       "good",
@@ -9621,7 +9621,7 @@
     "asset": "7thcross/065.jpg"
   },
   {
-    "name": "\u00b7Zsolt\u00b7",
+    "name": "Zsolt1",
     "resources": [
       "chaos",
       "good",
@@ -9870,7 +9870,7 @@
     "asset": "7thcross/057.jpg"
   },
   {
-    "name": "\u00b7\u00b7Tournelouse\u00b7\u00b7",
+    "name": "Tournelouse2",
     "keywords": [
       "Breaker: 1"
     ],
@@ -9900,7 +9900,7 @@
     "asset": "7thcross/056.jpg"
   },
   {
-    "name": "\u00b7Tournelouse\u00b7",
+    "name": "Tournelouse1",
     "resources": [
       "air",
       "earth",
@@ -10146,7 +10146,7 @@
     "asset": "7thcross/048.jpg"
   },
   {
-    "name": "\u00b7\u00b7Taisei\u00b7\u00b7",
+    "name": "Taisei2",
     "resources": [
       "death",
       "life",
@@ -10173,7 +10173,7 @@
     "asset": "7thcross/047.jpg"
   },
   {
-    "name": "\u00b7Taisei\u00b7",
+    "name": "Taisei1",
     "resources": [
       "death",
       "life",
@@ -10421,7 +10421,7 @@
     "asset": "7thcross/039.jpg"
   },
   {
-    "name": "\u00b7\u00b7Remiliss\u00b7\u00b7",
+    "name": "Remiliss2",
     "resources": [
       "air",
       "all",
@@ -10448,7 +10448,7 @@
     "asset": "7thcross/038.jpg"
   },
   {
-    "name": "\u00b7Remiliss\u00b7",
+    "name": "Remiliss1",
     "resources": [
       "air",
       "all",
@@ -10699,7 +10699,7 @@
     "asset": "7thcross/030.jpg"
   },
   {
-    "name": "\u00b7\u00b7Geoffrey\u00b7\u00b7",
+    "name": "Geoffrey2",
     "resources": [
       "earth",
       "order",
@@ -10726,7 +10726,7 @@
     "asset": "7thcross/029.jpg"
   },
   {
-    "name": "\u00b7Geoffrey\u00b7",
+    "name": "Geoffrey1",
     "resources": [
       "earth",
       "order",
@@ -10972,7 +10972,7 @@
     "asset": "7thcross/021.jpg"
   },
   {
-    "name": "\u00b7\u00b7Eugenia\u00b7\u00b7",
+    "name": "Eugenia2",
     "resources": [
       "chaos",
       "void",
@@ -10999,7 +10999,7 @@
     "asset": "7thcross/020.jpg"
   },
   {
-    "name": "\u00b7Eugenia\u00b7",
+    "name": "Eugenia1",
     "resources": [
       "chaos",
       "void",
@@ -11245,7 +11245,7 @@
     "asset": "7thcross/012.jpg"
   },
   {
-    "name": "\u00b7\u00b7D'Janette\u00b7\u00b7",
+    "name": "D'Janette2",
     "resources": [
       "all",
       "evil",
@@ -11272,7 +11272,7 @@
     "asset": "7thcross/011.jpg"
   },
   {
-    "name": "\u00b7D'Janette\u00b7",
+    "name": "D'Janette1",
     "resources": [
       "all",
       "evil",
@@ -11523,7 +11523,7 @@
     "asset": "7thcross/003.jpg"
   },
   {
-    "name": "\u00b7\u00b7Celinka\u00b7\u00b7",
+    "name": "Celinka2",
     "resources": [
       "death",
       "fire",
@@ -11550,7 +11550,7 @@
     "asset": "7thcross/002.jpg"
   },
   {
-    "name": "\u00b7Celinka\u00b7",
+    "name": "Celinka1",
     "resources": [
       "death",
       "fire",
@@ -11577,7 +11577,7 @@
     "asset": "7thcross/001.jpg"
   },
   {
-    "name": "\u00b7Azwel\u00b7",
+    "name": "Azwel1",
     "resources": [
       "void",
       "chaos",
@@ -11849,7 +11849,7 @@
     "asset": "soulcalibur6/101.jpg"
   },
   {
-    "name": "\u00b7Zasalamel\u00b7",
+    "name": "Zasalamel1",
     "resources": [
       "fire",
       "earth",
@@ -12129,7 +12129,7 @@
     "asset": "soulcalibur6/092.jpg"
   },
   {
-    "name": "\u00b7Yoshimitsu\u00b7",
+    "name": "Yoshimitsu1",
     "resources": [
       "death",
       "chaos",
@@ -12402,7 +12402,7 @@
     "asset": "soulcalibur6/083.jpg"
   },
   {
-    "name": "\u00b7Xianghua\u00b7",
+    "name": "Xianghua1",
     "resources": [
       "water",
       "void",
@@ -12674,7 +12674,7 @@
     "asset": "soulcalibur6/074.jpg"
   },
   {
-    "name": "\u00b7Taki\u00b7",
+    "name": "Taki1",
     "resources": [
       "evil",
       "chaos",
@@ -12942,7 +12942,7 @@
     "asset": "soulcalibur6/065.jpg"
   },
   {
-    "name": "\u00b7Sophitia\u00b7",
+    "name": "Sophitia1",
     "resources": [
       "order",
       "life",
@@ -13212,7 +13212,7 @@
     "asset": "soulcalibur6/056.jpg"
   },
   {
-    "name": "\u00b7Siegfried\u00b7",
+    "name": "Siegfried1",
     "resources": [
       "void",
       "good",
@@ -13483,7 +13483,7 @@
     "asset": "soulcalibur6/047.jpg"
   },
   {
-    "name": "\u00b7Nightmare\u00b7",
+    "name": "Nightmare1",
     "resources": [
       "fire",
       "evil",
@@ -13764,7 +13764,7 @@
     "asset": "soulcalibur6/038.jpg"
   },
   {
-    "name": "\u00b7Mitsurugi\u00b7",
+    "name": "Mitsurugi1",
     "resources": [
       "void",
       "good",
@@ -14034,7 +14034,7 @@
     "asset": "soulcalibur6/029.jpg"
   },
   {
-    "name": "\u00b7Maxi\u00b7",
+    "name": "Maxi1",
     "resources": [
       "good",
       "all",
@@ -14308,7 +14308,7 @@
     "asset": "soulcalibur6/020.jpg"
   },
   {
-    "name": "\u00b7Kilik\u00b7",
+    "name": "Kilik1",
     "resources": [
       "water",
       "order",
@@ -14581,7 +14581,7 @@
     "asset": "soulcalibur6/011.jpg"
   },
   {
-    "name": "\u00b7Ivy\u00b7",
+    "name": "Ivy1",
     "resources": [
       "life",
       "evil",
@@ -14851,7 +14851,7 @@
     "asset": "soulcalibur6/002.jpg"
   },
   {
-    "name": "\u00b7Groh\u00b7",
+    "name": "Groh1",
     "resources": [
       "water",
       "order",
@@ -14990,7 +14990,7 @@
     "asset": "ptcpromos/007.jpg"
   },
   {
-    "name": "Hyper Bomb\u00b7\u00b7",
+    "name": "Hyper Bomb2",
     "keywords": [
       "Weapon",
       "Stun: 2"
@@ -15099,7 +15099,7 @@
     "asset": "capcomleaguekit/301.jpg"
   },
   {
-    "name": "\u00b7Elena\u00b7",
+    "name": "Elena1",
     "resources": [
       "chaos",
       "fire",
@@ -15126,7 +15126,7 @@
     "asset": "sfvdarkstalkers2018/082.jpg"
   },
   {
-    "name": "\u00b7\u00b7Donovan\u00b7\u00b7",
+    "name": "Donovan2",
     "resources": [
       "all",
       "death",
@@ -15653,7 +15653,7 @@
     "asset": "sfvdarkstalkers2018/065.jpg"
   },
   {
-    "name": "\u00b7\u00b7Morrigan\u00b7\u00b7",
+    "name": "Morrigan2",
     "resources": [
       "evil",
       "good",
@@ -15929,7 +15929,7 @@
     "asset": "sfvdarkstalkers2018/056.jpg"
   },
   {
-    "name": "\u00b7\u00b7Lord Raptor\u00b7\u00b7",
+    "name": "Lord Raptor2",
     "resources": [
       "air",
       "death",
@@ -16204,7 +16204,7 @@
     "asset": "sfvdarkstalkers2018/047.jpg"
   },
   {
-    "name": "\u00b7\u00b7Lilith\u00b7\u00b7",
+    "name": "Lilith2",
     "resources": [
       "chaos",
       "earth",
@@ -16483,7 +16483,7 @@
     "asset": "sfvdarkstalkers2018/038.jpg"
   },
   {
-    "name": "\u00b7\u00b7Ken\u00b7\u00b7",
+    "name": "Ken2",
     "resources": [
       "all",
       "fire",
@@ -16758,7 +16758,7 @@
     "asset": "sfvdarkstalkers2018/029.jpg"
   },
   {
-    "name": "\u00b7\u00b7Jedah\u00b7\u00b7",
+    "name": "Jedah2",
     "resources": [
       "chaos",
       "death",
@@ -17026,7 +17026,7 @@
     "asset": "sfvdarkstalkers2018/020.jpg"
   },
   {
-    "name": "\u00b7Gill\u00b7",
+    "name": "Gill1",
     "resources": [
       "all",
       "life",
@@ -17301,7 +17301,7 @@
     "asset": "sfvdarkstalkers2018/011.jpg"
   },
   {
-    "name": "\u00b7\u00b7Chun-li\u00b7\u00b7",
+    "name": "Chun-li2",
     "resources": [
       "air",
       "earth",
@@ -17576,7 +17576,7 @@
     "asset": "sfvdarkstalkers2018/002.jpg"
   },
   {
-    "name": "\u00b7\u00b7Akuma\u00b7\u00b7",
+    "name": "Akuma2",
     "resources": [
       "evil",
       "order",
@@ -17623,7 +17623,7 @@
     "asset": "mortalkombat/192.jpg"
   },
   {
-    "name": "\u00b7\u00b7Quan Chi\u00b7\u00b7",
+    "name": "Quan Chi2",
     "resources": [
       "death",
       "evil",
@@ -17650,7 +17650,7 @@
     "asset": "mortalkombat/191.jpg"
   },
   {
-    "name": "\u00b7\u00b7Liu Kang\u00b7\u00b7",
+    "name": "Liu Kang2",
     "resources": [
       "death",
       "fire",
@@ -18150,7 +18150,7 @@
     "asset": "mortalkombat/155.jpg"
   },
   {
-    "name": "\u00b7Sub-Zero\u00b7",
+    "name": "Sub-Zero1",
     "resources": [
       "order",
       "void",
@@ -18660,7 +18660,7 @@
     "asset": "mortalkombat/137.jpg"
   },
   {
-    "name": "\u00b7Scorpion\u00b7",
+    "name": "Scorpion1",
     "resources": [
       "death",
       "evil",
@@ -22516,7 +22516,7 @@
     "asset": "mortalkombat/186.jpg"
   },
   {
-    "name": "\u00b7Shinnok\u00b7",
+    "name": "Shinnok1",
     "resources": [
       "all",
       "death",
@@ -22603,7 +22603,7 @@
     "asset": "mortalkombat/188.jpg"
   },
   {
-    "name": "\u00b7Takeda\u00b7",
+    "name": "Takeda1",
     "resources": [
       "fire",
       "good",
@@ -22630,7 +22630,7 @@
     "asset": "mortalkombat/172.jpg"
   },
   {
-    "name": "\u00b7Reptile\u00b7",
+    "name": "Reptile1",
     "resources": [
       "earth",
       "void",
@@ -22657,7 +22657,7 @@
     "asset": "mortalkombat/127.jpg"
   },
   {
-    "name": "\u00b7Raiden\u00b7",
+    "name": "Raiden1",
     "resources": [
       "air",
       "order",
@@ -22684,7 +22684,7 @@
     "asset": "mortalkombat/118.jpg"
   },
   {
-    "name": "\u00b7Quan Chi\u00b7",
+    "name": "Quan Chi1",
     "resources": [
       "death",
       "evil",
@@ -22711,7 +22711,7 @@
     "asset": "mortalkombat/109.jpg"
   },
   {
-    "name": "\u00b7Mileena\u00b7",
+    "name": "Mileena1",
     "resources": [
       "chaos",
       "evil",
@@ -22738,7 +22738,7 @@
     "asset": "mortalkombat/100.jpg"
   },
   {
-    "name": "\u00b7Liu Kang\u00b7",
+    "name": "Liu Kang1",
     "resources": [
       "death",
       "fire",
@@ -22765,7 +22765,7 @@
     "asset": "mortalkombat/091.jpg"
   },
   {
-    "name": "\u00b7Kung Jin\u00b7",
+    "name": "Kung Jin1",
     "resources": [
       "air",
       "chaos",
@@ -22792,7 +22792,7 @@
     "asset": "mortalkombat/082.jpg"
   },
   {
-    "name": "\u00b7Kotal Kahn\u00b7",
+    "name": "Kotal Kahn1",
     "resources": [
       "evil",
       "life",
@@ -22819,7 +22819,7 @@
     "asset": "mortalkombat/073.jpg"
   },
   {
-    "name": "\u00b7Kitana\u00b7",
+    "name": "Kitana1",
     "resources": [
       "death",
       "evil",
@@ -22846,7 +22846,7 @@
     "asset": "mortalkombat/064.jpg"
   },
   {
-    "name": "\u00b7Johnny Cage\u00b7",
+    "name": "Johnny Cage1",
     "resources": [
       "earth",
       "good",
@@ -22873,7 +22873,7 @@
     "asset": "mortalkombat/055.jpg"
   },
   {
-    "name": "\u00b7Jacqui Briggs\u00b7",
+    "name": "Jacqui Briggs1",
     "resources": [
       "air",
       "life",
@@ -22900,7 +22900,7 @@
     "asset": "mortalkombat/046.jpg"
   },
   {
-    "name": "\u00b7Goro\u00b7",
+    "name": "Goro1",
     "resources": [
       "all",
       "earth",
@@ -22927,7 +22927,7 @@
     "asset": "mortalkombat/037.jpg"
   },
   {
-    "name": "\u00b7Erron Black\u00b7",
+    "name": "Erron Black1",
     "resources": [
       "air",
       "chaos",
@@ -22954,7 +22954,7 @@
     "asset": "mortalkombat/028.jpg"
   },
   {
-    "name": "\u00b7Ermac\u00b7",
+    "name": "Ermac1",
     "resources": [
       "all",
       "death",
@@ -22981,7 +22981,7 @@
     "asset": "mortalkombat/019.jpg"
   },
   {
-    "name": "\u00b7D'Vorah\u00b7",
+    "name": "D'Vorah1",
     "resources": [
       "all",
       "chaos",
@@ -23008,7 +23008,7 @@
     "asset": "mortalkombat/010.jpg"
   },
   {
-    "name": "\u00b7Cassie Cage\u00b7",
+    "name": "Cassie Cage1",
     "resources": [
       "all",
       "earth",
@@ -23058,7 +23058,7 @@
     "asset": "bebop/202.jpg"
   },
   {
-    "name": "\u00b7\u00b7Twinkle Murdock\u00b7\u00b7",
+    "name": "Twinkle Murdock2",
     "resources": [
       "evil",
       "void",
@@ -23310,7 +23310,7 @@
     "asset": "bebop/045.jpg"
   },
   {
-    "name": "\u00b7Jet\u00b7",
+    "name": "Jet1",
     "resources": [
       "earth",
       "fire",
@@ -23813,7 +23813,7 @@
     "asset": "bebop/063.jpg"
   },
   {
-    "name": "\u00b7Mad Pierrot\u00b7",
+    "name": "Mad Pierrot1",
     "resources": [
       "evil",
       "fire",
@@ -24165,7 +24165,7 @@
     "asset": "bebop/072.jpg"
   },
   {
-    "name": "\u00b7Spike\u00b7",
+    "name": "Spike1",
     "resources": [
       "death",
       "life",
@@ -24723,7 +24723,7 @@
     "asset": "bebop/090.jpg"
   },
   {
-    "name": "\u00b7\u00b7Spike\u00b7\u00b7",
+    "name": "Spike2",
     "resources": [
       "air",
       "death",
@@ -24967,7 +24967,7 @@
     "asset": "bebop/029.jpg"
   },
   {
-    "name": "\u00b7Faye\u00b7",
+    "name": "Faye1",
     "resources": [
       "chaos",
       "good",
@@ -25568,7 +25568,7 @@
     "asset": "bebop/020.jpg"
   },
   {
-    "name": "\u00b7Twinkle Murdock\u00b7",
+    "name": "Twinkle Murdock1",
     "resources": [
       "evil",
       "void",
@@ -25849,7 +25849,7 @@
     "asset": "bebop/117.jpg"
   },
   {
-    "name": "\u00b7Vicious\u00b7",
+    "name": "Vicious1",
     "resources": [
       "all",
       "earth",
@@ -26552,7 +26552,7 @@
     "asset": "bebop/133.jpg"
   },
   {
-    "name": "\u00b7Edward & Ein\u00b7",
+    "name": "Edward & Ein1",
     "resources": [
       "all",
       "order",
@@ -27134,7 +27134,7 @@
     "asset": "bebop/145.jpg"
   },
   {
-    "name": "\u00b7Asimov & Katerina\u00b7",
+    "name": "Asimov & Katerina1",
     "resources": [
       "air",
       "chaos",
@@ -27789,7 +27789,7 @@
     "asset": "platinum/027.jpg"
   },
   {
-    "name": "\u00b7Wood Man\u00b7",
+    "name": "Wood Man1",
     "resources": [
       "chaos",
       "earth",
@@ -27816,7 +27816,7 @@
     "asset": "platinum/013.jpg"
   },
   {
-    "name": "\u00b7Stone Man\u00b7",
+    "name": "Stone Man1",
     "resources": [
       "earth",
       "fire",
@@ -27843,7 +27843,7 @@
     "asset": "platinum/012.jpg"
   },
   {
-    "name": "\u00b7Splash Woman\u00b7",
+    "name": "Splash Woman1",
     "resources": [
       "death",
       "life",
@@ -27870,7 +27870,7 @@
     "asset": "platinum/011.jpg"
   },
   {
-    "name": "\u00b7\u00b7Skull Man\u00b7\u00b7",
+    "name": "Skull Man2",
     "resources": [
       "chaos",
       "death",
@@ -27897,7 +27897,7 @@
     "asset": "platinum/010.jpg"
   },
   {
-    "name": "\u00b7Sheep Man\u00b7",
+    "name": "Sheep Man1",
     "resources": [
       "all",
       "evil",
@@ -27924,7 +27924,7 @@
     "asset": "platinum/009.jpg"
   },
   {
-    "name": "\u00b7Shadow Man\u00b7",
+    "name": "Shadow Man1",
     "resources": [
       "air",
       "death",
@@ -27951,7 +27951,7 @@
     "asset": "platinum/008.jpg"
   },
   {
-    "name": "\u00b7Plant Man\u00b7",
+    "name": "Plant Man1",
     "resources": [
       "all",
       "evil",
@@ -27978,7 +27978,7 @@
     "asset": "platinum/007.jpg"
   },
   {
-    "name": "\u00b7\u00b7Napalm Man\u00b7\u00b7",
+    "name": "Napalm Man2",
     "resources": [
       "death",
       "fire",
@@ -28005,7 +28005,7 @@
     "asset": "platinum/006.jpg"
   },
   {
-    "name": "\u00b7\u00b7Huitzil\u00b7\u00b7",
+    "name": "Huitzil2",
     "resources": [
       "earth",
       "fire",
@@ -28032,7 +28032,7 @@
     "asset": "platinum/005.jpg"
   },
   {
-    "name": "\u00b7\u00b7Gemini Man\u00b7\u00b7",
+    "name": "Gemini Man2",
     "resources": [
       "air",
       "evil",
@@ -28059,7 +28059,7 @@
     "asset": "platinum/004.jpg"
   },
   {
-    "name": "\u00b7Drill Man\u00b7",
+    "name": "Drill Man1",
     "resources": [
       "chaos",
       "fire",
@@ -28086,7 +28086,7 @@
     "asset": "platinum/003.jpg"
   },
   {
-    "name": "\u00b7\u00b7Demitri\u00b7\u00b7",
+    "name": "Demitri2",
     "resources": [
       "earth",
       "evil",
@@ -28113,7 +28113,7 @@
     "asset": "platinum/002.jpg"
   },
   {
-    "name": "\u00b7Bubble Man\u00b7",
+    "name": "Bubble Man1",
     "resources": [
       "air",
       "good",
@@ -28167,7 +28167,7 @@
     "asset": "championpromos4/012.jpg"
   },
   {
-    "name": "::Garett Brett::",
+    "name": "Garett Brett4",
     "resources": [
       "all",
       "order",
@@ -28450,7 +28450,7 @@
     "asset": "championpromos4/006.jpg"
   },
   {
-    "name": "\u00b7\u00b7Phil Birch\u00b7\u00b7",
+    "name": "Phil Birch2",
     "resources": [
       "death",
       "earth",
@@ -28476,7 +28476,7 @@
     "asset": "championpromos4/005.jpg"
   },
   {
-    "name": "\u00b7Kevin Broberg\u00b7",
+    "name": "Kevin Broberg1",
     "resources": [
       "chaos",
       "order",
@@ -28502,7 +28502,7 @@
     "asset": "championpromos4/004.jpg"
   },
   {
-    "name": "\u00b7Keith Disbro\u00b7",
+    "name": "Keith Disbro1",
     "resources": [
       "air",
       "chaos",
@@ -28528,7 +28528,7 @@
     "asset": "championpromos4/003.jpg"
   },
   {
-    "name": "\u00b7Grant Padley\u00b7",
+    "name": "Grant Padley1",
     "resources": [
       "air",
       "evil",
@@ -29462,7 +29462,7 @@
     "asset": "sf5/121.jpg"
   },
   {
-    "name": "\u00b7Ryu\u00b7",
+    "name": "Ryu1",
     "resources": [
       "all",
       "chaos",
@@ -29546,7 +29546,7 @@
     "asset": "sf5/041.jpg"
   },
   {
-    "name": "\u00b7Chun-Li\u00b7",
+    "name": "Chun-Li1",
     "resources": [
       "air",
       "earth",
@@ -29804,7 +29804,7 @@
     "asset": "sf5/056.jpg"
   },
   {
-    "name": "\u00b7Dee Jay\u00b7",
+    "name": "Dee Jay1",
     "resources": [
       "all",
       "life",
@@ -30060,7 +30060,7 @@
     "asset": "sf5/065.jpg"
   },
   {
-    "name": "\u00b7Dhalsim\u00b7",
+    "name": "Dhalsim1",
     "resources": [
       "air",
       "fire",
@@ -30315,7 +30315,7 @@
     "asset": "sf5/074.jpg"
   },
   {
-    "name": "\u00b7E. Honda\u00b7",
+    "name": "E. Honda1",
     "resources": [
       "all",
       "earth",
@@ -30572,7 +30572,7 @@
     "asset": "sf5/083.jpg"
   },
   {
-    "name": "\u00b7Fei Long\u00b7",
+    "name": "Fei Long1",
     "resources": [
       "air",
       "fire",
@@ -30832,7 +30832,7 @@
     "asset": "sf5/092.jpg"
   },
   {
-    "name": "\u00b7Guile\u00b7",
+    "name": "Guile1",
     "resources": [
       "earth",
       "good",
@@ -31087,7 +31087,7 @@
     "asset": "sf5/101.jpg"
   },
   {
-    "name": "\u00b7Ken\u00b7",
+    "name": "Ken1",
     "resources": [
       "all",
       "fire",
@@ -31342,7 +31342,7 @@
     "asset": "sf5/110.jpg"
   },
   {
-    "name": "\u00b7M. Bison\u00b7",
+    "name": "M. Bison1",
     "resources": [
       "chaos",
       "death",
@@ -31597,7 +31597,7 @@
     "asset": "sf5/137.jpg"
   },
   {
-    "name": "\u00b7Sagat\u00b7",
+    "name": "Sagat1",
     "resources": [
       "air",
       "death",
@@ -31855,7 +31855,7 @@
     "asset": "sf5/146.jpg"
   },
   {
-    "name": "\u00b7Sakura\u00b7",
+    "name": "Sakura1",
     "resources": [
       "all",
       "good",
@@ -32105,7 +32105,7 @@
     "asset": "sf5/155.jpg"
   },
   {
-    "name": "\u00b7T. Hawk\u00b7",
+    "name": "T. Hawk1",
     "resources": [
       "earth",
       "life",
@@ -32363,7 +32363,7 @@
     "asset": "sf5/164.jpg"
   },
   {
-    "name": "\u00b7Vega\u00b7",
+    "name": "Vega1",
     "resources": [
       "air",
       "death",
@@ -32618,7 +32618,7 @@
     "asset": "sf5/173.jpg"
   },
   {
-    "name": "\u00b7Zangief\u00b7",
+    "name": "Zangief1",
     "resources": [
       "earth",
       "order",
@@ -32868,7 +32868,7 @@
     "asset": "sf5/182.jpg"
   },
   {
-    "name": "\u00b7Juri\u00b7",
+    "name": "Juri1",
     "resources": [
       "air",
       "evil",
@@ -33124,7 +33124,7 @@
     "asset": "sf5/029.jpg"
   },
   {
-    "name": "\u00b7Cammy\u00b7",
+    "name": "Cammy1",
     "resources": [
       "chaos",
       "life",
@@ -33382,7 +33382,7 @@
     "asset": "sf5/020.jpg"
   },
   {
-    "name": "\u00b7Blanka\u00b7",
+    "name": "Blanka1",
     "resources": [
       "chaos",
       "death",
@@ -33642,7 +33642,7 @@
     "asset": "sf5/011.jpg"
   },
   {
-    "name": "\u00b7Balrog\u00b7",
+    "name": "Balrog1",
     "resources": [
       "chaos",
       "evil",
@@ -33895,7 +33895,7 @@
     "asset": "sf5/002.jpg"
   },
   {
-    "name": "\u00b7Akuma\u00b7",
+    "name": "Akuma1",
     "resources": [
       "evil",
       "fire",
@@ -34078,7 +34078,7 @@
     "asset": "grimmpromo/001.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Zoey\u00b7\u00b7\u00b7",
+    "name": "Zoey3",
     "resources": [
       "air",
       "good",
@@ -38064,7 +38064,7 @@
     "asset": "bloodomen/006.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Nehtali\u00b7\u00b7\u00b7",
+    "name": "Nehtali3",
     "resources": [
       "chaos",
       "earth",
@@ -38091,7 +38091,7 @@
     "asset": "bloodomen/201.jpg"
   },
   {
-    "name": "\u00b7\u00b7Sevastian\u00b7\u00b7",
+    "name": "Sevastian2",
     "resources": [
       "chaos",
       "good",
@@ -38118,7 +38118,7 @@
     "asset": "bloodomen/120.jpg"
   },
   {
-    "name": "\u00b7\u00b7Satoshi\u00b7\u00b7",
+    "name": "Satoshi2",
     "resources": [
       "air",
       "fire",
@@ -38145,7 +38145,7 @@
     "asset": "bloodomen/119.jpg"
   },
   {
-    "name": "\u00b7\u00b7Reese\u00b7\u00b7",
+    "name": "Reese2",
     "resources": [
       "air",
       "good",
@@ -38172,7 +38172,7 @@
     "asset": "bloodomen/118.jpg"
   },
   {
-    "name": "\u00b7\u00b7Zoey\u00b7\u00b7",
+    "name": "Zoey2",
     "resources": [
       "air",
       "good",
@@ -38199,7 +38199,7 @@
     "asset": "bloodomen/109.jpg"
   },
   {
-    "name": "\u00b7\u00b7Vincent Grey\u00b7\u00b7",
+    "name": "Vincent Grey2",
     "resources": [
       "evil",
       "fire",
@@ -38226,7 +38226,7 @@
     "asset": "bloodomen/100.jpg"
   },
   {
-    "name": "\u00b7\u00b7Ulrik\u00b7\u00b7",
+    "name": "Ulrik2",
     "resources": [
       "all",
       "chaos",
@@ -38253,7 +38253,7 @@
     "asset": "bloodomen/091.jpg"
   },
   {
-    "name": "\u00b7\u00b7Sasha\u00b7\u00b7",
+    "name": "Sasha2",
     "resources": [
       "chaos",
       "death",
@@ -38280,7 +38280,7 @@
     "asset": "bloodomen/082.jpg"
   },
   {
-    "name": "\u00b7\u00b7Morathi\u00b7\u00b7",
+    "name": "Morathi2",
     "resources": [
       "chaos",
       "earth",
@@ -38307,7 +38307,7 @@
     "asset": "bloodomen/073.jpg"
   },
   {
-    "name": "\u00b7\u00b7Miska\u00b7\u00b7",
+    "name": "Miska2",
     "resources": [
       "air",
       "order",
@@ -38334,7 +38334,7 @@
     "asset": "bloodomen/064.jpg"
   },
   {
-    "name": "\u00b7\u00b7Mei Lien\u00b7\u00b7",
+    "name": "Mei Lien2",
     "resources": [
       "all",
       "order",
@@ -38361,7 +38361,7 @@
     "asset": "bloodomen/055.jpg"
   },
   {
-    "name": "\u00b7\u00b7Lily\u00b7\u00b7",
+    "name": "Lily2",
     "resources": [
       "death",
       "good",
@@ -38388,7 +38388,7 @@
     "asset": "bloodomen/046.jpg"
   },
   {
-    "name": "\u00b7Krieger des Waldes\u00b7",
+    "name": "Krieger des Waldes1",
     "resources": [
       "air",
       "fire",
@@ -38415,7 +38415,7 @@
     "asset": "bloodomen/041.jpg"
   },
   {
-    "name": "\u00b7Krieger der Sonne\u00b7",
+    "name": "Krieger der Sonne1",
     "resources": [
       "air",
       "fire",
@@ -38442,7 +38442,7 @@
     "asset": "bloodomen/040.jpg"
   },
   {
-    "name": "\u00b7Krieger der See\u00b7",
+    "name": "Krieger der See1",
     "resources": [
       "air",
       "fire",
@@ -38469,7 +38469,7 @@
     "asset": "bloodomen/039.jpg"
   },
   {
-    "name": "\u00b7Krieger der Nacht\u00b7",
+    "name": "Krieger der Nacht1",
     "resources": [
       "air",
       "fire",
@@ -38496,7 +38496,7 @@
     "asset": "bloodomen/038.jpg"
   },
   {
-    "name": "\u00b7Krieger der Bergen\u00b7",
+    "name": "Krieger der Bergen1",
     "resources": [
       "air",
       "fire",
@@ -38523,7 +38523,7 @@
     "asset": "bloodomen/037.jpg"
   },
   {
-    "name": "\u00b7Heidi\u00b7",
+    "name": "Heidi1",
     "resources": [
       "air",
       "fire",
@@ -38550,7 +38550,7 @@
     "asset": "bloodomen/028.jpg"
   },
   {
-    "name": "\u00b7\u00b7Gabrek\u00b7\u00b7",
+    "name": "Gabrek2",
     "resources": [
       "earth",
       "life",
@@ -38577,7 +38577,7 @@
     "asset": "bloodomen/019.jpg"
   },
   {
-    "name": "\u00b7B\u00e6lkhor\u00b7",
+    "name": "B\u00e6lkhor1",
     "resources": [
       "earth",
       "evil",
@@ -38604,7 +38604,7 @@
     "asset": "bloodomen/010.jpg"
   },
   {
-    "name": "\u00b7\u00b7Alice\u00b7\u00b7",
+    "name": "Alice2",
     "resources": [
       "all",
       "death",
@@ -39048,7 +39048,7 @@
     "asset": "battleforpower/087.jpg"
   },
   {
-    "name": "\u00b7Turbo Man\u00b7",
+    "name": "Turbo Man1",
     "resources": [
       "all",
       "life",
@@ -40082,7 +40082,7 @@
     "asset": "battleforpower/031.jpg"
   },
   {
-    "name": "\u00b7Knight Man\u00b7",
+    "name": "Knight Man1",
     "resources": [
       "death",
       "earth",
@@ -40180,7 +40180,7 @@
     "asset": "battleforpower/025.jpg"
   },
   {
-    "name": "Gyro Crush\u00b7\u00b7",
+    "name": "Gyro Crush2",
     "keywords": [
       "Slam"
     ],
@@ -40626,7 +40626,7 @@
     "asset": "battleforpower/002.jpg"
   },
   {
-    "name": "\u00b7Bass\u00b7",
+    "name": "Bass1",
     "resources": [
       "air",
       "earth",
@@ -40927,7 +40927,7 @@
     "asset": "battleforpower/085.jpg"
   },
   {
-    "name": "Bird of Prey\u00b7\u00b7",
+    "name": "Bird of Prey2",
     "resources": [
       "air",
       "life",
@@ -41292,7 +41292,7 @@
     "asset": "battleforpower/024.jpg"
   },
   {
-    "name": "\u00b7Yamato Man\u00b7",
+    "name": "Yamato Man1",
     "resources": [
       "all",
       "chaos",
@@ -41319,7 +41319,7 @@
     "asset": "battleforpower/100.jpg"
   },
   {
-    "name": "\u00b7Slash Man\u00b7",
+    "name": "Slash Man1",
     "resources": [
       "air",
       "death",
@@ -41346,7 +41346,7 @@
     "asset": "battleforpower/055.jpg"
   },
   {
-    "name": "\u00b7Napalm Man\u00b7",
+    "name": "Napalm Man1",
     "resources": [
       "death",
       "fire",
@@ -41373,7 +41373,7 @@
     "asset": "battleforpower/046.jpg"
   },
   {
-    "name": "\u00b7Gyro Man\u00b7",
+    "name": "Gyro Man1",
     "resources": [
       "air",
       "all",
@@ -41476,7 +41476,7 @@
     "asset": "battleforpower/016.jpg"
   },
   {
-    "name": "\u00b7\u00b7Dr. Wily\u00b7\u00b7",
+    "name": "Dr. Wily2",
     "resources": [
       "death",
       "evil",
@@ -41528,7 +41528,7 @@
     "asset": "battleforpower/006.jpg"
   },
   {
-    "name": "\u00b7Tomahawk Man\u00b7",
+    "name": "Tomahawk Man1",
     "resources": [
       "chaos",
       "order",
@@ -41555,7 +41555,7 @@
     "asset": "battleforpower/082.jpg"
   },
   {
-    "name": "\u00b7Sword Man\u00b7",
+    "name": "Sword Man1",
     "resources": [
       "all",
       "fire",
@@ -41610,7 +41610,7 @@
     "asset": "battleforpower/038.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Mega Man\u00b7\u00b7\u00b7",
+    "name": "Mega Man3",
     "resources": [
       "good",
       "order",
@@ -41637,7 +41637,7 @@
     "asset": "battleforpower/037.jpg"
   },
   {
-    "name": "\u00b7Tengu Man\u00b7",
+    "name": "Tengu Man1",
     "resources": [
       "air",
       "life",
@@ -41819,7 +41819,7 @@
     "asset": "championpromos3/005.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Garett Brett\u00b7\u00b7\u00b7",
+    "name": "Garett Brett3",
     "resources": [
       "chaos",
       "fire",
@@ -41845,7 +41845,7 @@
     "asset": "championpromos3/004.jpg"
   },
   {
-    "name": "\u00b7\u00b7Garett Brett\u00b7\u00b7",
+    "name": "Garett Brett2",
     "resources": [
       "earth",
       "evil",
@@ -41871,7 +41871,7 @@
     "asset": "championpromos3/003.jpg"
   },
   {
-    "name": "\u00b7Dave Wagoner\u00b7",
+    "name": "Dave Wagoner1",
     "resources": [
       "death",
       "evil",
@@ -41897,7 +41897,7 @@
     "asset": "championpromos3/002.jpg"
   },
   {
-    "name": "\u00b7Ben Shoemaker\u00b7",
+    "name": "Ben Shoemaker1",
     "resources": [
       "air",
       "fire",
@@ -42914,7 +42914,7 @@
     "asset": "indines/040.jpg"
   },
   {
-    "name": "\u00b7Cherri\u00b7",
+    "name": "Cherri1",
     "resources": [
       "life",
       "order",
@@ -43493,7 +43493,7 @@
     "asset": "indines/003.jpg"
   },
   {
-    "name": "\u00b7Runika\u00b7",
+    "name": "Runika1",
     "resources": [
       "air",
       "all",
@@ -43519,7 +43519,7 @@
     "asset": "indines/002.jpg"
   },
   {
-    "name": "\u00b7Eligor\u00b7",
+    "name": "Eligor1",
     "resources": [
       "all",
       "good",
@@ -43671,7 +43671,7 @@
     "asset": "indines/034.jpg"
   },
   {
-    "name": "\u00b7Tatsumi\u00b7",
+    "name": "Tatsumi1",
     "resources": [
       "chaos",
       "fire",
@@ -44050,7 +44050,7 @@
     "asset": "indines/057.jpg"
   },
   {
-    "name": "\u00b7Shekhtur\u00b7",
+    "name": "Shekhtur1",
     "resources": [
       "chaos",
       "evil",
@@ -44122,7 +44122,7 @@
     "asset": "indines/011.jpg"
   },
   {
-    "name": "\u00b7Cadenza\u00b7",
+    "name": "Cadenza1",
     "resources": [
       "earth",
       "fire",
@@ -44274,7 +44274,7 @@
     "asset": "indines/032.jpg"
   },
   {
-    "name": "\u00b7Hikaru\u00b7",
+    "name": "Hikaru1",
     "resources": [
       "air",
       "earth",
@@ -44437,7 +44437,7 @@
     "asset": "indines/039.jpg"
   },
   {
-    "name": "\u00b7Khadath\u00b7",
+    "name": "Khadath1",
     "resources": [
       "death",
       "life",
@@ -44597,7 +44597,7 @@
     "asset": "championpromos2/003.jpg"
   },
   {
-    "name": "\u00b7Jeremy Ray\u00b7",
+    "name": "Jeremy Ray1",
     "resources": [
       "all",
       "good",
@@ -44623,7 +44623,7 @@
     "asset": "championpromos2/002.jpg"
   },
   {
-    "name": "\u00b7Basilio San Juan\u00b7",
+    "name": "Basilio San Juan1",
     "resources": [
       "death",
       "life",
@@ -44649,7 +44649,7 @@
     "asset": "championpromos2/001.jpg"
   },
   {
-    "name": "\u00b7Pyron\u00b7",
+    "name": "Pyron1",
     "resources": [
       "evil",
       "fire",
@@ -44675,7 +44675,7 @@
     "asset": "warriorsofthenight/902.jpg"
   },
   {
-    "name": "\u00b7Rikuo\u00b7",
+    "name": "Rikuo1",
     "resources": [
       "air",
       "death",
@@ -45348,7 +45348,7 @@
     "asset": "warriorsofthenight/101.jpg"
   },
   {
-    "name": "Moment Slice\u00b7\u00b7",
+    "name": "Moment Slice2",
     "keywords": [
       "Punch"
     ],
@@ -45378,7 +45378,7 @@
     "asset": "warriorsofthenight/100.jpg"
   },
   {
-    "name": "Dragon Cannon\u00b7\u00b7",
+    "name": "Dragon Cannon2",
     "keywords": [
       "Ranged"
     ],
@@ -46422,7 +46422,7 @@
     "asset": "warriorsofthenight/044.jpg"
   },
   {
-    "name": "Chaos Flare\u00b7\u00b7",
+    "name": "Chaos Flare2",
     "keywords": [
       "Ranged",
       "Combo (High Attack)"
@@ -46453,7 +46453,7 @@
     "asset": "warriorsofthenight/043.jpg"
   },
   {
-    "name": "Bat Spin \u00b7\u00b7",
+    "name": "Bat Spin2",
     "keywords": [
       "Kick"
     ],
@@ -46911,7 +46911,8 @@
     "rarity": "common",
     "extension_short": "warriorsofthenight",
     "extension": "Darkstalkers: Warriors of the night",
-    "asset": "warriorsofthenight/141.jpg"
+    "asset": "warriorsofthenight/141.jpg",
+    "name": ""
   },
   {
     "resources": [
@@ -46932,7 +46933,8 @@
     "rarity": "uncommon",
     "extension_short": "warriorsofthenight",
     "extension": "Darkstalkers: Warriors of the night",
-    "asset": "warriorsofthenight/139.jpg"
+    "asset": "warriorsofthenight/139.jpg",
+    "name": ""
   },
   {
     "name": "Treacherous Plans",
@@ -47052,10 +47054,11 @@
     "rarity": "rare",
     "extension_short": "warriorsofthenight",
     "extension": "Darkstalkers: Warriors of the night",
-    "asset": "warriorsofthenight/138.jpg"
+    "asset": "warriorsofthenight/138.jpg",
+    "name": ""
   },
   {
-    "name": "Ultimate Undead \u00b7\u00b7",
+    "name": "Ultimate Undead2",
     "keywords": [
       "Powerful: 3",
       "Weapon"
@@ -47481,7 +47484,7 @@
     "asset": "warriorsofthenight/030.jpg"
   },
   {
-    "name": "Tsuji Hayate\u00b7\u00b7",
+    "name": "Tsuji Hayate2",
     "keywords": [
       "Desperation: 3",
       "Weapon",
@@ -47940,7 +47943,7 @@
     "asset": "warriorsofthenight/060.jpg"
   },
   {
-    "name": "\u00b7Lord Raptor\u00b7",
+    "name": "Lord Raptor1",
     "resources": [
       "air",
       "death",
@@ -47966,7 +47969,7 @@
     "asset": "warriorsofthenight/127.jpg"
   },
   {
-    "name": "\u00b7Jedah\u00b7",
+    "name": "Jedah1",
     "resources": [
       "death",
       "good",
@@ -47992,7 +47995,7 @@
     "asset": "warriorsofthenight/109.jpg"
   },
   {
-    "name": "\u00b7J. Talbain\u00b7",
+    "name": "J. Talbain1",
     "resources": [
       "all",
       "fire",
@@ -48018,7 +48021,7 @@
     "asset": "warriorsofthenight/091.jpg"
   },
   {
-    "name": "\u00b7Hsien-Ko\u00b7",
+    "name": "Hsien-Ko1",
     "resources": [
       "chaos",
       "earth",
@@ -48044,7 +48047,7 @@
     "asset": "warriorsofthenight/073.jpg"
   },
   {
-    "name": "\u00b7Felicia\u00b7",
+    "name": "Felicia1",
     "resources": [
       "air",
       "chaos",
@@ -48070,7 +48073,7 @@
     "asset": "warriorsofthenight/055.jpg"
   },
   {
-    "name": "\u00b7Demitri\u00b7",
+    "name": "Demitri1",
     "resources": [
       "earth",
       "evil",
@@ -48096,7 +48099,7 @@
     "asset": "warriorsofthenight/037.jpg"
   },
   {
-    "name": "\u00b7Bishamon\u00b7",
+    "name": "Bishamon1",
     "resources": [
       "all",
       "order",
@@ -48522,7 +48525,7 @@
     "asset": "warriorsofthenight/002.jpg"
   },
   {
-    "name": "\u00b7B.B. Hood\u00b7",
+    "name": "B.B. Hood1",
     "resources": [
       "evil",
       "fire",
@@ -48625,7 +48628,7 @@
     "asset": "riseofmasters/143.jpg"
   },
   {
-    "name": "\u00b7Ring Man\u00b7",
+    "name": "Ring Man1",
     "resources": [
       "all",
       "evil",
@@ -48738,7 +48741,7 @@
     "asset": "riseofmasters/095.jpg"
   },
   {
-    "name": "\u00b7Metal Man\u00b7",
+    "name": "Metal Man1",
     "resources": [
       "all",
       "fire",
@@ -49553,7 +49556,7 @@
     "asset": "riseofmasters/128.jpg"
   },
   {
-    "name": "\u00b7Skull Man\u00b7",
+    "name": "Skull Man1",
     "resources": [
       "chaos",
       "death",
@@ -49736,7 +49739,7 @@
     "asset": "riseofmasters/102.jpg"
   },
   {
-    "name": "\u00b7\u00b7Proto Man\u00b7\u00b7",
+    "name": "Proto Man2",
     "resources": [
       "air",
       "death",
@@ -49762,7 +49765,7 @@
     "asset": "riseofmasters/100.jpg"
   },
   {
-    "name": "\u00b7Dr. Wily\u00b7",
+    "name": "Dr. Wily1",
     "resources": [
       "death",
       "earth",
@@ -50192,7 +50195,7 @@
     "asset": "riseofmasters/047.jpg"
   },
   {
-    "name": "\u00b7Gemini Man\u00b7",
+    "name": "Gemini Man1",
     "resources": [
       "air",
       "evil",
@@ -50264,7 +50267,7 @@
     "asset": "riseofmasters/026.jpg"
   },
   {
-    "name": "Fatherly Love\u00b7\u00b7",
+    "name": "Fatherly Love2",
     "resources": [
       "all",
       "good",
@@ -50399,7 +50402,7 @@
     "asset": "riseofmasters/020.jpg"
   },
   {
-    "name": "\u00b7Dr. Cossack\u00b7",
+    "name": "Dr. Cossack1",
     "resources": [
       "all",
       "good",
@@ -50425,7 +50428,7 @@
     "asset": "riseofmasters/019.jpg"
   },
   {
-    "name": "\u00b7Sniper Joe\u00b7",
+    "name": "Sniper Joe1",
     "resources": [
       "earth",
       "good",
@@ -50451,7 +50454,7 @@
     "asset": "riseofmasters/905.jpg"
   },
   {
-    "name": "\u00b7Yellow Devil\u00b7",
+    "name": "Yellow Devil1",
     "resources": [
       "all",
       "chaos",
@@ -50505,7 +50508,7 @@
     "asset": "riseofmasters/901.jpg"
   },
   {
-    "name": "\u00b7Snake Man\u00b7",
+    "name": "Snake Man1",
     "resources": [
       "chaos",
       "earth",
@@ -50692,7 +50695,7 @@
     "asset": "riseofmasters/144.jpg"
   },
   {
-    "name": "\u00b7\u00b7Mega Man\u00b7\u00b7",
+    "name": "Mega Man2",
     "resources": [
       "good",
       "order",
@@ -51284,7 +51287,7 @@
     "asset": "riseofmasters/056.jpg"
   },
   {
-    "name": "Short Fuse\u00b7\u00b7",
+    "name": "Short Fuse2",
     "resources": [
       "earth",
       "fire",
@@ -51464,7 +51467,7 @@
     "asset": "riseofmasters/012.jpg"
   },
   {
-    "name": "\u00b7Crash Man\u00b7",
+    "name": "Crash Man1",
     "resources": [
       "earth",
       "fire",
@@ -51912,7 +51915,7 @@
     "asset": "riseofmasters/110.jpg"
   },
   {
-    "name": "\u00b7Quick Man\u00b7",
+    "name": "Quick Man1",
     "resources": [
       "air",
       "chaos",
@@ -52118,7 +52121,7 @@
     "asset": "riseofmasters/092.jpg"
   },
   {
-    "name": "\u00b7Pharaoh Man\u00b7",
+    "name": "Pharaoh Man1",
     "resources": [
       "fire",
       "life",
@@ -52360,7 +52363,7 @@
     "asset": "riseofmasters/002.jpg"
   },
   {
-    "name": "\u00b7Air Man\u00b7",
+    "name": "Air Man1",
     "resources": [
       "air",
       "life",
@@ -52439,7 +52442,7 @@
     "asset": "riseofmasters/104.jpg"
   },
   {
-    "name": "\u00b7Magnet Man\u00b7",
+    "name": "Magnet Man1",
     "resources": [
       "all",
       "chaos",
@@ -52465,7 +52468,7 @@
     "asset": "riseofmasters/055.jpg"
   },
   {
-    "name": "\u00b7Time Man\u00b7",
+    "name": "Time Man1",
     "resources": [
       "air",
       "evil",
@@ -52491,7 +52494,7 @@
     "asset": "riseofmasters/904.jpg"
   },
   {
-    "name": "\u00b7Oil Man\u00b7",
+    "name": "Oil Man1",
     "resources": [
       "death",
       "earth",
@@ -52541,7 +52544,7 @@
     "asset": "unmarkedpromo/001.jpg"
   },
   {
-    "name": "\u00b7\u00b7Scorpion\u00b7\u00b7",
+    "name": "Scorpion2",
     "resources": [
       "death",
       "fire",
@@ -52934,7 +52937,7 @@
     "asset": "rh4p/804.jpg"
   },
   {
-    "name": "\u00b7\u00b7Roy\u00b7\u00b7",
+    "name": "Roy2",
     "resources": [
       "evil",
       "order",
@@ -52960,7 +52963,7 @@
     "asset": "rh4p/803.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Kaden\u00b7\u00b7\u00b7",
+    "name": "Kaden3",
     "resources": [
       "death",
       "earth",
@@ -52986,7 +52989,7 @@
     "asset": "rh4p/802.jpg"
   },
   {
-    "name": "\u00b7\u00b7Eva\u00b7\u00b7",
+    "name": "Eva2",
     "resources": [
       "evil",
       "fire",
@@ -53118,7 +53121,7 @@
     "asset": "rh4p/601.jpg"
   },
   {
-    "name": "\u00b7\u00b7Ryu\u00b7\u00b7",
+    "name": "Ryu2",
     "resources": [
       "all",
       "earth",
@@ -53285,7 +53288,7 @@
     "asset": "rh4p/109.jpg"
   },
   {
-    "name": "\u00b7\u00b7Scorpion\u00b7\u00b7",
+    "name": "Scorpion2",
     "resources": [
       "death",
       "fire",
@@ -53311,7 +53314,7 @@
     "asset": "rh4p/203.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Kaden\u00b7\u00b7\u00b7",
+    "name": "Kaden3",
     "resources": [
       "death",
       "earth",
@@ -53337,7 +53340,7 @@
     "asset": "rh4p/102.jpg"
   },
   {
-    "name": "\u00b7\u00b7Reese\u00b7\u00b7",
+    "name": "Reese2",
     "resources": [
       "air",
       "good",
@@ -53363,7 +53366,7 @@
     "asset": "rh4p/103.jpg"
   },
   {
-    "name": "\u00b7\u00b7Satoshi\u00b7\u00b7",
+    "name": "Satoshi2",
     "resources": [
       "air",
       "fire",
@@ -53389,7 +53392,7 @@
     "asset": "rh4p/105.jpg"
   },
   {
-    "name": "\u00b7\u00b7Sevastian\u00b7\u00b7",
+    "name": "Sevastian2",
     "resources": [
       "chaos",
       "good",
@@ -53487,7 +53490,7 @@
     "asset": "rh4p/110.jpg"
   },
   {
-    "name": "\u00b7\u00b7Ryu\u00b7\u00b7",
+    "name": "Ryu2",
     "resources": [
       "all",
       "earth",
@@ -53644,7 +53647,7 @@
     "asset": "rh4p/020.jpg"
   },
   {
-    "name": "\u00b7\u00b7Roy\u00b7\u00b7",
+    "name": "Roy2",
     "resources": [
       "evil",
       "order",
@@ -53694,7 +53697,7 @@
     "asset": "rh4p/018.jpg"
   },
   {
-    "name": "\u00b7\u00b7Eva\u00b7\u00b7",
+    "name": "Eva2",
     "resources": [
       "evil",
       "fire",
@@ -54349,7 +54352,7 @@
     "asset": "darkstalkerstin/064.jpg"
   },
   {
-    "name": "\u00b7Victor\u00b7",
+    "name": "Victor1",
     "resources": [
       "chaos",
       "fire",
@@ -54452,7 +54455,7 @@
     "asset": "darkstalkerstin/060.jpg"
   },
   {
-    "name": "\u00b7Sasquatch\u00b7",
+    "name": "Sasquatch1",
     "resources": [
       "earth",
       "good",
@@ -54530,7 +54533,7 @@
     "asset": "darkstalkerstin/056.jpg"
   },
   {
-    "name": "\u00b7Q-Bee\u00b7",
+    "name": "Q-Bee1",
     "resources": [
       "air",
       "all",
@@ -54714,7 +54717,7 @@
     "asset": "darkstalkerstin/048.jpg"
   },
   {
-    "name": "\u00b7Donovan\u00b7",
+    "name": "Donovan1",
     "resources": [
       "death",
       "good",
@@ -54787,7 +54790,7 @@
     "asset": "darkstalkerstin/045.jpg"
   },
   {
-    "name": "\u00b7Anakaris\u00b7",
+    "name": "Anakaris1",
     "resources": [
       "air",
       "all",
@@ -55070,7 +55073,7 @@
     "asset": "darkstalkerstin/030.jpg"
   },
   {
-    "name": "Vector Drain\u00b7\u00b7",
+    "name": "Vector Drain2",
     "keywords": [
       "Throw"
     ],
@@ -55625,7 +55628,7 @@
     "asset": "darkstalkerstin/002.jpg"
   },
   {
-    "name": "\u00b7Lilith\u00b7",
+    "name": "Lilith1",
     "resources": [
       "chaos",
       "void",
@@ -55719,7 +55722,7 @@
     "asset": "darkstalkerstin/058.jpg"
   },
   {
-    "name": "\u00b7Huitzil\u00b7",
+    "name": "Huitzil1",
     "resources": [
       "earth",
       "fire",
@@ -55823,7 +55826,7 @@
     "asset": "darkstalkerstin/032.jpg"
   },
   {
-    "name": "Soul Fist\u00b7\u00b7",
+    "name": "Soul Fist2",
     "keywords": [
       "Ranged"
     ],
@@ -55853,7 +55856,7 @@
     "asset": "darkstalkerstin/028.jpg"
   },
   {
-    "name": "Shadow Blade\u00b7\u00b7",
+    "name": "Shadow Blade2",
     "keywords": [
       "Weapon"
     ],
@@ -55927,7 +55930,7 @@
     "asset": "darkstalkerstin/009.jpg"
   },
   {
-    "name": "Shining Blade\u00b7\u00b7",
+    "name": "Shining Blade2",
     "keywords": [
       "Weapon",
       "Stun: 2"
@@ -55986,7 +55989,7 @@
     "asset": "darkstalkerstin/004.jpg"
   },
   {
-    "name": "\u00b7Morrigan\u00b7",
+    "name": "Morrigan1",
     "resources": [
       "death",
       "evil",
@@ -56393,7 +56396,7 @@
     "asset": "megaman/062.jpg"
   },
   {
-    "name": "\u00b7Ice Man\u00b7",
+    "name": "Ice Man1",
     "resources": [
       "all",
       "evil",
@@ -56509,7 +56512,7 @@
     "asset": "megaman/058.jpg"
   },
   {
-    "name": "\u00b7Guts Man\u00b7",
+    "name": "Guts Man1",
     "resources": [
       "earth",
       "evil",
@@ -56625,7 +56628,7 @@
     "asset": "megaman/054.jpg"
   },
   {
-    "name": "\u00b7Fire Man\u00b7",
+    "name": "Fire Man1",
     "resources": [
       "fire",
       "life",
@@ -56741,7 +56744,7 @@
     "asset": "megaman/050.jpg"
   },
   {
-    "name": "\u00b7Elec Man\u00b7",
+    "name": "Elec Man1",
     "resources": [
       "air",
       "chaos",
@@ -56856,7 +56859,7 @@
     "asset": "megaman/046.jpg"
   },
   {
-    "name": "\u00b7Cut Man\u00b7",
+    "name": "Cut Man1",
     "resources": [
       "good",
       "void",
@@ -56906,7 +56909,7 @@
     "asset": "megaman/044.jpg"
   },
   {
-    "name": "Hyper Bomb\u00b7\u00b7",
+    "name": "Hyper Bomb2",
     "keywords": [
       "Stun: 2",
       "Weapon"
@@ -56971,7 +56974,7 @@
     "asset": "megaman/042.jpg"
   },
   {
-    "name": "\u00b7Bomb Man\u00b7",
+    "name": "Bomb Man1",
     "resources": [
       "chaos",
       "death",
@@ -57516,7 +57519,7 @@
     "asset": "megaman/022.jpg"
   },
   {
-    "name": "\u00b7Protoman\u00b7",
+    "name": "Protoman1",
     "resources": [
       "air",
       "earth",
@@ -58062,7 +58065,7 @@
     "asset": "megaman/002.jpg"
   },
   {
-    "name": "\u00b7Megaman\u00b7",
+    "name": "Megaman1",
     "resources": [
       "all",
       "good",
@@ -58088,7 +58091,7 @@
     "asset": "megaman/001.jpg"
   },
   {
-    "name": "\u00b7Mega Man\u00b7",
+    "name": "Mega Man1",
     "resources": [
       "all",
       "good",
@@ -58114,7 +58117,7 @@
     "asset": "megaman/901.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Ash\u00b7\u00b7\u00b7",
+    "name": "Ash3",
     "resources": [
       "void",
       "death",
@@ -58262,7 +58265,7 @@
     "asset": "neomax/105.jpg"
   },
   {
-    "name": "Rising Tackle\u00b7\u00b7",
+    "name": "Rising Tackle2",
     "keywords": [
       "Kick",
       "Reversal"
@@ -58347,7 +58350,7 @@
     "asset": "neomax/101.jpg"
   },
   {
-    "name": "\u00b7\u00b7Terry\u00b7\u00b7",
+    "name": "Terry2",
     "resources": [
       "all",
       "earth",
@@ -58559,7 +58562,7 @@
     "asset": "neomax/092.jpg"
   },
   {
-    "name": "\u00b7\u00b7Mai\u00b7\u00b7",
+    "name": "Mai2",
     "resources": [
       "air",
       "all",
@@ -58796,7 +58799,7 @@
     "asset": "neomax/083.jpg"
   },
   {
-    "name": "\u00b7\u00b7Kyo\u00b7\u00b7",
+    "name": "Kyo2",
     "resources": [
       "chaos",
       "fire",
@@ -58986,7 +58989,7 @@
     "asset": "neomax/074.jpg"
   },
   {
-    "name": "\u00b7\u00b7K'\u00b7\u00b7",
+    "name": "K'2",
     "resources": [
       "death",
       "evil",
@@ -59355,7 +59358,7 @@
     "asset": "neomax/056.jpg"
   },
   {
-    "name": "\u00b7\u00b7Ash\u00b7\u00b7",
+    "name": "Ash2",
     "resources": [
       "air",
       "death",
@@ -59562,7 +59565,7 @@
     "asset": "neomax/047.jpg"
   },
   {
-    "name": "\u00b7Sie\u00b7",
+    "name": "Sie1",
     "resources": [
       "death",
       "life",
@@ -59746,7 +59749,7 @@
     "asset": "neomax/038.jpg"
   },
   {
-    "name": "\u00b7Chin\u00b7",
+    "name": "Chin1",
     "resources": [
       "life",
       "void",
@@ -59873,7 +59876,7 @@
     "asset": "neomax/032.jpg"
   },
   {
-    "name": "Shining Crystal Bit\u00b7\u00b7",
+    "name": "Shining Crystal Bit2",
     "resources": [
       "good",
       "life",
@@ -60141,7 +60144,7 @@
     "asset": "neomax/020.jpg"
   },
   {
-    "name": "\u00b7Takuma\u00b7",
+    "name": "Takuma1",
     "resources": [
       "air",
       "all",
@@ -60530,7 +60533,7 @@
     "asset": "neomax/002.jpg"
   },
   {
-    "name": "\u00b7Robert\u00b7",
+    "name": "Robert1",
     "resources": [
       "air",
       "death",
@@ -60648,7 +60651,7 @@
     "asset": "neomax/068.jpg"
   },
   {
-    "name": "\u00b7\u00b7Iori\u00b7\u00b7",
+    "name": "Iori2",
     "resources": [
       "chaos",
       "evil",
@@ -60753,7 +60756,7 @@
     "asset": "neomax/044.jpg"
   },
   {
-    "name": "\u00b7Athena\u00b7",
+    "name": "Athena1",
     "resources": [
       "good",
       "life",
@@ -60936,7 +60939,7 @@
     "asset": "neomax/080.jpg"
   },
   {
-    "name": "\u00b7Ryo\u00b7",
+    "name": "Ryo1",
     "resources": [
       "air",
       "fire",
@@ -61044,7 +61047,7 @@
     "asset": "rot/902.jpg"
   },
   {
-    "name": "\u00b7Saiki\u00b7",
+    "name": "Saiki1",
     "resources": [
       "air",
       "chaos",
@@ -61070,7 +61073,7 @@
     "asset": "rot/901.jpg"
   },
   {
-    "name": "\u00b7Billy\u00b7",
+    "name": "Billy1",
     "resources": [
       "all",
       "chaos",
@@ -61340,7 +61343,7 @@
     "asset": "rot/101.jpg"
   },
   {
-    "name": "\u00b7Kyo\u00b7",
+    "name": "Kyo1",
     "resources": [
       "chaos",
       "fire",
@@ -61577,7 +61580,7 @@
     "asset": "rot/092.jpg"
   },
   {
-    "name": "\u00b7Goro\u00b7",
+    "name": "Goro1",
     "resources": [
       "chaos",
       "earth",
@@ -61812,7 +61815,7 @@
     "asset": "rot/083.jpg"
   },
   {
-    "name": "\u00b7Benimaru\u00b7",
+    "name": "Benimaru1",
     "resources": [
       "air",
       "chaos",
@@ -62053,7 +62056,7 @@
     "asset": "rot/074.jpg"
   },
   {
-    "name": "\u00b7Raiden\u00b7",
+    "name": "Raiden1",
     "resources": [
       "earth",
       "order",
@@ -62293,7 +62296,7 @@
     "asset": "rot/065.jpg"
   },
   {
-    "name": "\u00b7Kim\u00b7",
+    "name": "Kim1",
     "resources": [
       "good",
       "order",
@@ -62528,7 +62531,7 @@
     "asset": "rot/056.jpg"
   },
   {
-    "name": "\u00b7Hwa\u00b7",
+    "name": "Hwa1",
     "resources": [
       "air",
       "order",
@@ -62766,7 +62769,7 @@
     "asset": "rot/047.jpg"
   },
   {
-    "name": "\u00b7Maxima\u00b7",
+    "name": "Maxima1",
     "resources": [
       "earth",
       "evil",
@@ -62998,7 +63001,7 @@
     "asset": "rot/038.jpg"
   },
   {
-    "name": "\u00b7Kula\u00b7",
+    "name": "Kula1",
     "resources": [
       "evil",
       "void",
@@ -63237,7 +63240,7 @@
     "asset": "rot/029.jpg"
   },
   {
-    "name": "\u00b7K'\u00b7",
+    "name": "K'1",
     "resources": [
       "chaos",
       "evil",
@@ -63480,7 +63483,7 @@
     "asset": "rot/020.jpg"
   },
   {
-    "name": "\u00b7Shen\u00b7",
+    "name": "Shen1",
     "resources": [
       "all",
       "death",
@@ -63713,7 +63716,7 @@
     "asset": "rot/011.jpg"
   },
   {
-    "name": "\u00b7Elisabeth\u00b7",
+    "name": "Elisabeth1",
     "resources": [
       "all",
       "death",
@@ -63949,7 +63952,7 @@
     "asset": "rot/002.jpg"
   },
   {
-    "name": "\u00b7Duo\u00b7",
+    "name": "Duo1",
     "resources": [
       "all",
       "death",
@@ -63975,7 +63978,7 @@
     "asset": "rot/001.jpg"
   },
   {
-    "name": "\u00b7Jack Lambourne\u00b7",
+    "name": "Jack Lambourne1",
     "resources": [
       "earth",
       "evil",
@@ -64085,7 +64088,7 @@
     "asset": "2013Champions/024.jpg"
   },
   {
-    "name": "\u00b7Mike Hardiman\u00b7",
+    "name": "Mike Hardiman1",
     "resources": [
       "good",
       "order",
@@ -64215,7 +64218,7 @@
     "asset": "2013Champions/016.jpg"
   },
   {
-    "name": "\u00b7Ben Shoemaker\u00b7",
+    "name": "Ben Shoemaker1",
     "resources": [
       "air",
       "chaos",
@@ -64294,7 +64297,7 @@
     "asset": "2013Champions/012.jpg"
   },
   {
-    "name": "\u00b7Phil Birch\u00b7",
+    "name": "Phil Birch1",
     "resources": [
       "all",
       "evil",
@@ -64320,7 +64323,7 @@
     "asset": "2013Champions/011.jpg"
   },
   {
-    "name": "\u00b7\u00b7Paul Bittner\u00b7\u00b7",
+    "name": "Paul Bittner2",
     "resources": [
       "all",
       "death",
@@ -64346,7 +64349,7 @@
     "asset": "2013Champions/010.jpg"
   },
   {
-    "name": "\u00b7Keenan Meadows\u00b7",
+    "name": "Keenan Meadows1",
     "resources": [
       "evil",
       "order",
@@ -64372,7 +64375,7 @@
     "asset": "2013Champions/009.jpg"
   },
   {
-    "name": "\u00b7Tim Keefe\u00b7",
+    "name": "Tim Keefe1",
     "resources": [
       "air",
       "chaos",
@@ -64398,7 +64401,7 @@
     "asset": "2013Champions/008.jpg"
   },
   {
-    "name": "\u00b7Garett Brett\u00b7",
+    "name": "Garett Brett1",
     "resources": [
       "air",
       "death",
@@ -64606,7 +64609,7 @@
     "asset": "kofxiii/903.jpg"
   },
   {
-    "name": "\u00b7Ash\u00b7",
+    "name": "Ash1",
     "resources": [
       "air",
       "death",
@@ -64705,7 +64708,7 @@
     "asset": "kofxiii/054.jpg"
   },
   {
-    "name": "Vulcan Punch\u00b7\u00b7",
+    "name": "Vulcan Punch2",
     "keywords": [
       "Punch",
       "Combo (Punch)"
@@ -65088,7 +65091,7 @@
     "asset": "kofxiii/009.jpg"
   },
   {
-    "name": "\u00b7Terry\u00b7",
+    "name": "Terry1",
     "resources": [
       "all",
       "earth",
@@ -65499,7 +65502,7 @@
     "asset": "kofxiii/099.jpg"
   },
   {
-    "name": "\u00b7Ralf\u00b7",
+    "name": "Ralf1",
     "resources": [
       "fire",
       "good",
@@ -65724,7 +65727,7 @@
     "asset": "kofxiii/095.jpg"
   },
   {
-    "name": "\u00b7Mai\u00b7",
+    "name": "Mai1",
     "resources": [
       "fire",
       "life",
@@ -65924,7 +65927,7 @@
     "asset": "kofxiii/007.jpg"
   },
   {
-    "name": "\u00b7King\u00b7",
+    "name": "King1",
     "resources": [
       "earth",
       "life",
@@ -66128,7 +66131,7 @@
     "asset": "kofxiii/088.jpg"
   },
   {
-    "name": "\u00b7Iori\u00b7",
+    "name": "Iori1",
     "resources": [
       "chaos",
       "earth",
@@ -66716,7 +66719,7 @@
     "asset": "kofxiii/015.jpg"
   },
   {
-    "name": "Buster Wolf\u00b7\u00b7",
+    "name": "Buster Wolf2",
     "keywords": [
       "Ranged",
       "Punch"
@@ -66771,7 +66774,7 @@
     "asset": "kofxiii/024.jpg"
   },
   {
-    "name": "Baltic Launcher\u00b7\u00b7",
+    "name": "Baltic Launcher2",
     "keywords": [
       "Ranged"
     ],
@@ -66847,7 +66850,7 @@
     "asset": "kofxiii/069.jpg"
   },
   {
-    "name": "Action Hero\u00b7\u00b7",
+    "name": "Action Hero2",
     "resources": [
       "fire",
       "good",
@@ -67036,7 +67039,7 @@
     "asset": "kofxiii/105.jpg"
   },
   {
-    "name": "\u00b7Vice\u00b7",
+    "name": "Vice1",
     "resources": [
       "chaos",
       "death",
@@ -67141,7 +67144,7 @@
     "asset": "kofxiii/093.jpg"
   },
   {
-    "name": "\u00b7Mature\u00b7",
+    "name": "Mature1",
     "resources": [
       "chaos",
       "evil",
@@ -67195,7 +67198,7 @@
     "asset": "kofxiii/077.jpg"
   },
   {
-    "name": "\u00b7Yuri\u00b7",
+    "name": "Yuri1",
     "resources": [
       "all",
       "life",
@@ -67329,7 +67332,7 @@
     "asset": "kofxiii/044.jpg"
   },
   {
-    "name": "\u00b7Leona\u00b7",
+    "name": "Leona1",
     "resources": [
       "fire",
       "good",
@@ -67355,7 +67358,7 @@
     "asset": "kofxiii/037.jpg"
   },
   {
-    "name": "\u00b7Clark\u00b7",
+    "name": "Clark1",
     "resources": [
       "fire",
       "good",
@@ -67381,7 +67384,7 @@
     "asset": "kofxiii/028.jpg"
   },
   {
-    "name": "Power Wave\u00b7\u00b7",
+    "name": "Power Wave2",
     "keywords": [
       "Combo (Punch)",
       "Ranged"
@@ -67440,7 +67443,7 @@
     "asset": "kofxiii/021.jpg"
   },
   {
-    "name": "\u00b7Joe\u00b7",
+    "name": "Joe1",
     "resources": [
       "air",
       "all",
@@ -67466,7 +67469,7 @@
     "asset": "kofxiii/010.jpg"
   },
   {
-    "name": "\u00b7Andy\u00b7",
+    "name": "Andy1",
     "resources": [
       "earth",
       "all",
@@ -68189,7 +68192,7 @@
     "asset": "tov/160.jpg"
   },
   {
-    "name": "\u00b7Zoey\u00b7",
+    "name": "Zoey1",
     "resources": [
       "air",
       "earth",
@@ -68681,7 +68684,7 @@
     "asset": "tov/141.jpg"
   },
   {
-    "name": "\u00b7Vincent Grey\u00b7",
+    "name": "Vincent Grey1",
     "resources": [
       "evil",
       "good",
@@ -69140,7 +69143,7 @@
     "asset": "tov/123.jpg"
   },
   {
-    "name": "\u00b7Vespera\u00b7",
+    "name": "Vespera1",
     "resources": [
       "death",
       "fire",
@@ -69623,7 +69626,7 @@
     "asset": "tov/105.jpg"
   },
   {
-    "name": "\u00b7Super Skull Man 33\u00b7",
+    "name": "Super Skull Man 331",
     "resources": [
       "all",
       "good",
@@ -70120,7 +70123,7 @@
     "asset": "tov/086.jpg"
   },
   {
-    "name": "\u00b7Satoshi\u00b7",
+    "name": "Satoshi1",
     "resources": [
       "air",
       "all",
@@ -70593,7 +70596,7 @@
     "asset": "tov/066.jpg"
   },
   {
-    "name": "\u00b7\u00b7Nehtali\u00b7\u00b7",
+    "name": "Nehtali2",
     "resources": [
       "chaos",
       "evil",
@@ -71011,7 +71014,7 @@
     "asset": "tov/048.jpg"
   },
   {
-    "name": "\u00b7\u00b7Kaden\u00b7\u00b7",
+    "name": "Kaden2",
     "resources": [
       "earth",
       "order",
@@ -71482,7 +71485,7 @@
     "asset": "tov/030.jpg"
   },
   {
-    "name": "\u00b7Gabrek\u00b7",
+    "name": "Gabrek1",
     "resources": [
       "earth",
       "life",
@@ -71899,7 +71902,7 @@
     "asset": "tov/014.jpg"
   },
   {
-    "name": "\u00b7Omniel\u00b7",
+    "name": "Omniel1",
     "resources": [
       "infinity"
     ],
@@ -71923,7 +71926,7 @@
     "asset": "tov/012.jpg"
   },
   {
-    "name": "\u00b7Syrithe\u00b7",
+    "name": "Syrithe1",
     "resources": [
       "chaos",
       "death",
@@ -71949,7 +71952,7 @@
     "asset": "tov/013.jpg"
   },
   {
-    "name": "\u00b7Allahra\u00b7",
+    "name": "Allahra1",
     "resources": [
       "chaos",
       "death",
@@ -72180,7 +72183,7 @@
     "asset": "tov/002.jpg"
   },
   {
-    "name": "\u00b7Alice\u00b7",
+    "name": "Alice1",
     "resources": [
       "air",
       "death",
@@ -72701,7 +72704,7 @@
     "asset": "redhorizon/083.jpg"
   },
   {
-    "name": "\u00b7Reese\u00b7",
+    "name": "Reese1",
     "resources": [
       "air",
       "all",
@@ -73153,7 +73156,7 @@
     "asset": "redhorizon/066.jpg"
   },
   {
-    "name": "\u00b7Nehtali\u00b7",
+    "name": "Nehtali1",
     "resources": [
       "chaos",
       "evil",
@@ -73644,7 +73647,7 @@
     "asset": "redhorizon/048.jpg"
   },
   {
-    "name": "\u00b7Miska\u00b7",
+    "name": "Miska1",
     "resources": [
       "air",
       "chaos",
@@ -74117,7 +74120,7 @@
     "asset": "redhorizon/030.jpg"
   },
   {
-    "name": "\u00b7Lily\u00b7",
+    "name": "Lily1",
     "resources": [
       "death",
       "order",
@@ -74585,7 +74588,7 @@
     "asset": "redhorizon/012.jpg"
   },
   {
-    "name": "\u00b7Kaden\u00b7",
+    "name": "Kaden1",
     "resources": [
       "earth",
       "evil",
@@ -74842,7 +74845,7 @@
     "asset": "redhorizon/002.jpg"
   },
   {
-    "name": "\u00b7Eva\u00b7",
+    "name": "Eva1",
     "resources": [
       "evil",
       "life",
@@ -75521,7 +75524,7 @@
     "asset": "scqos/074.jpg"
   },
   {
-    "name": "Yoshimitsu\u00b7",
+    "name": "Yoshimitsu1",
     "resources": [
       "death",
       "order",
@@ -75975,7 +75978,7 @@
     "asset": "scqos/056.jpg"
   },
   {
-    "name": "Amy\u00b7",
+    "name": "Amy1",
     "resources": [
       "good",
       "order",
@@ -76431,7 +76434,7 @@
     "asset": "scqos/038.jpg"
   },
   {
-    "name": "Xianghua\u00b7",
+    "name": "Xianghua1",
     "resources": [
       "air",
       "life",
@@ -76808,7 +76811,7 @@
     "asset": "scqos/023.jpg"
   },
   {
-    "name": "Rekki-Maru and Mekki-Maru \u00b7",
+    "name": "Rekki-Maru and Mekki-Maru1",
     "keywords": [
       "Taki Only",
       "Unique",
@@ -76885,7 +76888,7 @@
     "asset": "scqos/020.jpg"
   },
   {
-    "name": "Taki\u00b7",
+    "name": "Taki1",
     "resources": [
       "air",
       "chaos",
@@ -77266,7 +77269,7 @@
     "asset": "scqos/005.jpg"
   },
   {
-    "name": "Shishi-Oh \u00b7",
+    "name": "Shishi-Oh1",
     "keywords": [
       "Mitsurugi Only",
       "Unique",
@@ -77340,7 +77343,7 @@
     "asset": "scqos/002.jpg"
   },
   {
-    "name": "Mitsurugi\u00b7",
+    "name": "Mitsurugi1",
     "resources": [
       "all",
       "fire",
@@ -78031,7 +78034,7 @@
     "asset": "tekken6/074.jpg"
   },
   {
-    "name": "Paul Phoenix\u00b7",
+    "name": "Paul Phoenix1",
     "resources": [
       "all",
       "fire",
@@ -78468,7 +78471,7 @@
     "asset": "tekken6/056.jpg"
   },
   {
-    "name": "Nina Williams\u00b7",
+    "name": "Nina Williams1",
     "resources": [
       "air",
       "death",
@@ -78927,7 +78930,7 @@
     "asset": "tekken6/038.jpg"
   },
   {
-    "name": "King\u00b7",
+    "name": "King1",
     "resources": [
       "earth",
       "good",
@@ -79382,7 +79385,7 @@
     "asset": "tekken6/020.jpg"
   },
   {
-    "name": "Kazuya Mishima\u00b7",
+    "name": "Kazuya Mishima1",
     "resources": [
       "chaos",
       "death",
@@ -79838,7 +79841,7 @@
     "asset": "tekken6/002.jpg"
   },
   {
-    "name": "Christie Monteiro\u00b7",
+    "name": "Christie Monteiro1",
     "resources": [
       "all",
       "life",
@@ -80733,7 +80736,7 @@
     "asset": "sctos/110.jpg"
   },
   {
-    "name": "Tira\u00b7",
+    "name": "Tira1",
     "resources": [
       "air",
       "death",
@@ -81176,7 +81179,7 @@
     "asset": "sctos/092.jpg"
   },
   {
-    "name": "Ivy\u00b7",
+    "name": "Ivy1",
     "resources": [
       "all",
       "life",
@@ -81620,7 +81623,7 @@
     "asset": "sctos/074.jpg"
   },
   {
-    "name": "Cervantes\u00b7",
+    "name": "Cervantes1",
     "resources": [
       "chaos",
       "evil",
@@ -82068,7 +82071,7 @@
     "asset": "sctos/056.jpg"
   },
   {
-    "name": "Algol\u00b7",
+    "name": "Algol1",
     "resources": [
       "all",
       "chaos",
@@ -82511,7 +82514,7 @@
     "asset": "sctos/038.jpg"
   },
   {
-    "name": "Astaroth\u00b7",
+    "name": "Astaroth1",
     "resources": [
       "earth",
       "evil",
@@ -82951,7 +82954,7 @@
     "asset": "sctos/020.jpg"
   },
   {
-    "name": "Siegfried\u00b7",
+    "name": "Siegfried1",
     "resources": [
       "earth",
       "good",
@@ -83368,7 +83371,7 @@
     "asset": "sctos/003.jpg"
   },
   {
-    "name": "Soul Wave\u00b7",
+    "name": "Soul Wave1",
     "resources": [
       "death",
       "evil",
@@ -83391,7 +83394,7 @@
     "asset": "sctos/002.jpg"
   },
   {
-    "name": "Nightmare\u00b7",
+    "name": "Nightmare1",
     "resources": [
       "death",
       "evil",
@@ -83836,7 +83839,7 @@
     "asset": "shadowar/128.jpg"
   },
   {
-    "name": "Rashotep\u00b7\u00b7",
+    "name": "Rashotep2",
     "resources": [
       "death",
       "earth",
@@ -84287,7 +84290,7 @@
     "asset": "shadowar/110.jpg"
   },
   {
-    "name": "Temujin\u00b7\u00b7",
+    "name": "Temujin2",
     "resources": [
       "air",
       "fire",
@@ -84733,7 +84736,7 @@
     "asset": "shadowar/092.jpg"
   },
   {
-    "name": "Lu Chen\u00b7\u00b7",
+    "name": "Lu Chen2",
     "resources": [
       "good",
       "life",
@@ -85172,7 +85175,7 @@
     "asset": "shadowar/074.jpg"
   },
   {
-    "name": "Yi Shan\u00b7\u00b7",
+    "name": "Yi Shan2",
     "resources": [
       "earth",
       "life",
@@ -85621,7 +85624,7 @@
     "asset": "shadowar/056.jpg"
   },
   {
-    "name": "Zi Mei\u00b7\u00b7",
+    "name": "Zi Mei2",
     "resources": [
       "air",
       "chaos",
@@ -86087,7 +86090,7 @@
     "asset": "shadowar/038.jpg"
   },
   {
-    "name": "Astrid\u00b7",
+    "name": "Astrid1",
     "resources": [
       "all",
       "fire",
@@ -86542,7 +86545,7 @@
     "asset": "shadowar/020.jpg"
   },
   {
-    "name": "Ragnar\u00b7\u00b7",
+    "name": "Ragnar2",
     "resources": [
       "death",
       "earth",
@@ -86985,7 +86988,7 @@
     "asset": "shadowar/002.jpg"
   },
   {
-    "name": "Zhao Daiyu\u00b7\u00b7",
+    "name": "Zhao Daiyu2",
     "resources": [
       "chaos",
       "death",
@@ -87064,7 +87067,7 @@
     "asset": "5pointpromo/067.jpg"
   },
   {
-    "name": "\u00b7Terry\u00b7",
+    "name": "Terry1",
     "resources": [
       "all",
       "earth",
@@ -87090,7 +87093,7 @@
     "asset": "6pointpromo/071.jpg"
   },
   {
-    "name": "\u00b7Mai\u00b7",
+    "name": "Mai1",
     "resources": [
       "fire",
       "life",
@@ -87116,7 +87119,7 @@
     "asset": "6pointpromo/070.jpg"
   },
   {
-    "name": "\u00b7Kyo\u00b7",
+    "name": "Kyo1",
     "resources": [
       "chaos",
       "fire",
@@ -87162,7 +87165,7 @@
     "asset": "6pointpromo/068.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Mai\u00b7\u00b7\u00b7",
+    "name": "Mai3",
     "resources": [
       "air",
       "life",
@@ -87188,7 +87191,7 @@
     "asset": "6pointpromo/067.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Kyo\u00b7\u00b7\u00b7",
+    "name": "Kyo3",
     "resources": [
       "air",
       "chaos",
@@ -87214,7 +87217,7 @@
     "asset": "6pointpromo/066.jpg"
   },
   {
-    "name": "\u00b7\u00b7\u00b7Iori\u00b7\u00b7\u00b7",
+    "name": "Iori3",
     "resources": [
       "chaos",
       "death",
@@ -87763,7 +87766,7 @@
     "asset": "6pointpromo/043.jpg"
   },
   {
-    "name": "\u00b7\u00b7Vice\u00b7\u00b7",
+    "name": "Vice2",
     "resources": [
       "all",
       "chaos",
@@ -87789,7 +87792,7 @@
     "asset": "6pointpromo/042.jpg"
   },
   {
-    "name": "\u00b7\u00b7Shen\u00b7\u00b7",
+    "name": "Shen2",
     "resources": [
       "all",
       "death",
@@ -87815,7 +87818,7 @@
     "asset": "6pointpromo/041.jpg"
   },
   {
-    "name": "\u00b7\u00b7Saiki\u00b7\u00b7",
+    "name": "Saiki2",
     "resources": [
       "air",
       "death",
@@ -87841,7 +87844,7 @@
     "asset": "6pointpromo/040.jpg"
   },
   {
-    "name": "\u00b7Mr. Karate\u00b7",
+    "name": "Mr. Karate1",
     "resources": [
       "air",
       "death",
@@ -87867,7 +87870,7 @@
     "asset": "6pointpromo/039.jpg"
   },
   {
-    "name": "\u00b7\u00b7Mature\u00b7\u00b7",
+    "name": "Mature2",
     "resources": [
       "chaos",
       "evil",
@@ -87893,7 +87896,7 @@
     "asset": "6pointpromo/038.jpg"
   },
   {
-    "name": "\u00b7\u00b7Clark\u00b7\u00b7",
+    "name": "Clark2",
     "resources": [
       "earth",
       "fire",
@@ -88282,7 +88285,7 @@
     "asset": "6pointpromo/023.jpg"
   },
   {
-    "name": "\u00b7Temujin\u00b7",
+    "name": "Temujin1",
     "resources": [
       "air",
       "chaos",
@@ -88335,7 +88338,7 @@
     "asset": "6pointpromo/016.jpg"
   },
   {
-    "name": "\u00b7Yi Shan\u00b7",
+    "name": "Yi Shan1",
     "resources": [
       "earth",
       "good",
@@ -88361,7 +88364,7 @@
     "asset": "retroshadowar/018.jpg"
   },
   {
-    "name": "\u00b7Zi Mei\u00b7",
+    "name": "Zi Mei1",
     "resources": [
       "death",
       "evil",
@@ -88387,7 +88390,7 @@
     "asset": "retroshadowar/021.jpg"
   },
   {
-    "name": "\u00b7Truong\u00b7",
+    "name": "Truong1",
     "resources": [
       "evil",
       "life",
@@ -88413,7 +88416,7 @@
     "asset": "6pointpromo/022.jpg"
   },
   {
-    "name": "\u00b7Zhao Daiyu\u00b7",
+    "name": "Zhao Daiyu1",
     "resources": [
       "chaos",
       "evil",
@@ -88439,7 +88442,7 @@
     "asset": "retroshadowar/019.jpg"
   },
   {
-    "name": "\u00b7\u00b7Vespera\u00b7\u00b7",
+    "name": "Vespera2",
     "resources": [
       "death",
       "life",
@@ -88465,7 +88468,7 @@
     "asset": "6pointpromo/014.jpg"
   },
   {
-    "name": "\u00b7Roy\u00b7",
+    "name": "Roy1",
     "resources": [
       "air",
       "order",
@@ -88491,7 +88494,7 @@
     "asset": "6pointpromo/015.jpg"
   },
   {
-    "name": "\u00b7Sasha\u00b7",
+    "name": "Sasha1",
     "resources": [
       "chaos",
       "life",
@@ -88619,7 +88622,7 @@
     "asset": "retrohorizon/063.jpg"
   },
   {
-    "name": "\u00b7Mei Lien\u00b7",
+    "name": "Mei Lien1",
     "resources": [
       "order",
       "void",
@@ -88749,7 +88752,7 @@
     "asset": "retrohorizon/058.jpg"
   },
   {
-    "name": "\u00b7Ulrik\u00b7",
+    "name": "Ulrik1",
     "resources": [
       "all",
       "chaos",
@@ -88775,7 +88778,7 @@
     "asset": "retrohorizon/056.jpg"
   },
   {
-    "name": "\u00b7Sevastian\u00b7",
+    "name": "Sevastian1",
     "resources": [
       "evil",
       "good",
@@ -88823,7 +88826,7 @@
     "asset": "retrohorizon/054.jpg"
   },
   {
-    "name": "\u00b7Morathi\u00b7",
+    "name": "Morathi1",
     "resources": [
       "chaos",
       "fire",
@@ -88849,7 +88852,7 @@
     "asset": "retrohorizon/052.jpg"
   },
   {
-    "name": "Kilik\u00b7",
+    "name": "Kilik1",
     "resources": [
       "all",
       "chaos",
@@ -88919,7 +88922,7 @@
     "asset": "5pointpromo/049.jpg"
   },
   {
-    "name": "Jonathan Herr\u00b7",
+    "name": "Jonathan Herr1",
     "resources": [
       "all",
       "evil",
@@ -88995,7 +88998,7 @@
     "asset": "5pointpromo/046.jpg"
   },
   {
-    "name": "JJ\u00b7",
+    "name": "JJ1",
     "resources": [
       "evil",
       "order",
@@ -89019,7 +89022,7 @@
     "asset": "5pointpromo/045.jpg"
   },
   {
-    "name": "White Crane\u00b7",
+    "name": "White Crane1",
     "resources": [
       "chaos",
       "life",
@@ -89069,7 +89072,7 @@
     "asset": "5pointpromo/043.jpg"
   },
   {
-    "name": "Omar Chavez\u00b7",
+    "name": "Omar Chavez1",
     "resources": [
       "all",
       "chaos",
@@ -89222,7 +89225,7 @@
     "asset": "5pointpromo/033.jpg"
   },
   {
-    "name": "Yun-Seong\u00b7",
+    "name": "Yun-Seong1",
     "resources": [
       "air",
       "all",
@@ -89382,7 +89385,7 @@
     "asset": "5pointpromo/026.jpg"
   },
   {
-    "name": "Steve Fox\u00b7",
+    "name": "Steve Fox1",
     "resources": [
       "all",
       "chaos",
@@ -89406,7 +89409,7 @@
     "asset": "5pointpromo/025.jpg"
   },
   {
-    "name": "Sophitia\u00b7",
+    "name": "Sophitia1",
     "resources": [
       "fire",
       "life",
@@ -89539,7 +89542,7 @@
     "asset": "5pointpromo/018.jpg"
   },
   {
-    "name": "Padma\u00b7",
+    "name": "Padma1",
     "resources": [
       "chaos",
       "death",
@@ -89563,7 +89566,7 @@
     "asset": "5pointpromo/017.jpg"
   },
   {
-    "name": "Marius Gaius\u00b7",
+    "name": "Marius Gaius1",
     "resources": [
       "all",
       "earth",
@@ -89587,7 +89590,7 @@
     "asset": "5pointpromo/016.jpg"
   },
   {
-    "name": "Lizardman\u00b7",
+    "name": "Lizardman1",
     "resources": [
       "evil",
       "void",
@@ -89611,7 +89614,7 @@
     "asset": "5pointpromo/015.jpg"
   },
   {
-    "name": "Kyoufu\u00b7",
+    "name": "Kyoufu1",
     "resources": [
       "evil",
       "fire",
@@ -89635,7 +89638,7 @@
     "asset": "5pointpromo/014.jpg"
   },
   {
-    "name": "Kisheri\u00b7",
+    "name": "Kisheri1",
     "resources": [
       "death",
       "life",
@@ -89659,7 +89662,7 @@
     "asset": "5pointpromo/013.jpg"
   },
   {
-    "name": "Jin Kazama\u00b7",
+    "name": "Jin Kazama1",
     "resources": [
       "chaos",
       "death",
@@ -89705,7 +89708,7 @@
     "asset": "5pointpromo/011.jpg"
   },
   {
-    "name": "Heihachi Mishima\u00b7",
+    "name": "Heihachi Mishima1",
     "resources": [
       "chaos",
       "earth",
@@ -89751,7 +89754,7 @@
     "asset": "retroshadowar/009.jpg"
   },
   {
-    "name": "Dariya\u00b7",
+    "name": "Dariya1",
     "resources": [
       "air",
       "all",
@@ -89800,7 +89803,7 @@
     "asset": "5pointpromo/007.jpg"
   },
   {
-    "name": "Cassandra\u00b7",
+    "name": "Cassandra1",
     "resources": [
       "fire",
       "life",
@@ -89824,7 +89827,7 @@
     "asset": "5pointpromo/006.jpg"
   },
   {
-    "name": "Bryan Fury\u00b7",
+    "name": "Bryan Fury1",
     "resources": [
       "earth",
       "evil",
@@ -89873,7 +89876,7 @@
     "asset": "5pointpromo/004.jpg"
   },
   {
-    "name": "Astrid\u00b7\u00b7",
+    "name": "Astrid2",
     "resources": [
       "all",
       "fire",
@@ -90149,7 +90152,7 @@
     "asset": "retroshadowar/006.jpg"
   },
   {
-    "name": "\u00b7Paul Bittner\u00b7",
+    "name": "Paul Bittner1",
     "resources": [
       "all",
       "death",
@@ -90175,7 +90178,7 @@
     "asset": "6pointpromo/005.jpg"
   },
   {
-    "name": "\u00b7Mike Lowe\u00b7",
+    "name": "Mike Lowe1",
     "resources": [
       "air",
       "good",
@@ -90201,7 +90204,7 @@
     "asset": "6pointpromo/004.jpg"
   },
   {
-    "name": "\u00b7Kirk Polka\u00b7",
+    "name": "Kirk Polka1",
     "resources": [
       "air",
       "evil",
@@ -90227,7 +90230,7 @@
     "asset": "6pointpromo/003.jpg"
   },
   {
-    "name": "\u00b7Joe Hill\u00b7",
+    "name": "Joe Hill1",
     "resources": [
       "life",
       "order",
@@ -90253,7 +90256,7 @@
     "asset": "6pointpromo/002.jpg"
   },
   {
-    "name": "\u00b7\u00b7Nehtali\u00b7\u00b7",
+    "name": "Nehtali2",
     "resources": [
       "chaos",
       "evil",
