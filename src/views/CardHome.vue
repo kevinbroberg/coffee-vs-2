@@ -19,12 +19,7 @@
         </multiselect>
       </div>
       <div>
-        <multiselect v-model="selectedSymbols3" :options="symbolOptions" :multiple="true" :close-on-select="false" :customLabel=initialCap
-            :clear-on-select="false" :searchable="false" placeholder="Filter by symbol">
-        </multiselect>
-      </div>
-      <div>
-        <multiselect v-model="selectedOrigins" :options="originOptions" :multiple="true" :close-on-select="false" 
+        <multiselect @close="selectedOrigins = $event" v-model="indirectOrigins" :options="originOptions" :multiple="true" :close-on-select="false" 
             :clear-on-select="false" :searchable="true" placeholder="Filter by set">
         </multiselect>
       </div>
@@ -34,7 +29,7 @@
         </multiselect>
       </div>
       <div>
-        <multiselect v-model="selectedKeywords" :options="keywordOptions" :multiple="true" :close-on-select="false"
+        <multiselect @close="selectedKeywords = $event" v-model="indirectKeywords" :options="keywordOptions" :multiple="true" :close-on-select="false"
             tag-placeholder="Search keywords" :taggable=true @tag="addKeywordTag"
             :clear-on-select="false" :searchable="true" placeholder="Filter by keyword">
         </multiselect>
@@ -87,6 +82,9 @@ export default {
       selectedTypes:   this.query.selectedTypes     ? JSON.parse(this.query.selectedTypes) : [],
       selectedKeywords: this.query.selectedKeywords ? JSON.parse(this.query.selectedKeywords) : [],
       selectedFormats: this.query.selectedFormats   ? JSON.parse(this.query.selectedFormats) : ["standard"],
+      // don't immediately filter these after another selection
+      indirectOrigins: [],
+      indirectKeywords: [],
       nameTags: [],
       keywordTags: [],
       textTags: [],
@@ -97,24 +95,29 @@ export default {
     filteredCards() {
       return this.cardData.filter(card => this.allFiltersMatch(card))
     },
-    typeOptions() {
-      // not reactive
-      return [...new Set(this.cardData.map(card => card.type))]
-    },
     resultsCount() {
       return this.filteredCards.length
     },
-    nameOptions() {
-      return [...this.nameTags, ...this.textTags, ...this.filteredCards.map(c => c.name)]
+    typeOptions() {
+      // not reactive at all
+      return [...new Set(this.cardData.map(card => card.type))].sort()
     },
-    originOptions() {
-      return [...new Set(this.filteredCards.map(card => card.extension))]
+    nameOptions() {
+      return [...this.nameTags, ...this.filteredCards.map(c => c.name)]
     },
     textOptions() {
-      return ["NONE", ...new Set(this.filteredCards.map(c => c.text))]
+      return ["NONE", ...this.textTags, ...new Set(this.filteredCards.map(c => c.text))]
+    },
+    formatOptions() {
+      return [...new Set(this.filteredCards.map(card => card.formats).flat())]
     },
     keywordOptions() {
-      return [...this.keywordTags, ...new Set(this.filteredCards.map(card => card.keywords).flat())]
+      // indirected - doesn't immediately update on changes
+      return [...this.keywordTags, ...new Set(this.filteredCards.map(card => card.keywords).flat())].sort()
+    },
+    originOptions() {
+      // indirected - doesn't immediately update on changes
+      return [...new Set(this.filteredCards.map(card => card.extension))]
     },
   },
   methods: {
