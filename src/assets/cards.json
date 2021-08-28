@@ -90622,5 +90622,57 @@
     "extension_short": "6pointpromo",
     "extension": "6 Points Promos",
     "asset": "6pointpromo/001.jpg"
+  },
+  {
+    "name": "Lu Chen1",
+    "resources": [
+      "all",
+      "good",
+      "water"
+    ],
+    "formats": [
+      "retro",
+      "universal"
+    ],
+    "control": "6",
+    "difficulty": "6",
+    "block_modifier": "0",
+    "block_zone": "mid",
+    "hand_size": "6",
+    "vitality": "27",
+    "text": "R Commit: After you block an attack, draw X cards. X equals the block modifier of your block.  R Commit 1 Foundation: After you check a Reversal when attempting to block an attack, add the checked Reversal to your hand. Playable while committed.",
+    "numero": "112",
+    "numero_image": "112",
+    "type": "character",
+    "rarity": "",
+    "extension_short": "retroshadowar",
+    "extension": "4 Points Promos",
+    "asset": "retroshadowar/112.jpg"
+  },
+  {
+    "name": "Rashotep1",
+    "resources": [
+      "death",
+      "evil",
+      "order"
+    ],
+    "formats": [
+      "retro",
+      "universal"
+    ],
+    "control": "6",
+    "difficulty": "6",
+    "block_modifier": "0",
+    "block_zone": "mid",
+    "hand_size": "6",
+    "vitality": "27",
+    "text": "R Commit, discard X cards: After your opponent's Ready Step, commit X non character cards in their staging area.",
+    "numero": "113",
+    "numero_image": "113",
+    "type": "character",
+    "rarity": "",
+    "extension_short": "retroshadowar",
+    "extension": "4 Points Promos",
+    "asset": "retroshadowar/113.jpg"
   }
 ]
